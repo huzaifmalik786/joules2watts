@@ -1,0 +1,1 @@
+export { Adminstrative } from "./Iphone";

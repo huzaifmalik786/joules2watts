@@ -1,0 +1,674 @@
+.service {
+  background-color: #2e5053;
+}
+
+.service .frame {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.service .shutterstock {
+  height: 648px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 747px;
+}
+
+.service .rectangle {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(4, 6, 8) 100%);
+  background-blend-mode: multiply;
+  height: 398px;
+  left: 0;
+  position: absolute;
+  top: 250px;
+  width: 748px;
+}
+
+.service .rectangle-2 {
+  background-blend-mode: multiply;
+  position: relative;
+}
+
+.service .shutterstock-2 {
+  height: 747px;
+  left: -39px;
+  object-fit: cover;
+  position: absolute;
+  top: -51px;
+  width: 594px;
+}
+
+.service .frame-2 {
+  align-items: flex-start;
+  flex-direction: column;
+  position: absolute;
+}
+
+.service .frame-3 {
+  align-items: flex-start;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+}
+
+.service .hire-train-deploy {
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 42px;
+  font-weight: 600;
+  letter-spacing: -1.05px;
+  line-height: 50.4px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.service .administrative {
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 35px;
+  font-weight: 600;
+  margin-top: -1px;
+  position: relative;
+}
+
+.service .we-are-committed-to {
+  color: #ffffff;
+  position: relative;
+}
+
+.service .CTA-instance {
+  flex: 0 0 auto !important;
+}
+
+.service .overlap-group {
+  background-image: url(../../../../static/services/shutterstock-1485872414-1-8.png);
+  background-size: 100% 100%;
+  height: 648px;
+  position: relative;
+  width: 515px;
+}
+
+.service .rectangle-3 {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(4, 6, 8) 100%);
+  background-blend-mode: multiply;
+  height: 575px;
+  left: 0;
+  position: absolute;
+  top: 73px;
+  width: 515px;
+}
+
+.service .frame-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  left: 64px;
+  position: absolute;
+  top: 276px;
+  width: 385px;
+}
+
+.service .frame-5 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  width: 100%;
+}
+
+.service .text-wrapper-2 {
+  align-self: stretch;
+  color: var(--neutral-0);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: -0.88px;
+  line-height: 42px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.service .p {
+  color: #ffffff;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+  position: relative;
+  width: 349px;
+}
+
+.service.card-default {
+  height: 648px;
+  overflow: hidden;
+  width: 757px;
+}
+
+.service.card-FLX {
+  height: 440px;
+  width: 1280px;
+}
+
+.service.card-RPO {
+  height: 440px;
+  width: 1280px;
+}
+
+.service.card-ITS {
+  height: 648px;
+  width: 525px;
+}
+
+.service.card-GIC {
+  height: 648px;
+}
+
+.service.state-hover.card-HRD {
+  height: 648px;
+  width: 515px;
+}
+
+.service.state-hover.card-GIC {
+  width: 748px;
+}
+
+.service.state-default.card-HRD {
+  height: 646px;
+  width: 518px;
+}
+
+.service.card-GIC.state-default {
+  width: 747px;
+}
+
+.service.card-default .overlap-17 {
+  position: relative;
+}
+
+.service.card-FLX .overlap-17 {
+  height: 440px;
+  position: relative;
+}
+
+.service.state-default .overlap-17 {
+  position: relative;
+}
+
+.service.card-HRD .overlap-17 {
+  height: 646px;
+}
+
+.service.card-RPO .overlap-17 {
+  height: 438px;
+  position: relative;
+}
+
+.service.card-ITS .overlap-17 {
+  height: 646px;
+  position: relative;
+}
+
+.service.card-GIC .overlap-17 {
+  height: 646px;
+  position: relative;
+}
+
+.service.card-default.state-default .overlap-17 {
+  height: 720px;
+}
+
+.service.state-hover.card-RPO .overlap-17 {
+  width: 1272px;
+}
+
+.service.state-hover.card-FLX .overlap-17 {
+  width: 1272px;
+}
+
+.service.card-default.state-hover .overlap-17 {
+  height: 650px;
+  left: -24px;
+  width: 781px;
+}
+
+.service.state-default.card-HRD .overlap-17 {
+  width: 515px;
+}
+
+.service.card-FLX .frame {
+  height: 440px;
+}
+
+.service.card-HRD .frame {
+  height: 646px;
+  width: 515px;
+}
+
+.service.card-RPO .frame {
+  height: 438px;
+}
+
+.service.card-ITS .frame {
+  height: 646px;
+  width: 525px;
+}
+
+.service.card-GIC .frame {
+  height: 646px;
+}
+
+.service.state-default.card-FLX .frame {
+  background-image: url(../../../../static/services/shutterstock-1485872414-1-7.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 1280px;
+}
+
+.service.card-default.state-default .frame {
+  height: 720px;
+  width: 757px;
+}
+
+.service.state-hover.card-RPO .frame {
+  width: 1272px;
+}
+
+.service.state-hover.card-FLX .frame {
+  width: 1272px;
+}
+
+.service.state-hover.card-GIC .frame {
+  width: 748px;
+}
+
+.service.card-default.state-hover .frame {
+  height: 650px;
+  width: 781px;
+}
+
+.service.card-RPO.state-default .frame {
+  width: 1280px;
+}
+
+.service.card-GIC.state-default .frame {
+  width: 747px;
+}
+
+.service.card-default .overlap-group-11 {
+  background-image: url(../../../../static/services/shutterstock-1485872414-1-2.png);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.service.card-HRD .overlap-group-11 {
+  background-image: url(../../../../static/services/shutterstock-1485872414-1-8.png);
+  background-size: 100% 100%;
+  height: 646px;
+  width: 518px;
+}
+
+.service.card-RPO .overlap-group-11 {
+  height: 440px;
+}
+
+.service.card-ITS .overlap-group-11 {
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 648px;
+}
+
+.service.card-GIC .overlap-group-11 {
+  position: relative;
+}
+
+.service.state-default.card-FLX .overlap-group-11 {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(4, 6, 8) 100%);
+  background-blend-mode: multiply;
+  height: 835px;
+  left: 197px;
+  position: relative;
+  top: -198px;
+  transform: rotate(90deg);
+  width: 440px;
+}
+
+.service.card-default.state-default .overlap-group-11 {
+  height: 648px;
+}
+
+.service.state-hover.card-RPO .overlap-group-11 {
+  background-image: url(../../../../static/services/shutterstock-1485872414-1-4.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 1280px;
+}
+
+.service.state-hover.card-FLX .overlap-group-11 {
+  background-image: url(../../../../static/services/shutterstock-1485872414-1-9.png);
+  background-size: 100% 100%;
+  height: 440px;
+  width: 1280px;
+}
+
+.service.state-hover.card-GIC .overlap-group-11 {
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 708px;
+  left: -34px;
+  top: -31px;
+  width: 801px;
+}
+
+.service.card-default.state-hover .overlap-group-11 {
+  height: 720px;
+}
+
+.service.card-RPO.state-default .overlap-group-11 {
+  background-image: url(../../../../static/services/shutterstock-1485872414-1-9.png);
+  background-size: 100% 100%;
+}
+
+.service.card-GIC.state-default .overlap-group-11 {
+  height: 648px;
+  width: 748px;
+}
+
+.service.card-default .rectangle-2 {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(4, 6, 8) 100%);
+  width: 757px;
+}
+
+.service.card-FLX .rectangle-2 {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(4, 6, 8) 100%);
+  height: 835px;
+  left: 197px;
+  top: -197px;
+  transform: rotate(90deg);
+  width: 440px;
+}
+
+.service.card-HRD .rectangle-2 {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(4, 6, 8) 100%);
+  height: 442px;
+  top: 204px;
+  width: 515px;
+}
+
+.service.card-RPO .rectangle-2 {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(4, 6, 8) 100%);
+  height: 835px;
+  left: 197px;
+  top: -197px;
+  transform: rotate(90deg);
+  width: 440px;
+}
+
+.service.card-ITS .rectangle-2 {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(4, 6, 8) 88.49%);
+  height: 493px;
+  top: 155px;
+  width: 525px;
+}
+
+.service.card-GIC .rectangle-2 {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(4, 6, 8) 100%);
+  height: 520px;
+  left: 34px;
+  top: 159px;
+  width: 748px;
+}
+
+.service.card-default.state-default .rectangle-2 {
+  height: 465px;
+  top: 183px;
+}
+
+.service.card-default.state-hover .rectangle-2 {
+  height: 650px;
+  left: 24px;
+}
+
+.service.card-default .frame-2 {
+  display: inline-flex;
+  gap: 32px;
+}
+
+.service.card-FLX .frame-2 {
+  display: inline-flex;
+}
+
+.service.state-default .frame-2 {
+  gap: 32px;
+  left: 64px;
+}
+
+.service.card-HRD .frame-2 {
+  display: flex;
+  gap: 32px;
+  left: 64px;
+  top: 453px;
+  width: 385px;
+}
+
+.service.card-RPO .frame-2 {
+  display: inline-flex;
+  gap: 32px;
+  left: 64px;
+}
+
+.service.card-ITS .frame-2 {
+  display: flex;
+  gap: 32px;
+  width: 385px;
+}
+
+.service.card-GIC .frame-2 {
+  display: inline-flex;
+}
+
+.service.state-default.card-FLX .frame-2 {
+  top: 194px;
+}
+
+.service.card-ITS.state-default .frame-2 {
+  top: 284px;
+}
+
+.service.card-default.state-default .frame-2 {
+  top: 404px;
+}
+
+.service.state-hover.card-RPO .frame-2 {
+  top: 94px;
+}
+
+.service.state-hover.card-FLX .frame-2 {
+  gap: 48px;
+  left: 67px;
+  top: 85px;
+}
+
+.service.state-hover.card-GIC .frame-2 {
+  gap: 48px;
+  left: 67px;
+  top: 313px;
+}
+
+.service.card-default.state-hover .frame-2 {
+  left: 88px;
+  top: 303px;
+}
+
+.service.state-hover.card-ITS .frame-2 {
+  left: 65px;
+  top: 248px;
+}
+
+.service.card-RPO.state-default .frame-2 {
+  top: 186px;
+}
+
+.service.card-GIC.state-default .frame-2 {
+  top: 284px;
+}
+
+.service.card-default .frame-3 {
+  display: inline-flex;
+}
+
+.service.card-FLX .frame-3 {
+  display: inline-flex;
+}
+
+.service.card-HRD .frame-3 {
+  align-self: stretch;
+  display: flex;
+  width: 100%;
+}
+
+.service.card-RPO .frame-3 {
+  display: inline-flex;
+}
+
+.service.card-ITS .frame-3 {
+  align-self: stretch;
+  display: flex;
+  width: 100%;
+}
+
+.service.card-GIC .frame-3 {
+  display: inline-flex;
+}
+
+.service.card-default .hire-train-deploy {
+  color: var(--neutral-0);
+  width: 477px;
+}
+
+.service.card-FLX .hire-train-deploy {
+  color: #ffffff;
+  width: 477px;
+}
+
+.service.card-HRD .hire-train-deploy {
+  align-self: stretch;
+  color: var(--neutral-0);
+}
+
+.service.card-RPO .hire-train-deploy {
+  color: var(--neutral-0);
+  width: 477px;
+}
+
+.service.card-ITS .hire-train-deploy {
+  color: var(--neutral-0);
+  margin-right: -32px;
+  width: 417px;
+}
+
+.service.card-GIC .hire-train-deploy {
+  color: #ffffff;
+  width: 379px;
+}
+
+.service.card-default .administrative {
+  color: #ffffff;
+  letter-spacing: -0.53px;
+  line-height: 49px;
+  width: 482px;
+}
+
+.service.card-FLX .administrative {
+  color: #ffffff;
+  letter-spacing: -0.53px;
+  line-height: 49px;
+  width: 483px;
+}
+
+.service.card-HRD .administrative {
+  color: #ffffff;
+  letter-spacing: -0.53px;
+  line-height: 49px;
+}
+
+.service.card-RPO .administrative {
+  color: var(--neutral-0);
+  letter-spacing: -0.88px;
+  line-height: 42px;
+  width: 477px;
+}
+
+.service.card-ITS .administrative {
+  align-self: stretch;
+  color: #ffffff;
+  letter-spacing: -0.53px;
+  line-height: 49px;
+}
+
+.service.card-GIC .administrative {
+  color: #ffffff;
+  letter-spacing: -0.53px;
+  line-height: 49px;
+  width: 477px;
+}
+
+.service.card-default .we-are-committed-to {
+  align-self: stretch;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+}
+
+.service.card-FLX .we-are-committed-to {
+  align-self: stretch;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+}
+
+.service.card-HRD .we-are-committed-to {
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+}
+
+.service.card-RPO .we-are-committed-to {
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+  width: 420px;
+}
+
+.service.card-ITS .we-are-committed-to {
+  align-self: stretch;
+  font-family: var(--subtitle-REG-font-family);
+  font-size: var(--subtitle-REG-font-size);
+  font-style: var(--subtitle-REG-font-style);
+  font-weight: var(--subtitle-REG-font-weight);
+  letter-spacing: var(--subtitle-REG-letter-spacing);
+  line-height: var(--subtitle-REG-line-height);
+}
+
+.service.card-GIC .we-are-committed-to {
+  align-self: stretch;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+}

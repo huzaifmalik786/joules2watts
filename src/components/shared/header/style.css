@@ -1,0 +1,88 @@
+.header-2-shared {
+    align-items: center;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    z-index: 1;
+    padding: 16px 80px;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+}
+
+.logo-shared {
+    height: 67.67px;
+    object-fit: cover;
+    position: relative;
+    width: 145px;
+}
+
+.holder-shared {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 16px;
+    position: relative;
+}
+
+.frame-33-shared {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px 8px;
+    position: relative;
+    width: 90.33px;
+}
+
+.text-wrapper-16-shared {
+    color: #000000;
+    font-family: "Source Sans Pro", Helvetica;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: -0.17px;
+    line-height: 23.8px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.text-wrapper-17-shared {
+    color: #000000;
+    font-family: "Source Sans Pro", Helvetica;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: -0.17px;
+    line-height: 23.8px;
+    margin-left: -2.83px;
+    margin-right: -2.83px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.frame-34-shared {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px 8px;
+    position: relative;
+    width: 80px;
+}
+
+.CTA-8-shared {
+    border-color: var(--primary-02) !important;
+    display: flex !important;
+    height: 69px !important;
+    width: 179px !important;
+}
+
+.CTA-9-shared {
+    color: #000000 !important;
+    margin-top: unset !important;
+}

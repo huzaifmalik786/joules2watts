@@ -1,0 +1,17 @@
+
+.mobile-only{
+    display: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+@media (max-width: 450px) {
+    .desktop-only{
+        display: none;
+    }
+    .mobile-only{
+        display: block;
+    }
+}

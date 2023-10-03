@@ -1,0 +1,38 @@
+.property-default-wrapper {
+  align-items: center;
+  border-radius: 56px;
+  display: inline-flex;
+  padding: 12px 16px;
+  position: relative;
+}
+
+.property-default-wrapper .this-is-who-we-are {
+  color: #ffffff;
+  font-family: var(--subtitle-MED-font-family);
+  font-size: var(--subtitle-MED-font-size);
+  font-style: var(--subtitle-MED-font-style);
+  font-weight: var(--subtitle-MED-font-weight);
+  letter-spacing: var(--subtitle-MED-letter-spacing);
+  line-height: var(--subtitle-MED-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.property-default-wrapper .img {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.property-default-wrapper.hover {
+  background-color: var(--primary-02);
+  gap: 8px;
+}
+
+.property-default-wrapper.default {
+  border: 1px solid;
+  border-color: #ffffff;
+  gap: 10px;
+}

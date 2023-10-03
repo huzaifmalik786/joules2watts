@@ -1,0 +1,42 @@
+.state-default-wrapper-shared {
+  all: unset;
+  align-items: center;
+  border: 1px solid;
+  border-color: var(--secondary-03);
+  box-sizing: border-box;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 12px 24px;
+  position: relative;
+  transition: all ease 0.3s;
+  background: #fff;
+}
+
+.state-default-wrapper-shared .text-wrapper-4-shared {
+  color: var(--secondary-03);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: -0.17px;
+  line-height: 23.8px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+  transition: all ease 0.3s;
+
+}
+
+.state-default-wrapper-shared.default-shared-true {
+  border-radius: 40px;
+}
+
+.state-default-wrapper-shared:hover {
+  background: var(--primary-02);
+  border-radius: 45px;
+}
+
+.state-default-wrapper-shared:hover .text-wrapper-4-shared {
+  color: #ffffff !important;
+}

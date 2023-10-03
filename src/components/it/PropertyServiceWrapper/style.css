@@ -1,0 +1,594 @@
+.property-service-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 105px;
+  padding: 80px 80px 96px;
+  position: relative;
+}
+
+.property-service-wrapper .frame-10 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 56px;
+  position: relative;
+}
+
+.property-service-wrapper .text-wrapper-6 {
+  color: var(--neutral-90);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 42px;
+  font-weight: 600;
+  letter-spacing: -1.05px;
+  line-height: 50.4px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 1280px;
+}
+
+.property-service-wrapper .frame-11 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  position: relative;
+}
+
+.property-service-wrapper .class-2 {
+  align-items: flex-end !important;
+  background-color: #4d9f98 !important;
+  border: unset !important;
+  border-color: unset !important;
+  display: flex !important;
+  justify-content: center !important;
+  width: 127px !important;
+}
+
+.property-service-wrapper .class-3 {
+  align-items: flex-end !important;
+  background-color: #e6e6e6 !important;
+  border: unset !important;
+  border-color: unset !important;
+  display: flex !important;
+  justify-content: center !important;
+  width: 127px !important;
+}
+
+.property-service-wrapper .class-4 {
+  font-family: var(--subtitle-BLD-font-family) !important;
+  font-size: var(--subtitle-BLD-font-size) !important;
+  font-style: var(--subtitle-BLD-font-style) !important;
+  font-weight: var(--subtitle-BLD-font-weight) !important;
+  letter-spacing: var(--subtitle-BLD-letter-spacing) !important;
+  line-height: var(--subtitle-BLD-line-height) !important;
+}
+
+.property-service-wrapper .class-5 {
+  color: #6b6b6b !important;
+  font-family: var(--subtitle-BLD-font-family) !important;
+  font-size: var(--subtitle-BLD-font-size) !important;
+  font-style: var(--subtitle-BLD-font-style) !important;
+  font-weight: var(--subtitle-BLD-font-weight) !important;
+  letter-spacing: var(--subtitle-BLD-letter-spacing) !important;
+  line-height: var(--subtitle-BLD-line-height) !important;
+}
+
+.property-service-wrapper .class-6 {
+  align-items: flex-end !important;
+  flex: 0 0 auto !important;
+  justify-content: center !important;
+}
+
+.property-service-wrapper .class-7 {
+  align-items: flex-end !important;
+  background-color: #e6e6e6 !important;
+  border: unset !important;
+  border-color: unset !important;
+  flex: 0 0 auto !important;
+  justify-content: center !important;
+}
+
+.property-service-wrapper .class-8 {
+  align-items: flex-end !important;
+  background-color: #e6e6e6 !important;
+  flex: 0 0 auto !important;
+  gap: 10px !important;
+  justify-content: center !important;
+}
+
+.property-service-wrapper .class-9 {
+  align-items: flex-end !important;
+  background-color: var(--primary-02) !important;
+  border: unset !important;
+  border-color: unset !important;
+  flex: 0 0 auto !important;
+  gap: 8px !important;
+  justify-content: center !important;
+}
+
+.property-service-wrapper .frame-12 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  position: relative;
+  width: 1280px;
+}
+
+.property-service-wrapper .frame-13 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 32px;
+  position: relative;
+}
+
+.property-service-wrapper .cloud-services {
+  align-self: stretch;
+  color: #4d4d4d;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: -0.53px;
+  line-height: 42px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.property-service-wrapper .with-the-help-of {
+  color: var(--neutral-60);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+  position: relative;
+  width: 580px;
+}
+
+.property-service-wrapper .frame-14 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.property-service-wrapper .frame-15 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+}
+
+.property-service-wrapper .frame-16 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+}
+
+.property-service-wrapper .vector-2 {
+  height: 16px;
+  position: relative;
+  width: 16px;
+}
+
+.property-service-wrapper .time-and-material-2 {
+  color: var(--neutral-60);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.property-service-wrapper .lab-on-hire-2 {
+  color: var(--neutral-60);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.property-service-wrapper .digitalization-2 {
+  color: var(--neutral-60);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.property-service-wrapper .security-testing-2 {
+  color: var(--neutral-60);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+  margin-top: -1px;
+  position: relative;
+  width: 240px;
+}
+
+.property-service-wrapper .frame-17 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+}
+
+.property-service-wrapper .functional-testing-2 {
+  color: var(--neutral-60);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.property-service-wrapper .cloud-migration {
+  color: var(--neutral-60);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.property-service-wrapper .ERP-testing-2 {
+  color: var(--neutral-60);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.property-service-wrapper .customer-experience-2 {
+  color: var(--neutral-60);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.property-service-wrapper .rectangle-2 {
+  height: 420px;
+  position: relative;
+  width: 650px;
+}
+
+.property-service-wrapper .property-1-8-service-app-modernization {
+  height: 420px;
+  padding: 16px 0px;
+}
+
+.property-service-wrapper .property-1-8-service-digital {
+  align-self: stretch;
+  padding: 32px 0px;
+}
+
+.property-service-wrapper .property-1-8-service-professional-services {
+  height: 420px;
+  padding: 16px 0px;
+}
+
+.property-service-wrapper .property-1-8-service-QA-and-testing {
+  height: 420px;
+  padding: 32px 0px;
+}
+
+.property-service-wrapper .property-1-8-service-infrastruture-services {
+  height: 420px;
+  padding: 16px 0px;
+}
+
+.property-service-wrapper .property-1-8-service-product-engineering {
+  height: 420px;
+  padding: 32px 0px;
+}
+
+.property-service-wrapper .property-1-8-service-cloud-services {
+  height: 420px;
+  padding: 32px 0px;
+}
+
+.property-service-wrapper .service-app-modernization {
+  object-fit: cover;
+}
+
+.property-service-wrapper .service-professional-services {
+  object-fit: cover;
+}
+
+.property-service-wrapper .service-QA-and-testing {
+  object-fit: cover;
+}
+
+.property-service-wrapper .service-infrastruture-services {
+  object-fit: cover;
+}
+
+.property-service-wrapper .service-product-engineering {
+  object-fit: cover;
+}
+
+.property-service-wrapper .service-cloud-services {
+  object-fit: cover;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-app-modernization .frame-14 {
+  justify-content: space-between;
+  width: 514px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-digital .frame-14 {
+  justify-content: space-between;
+  width: 482px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-professional-services .frame-14 {
+  align-self: stretch;
+  gap: 8px;
+  width: 100%;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-QA-and-testing .frame-14 {
+  justify-content: space-between;
+  width: 580px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-infrastruture-services .frame-14 {
+  justify-content: space-between;
+  width: 580px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-product-engineering .frame-14 {
+  align-self: stretch;
+  gap: 8px;
+  width: 100%;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-cloud-services .frame-14 {
+  justify-content: space-between;
+  width: 580px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-app-modernization .time-and-material-2 {
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-digital .time-and-material-2 {
+  width: 220px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-professional-services .time-and-material-2 {
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-QA-and-testing .time-and-material-2 {
+  width: 240px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-infrastruture-services .time-and-material-2 {
+  width: 240px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-product-engineering .time-and-material-2 {
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-cloud-services .time-and-material-2 {
+  width: 240px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-app-modernization .lab-on-hire-2 {
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-digital .lab-on-hire-2 {
+  width: 220px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-professional-services .lab-on-hire-2 {
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-QA-and-testing .lab-on-hire-2 {
+  width: 240px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-infrastruture-services .lab-on-hire-2 {
+  width: 240px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-product-engineering .lab-on-hire-2 {
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-cloud-services .lab-on-hire-2 {
+  width: 240px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-app-modernization .digitalization-2 {
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-digital .digitalization-2 {
+  width: 220px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-professional-services .digitalization-2 {
+  width: 240px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-QA-and-testing .digitalization-2 {
+  width: 240px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-infrastruture-services .digitalization-2 {
+  width: 240px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-product-engineering .digitalization-2 {
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-cloud-services .digitalization-2 {
+  width: 240px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-digital .frame-17 {
+  margin-left: -6px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-app-modernization .functional-testing-2 {
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-digital .functional-testing-2 {
+  width: 220px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-professional-services .functional-testing-2 {
+  width: 220px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-QA-and-testing .functional-testing-2 {
+  width: 220px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-infrastruture-services .functional-testing-2 {
+  width: 220px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-product-engineering .functional-testing-2 {
+  width: 220px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-cloud-services .functional-testing-2 {
+  width: 220px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-app-modernization .cloud-migration {
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-digital .cloud-migration {
+  width: 220px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-professional-services .cloud-migration {
+  width: 220px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-QA-and-testing .cloud-migration {
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-infrastruture-services .cloud-migration {
+  width: 220px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-product-engineering .cloud-migration {
+  width: 220px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-cloud-services .cloud-migration {
+  width: 220px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-app-modernization .ERP-testing-2 {
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-digital .ERP-testing-2 {
+  width: 220px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-professional-services .ERP-testing-2 {
+  width: 220px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-QA-and-testing .ERP-testing-2 {
+  width: 220px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-infrastruture-services .ERP-testing-2 {
+  width: 220px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-product-engineering .ERP-testing-2 {
+  width: 220px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-cloud-services .ERP-testing-2 {
+  width: 220px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-app-modernization .customer-experience-2 {
+  width: fit-content;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-digital .customer-experience-2 {
+  width: fit-content;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-professional-services .customer-experience-2 {
+  width: fit-content;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-QA-and-testing .customer-experience-2 {
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-infrastruture-services .customer-experience-2 {
+  width: 220px;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-product-engineering .customer-experience-2 {
+  width: fit-content;
+}
+
+.property-service-wrapper .frame-13.property-1-8-service-cloud-services .customer-experience-2 {
+  width: fit-content;
+}

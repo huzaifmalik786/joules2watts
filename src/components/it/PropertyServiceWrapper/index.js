@@ -1,0 +1,1 @@
+export { PropertyServiceWrapper } from "./PropertyServiceWrapper";

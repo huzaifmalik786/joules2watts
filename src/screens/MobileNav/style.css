@@ -1,0 +1,109 @@
+.mobile-nav {
+  align-items: flex-start;
+  background-color: var(--shadeswhite);
+  display: flex;
+  flex-direction: column;
+  height: 844px;
+  justify-content: space-between;
+  padding: 32px;
+  position: relative;
+  width: 390px;
+}
+
+.mobile-nav .div-4 {
+  align-items: flex-start;
+  background-color: var(--shadeswhite);
+  display: flex;
+  flex-direction: column;
+  height: 844px;
+  justify-content: space-between;
+  padding: 32px;
+  width: 390px;
+}
+
+.mobile-nav .frame-94 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.mobile-nav .logo-4 {
+  height: 47px;
+  object-fit: cover;
+  position: relative;
+  width: 100px;
+}
+
+.mobile-nav .close {
+  height: 32px;
+  position: relative;
+  width: 32px;
+}
+
+.mobile-nav .holder-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 10px;
+  justify-content: space-around;
+  position: relative;
+  width: 100%;
+}
+
+.mobile-nav .holder {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 16px;
+  justify-content: center;
+  position: relative;
+}
+
+.mobile-nav .frame-95 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.mobile-nav .text-wrapper-75 {
+  color: #000000;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.18px;
+  line-height: 25.2px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.mobile-nav .design-component-instance-node {
+  align-self: stretch !important;
+  border-color: var(--primary-02) !important;
+  display: flex !important;
+  height: 69px !important;
+  width: 100% !important;
+}
+
+.mobile-nav .CTA-14 {
+  color: #000000 !important;
+  font-size: 18px !important;
+  letter-spacing: -0.18px !important;
+  line-height: 25.2px !important;
+  margin-top: unset !important;
+}
