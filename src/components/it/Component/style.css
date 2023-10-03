@@ -1,4 +1,4 @@
-.component {
+.itcomponent {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -10,7 +10,7 @@
   width: 456px;
 }
 
-.component .text-wrapper-4 {
+.itcomponent .text-wrapper-4 {
   align-self: stretch;
   color: var(--neutral-90);
   font-family: "Source Sans Pro", Helvetica;
@@ -23,13 +23,13 @@
   text-align: center;
 }
 
-.component .frame-4 {
+.itcomponent .frame-4 {
   display: inline-flex;
   flex: 0 0 auto;
   position: relative;
 }
 
-.component .frame-5 {
+.itcomponent .frame-5 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -37,7 +37,7 @@
   position: relative;
 }
 
-.component .CTA-instance {
+.itcomponent .CTA-instance {
   align-items: flex-end !important;
   background-color: #4d9f98 !important;
   border: unset !important;
@@ -47,7 +47,7 @@
   width: 127px !important;
 }
 
-.component .instance-node {
+.itcomponent .instance-node {
   font-family: var(--subtitle-BLD-font-family) !important;
   font-size: var(--subtitle-BLD-font-size) !important;
   font-style: var(--subtitle-BLD-font-style) !important;
@@ -56,7 +56,7 @@
   line-height: var(--subtitle-BLD-line-height) !important;
 }
 
-.component .CTA-2 {
+.itcomponent .CTA-2 {
   align-items: flex-end !important;
   background-color: #e6e6e6 !important;
   border: unset !important;
@@ -65,7 +65,7 @@
   justify-content: center !important;
 }
 
-.component .CTA-3 {
+.itcomponent .CTA-3 {
   color: #6b6b6b !important;
   font-family: var(--subtitle-BLD-font-family) !important;
   font-size: var(--subtitle-BLD-font-size) !important;
@@ -75,7 +75,7 @@
   line-height: var(--subtitle-BLD-line-height) !important;
 }
 
-.component .CTA-4 {
+.itcomponent .CTA-4 {
   align-items: flex-end !important;
   background-color: #e6e6e6 !important;
   border: unset !important;
@@ -85,13 +85,13 @@
   width: 127px !important;
 }
 
-.component .class {
+.itcomponent .class {
   align-items: flex-end !important;
   flex: 0 0 auto !important;
   justify-content: center !important;
 }
 
-.component .frame-wrapper {
+.itcomponent .frame-wrapper {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -100,7 +100,7 @@
   width: 100%;
 }
 
-.component .frame-6 {
+.itcomponent .frame-6 {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -111,7 +111,7 @@
   width: 406px;
 }
 
-.component .digital {
+.itcomponent .digital {
   color: #4d4d4d;
   font-family: "Source Sans Pro", Helvetica;
   font-size: 35px;
@@ -123,7 +123,7 @@
   width: 330px;
 }
 
-.component .our-digital-services {
+.itcomponent .our-digital-services {
   color: var(--neutral-60);
   font-family: "Source Sans Pro", Helvetica;
   font-size: 20px;
@@ -133,7 +133,7 @@
   position: relative;
 }
 
-.component .frame-7 {
+.itcomponent .frame-7 {
   align-items: flex-start;
   display: flex;
   flex: 0 0 auto;
@@ -141,7 +141,7 @@
   position: relative;
 }
 
-.component .frame-8 {
+.itcomponent .frame-8 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -150,7 +150,7 @@
   position: relative;
 }
 
-.component .frame-9 {
+.itcomponent .frame-9 {
   align-items: center;
   display: inline-flex;
   flex: 0 0 auto;
@@ -158,13 +158,13 @@
   position: relative;
 }
 
-.component .vector {
+.itcomponent .vector {
   height: 16px;
   position: relative;
   width: 16px;
 }
 
-.component .time-and-material {
+.itcomponent .time-and-material {
   color: var(--neutral-60);
   font-family: "Source Sans Pro", Helvetica;
   font-size: 20px;
@@ -175,7 +175,7 @@
   position: relative;
 }
 
-.component .lab-on-hire {
+.itcomponent .lab-on-hire {
   color: var(--neutral-60);
   font-family: "Source Sans Pro", Helvetica;
   font-size: 20px;
@@ -186,7 +186,7 @@
   position: relative;
 }
 
-.component .digitalization {
+.itcomponent .digitalization {
   color: var(--neutral-60);
   font-family: "Source Sans Pro", Helvetica;
   font-size: 20px;
@@ -197,7 +197,7 @@
   position: relative;
 }
 
-.component .security-testing {
+.itcomponent .security-testing {
   color: var(--neutral-60);
   font-family: "Source Sans Pro", Helvetica;
   font-size: 20px;
@@ -209,7 +209,7 @@
   width: 240px;
 }
 
-.component .functional-testing {
+.itcomponent .functional-testing {
   color: var(--neutral-60);
   font-family: "Source Sans Pro", Helvetica;
   font-size: 20px;
@@ -220,7 +220,7 @@
   position: relative;
 }
 
-.component .UX-UI {
+.itcomponent .UX-UI {
   color: var(--neutral-60);
   font-family: "Source Sans Pro", Helvetica;
   font-size: 20px;
@@ -231,7 +231,7 @@
   position: relative;
 }
 
-.component .ERP-testing {
+.itcomponent .ERP-testing {
   color: var(--neutral-60);
   font-family: "Source Sans Pro", Helvetica;
   font-size: 20px;
@@ -242,7 +242,7 @@
   position: relative;
 }
 
-.component .customer-experience {
+.itcomponent .customer-experience {
   color: var(--neutral-60);
   font-family: "Source Sans Pro", Helvetica;
   font-size: 20px;
@@ -253,318 +253,318 @@
   position: relative;
 }
 
-.component .service-digital {
+.itcomponent .service-digital {
   align-items: center;
   flex-direction: column;
   gap: 56px;
 }
 
-.component .variant-4 {
+.itcomponent .variant-4 {
   align-items: center;
   flex-direction: column;
   gap: 56px;
 }
 
-.component .variant-2 {
+.itcomponent .variant-2 {
   align-items: flex-start;
   gap: 16px;
 }
 
-.component .variant-3 {
+.itcomponent .variant-3 {
   align-items: flex-start;
   gap: 16px;
 }
 
-.component .variant-5 {
+.itcomponent .variant-5 {
   align-items: center;
   flex-direction: column;
   gap: 56px;
 }
 
-.component .variant-6 {
+.itcomponent .variant-6 {
   align-items: center;
   flex-direction: column;
   gap: 56px;
 }
 
-.component .variant-7 {
+.itcomponent .variant-7 {
   align-items: center;
   flex-direction: column;
   gap: 56px;
 }
 
-.component .property-1-service-digital {
+.itcomponent .property-1-service-digital {
   width: 330px;
 }
 
-.component .property-1-variant-4 {
+.itcomponent .property-1-variant-4 {
   width: 330px;
 }
 
-.component .property-1-variant-2 {
+.itcomponent .property-1-variant-2 {
   align-self: stretch;
 }
 
-.component .property-1-variant-3 {
+.itcomponent .property-1-variant-3 {
   width: 330px;
 }
 
-.component .property-1-variant-5 {
+.itcomponent .property-1-variant-5 {
   width: 330px;
 }
 
-.component .property-1-variant-6 {
+.itcomponent .property-1-variant-6 {
   width: 330px;
 }
 
-.component .property-1-variant-7 {
+.itcomponent .property-1-variant-7 {
   width: 330px;
 }
 
-.component .property-1-0-service-digital {
+.itcomponent .property-1-0-service-digital {
   flex-direction: column;
   width: 330px;
 }
 
-.component .property-1-0-variant-4 {
-  align-self: stretch;
-  flex-direction: column;
-  width: 100%;
-}
-
-.component .property-1-0-variant-2 {
+.itcomponent .property-1-0-variant-4 {
   align-self: stretch;
   flex-direction: column;
   width: 100%;
 }
 
-.component .property-1-0-variant-3 {
-  align-self: stretch;
-  width: 100%;
-}
-
-.component .property-1-0-variant-5 {
+.itcomponent .property-1-0-variant-2 {
   align-self: stretch;
   flex-direction: column;
   width: 100%;
 }
 
-.component .property-1-0-variant-6 {
+.itcomponent .property-1-0-variant-3 {
+  align-self: stretch;
+  width: 100%;
+}
+
+.itcomponent .property-1-0-variant-5 {
   align-self: stretch;
   flex-direction: column;
   width: 100%;
 }
 
-.component .property-1-0-variant-7 {
+.itcomponent .property-1-0-variant-6 {
+  align-self: stretch;
+  flex-direction: column;
+  width: 100%;
+}
+
+.itcomponent .property-1-0-variant-7 {
   align-self: stretch;
   width: 100%;
 }
 
-.component .frame-7.property-1-0-service-digital .time-and-material {
+.itcomponent .frame-7.property-1-0-service-digital .time-and-material {
   width: 220px;
 }
 
-.component .frame-7.property-1-0-variant-4 .time-and-material {
+.itcomponent .frame-7.property-1-0-variant-4 .time-and-material {
   width: 240px;
 }
 
-.component .frame-7.property-1-0-variant-2 .time-and-material {
+.itcomponent .frame-7.property-1-0-variant-2 .time-and-material {
   width: 240px;
 }
 
-.component .frame-7.property-1-0-variant-3 .time-and-material {
+.itcomponent .frame-7.property-1-0-variant-3 .time-and-material {
   white-space: nowrap;
   width: fit-content;
 }
 
-.component .frame-7.property-1-0-variant-5 .time-and-material {
+.itcomponent .frame-7.property-1-0-variant-5 .time-and-material {
   width: 240px;
 }
 
-.component .frame-7.property-1-0-variant-6 .time-and-material {
+.itcomponent .frame-7.property-1-0-variant-6 .time-and-material {
   white-space: nowrap;
   width: fit-content;
 }
 
-.component .frame-7.property-1-0-variant-7 .time-and-material {
+.itcomponent .frame-7.property-1-0-variant-7 .time-and-material {
   white-space: nowrap;
   width: fit-content;
 }
 
-.component .frame-7.property-1-0-service-digital .lab-on-hire {
+.itcomponent .frame-7.property-1-0-service-digital .lab-on-hire {
   width: 220px;
 }
 
-.component .frame-7.property-1-0-variant-4 .lab-on-hire {
+.itcomponent .frame-7.property-1-0-variant-4 .lab-on-hire {
   width: 240px;
 }
 
-.component .frame-7.property-1-0-variant-2 .lab-on-hire {
+.itcomponent .frame-7.property-1-0-variant-2 .lab-on-hire {
   width: 240px;
 }
 
-.component .frame-7.property-1-0-variant-3 .lab-on-hire {
+.itcomponent .frame-7.property-1-0-variant-3 .lab-on-hire {
   white-space: nowrap;
   width: fit-content;
 }
 
-.component .frame-7.property-1-0-variant-5 .lab-on-hire {
+.itcomponent .frame-7.property-1-0-variant-5 .lab-on-hire {
   width: 240px;
 }
 
-.component .frame-7.property-1-0-variant-6 .lab-on-hire {
+.itcomponent .frame-7.property-1-0-variant-6 .lab-on-hire {
   white-space: nowrap;
   width: fit-content;
 }
 
-.component .frame-7.property-1-0-variant-7 .lab-on-hire {
+.itcomponent .frame-7.property-1-0-variant-7 .lab-on-hire {
   white-space: nowrap;
   width: fit-content;
 }
 
-.component .frame-7.property-1-0-service-digital .digitalization {
+.itcomponent .frame-7.property-1-0-service-digital .digitalization {
   width: 220px;
 }
 
-.component .frame-7.property-1-0-variant-4 .digitalization {
+.itcomponent .frame-7.property-1-0-variant-4 .digitalization {
   width: 240px;
 }
 
-.component .frame-7.property-1-0-variant-2 .digitalization {
+.itcomponent .frame-7.property-1-0-variant-2 .digitalization {
   width: 240px;
 }
 
-.component .frame-7.property-1-0-variant-3 .digitalization {
+.itcomponent .frame-7.property-1-0-variant-3 .digitalization {
   white-space: nowrap;
   width: fit-content;
 }
 
-.component .frame-7.property-1-0-variant-5 .digitalization {
+.itcomponent .frame-7.property-1-0-variant-5 .digitalization {
   width: 240px;
 }
 
-.component .frame-7.property-1-0-variant-6 .digitalization {
+.itcomponent .frame-7.property-1-0-variant-6 .digitalization {
   white-space: nowrap;
   width: fit-content;
 }
 
-.component .frame-7.property-1-0-variant-7 .digitalization {
+.itcomponent .frame-7.property-1-0-variant-7 .digitalization {
   width: 240px;
 }
 
-.component .frame-7.property-1-0-service-digital .functional-testing {
+.itcomponent .frame-7.property-1-0-service-digital .functional-testing {
   width: 220px;
 }
 
-.component .frame-7.property-1-0-variant-4 .functional-testing {
+.itcomponent .frame-7.property-1-0-variant-4 .functional-testing {
   width: 220px;
 }
 
-.component .frame-7.property-1-0-variant-2 .functional-testing {
+.itcomponent .frame-7.property-1-0-variant-2 .functional-testing {
   width: 220px;
 }
 
-.component .frame-7.property-1-0-variant-3 .functional-testing {
+.itcomponent .frame-7.property-1-0-variant-3 .functional-testing {
   width: 220px;
 }
 
-.component .frame-7.property-1-0-variant-5 .functional-testing {
+.itcomponent .frame-7.property-1-0-variant-5 .functional-testing {
   width: 220px;
 }
 
-.component .frame-7.property-1-0-variant-6 .functional-testing {
+.itcomponent .frame-7.property-1-0-variant-6 .functional-testing {
   white-space: nowrap;
   width: fit-content;
 }
 
-.component .frame-7.property-1-0-variant-7 .functional-testing {
+.itcomponent .frame-7.property-1-0-variant-7 .functional-testing {
   width: 220px;
 }
 
-.component .frame-7.property-1-0-service-digital .UX-UI {
+.itcomponent .frame-7.property-1-0-service-digital .UX-UI {
   width: 220px;
 }
 
-.component .frame-7.property-1-0-variant-4 .UX-UI {
+.itcomponent .frame-7.property-1-0-variant-4 .UX-UI {
   white-space: nowrap;
   width: fit-content;
 }
 
-.component .frame-7.property-1-0-variant-2 .UX-UI {
+.itcomponent .frame-7.property-1-0-variant-2 .UX-UI {
   width: 220px;
 }
 
-.component .frame-7.property-1-0-variant-3 .UX-UI {
+.itcomponent .frame-7.property-1-0-variant-3 .UX-UI {
   width: 220px;
 }
 
-.component .frame-7.property-1-0-variant-5 .UX-UI {
+.itcomponent .frame-7.property-1-0-variant-5 .UX-UI {
   width: 220px;
 }
 
-.component .frame-7.property-1-0-variant-6 .UX-UI {
+.itcomponent .frame-7.property-1-0-variant-6 .UX-UI {
   white-space: nowrap;
   width: fit-content;
 }
 
-.component .frame-7.property-1-0-variant-7 .UX-UI {
+.itcomponent .frame-7.property-1-0-variant-7 .UX-UI {
   width: 220px;
 }
 
-.component .frame-7.property-1-0-service-digital .ERP-testing {
+.itcomponent .frame-7.property-1-0-service-digital .ERP-testing {
   width: 220px;
 }
 
-.component .frame-7.property-1-0-variant-4 .ERP-testing {
+.itcomponent .frame-7.property-1-0-variant-4 .ERP-testing {
   width: 220px;
 }
 
-.component .frame-7.property-1-0-variant-2 .ERP-testing {
+.itcomponent .frame-7.property-1-0-variant-2 .ERP-testing {
   width: 220px;
 }
 
-.component .frame-7.property-1-0-variant-3 .ERP-testing {
+.itcomponent .frame-7.property-1-0-variant-3 .ERP-testing {
   width: 220px;
 }
 
-.component .frame-7.property-1-0-variant-5 .ERP-testing {
+.itcomponent .frame-7.property-1-0-variant-5 .ERP-testing {
   width: 220px;
 }
 
-.component .frame-7.property-1-0-variant-6 .ERP-testing {
+.itcomponent .frame-7.property-1-0-variant-6 .ERP-testing {
   white-space: nowrap;
   width: fit-content;
 }
 
-.component .frame-7.property-1-0-variant-7 .ERP-testing {
+.itcomponent .frame-7.property-1-0-variant-7 .ERP-testing {
   width: 220px;
 }
 
-.component .frame-7.property-1-0-service-digital .customer-experience {
+.itcomponent .frame-7.property-1-0-service-digital .customer-experience {
   width: fit-content;
 }
 
-.component .frame-7.property-1-0-variant-4 .customer-experience {
+.itcomponent .frame-7.property-1-0-variant-4 .customer-experience {
   white-space: nowrap;
   width: fit-content;
 }
 
-.component .frame-7.property-1-0-variant-2 .customer-experience {
+.itcomponent .frame-7.property-1-0-variant-2 .customer-experience {
   width: fit-content;
 }
 
-.component .frame-7.property-1-0-variant-3 .customer-experience {
+.itcomponent .frame-7.property-1-0-variant-3 .customer-experience {
   width: fit-content;
 }
 
-.component .frame-7.property-1-0-variant-5 .customer-experience {
+.itcomponent .frame-7.property-1-0-variant-5 .customer-experience {
   width: 220px;
 }
 
-.component .frame-7.property-1-0-variant-6 .customer-experience {
+.itcomponent .frame-7.property-1-0-variant-6 .customer-experience {
   width: fit-content;
 }
 
-.component .frame-7.property-1-0-variant-7 .customer-experience {
+.itcomponent .frame-7.property-1-0-variant-7 .customer-experience {
   width: fit-content;
 }

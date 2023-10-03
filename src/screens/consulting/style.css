@@ -158,10 +158,10 @@
 }
 
 .consulting .rectangle-4 {
-  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgba(217, 217, 217, 0) 100%);
+  background: linear-gradient(90deg, #000 -13.4%, rgba(217, 217, 217, 0.00) 93.01%);
+  mix-blend-mode: multiply;
   height: 680px;
   left: 0;
-  mix-blend-mode: multiply;
   position: absolute;
   top: 0;
   width: 1454px;
@@ -218,13 +218,14 @@
   width: 536px;
   color: var(--neutral-0, #FFF);
 
-/* Title/Mega */
-font-family: Source Sans Pro;
-font-size: 60px;
-font-style: normal;
-font-weight: 700;
-line-height: 101.5%; /* 60.9px */
-letter-spacing: -1.8px;
+  /* Title/Mega */
+  font-family: Source Sans Pro;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 101.5%;
+  /* 60.9px */
+  letter-spacing: -1.8px;
 }
 
 .consulting .frame-6 {
@@ -1183,7 +1184,7 @@ letter-spacing: -1.8px;
 }
 
 .consulting .frame-34 {
-  background-color: var(--secondary-03);
+  background-color: #fff;
   height: 380px;
   left: 0;
   position: absolute;
@@ -1817,14 +1818,8 @@ letter-spacing: -1.8px;
 }
 
 .consulting .rectangle-15 {
-  background: linear-gradient(
-    180deg,
-    rgb(88, 153.05, 147.5) 0%,
-    rgb(77, 159, 152) 22.4%,
-    rgb(77, 159, 152) 64.73%,
-    rgba(251.81, 251.81, 251.81, 0) 100%
-  );
-  filter: blur(80px);
+  background: linear-gradient(to right, rgb(88, 153.05, 147.5) 50%, rgba(251.81, 251.81, 251.81, 0));
+  /* filter: blur(80px); */
   height: 790px;
   left: 0;
   position: absolute;
@@ -1890,14 +1885,12 @@ letter-spacing: -1.8px;
 }
 
 .consulting .overlap-10 {
-  background: linear-gradient(
-    180deg,
-    rgb(0, 0, 0) 0%,
-    rgb(7, 17, 3) 25%,
-    rgb(31.88, 31.88, 31.88) 44.79%,
-    rgb(46.75, 46.75, 46.75) 61.46%,
-    rgba(0, 0, 0, 0) 100%
-  );
+  background: linear-gradient(180deg,
+      rgb(0, 0, 0) 0%,
+      rgb(7, 17, 3) 25%,
+      rgb(31.88, 31.88, 31.88) 44.79%,
+      rgb(46.75, 46.75, 46.75) 61.46%,
+      rgba(0, 0, 0, 0) 100%);
   filter: blur(80px);
   height: 714px;
   left: -116px;
@@ -2979,13 +2972,11 @@ letter-spacing: -1.8px;
 }
 
 .consulting .rectangle-19 {
-  background: linear-gradient(
-    180deg,
-    rgb(88, 153.05, 147.5) 0%,
-    rgb(77, 159, 152) 22.4%,
-    rgb(77, 159, 152) 64.73%,
-    rgba(251.81, 251.81, 251.81, 0) 100%
-  );
+  background: linear-gradient(180deg,
+      rgb(88, 153.05, 147.5) 0%,
+      rgb(77, 159, 152) 22.4%,
+      rgb(77, 159, 152) 64.73%,
+      rgba(251.81, 251.81, 251.81, 0) 100%);
   filter: blur(80px);
   height: 687px;
   left: -118px;

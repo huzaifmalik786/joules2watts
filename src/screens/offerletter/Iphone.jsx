@@ -205,7 +205,7 @@ export const OfferLetter = () => {
               <div className="carousel-2">
                 <div className="frame-25">
                   <div className="overlap-group-5">
-                    <img className="rectangle-8" alt="Rectangle" />
+                    <img className="rectangle-8" alt="Rectangle" src="/offerletter/Rectangle26.png"/>
                     <div className="rectangle-9" />
                     <p className="text-wrapper-21">
                       With access to over 1.5 million profiles, a dedicated screening team at JoulestoWatts uses

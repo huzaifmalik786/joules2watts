@@ -305,7 +305,7 @@
 .msp .component {
   height: 180px;
   position: relative;
-  /* width: 437px; */
+  width: 437px;
 }
 
 .msp .rely-on {

@@ -30,7 +30,7 @@ export const PropertyDefaultWrapper = ({
         dispatch("mouse_enter");
       }}
     >
-      <p className={`div ${divClassName}`}>{text}</p>
+      <p className={` ${divClassName}`}>{text}</p>
       <img
         className={`arrow-forward-2 ${arrowForwardClassName}`}
         alt="Arrow forward"

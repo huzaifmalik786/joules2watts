@@ -19,7 +19,7 @@ export const Component = ({
   vector3 = "/it/vector-9.svg",
 }) => {
   return (
-    <div className={`component ${className}`}>
+    <div className={`itcomponent ${className}`}>
       <div className="text-wrapper-4">Industry-leading IT solutions</div>
       <div className={`frame-4 ${property1}`}>
         {["service-digital", "variant-4", "variant-5", "variant-6", "variant-7"].includes(property1) && (

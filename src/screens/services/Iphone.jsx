@@ -8,9 +8,21 @@ import { PropertyDefaultWrapper } from "../../components/services/PropertyDefaul
 import { Service } from "../../components/services/Service";
 import { Header1 } from "../../icons/Header1";
 import "./style.css";
-
 import { Header } from "../../components/shared/header";
 import { Footer } from "../../components/shared/footer";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+
+const ButtonGroup = ({ next, previous, ...rest }) => {
+  const {
+    carouselState: { currentSlide },
+  } = rest;
+  return (
+      <button onClick={() => next()} className="next-button">
+        <img className="arrow-forward-ios desktop-only" alt="Arrow forward ios" src="/services/arrow-forward-ios.png" />
+      </button>
+  );
+};
 
 export const Services = () => {
   const screenWidth = useWindowWidth();
@@ -315,66 +327,89 @@ export const Services = () => {
                   </div>
                 </div>
                 <div className="frame-24">
-                  <div className="frame-25">
-                    <div className="overlap-group-6">
-                      <div className="frame-26">
-                        <div className="frame-27">
-                          <div className="text-wrapper-14"> Offer Letter</div>
-                          <p className="text-wrapper-11">
-                            One-stop solution for qualified <br />
-                            &amp; regular skill fulfillment
+                  <Carousel
+                    arrows={false}
+                    swipeable
+                    draggable
+                    showDots={false}
+                    responsive={
+                      {
+                        desktop: {
+                          breakpoint: { max: 3000, min: 450 },
+                          items: 1.8,
+                          slidesToSlide: 1,
+                        }
+                      }}
+                    autoPlay={true}
+                    infinite
+                    autoPlaySpeed={3200}
+                    keyBoardControl={true}
+                    transitionDuration={500}
+                    containerClass="carousel"
+                    itemClass="carousel-item"
+                  >
+                    <div className="frame-25">
+                      <div className="overlap-group-6">
+                        <div className="frame-26">
+                          <div className="frame-27">
+                            <div className="text-wrapper-14"> Offer Letter</div>
+                            <p className="text-wrapper-11">
+                              One-stop solution for qualified <br />
+                              &amp; regular skill fulfillment
+                            </p>
+                          </div>
+                          <PropertyDefaultWrapper
+                            arrowForward="/services/arrow-forward-24.svg"
+                            className="CTA-3"
+                            divClassName="CTA-4"
+                            property1="default"
+                            text="Explore"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="frame-28">
+                      <div className="overlap-4">
+                        <img className="group-5" alt="Group" src="/services/group-11.png" />
+                        <img className="group-6" alt="Group" src="/services/group-12.png" />
+                        <div className="ellipse-5" />
+                        <div className="ellipse-6" />
+                        <div className="frame-29">
+                          <div className="frame-30">
+                            <div className="text-wrapper-14">Premier Lounge</div>
+                            <p className="text-wrapper-15">
+                              India’s first-of-its kind solution for your niche skill fullfillment
+                            </p>
+                          </div>
+                          <PropertyDefaultWrapper
+                            arrowForward="/services/arrow-forward-25.svg"
+                            className="CTA-3"
+                            divClassName="CTA-4"
+                            property1="default"
+                            text="Explore"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="frame-31">
+                      <div className="overlap-5">
+                        <div className="ellipse-7" />
+                        <div className="ellipse-8" />
+                        <img className="group-7" alt="Group" src="/services/group-14.png" />
+                        <img className="group-8" alt="Group" src="/services/group-15.png" />
+                        <div className="frame-32">
+                          <div className="text-wrapper-14">J2W Evolve</div>
+                          <p className="get-the-assistance">
+                            Get the assistance of well-qualified trainers to identify the right talent fit for your
+                            organization. With customized training programs, multiple engagement models and HTD,
+                            JoulestoWatts -&nbsp;&nbsp;Evolve HTD saves your time and reduces the ROI by cutting down the
+                            induction cycle.
                           </p>
                         </div>
-                        <PropertyDefaultWrapper
-                          arrowForward="/services/arrow-forward-24.svg"
-                          className="CTA-3"
-                          divClassName="CTA-4"
-                          property1="default"
-                          text="Explore"
-                        />
                       </div>
                     </div>
-                  </div>
-                  <div className="frame-28">
-                    <div className="overlap-4">
-                      <img className="group-5" alt="Group" src="/services/group-11.png" />
-                      <img className="group-6" alt="Group" src="/services/group-12.png" />
-                      <div className="ellipse-5" />
-                      <div className="ellipse-6" />
-                      <div className="frame-29">
-                        <div className="frame-30">
-                          <div className="text-wrapper-14">Premier Lounge</div>
-                          <p className="text-wrapper-15">
-                            India’s first-of-its kind solution for your niche skill fullfillment
-                          </p>
-                        </div>
-                        <PropertyDefaultWrapper
-                          arrowForward="/services/arrow-forward-25.svg"
-                          className="CTA-3"
-                          divClassName="CTA-4"
-                          property1="default"
-                          text="Explore"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="frame-31">
-                    <div className="overlap-5">
-                      <div className="ellipse-7" />
-                      <div className="ellipse-8" />
-                      <img className="group-7" alt="Group" src="/services/group-14.png" />
-                      <img className="group-8" alt="Group" src="/services/group-15.png" />
-                      <div className="frame-32">
-                        <div className="text-wrapper-14">J2W Evolve</div>
-                        <p className="get-the-assistance">
-                          Get the assistance of well-qualified trainers to identify the right talent fit for your
-                          organization. With customized training programs, multiple engagement models and HTD,
-                          JoulestoWatts -&nbsp;&nbsp;Evolve HTD saves your time and reduces the ROI by cutting down the
-                          induction cycle.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+                  </Carousel>
+
                 </div>
               </div>
               <Cta
@@ -670,31 +705,55 @@ export const Services = () => {
                   </div>
                 </div>
                 <div className="container-2">
-                  <div className="BFSI-2">
-                    <div className="text-wrapper-40">Captive Services</div>
-                  </div>
-                  <div className="IT-services">
-                    <div className="text-wrapper-40">IT Services</div>
-                  </div>
-                  <div className="telecom">
-                    <div className="overlap-group-9">
-                      <div className="text-wrapper-41">Product</div>
-                      <div className="text-wrapper-41">Product</div>
+                  <Carousel
+                    arrows={false}
+                    swipeable
+                    draggable
+                    showDots={false}
+                    responsive={
+                      {
+                        desktop: {
+                          breakpoint: { max: 3000, min: 450 },
+                          items: 3,
+                          slidesToSlide: 1,
+                        }
+                      }}
+                    autoPlay={true}
+                    infinite
+                    autoPlaySpeed={3200}
+                    keyBoardControl={true}
+                    transitionDuration={500}
+                    containerClass="carousel"
+                    itemClass="carousel-item"
+                    customButtonGroup={<ButtonGroup />}
+                  >
+                    <div className="BFSI-2">
+                      <div className="text-wrapper-40">Captive Services</div>
                     </div>
-                  </div>
-                  <div className="telecom-2">
-                    <div className="text-wrapper-40">ITES</div>
-                  </div>
-                  <div className="telecom-3">
-                    <div className="text-wrapper-40">SME</div>
-                  </div>
+                    <div className="IT-services">
+                      <div className="text-wrapper-40">IT Services</div>
+                    </div>
+                    <div className="telecom">
+                      <div className="overlap-group-9">
+                        <div className="text-wrapper-41">Product</div>
+                        <div className="text-wrapper-41">Product</div>
+                      </div>
+                    </div>
+                    <div className="telecom-2">
+                      <div className="text-wrapper-40">ITES</div>
+                    </div>
+                    <div className="telecom-3">
+                      <div className="text-wrapper-40">SME</div>
+                    </div>
+                  </Carousel>
+
                 </div>
               </div>
 
               <img className="BG-image mobile-only" alt="Bg image" src="/services/bg-image.svg" />
 
               <div
-                className="UI-element"
+                className="UI-element mobile-only"
                 style={{
                   borderRadius: screenWidth < 1440 ? "8.2px" : screenWidth >= 1440 ? "30px" : undefined,
                   boxShadow:
@@ -709,7 +768,7 @@ export const Services = () => {
                   width: screenWidth < 1440 ? "295px" : screenWidth >= 1440 ? "60px" : undefined,
                 }}
               >
-                <div className="mobile-only">
+                <div>
                   <div className="checkmark">
                     <img className="icon" alt="Icon" src="/services/icon.svg" />
                   </div>
@@ -718,8 +777,6 @@ export const Services = () => {
                   <div className="mockup-text-2" />
                   <div className="fake-button" />
                 </div>
-
-                <img className="arrow-forward-ios desktop-only" alt="Arrow forward ios" src="/services/arrow-forward-ios.png" />
               </div>
             </div>
           </div>
@@ -847,7 +904,7 @@ export const Services = () => {
           </div>
           <Footer />
         </div>
-      </div>
+      </div >
     </>
   );
 };

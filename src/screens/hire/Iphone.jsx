@@ -793,20 +793,20 @@ export const Hire = () => {
               <img
                 className="mercedes-benz-logo"
                 alt="Mercedes benz logo"
-                src="/services/mercedes-benz-logo-2010-1.png"
+                src="/logos/mercedes-benz-logo-2010-1.png"
               />
               <img
                 className="GE-healthcare-logo"
                 alt="Ge healthcare logo"
-                src="/services/ge-healthcare-logo-1.png"
+                src="/logos/ge-healthcare-logo-1.png"
               />
-              <img className="sony-logo" alt="Sony logo" src="/services/sony-logo-1.png" />
-              <img className="shell-logo" alt="Shell logo" src="/services/shell-logo-1971-1995-1.png" />
-              <img className="amazon" alt="Amazon" src="/services/amazon-1-1.png" />
+              <img className="sony-logo" alt="Sony logo" src="/logos/sony-logo-1.png" />
+              <img className="shell-logo" alt="Shell logo" src="/logos/shell-logo-1971-1995-1.png" />
+              <img className="amazon" alt="Amazon" src="/logos/amazon-1-1.png" />
               <img
                 className="wipro-logo-new-og"
                 alt="Wipro logo new og"
-                src="/services/wipro-logo-new-og-502x263-1.png"
+                src="/logos/wipro-logo-new-og-502x263-1.png"
               />
             </div>
           </div>
@@ -840,20 +840,20 @@ export const Hire = () => {
                       <img
                         className="mercedes-benz-logo-2"
                         alt="Mercedes benz logo"
-                        src="/services/mercedes-benz-logo-2010-1.png"
+                        src="/logos/mercedes-benz-logo-2010-1.png"
                       />
                       <img
                         className="GE-healthcare-logo-2"
                         alt="Ge healthcare logo"
-                        src="/services/ge-healthcare-logo-1.png"
+                        src="/logos/ge-healthcare-logo-1.png"
                       />
-                      <img className="sony-logo-2" alt="Sony logo" src="/services/sony-logo-1.png" />
-                      <img className="shell-logo-2" alt="Shell logo" src="/services/shell-logo-1971-1995-1.png" />
-                      <img className="amazon" alt="Amazon" src="/services/amazon-1-1.png" />
+                      <img className="sony-logo-2" alt="Sony logo" src="/logos/sony-logo-1.png" />
+                      <img className="shell-logo-2" alt="Shell logo" src="/logos/shell-logo-1971-1995-1.png" />
+                      <img className="amazon" alt="Amazon" src="/logos/amazon-1-1.png" />
                       <img
                         className="wipro-logo-new-og-2"
                         alt="Wipro logo new og"
-                        src="/services/wipro-logo-new-og-502x263-1.png"
+                        src="/logos/wipro-logo-new-og-502x263-1.png"
                       />
                     </div>
                   </div>

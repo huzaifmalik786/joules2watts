@@ -925,7 +925,6 @@
 }
 
 .rpo .frame-25 {
-  background-color: var(--secondary-03);
   height: 380px;
   left: 0;
   position: absolute;
@@ -1890,7 +1889,6 @@
   line-height: var(--h6-REG-line-height);
   position: absolute;
   top: 23px;
-  width: 286px;
 }
 
 .rpo .rectangle-14 {

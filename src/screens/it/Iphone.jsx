@@ -52,7 +52,9 @@ export const ItServices = () => {
         >
           <div className="desktop-only">
             <div className="blurry-video-of" />
-            <div className="video" />
+            <div className="video">
+              <video src="/video/-a36c-4959-a7c5-e1ffdcb3073a.mp4" autoPlay loop muted style={{width: "100%", height:"100%", objectFit:"cover"}}/>
+            </div>
           </div>
 
           <div className="mobile-only">
@@ -179,12 +181,24 @@ export const ItServices = () => {
                       </div>
                     </div>
                     <div className="frame-42">
-                      <img className="mercedes-benz-logo" alt="Mercedes benz logo" />
-                      <img className="GE-healthcare-logo" alt="Ge healthcare logo" />
-                      <img className="sony-logo" alt="Sony logo" />
-                      <img className="shell-logo" alt="Shell logo" />
-                      <img className="amazon" alt="Amazon" src="/it/amazon-1-1.png" />
-                      <img className="wipro-logo-new-og" alt="Wipro logo new og" />
+                      <img
+                        className="mercedes-benz-logo"
+                        alt="Mercedes benz logo"
+                        src="/logos/mercedes-benz-logo-2010-1.png"
+                      />
+                      <img
+                        className="GE-healthcare-logo"
+                        alt="Ge healthcare logo"
+                        src="/logos/ge-healthcare-logo-1.png"
+                      />
+                      <img className="sony-logo" alt="Sony logo" src="/logos/sony-logo-1.png" />
+                      <img className="shell-logo" alt="Shell logo" src="/logos/shell-logo-1971-1995-1.png" />
+                      <img className="amazon" alt="Amazon" src="/logos/amazon-1-1.png" />
+                      <img
+                        className="wipro-logo-new-og"
+                        alt="Wipro logo new og"
+                        src="/logos/wipro-logo-new-og-502x263-1.png"
+                      />
                     </div>
                   </div>
                 </div>
@@ -242,20 +256,24 @@ export const ItServices = () => {
                 </div>
               </div>
               <div className="frame-42">
-                <img
-                  className="mercedes-benz-logo-2"
-                  alt="Mercedes benz logo"
-                  src="/it/mercedes-benz-logo-2010-1.png"
-                />
-                <img className="GE-healthcare-logo-2" alt="Ge healthcare logo" src="/it/ge-healthcare-logo-1.png" />
-                <img className="sony-logo-2" alt="Sony logo" src="/it/sony-logo-1.png" />
-                <img className="shell-logo-2" alt="Shell logo" src="/it/shell-logo-1971-1995-1.png" />
-                <img className="amazon-2" alt="Amazon" src="/it/amazon-1.png" />
-                <img
-                  className="wipro-logo-new-og-2"
-                  alt="Wipro logo new og"
-                  src="/it/wipro-logo-new-og-502x263-1.png"
-                />
+              <img
+                className="mercedes-benz-logo-2"
+                alt="Mercedes benz logo"
+                src="/logos/mercedes-benz-logo-2010-1.png"
+              />
+              <img
+                className="GE-healthcare-logo-2"
+                alt="Ge healthcare logo"
+                src="/logos/ge-healthcare-logo-1.png"
+              />
+              <img className="sony-logo-2" alt="Sony logo" src="/logos/sony-logo-1.png" />
+              <img className="shell-logo-2" alt="Shell logo" src="/logos/shell-logo-1971-1995-1.png" />
+              <img className="amazon-2" alt="Amazon" src="/logos/amazon-1-1.png" />
+              <img
+                className="wipro-logo-new-og-2"
+                alt="Wipro logo new og"
+                src="/logos/wipro-logo-new-og-502x263-1.png"
+              />
               </div>
             </div>
             <img className="image-2" alt="Image" src="/it/image-6.png" />

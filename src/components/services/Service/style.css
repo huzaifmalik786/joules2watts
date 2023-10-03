@@ -83,7 +83,7 @@
 }
 
 .service .overlap-group {
-  background-image: url(../../../../static/services/shutterstock-1485872414-1-8.png);
+  /* background-image: url(../../../../static/services/shutterstock-1485872414-1-8.png); */
   background-size: 100% 100%;
   height: 648px;
   position: relative;
@@ -265,7 +265,7 @@
 }
 
 .service.state-default.card-FLX .frame {
-  background-image: url(../../../../static/services/shutterstock-1485872414-1-7.png);
+  /* background-image: url(../../../../static/services/shutterstock-1485872414-1-7.png); */
   background-position: 50% 50%;
   background-size: cover;
   width: 1280px;
@@ -302,13 +302,13 @@
 }
 
 .service.card-default .overlap-group-11 {
-  background-image: url(../../../../static/services/shutterstock-1485872414-1-2.png);
+  /* background-image: url(../../../../static/services/shutterstock-1485872414-1-2.png); */
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .service.card-HRD .overlap-group-11 {
-  background-image: url(../../../../static/services/shutterstock-1485872414-1-8.png);
+  /* background-image: url(../../../../static/services/shutterstock-1485872414-1-8.png); */
   background-size: 100% 100%;
   height: 646px;
   width: 518px;
@@ -344,14 +344,14 @@
 }
 
 .service.state-hover.card-RPO .overlap-group-11 {
-  background-image: url(../../../../static/services/shutterstock-1485872414-1-4.png);
+  /* background-image: url(../../../../static/services/shutterstock-1485872414-1-4.png); */
   background-position: 50% 50%;
   background-size: cover;
   width: 1280px;
 }
 
 .service.state-hover.card-FLX .overlap-group-11 {
-  background-image: url(../../../../static/services/shutterstock-1485872414-1-9.png);
+  /* background-image: url(../../../../static/services/shutterstock-1485872414-1-9.png); */
   background-size: 100% 100%;
   height: 440px;
   width: 1280px;
@@ -371,7 +371,7 @@
 }
 
 .service.card-RPO.state-default .overlap-group-11 {
-  background-image: url(../../../../static/services/shutterstock-1485872414-1-9.png);
+  /* background-image: url(../../../../static/services/shutterstock-1485872414-1-9.png); */
   background-size: 100% 100%;
 }
 

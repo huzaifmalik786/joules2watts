@@ -149,8 +149,9 @@
 }
 
 .itservices .blurry-video-of {
-  background-color: #000000;
-  height: 661px;
+  /* background: rgba(0, 0, 0, 0.36);
+  z-index: 1; */
+  height: 655px;
   left: 0;
   position: absolute;
   top: 97px;
@@ -158,12 +159,21 @@
 }
 
 .itservices .video {
-  background-color: #0000005c;
   height: 660px;
   left: 54px;
   position: absolute;
   top: 98px;
   width: 1440px;
+}
+
+.itservices .video::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.36);
 }
 
 .itservices .hero {
@@ -186,6 +196,7 @@
 
 .itservices .frame-26 {
   align-items: flex-start;
+  z-index: 1;
   display: inline-flex;
   flex-direction: column;
   position: absolute;
@@ -210,14 +221,23 @@
 }
 
 .itservices .text-wrapper-15 {
-  color: #ffffff;
+  color: #FFF;
+  /* Title/Mega */
+  font-family: Source Sans Pro;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 101.5%;
+  /* 60.9px */
+  letter-spacing: -1.8px;
+  /* color: #ffffff;
   font-family: var(--title-mega-font-family);
   font-size: var(--title-mega-font-size);
   font-style: var(--title-mega-font-style);
-  font-weight: var(--title-mega-font-weight);
+  font-weight: var(--title-mega-font-weight); */
   left: 0;
-  letter-spacing: var(--title-mega-letter-spacing);
-  line-height: var(--title-mega-line-height);
+  /* letter-spacing: var(--title-mega-letter-spacing); */
+  /* line-height: var(--title-mega-line-height); */
   position: absolute;
   top: 0;
   width: 536px;
@@ -366,13 +386,11 @@
 }
 
 .itservices .rectangle-4 {
-  background: linear-gradient(
-    180deg,
-    rgb(88, 153.05, 147.5) 0%,
-    rgb(77, 159, 152) 22.4%,
-    rgb(77, 159, 152) 64.73%,
-    rgba(251.81, 251.81, 251.81, 0) 100%
-  );
+  background: linear-gradient(180deg,
+      rgb(88, 153.05, 147.5) 0%,
+      rgb(77, 159, 152) 22.4%,
+      rgb(77, 159, 152) 64.73%,
+      rgba(251.81, 251.81, 251.81, 0) 100%);
   filter: blur(80px);
   height: 687px;
   left: -67px;
@@ -447,14 +465,12 @@
 }
 
 .itservices .overlap-2 {
-  background: linear-gradient(
-    180deg,
-    rgb(0, 0, 0) 0%,
-    rgb(7, 17, 3) 25%,
-    rgb(31.88, 31.88, 31.88) 44.79%,
-    rgb(46.75, 46.75, 46.75) 61.46%,
-    rgba(0, 0, 0, 0) 100%
-  );
+  background: linear-gradient(180deg,
+      rgb(0, 0, 0) 0%,
+      rgb(7, 17, 3) 25%,
+      rgb(31.88, 31.88, 31.88) 44.79%,
+      rgb(46.75, 46.75, 46.75) 61.46%,
+      rgba(0, 0, 0, 0) 100%);
   filter: blur(80px);
   height: 714px;
   left: -116px;
@@ -1649,14 +1665,8 @@
 }
 
 .itservices .rectangle-9 {
-  background: linear-gradient(
-    180deg,
-    rgb(88, 153.05, 147.5) 0%,
-    rgb(77, 159, 152) 22.4%,
-    rgb(77, 159, 152) 64.73%,
-    rgba(251.81, 251.81, 251.81, 0) 100%
-  );
-  filter: blur(80px);
+  background: linear-gradient(90deg, #589993 5.95%, #4D9F98 20.62%, #4D9F98 48.33%, rgba(252, 252, 252, 0.00) 71.42%);
+  filter: blur(40px);
   height: 697px;
   left: 0;
   position: absolute;
