@@ -2,7 +2,8 @@
   all: unset;
   align-items: center;
   border: 1px solid;
-  border-color: var(--secondary-03);
+  /* border-color: var(--secondary-03); */
+  border: 1px solid var(--primary-02, #4D9F98);
   box-sizing: border-box;
   display: inline-flex;
   gap: 10px;

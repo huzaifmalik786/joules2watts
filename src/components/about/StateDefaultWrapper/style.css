@@ -1,0 +1,38 @@
+.state-default-wrapper {
+  all: unset;
+  align-items: center;
+  border: 1px solid;
+  border-color: var(--secondary-03);
+  box-sizing: border-box;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 12px 24px;
+  position: relative;
+}
+
+.state-default-wrapper .div {
+  color: var(--secondary-03);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: -0.17px;
+  line-height: 23.8px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.state-default-wrapper.default-true {
+  border-radius: 40px;
+}
+
+.state-default-wrapper:hover {
+  background-color: var(--primary-02);
+  border-radius: 45px;
+}
+
+.state-default-wrapper:hover .div {
+  color: #ffffff;
+}

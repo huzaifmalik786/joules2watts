@@ -13,6 +13,10 @@ import { Lounge } from "./screens/lounge";
 import "./App.css"
 import { ItServices } from "./screens/it";
 import { Staffing } from "./screens/staffing";
+import { About } from "./screens/about";
+import { Contact } from "./screens/contact";
+import { Industries } from "./screens/industries";
+import { Leadership } from "./screens/leadership";
 
 const router = createBrowserRouter([
   {
@@ -28,7 +32,7 @@ const router = createBrowserRouter([
     element: <MobileNav />,
   },
   {
-    path: "/services-overview",
+    path: "/",
     element: <Services />
   },
   {
@@ -62,6 +66,22 @@ const router = createBrowserRouter([
   {
     path: '/staffing-solution',
     element: <Staffing />
+  },
+  {
+    path: '/about-us',
+    element: <About/>
+  },
+  {
+    path: "/contact-us",
+    element: <Contact/>
+  },
+  {
+    path: "/industries",
+    element: <Industries/>
+  },
+  {
+    path: "/leadership",
+    element: <Leadership/>
   }
 ]);
 

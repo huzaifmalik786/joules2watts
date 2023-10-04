@@ -30,18 +30,24 @@ export const Header = () => {
                     }
                 </div>
                 <div className="frame-33-shared">
-                    <div className="text-wrapper-16-shared"> About Us</div>
+                    <Link to="/about-us">
+                        <div className="text-wrapper-16-shared"> About Us</div>
+                    </Link>
                 </div>
                 <div className="frame-33-shared">
-                    <div className="text-wrapper-17-shared">Leadership</div>
+                    <Link to="/leadership">
+                        <div className="text-wrapper-17-shared">Leadership</div>
+                    </Link>
                 </div>
                 <div className="frame-33-shared">
-                    <div className="text-wrapper-16-shared">Industries</div>
+                    <Link to="/industries">
+                        <div className="text-wrapper-16-shared">Industries</div>
+                    </Link>
                 </div>
                 <div className="frame-34-shared">
                     <div className="text-wrapper-16-shared">Careers</div>
                 </div>
-                <StateDefaultWrapper className="CTA-8-shared" default1 divClassName="CTA-9-shared" />
+                <StateDefaultWrapper className="CTA-8-shared" default1 />
             </div>
         </header>
     )

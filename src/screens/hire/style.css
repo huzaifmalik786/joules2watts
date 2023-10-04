@@ -2602,10 +2602,8 @@
 }
 
 .hire .rectangle-13 {
-  background: linear-gradient(to right,
-      rgb(88, 153.05, 147.5) 50%,
-      rgba(251.81, 251.81, 251.81, 0));
-  filter: blur(80px);
+  background: linear-gradient(90deg, #589993 5.95%, #4D9F98 20.62%, #4D9F98 48.33%, rgba(252, 252, 252, 0.00) 71.42%);
+  filter: blur(40px);
   position: absolute;
 }
 
