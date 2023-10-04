@@ -22,7 +22,7 @@ export const ItServices = () => {
         }}
       >
         <Header />
-        <Header1 className="header mobile-only" />
+        <Header1 className="header mobile" />
         <div className="mobile-only">
           <div className="div-wrapper">
             <div className="frame-18">

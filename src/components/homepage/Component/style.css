@@ -1,0 +1,353 @@
+.component {
+  height: 517px;
+  width: 1487px;
+}
+
+.component .overlap-2 {
+  height: 517px;
+}
+
+.component .group {
+  height: 517px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1487px;
+}
+
+.component .group-2 {
+  height: 517px;
+}
+
+.component .overlap-group-2 {
+  height: 517px;
+  position: relative;
+  width: 1487px;
+}
+
+.component .rectangle-4 {
+  background-color: #1b766e;
+  height: 517px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 846px;
+}
+
+.component .rectangle-5 {
+  height: 517px;
+  left: 737px;
+  position: absolute;
+  top: 0;
+  width: 750px;
+}
+
+.component .frame-11 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  left: 113px;
+  position: absolute;
+  top: 98px;
+  width: 499px;
+}
+
+.component .text-wrapper-8 {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(180deg, rgb(0, 223, 194) 0%, rgba(255, 255, 255, 0.72) 100%);
+  background-clip: text;
+  color: transparent;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: -0.53px;
+  line-height: 42px;
+  margin-top: -1px;
+  position: relative;
+  text-fill-color: transparent;
+  width: 466px;
+}
+
+.component .an-execution-driven-2 {
+  color: #ffffff;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: -0.24px;
+  line-height: 33.6px;
+  position: relative;
+  width: 466px;
+}
+
+.component .frame-12 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  left: 113px;
+  position: absolute;
+  top: 98px;
+  width: 499px;
+}
+
+.component .frame-13 {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 6.56px;
+  left: 113px;
+  position: absolute;
+  top: 405px;
+}
+
+.component .ellipse-13 {
+  border-radius: 4.47px;
+  height: 8.95px;
+  position: relative;
+  width: 8.95px;
+}
+
+.component .ellipse-14 {
+  background-color: #c2c2c2;
+  border-radius: 4.47px;
+  height: 8.95px;
+  position: relative;
+  width: 8.95px;
+}
+
+.component .ellipse-15 {
+  border-radius: 4.47px;
+  height: 8.95px;
+  position: relative;
+  width: 8.95px;
+}
+
+.component .frame-14 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 113px;
+  position: absolute;
+  top: 98px;
+  width: 499px;
+}
+
+.component .talent {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(180deg, rgb(0, 223, 194) 0%, rgba(255, 255, 255, 0.72) 100%);
+  background-clip: text;
+  color: transparent;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: -0.53px;
+  line-height: 42px;
+  margin-top: -1px;
+  position: relative;
+  text-fill-color: transparent;
+}
+
+.component .an-execution-driven-3 {
+  color: #ffffff;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: -0.24px;
+  line-height: 33.6px;
+  position: relative;
+}
+
+.component .ellipse-16 {
+  border-radius: 4.47px;
+  height: 8.95px;
+  position: relative;
+  width: 8.95px;
+}
+
+.component .ellipse-17 {
+  border-radius: 4.47px;
+  height: 8.95px;
+  position: relative;
+  width: 8.95px;
+}
+
+.component .ellipse-18 {
+  border-radius: 4.47px;
+  height: 8.95px;
+  position: relative;
+  width: 8.95px;
+}
+
+.component .frame-14693 {
+  position: relative;
+}
+
+.component .frame-14695 {
+  position: relative;
+}
+
+.component .overlap-2.frame-14695 .group-2 {
+  position: relative;
+}
+
+.component .overlap-2.frame-14696 .ellipse-13 {
+  background-color: #4d9f98;
+}
+
+.component .overlap-2.frame-14694 .ellipse-13 {
+  background-color: #4d9f98;
+}
+
+.component .overlap-2.frame-14697 .ellipse-13 {
+  background-color: #4d9f98;
+}
+
+.component .overlap-2.frame-14693 .ellipse-13 {
+  background-color: #4d9f98;
+}
+
+.component .overlap-2.frame-14695 .ellipse-13 {
+  background-color: #c2c2c2;
+}
+
+.component .overlap-2.frame-14696 .ellipse-15 {
+  background-color: #c2c2c2;
+}
+
+.component .overlap-2.frame-14694 .ellipse-15 {
+  background-color: #c2c2c2;
+}
+
+.component .overlap-2.frame-14697 .ellipse-15 {
+  background-color: #c2c2c2;
+}
+
+.component .overlap-2.frame-14693 .ellipse-15 {
+  background-color: #c2c2c2;
+}
+
+.component .overlap-2.frame-14695 .ellipse-15 {
+  background-color: #4d9f98;
+}
+
+.component .overlap-2.frame-14696 .frame-14 {
+  gap: 18px;
+}
+
+.component .overlap-2.frame-14694 .frame-14 {
+  gap: 18px;
+}
+
+.component .overlap-2.frame-14697 .frame-14 {
+  gap: 16px;
+}
+
+.component .overlap-2.frame-14693 .frame-14 {
+  gap: 18px;
+}
+
+.component .overlap-2.frame-14695 .frame-14 {
+  gap: 18px;
+}
+
+.component .overlap-2.frame-14696 .talent {
+  width: 466px;
+}
+
+.component .overlap-2.frame-14694 .talent {
+  width: 466px;
+}
+
+.component .overlap-2.frame-14697 .talent {
+  width: 499px;
+}
+
+.component .overlap-2.frame-14693 .talent {
+  width: 466px;
+}
+
+.component .overlap-2.frame-14695 .talent {
+  width: 466px;
+}
+
+.component .overlap-2.frame-14696 .an-execution-driven-3 {
+  width: 466px;
+}
+
+.component .overlap-2.frame-14694 .an-execution-driven-3 {
+  width: 466px;
+}
+
+.component .overlap-2.frame-14697 .an-execution-driven-3 {
+  width: 486px;
+}
+
+.component .overlap-2.frame-14693 .an-execution-driven-3 {
+  width: 466px;
+}
+
+.component .overlap-2.frame-14695 .an-execution-driven-3 {
+  width: 466px;
+}
+
+.component .overlap-2.frame-14696 .ellipse-16 {
+  background-color: #c2c2c2;
+}
+
+.component .overlap-2.frame-14694 .ellipse-16 {
+  background-color: #4d9f98;
+}
+
+.component .overlap-2.frame-14697 .ellipse-16 {
+  background-color: #c2c2c2;
+}
+
+.component .overlap-2.frame-14693 .ellipse-16 {
+  background-color: #c2c2c2;
+}
+
+.component .overlap-2.frame-14695 .ellipse-16 {
+  background-color: #c2c2c2;
+}
+
+.component .overlap-2.frame-14696 .ellipse-17 {
+  background-color: #4d9f98;
+}
+
+.component .overlap-2.frame-14694 .ellipse-17 {
+  background-color: #c2c2c2;
+}
+
+.component .overlap-2.frame-14697 .ellipse-17 {
+  background-color: #c2c2c2;
+}
+
+.component .overlap-2.frame-14693 .ellipse-17 {
+  background-color: #c2c2c2;
+}
+
+.component .overlap-2.frame-14695 .ellipse-17 {
+  background-color: #c2c2c2;
+}
+
+.component .overlap-2.frame-14696 .ellipse-18 {
+  background-color: #c2c2c2;
+}
+
+.component .overlap-2.frame-14694 .ellipse-18 {
+  background-color: #c2c2c2;
+}
+
+.component .overlap-2.frame-14697 .ellipse-18 {
+  background-color: #4d9f98;
+}
+
+.component .overlap-2.frame-14693 .ellipse-18 {
+  background-color: #c2c2c2;
+}
+
+.component .overlap-2.frame-14695 .ellipse-18 {
+  background-color: #c2c2c2;
+}

@@ -7,7 +7,7 @@ import { PlatformDropdown } from '../platformDropdown'
 import { Link } from 'react-router-dom'
 
 
-export const Header = () => {
+export const Header = ({nobg}) => {
     const screenWidth = useWindowWidth();
     const [OpenSolutions, setOpenSolutions] = useState(false);
     const [platformSolutions, setPlatformSolutions] = useState(false);
@@ -21,31 +21,33 @@ export const Header = () => {
                     {OpenSolutions && screenWidth > 1440 &&
                         <SolutionDropdown OpenSolutions={OpenSolutions} setOpenSolutions={setOpenSolutions} />
                     }
-                    <div className="text-wrapper-16-shared" onClick={() => setOpenSolutions(!OpenSolutions)}>Solutions</div>
+                    <div className="text-wrapper-16-shared" style={{color: nobg?"#fff":"#000"}} onClick={() => setOpenSolutions(!OpenSolutions)}>Solutions</div>
                 </div>
                 <div className="frame-33-shared">
-                    <div className="text-wrapper-16-shared" onClick={() => setPlatformSolutions(!platformSolutions)}>Platforms</div>
+                    <div className="text-wrapper-16-shared" style={{color: nobg?"#fff":"#000"}} onClick={() => setPlatformSolutions(!platformSolutions)}>Platforms</div>
                     {platformSolutions && screenWidth > 1440 &&
                         <PlatformDropdown OpenSolutions={platformSolutions} setOpenSolutions={setPlatformSolutions} />
                     }
                 </div>
                 <div className="frame-33-shared">
                     <Link to="/about-us">
-                        <div className="text-wrapper-16-shared"> About Us</div>
+                        <div className="text-wrapper-16-shared" style={{color: nobg?"#fff":"#000"}}> About Us</div>
                     </Link>
                 </div>
                 <div className="frame-33-shared">
                     <Link to="/leadership">
-                        <div className="text-wrapper-17-shared">Leadership</div>
+                        <div className="text-wrapper-17-shared" style={{color: nobg?"#fff":"#000"}}>Leadership</div>
                     </Link>
                 </div>
                 <div className="frame-33-shared">
                     <Link to="/industries">
-                        <div className="text-wrapper-16-shared">Industries</div>
+                        <div className="text-wrapper-16-shared" style={{color: nobg?"#fff":"#000"}}>Industries</div>
                     </Link>
                 </div>
                 <div className="frame-34-shared">
-                    <div className="text-wrapper-16-shared">Careers</div>
+                    <Link to="/careers">
+                        <div className="text-wrapper-16-shared" style={{color: nobg?"#fff":"#000"}}>Careers</div>
+                    </Link>
                 </div>
                 <StateDefaultWrapper className="CTA-8-shared" default1 />
             </div>

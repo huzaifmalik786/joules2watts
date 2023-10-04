@@ -1,0 +1,83 @@
+.property-default-wrapper {
+  background-color: #2e5053;
+  height: 320px;
+  overflow: hidden;
+  width: 720px;
+}
+
+.property-default-wrapper .overlap-2 {
+  height: 392px;
+  position: relative;
+}
+
+.property-default-wrapper .frame-10 {
+  height: 320px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(180deg);
+  width: 720px;
+}
+
+.property-default-wrapper .overlap-group-2 {
+  height: 689px;
+  position: relative;
+}
+
+.property-default-wrapper .shutterstock-2 {
+  height: 320px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  transform: rotate(-180deg);
+  width: 720px;
+}
+
+.property-default-wrapper .rectangle-6 {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(43.56, 43.56, 43.56) 100%);
+  background-blend-mode: multiply;
+  height: 689px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(180deg);
+  width: 720px;
+}
+
+.property-default-wrapper .frame-11 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 32px;
+  height: 298px;
+  left: 64px;
+  position: absolute;
+  top: 94px;
+}
+
+.property-default-wrapper .hire-train-deploy-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 35px;
+  height: 80px;
+  position: relative;
+}
+
+.property-default-wrapper .hire-train-deploy-3 {
+  color: #ffffff;
+  flex: 1;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 42px;
+  font-weight: 600;
+  letter-spacing: -1.05px;
+  line-height: 50.4px;
+  margin-top: -1px;
+  position: relative;
+  width: 477px;
+}
+
+.property-default-wrapper .CTA-3 {
+  flex: 0 0 auto !important;
+}

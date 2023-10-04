@@ -1,0 +1,117 @@
+.box {
+  height: 1497px;
+  position: absolute;
+  width: 1460px;
+  top: 2400px;
+}
+
+.box .group {
+  height: 1497px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1460px;
+}
+
+.box .frame-12 {
+  align-items: center;
+  display: inline-flex;
+  gap: 612px;
+  left: 88px;
+  position: absolute;
+  top: 0;
+}
+
+.box .frame-13 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: 465px;
+}
+
+.box .text-wrapper-4 {
+  align-self: stretch;
+  color: #1f1f1f;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 42px;
+  font-weight: 400;
+  letter-spacing: -1.05px;
+  line-height: 50.4px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.box .text-wrapper-5 {
+  align-self: stretch;
+  color: #797979;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: -0.17px;
+  line-height: 23.8px;
+  position: relative;
+}
+
+.box .CTA-4 {
+  align-items: flex-end !important;
+  background-color: #4d9f98 !important;
+  border: unset !important;
+  border-color: unset !important;
+  display: flex !important;
+  justify-content: center !important;
+  width: 182px !important;
+}
+
+.box .CTA-5 {
+  font-weight: 700 !important;
+  margin-left: -1px !important;
+}
+
+.box .CTA-6 {
+  margin-right: -1px !important;
+}
+
+.box .service-instance {
+  left: 740px !important;
+  position: absolute !important;
+  top: 177px !important;
+}
+
+.box .property-1-default {
+  background-image: url(../../../../static/homepage/service.svg) !important;
+  left: 3px !important;
+  position: absolute !important;
+  top: 177px !important;
+}
+
+.box .service-2 {
+  left: 736px !important;
+  position: absolute !important;
+  top: 510px !important;
+}
+
+.box .property-default-instance {
+  left: 0 !important;
+  position: absolute !important;
+  top: 509px !important;
+}
+
+.box .service-3 {
+  left: 0 !important;
+  position: absolute !important;
+  top: 841px !important;
+}
+
+.box .service-4 {
+  left: 736px !important;
+  position: absolute !important;
+  top: 843px !important;
+}
+
+.box .service-5 {
+  left: 0 !important;
+  position: absolute !important;
+  top: 1177px !important;
+}

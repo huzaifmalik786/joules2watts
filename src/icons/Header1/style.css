@@ -1,0 +1,26 @@
+.mobile-na {
+    display: flex;
+    width: 390px;
+    height: 60px;
+    padding: 16px;
+    position: absolute;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.mobile-na .logo-mobile {
+    width: 60px;
+    height: 30px;
+}
+
+.mobile-na button{
+    outline: none;
+    border: none;
+    background: transparent;
+}
+.moile-na .menu-mobile {
+    width: 32px;
+    height: 32px;
+}

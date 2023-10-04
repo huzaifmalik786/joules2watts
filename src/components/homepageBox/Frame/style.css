@@ -1,0 +1,428 @@
+.frame {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 11.73px;
+  position: absolute;
+  top: 3850px;
+}
+
+.frame .service {
+  background-image: url(../../../../static/homepage/service.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 312.78px;
+  overflow: hidden;
+  position: relative;
+  width: 390px;
+}
+
+.frame .overlap {
+  height: 313px;
+  position: relative;
+  width: 704px;
+}
+
+.frame .overlap-group-wrapper {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 27.6%, rgba(0, 0, 0, 0.36) 60.42%, rgba(0, 0, 0, 0.56) 100%);
+  background-image: url(../../../../static/homepage/frame-3792.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 313px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 704px;
+}
+
+.frame .overlap-group {
+  background-image: url(../../../../static/homepage/shutterstock-1485872414-1-5.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 313px;
+  position: relative;
+  width: 390px;
+}
+
+.frame .rectangle {
+  background-blend-mode: multiply;
+  height: 313px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 390px;
+}
+
+.frame .div {
+  align-items: flex-start;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 129px;
+  left: 47px;
+  position: absolute;
+  top: 144px;
+}
+
+.frame .div-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 34.21px;
+  height: 50.83px;
+  position: relative;
+}
+
+.frame .text-wrapper {
+  color: #ffffff;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  height: 51px;
+  letter-spacing: -0.6px;
+  line-height: 28.8px;
+  margin-top: -0.98px;
+  position: relative;
+  width: 277px;
+}
+
+.frame .CTA-instance {
+  border: 0.98px solid !important;
+  border-radius: 54.74px !important;
+  flex: 0 0 auto !important;
+  gap: 9.77px !important;
+  padding: 11.73px 15.64px !important;
+}
+
+.frame .design-component-instance-node {
+  font-family: "Source Sans Pro", Helvetica !important;
+  font-size: 16.6px !important;
+  font-style: unset !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.17px !important;
+  line-height: 23.3px !important;
+  margin-top: -0.98px !important;
+}
+
+.frame .overlap-wrapper {
+  background-color: var(--secondary-03);
+  height: 312.78px;
+  overflow: hidden;
+  position: relative;
+  width: 390px;
+}
+
+.frame .overlap-group-wrapper-2 {
+  height: 313px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 704px;
+}
+
+.frame .overlap-group-2 {
+  height: 312px;
+  position: relative;
+  width: 435px;
+}
+
+.frame .shutterstock {
+  height: 312px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 390px;
+}
+
+.frame .rectangle-2 {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(146.62, 146.62, 146.62) 100%);
+  background-blend-mode: multiply;
+  height: 312px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 435px;
+}
+
+.frame .div-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  left: 39px;
+  position: absolute;
+  top: 148px;
+}
+
+.frame .administrative-and {
+  color: #ffffff;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.36px;
+  line-height: 27.8px;
+  margin-top: -0.98px;
+  position: relative;
+  width: 230px;
+}
+
+.frame .CTA-2 {
+  height: 23.46px !important;
+  width: 23.46px !important;
+}
+
+.frame .CTA-3 {
+  font-family: "Source Sans Pro", Helvetica !important;
+  font-size: 16.6px !important;
+  font-style: unset !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.17px !important;
+  line-height: 23.3px !important;
+  margin-top: -0.75px !important;
+}
+
+.frame .overlap-group-wrapper-3 {
+  height: 313px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(180deg);
+  width: 704px;
+}
+
+.frame .overlap-group-3 {
+  height: 674px;
+  left: 269px;
+  position: relative;
+  width: 435px;
+}
+
+.frame .img {
+  height: 313px;
+  left: 45px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  transform: rotate(-180deg);
+  width: 390px;
+}
+
+.frame .rectangle-3 {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(43.56, 43.56, 43.56) 100%);
+  background-blend-mode: multiply;
+  height: 674px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(180deg);
+  width: 435px;
+}
+
+.frame .div-3 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 16px;
+  left: 39px;
+  position: absolute;
+  top: 156px;
+}
+
+.frame .hire-train-deploy {
+  color: #ffffff;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.6px;
+  line-height: 28.8px;
+  margin-top: -0.98px;
+  position: relative;
+  width: 277px;
+}
+
+.frame .overlap-2 {
+  height: 312px;
+  position: relative;
+  width: 461px;
+}
+
+.frame .overlap-group-wrapper-4 {
+  height: 312px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(180deg);
+  width: 461px;
+}
+
+.frame .overlap-group-4 {
+  height: 312px;
+  left: 71px;
+  position: relative;
+  width: 633px;
+}
+
+.frame .shutterstock-2 {
+  height: 312px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  transform: rotate(-180deg);
+  width: 390px;
+}
+
+.frame .rectangle-4 {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(43.56, 43.56, 43.56) 100%);
+  background-blend-mode: multiply;
+  height: 312px;
+  left: 198px;
+  position: absolute;
+  top: 0;
+  transform: rotate(180deg);
+  width: 435px;
+}
+
+.frame .div-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  left: 39px;
+  position: absolute;
+  top: 126px;
+  width: 230px;
+}
+
+.frame .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.6px;
+  line-height: 28.8px;
+  margin-top: -0.98px;
+  position: relative;
+  width: 230px;
+}
+
+.frame .shutterstock-wrapper {
+  height: 311px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 704px;
+}
+
+.frame .shutterstock-3 {
+  height: 311px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 390px;
+}
+
+.frame .rectangle-5 {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+  background-blend-mode: darken;
+  height: 313px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(180deg);
+  width: 435px;
+}
+
+.frame .div-5 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  left: 39px;
+  position: absolute;
+  top: 155px;
+  width: 166px;
+}
+
+.frame .text-wrapper-3 {
+  color: var(--neutral-0);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.6px;
+  line-height: 28.8px;
+  margin-top: -0.98px;
+  position: relative;
+  width: 166px;
+}
+
+.frame .overlap-3 {
+  height: 315px;
+  position: relative;
+  top: -2px;
+  width: 704px;
+}
+
+.frame .overlap-group-wrapper-5 {
+  height: 315px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(180deg);
+  width: 704px;
+}
+
+.frame .overlap-group-5 {
+  height: 314px;
+  left: 269px;
+  position: relative;
+  width: 435px;
+}
+
+.frame .rectangle-6 {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+  background-blend-mode: darken;
+  height: 314px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 435px;
+}
+
+.frame .div-6 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 40px;
+  left: 39px;
+  position: absolute;
+  top: 119px;
+}
+
+.frame .consulting-for {
+  color: var(--neutral-0);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.6px;
+  line-height: 28.8px;
+  margin-top: -1px;
+  position: relative;
+  width: 276px;
+}
+
+.frame .CTA-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 23.46px;
+  justify-content: center;
+  position: relative;
+}

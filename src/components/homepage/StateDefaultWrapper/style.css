@@ -1,0 +1,39 @@
+.state-default-wrapper {
+  all: unset;
+  align-items: center;
+  border: 1px solid;
+  border-color: var(--secondary-03);
+  box-sizing: border-box;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 12px 24px;
+  position: relative;
+}
+
+.state-default-wrapper .text-wrapper-9 {
+  color: var(--secondary-03);
+  font-family: var(--subtitle-MED-font-family);
+  font-size: var(--subtitle-MED-font-size);
+  font-style: var(--subtitle-MED-font-style);
+  font-weight: var(--subtitle-MED-font-weight);
+  letter-spacing: var(--subtitle-MED-letter-spacing);
+  line-height: var(--subtitle-MED-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.state-default-wrapper.default-true {
+  border-radius: 40px;
+}
+
+.state-default-wrapper:hover {
+  background-color: #4d9f98;
+  border-radius: 45px;
+}
+
+.state-default-wrapper:hover .text-wrapper-9 {
+  color: #ffffff;
+}

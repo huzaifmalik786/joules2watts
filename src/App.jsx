@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { useWindowWidth } from "./breakpoints";
 import { Iphone } from "./screens/msp";
-import { MobileNav } from "./screens/MobileNav";
 import { Services } from "./screens/services";
 import { Hire } from "./screens/hire";
 import { Consulting } from "./screens/consulting";
@@ -17,22 +16,22 @@ import { About } from "./screens/about";
 import { Contact } from "./screens/contact";
 import { Industries } from "./screens/industries";
 import { Leadership } from "./screens/leadership";
+import { Careers } from "./screens/careers";
+import { Privacy } from "./screens/privacy";
+import { CSR } from "./screens/csr";
+import { Homepage } from "./screens/homepage";
 
 const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Homepage/>
+  },
   {
     path: "/msp",
     element: <Iphone />,
   },
   {
-    path: "/iphone-14-3",
-    element: <Iphone />,
-  },
-  {
-    path: "/mobile-nav",
-    element: <MobileNav />,
-  },
-  {
-    path: "/",
+    path: "/services-overview",
     element: <Services />
   },
   {
@@ -82,6 +81,18 @@ const router = createBrowserRouter([
   {
     path: "/leadership",
     element: <Leadership/>
+  },
+  {
+    path: "/careers",
+    element: <Careers/>
+  },
+  {
+    path: "/privacy-policy",
+    element: <Privacy/>
+  },
+  {
+    path: "/csr-policy",
+    element: <CSR/>
   }
 ]);
 

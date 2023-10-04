@@ -1,0 +1,223 @@
+.property-default-main {
+  height: 580px;
+  overflow: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+.property-default-main .frame-15 {
+  background-image: url(../../../../static/homepage/istockphoto-530281675-612x612-2.png);
+  background-size: 100% 100%;
+  height: 580px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.property-default-main .frame-16 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 24px;
+  left: 80px;
+  position: absolute;
+  top: 153px;
+}
+
+.property-default-main .text-wrapper-10 {
+  color: #ffffff;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: -0.72px;
+  line-height: 67.2px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.property-default-main .frame-17 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+}
+
+.property-default-main .text-wrapper-11 {
+  color: var(--neutral-0);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+  margin-top: -1px;
+  position: relative;
+  width: 523px;
+}
+
+.property-default-main .frame-18 {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 5px;
+  left: 80px;
+  position: absolute;
+  top: 500px;
+}
+
+.property-default-main .ellipse-19 {
+  background-color: var(--neutral-30);
+  border-radius: 5.5px;
+  height: 11px;
+  position: relative;
+  width: 11px;
+}
+
+.property-default-main .ellipse-20 {
+  background-color: #ffffff52;
+  border-radius: 5.5px;
+  height: 11px;
+  position: relative;
+  width: 11px;
+}
+
+.property-default-main .frame-19 {
+  height: 580px;
+  left: 1440px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.property-default-main .rectangle-6 {
+  height: 634px;
+  left: -4204px;
+  position: absolute;
+  top: -1578px;
+  width: 1383px;
+}
+
+.property-default-main .overlap-group-3 {
+  background: linear-gradient(
+    180deg,
+    rgb(0, 0, 0) 0%,
+    rgb(7, 17, 3) 25%,
+    rgb(31.88, 31.88, 31.88) 44.79%,
+    rgb(46.75, 46.75, 46.75) 61.46%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  filter: blur(80px);
+  height: 714px;
+  left: -116px;
+  position: absolute;
+  top: -60px;
+  width: 1684px;
+}
+
+.property-default-main .frame-20 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 24px;
+  left: 196px;
+  position: absolute;
+  top: 242px;
+}
+
+.property-default-main .text-wrapper-12 {
+  color: #ffffff;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: -0.53px;
+  line-height: 49px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.property-default-main .our-client-and-2 {
+  color: var(--neutral-10);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: -0.17px;
+  line-height: 23.8px;
+  margin-top: -1px;
+  position: relative;
+  width: 436px;
+}
+
+.property-default-main .CTA-3 {
+  all: unset;
+  align-items: center;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  position: relative;
+}
+
+.property-default-main .text-wrapper-13 {
+  color: #ffffff;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: -0.17px;
+  line-height: 23.8px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.property-default-main .arrow-forward-4 {
+  height: 24px;
+  margin-left: -4538px;
+  margin-top: -1950px;
+  position: relative;
+  width: 24px;
+}
+
+.property-default-main .text-wrapper-14 {
+  color: #ffffff;
+  font-family: var(--h4-REG-font-family);
+  font-size: var(--h4-REG-font-size);
+  font-style: var(--h4-REG-font-style);
+  font-weight: var(--h4-REG-font-weight);
+  height: 41px;
+  left: 196px;
+  letter-spacing: var(--h4-REG-letter-spacing);
+  line-height: var(--h4-REG-line-height);
+  position: absolute;
+  top: 120px;
+  white-space: nowrap;
+}
+
+.property-default-main .frame-21 {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 5px;
+  left: 196px;
+  position: absolute;
+  top: 560px;
+}
+
+.property-default-main .ellipse-21 {
+  background-color: #d9d9d952;
+  border-radius: 5.5px;
+  height: 11px;
+  position: relative;
+  width: 11px;
+}
+
+.property-default-main .carousel-instance {
+  left: 2880px !important;
+  position: absolute !important;
+  top: 0 !important;
+}

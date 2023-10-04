@@ -1,6 +1,6 @@
 
 .mobile-only{
-    display: none;
+    display: none !important;
 }
 
 body{
@@ -9,10 +9,10 @@ body{
 
 @media (max-width: 450px) {
     .desktop-only{
-        display: none;
+        display: none !important;
     }
     .mobile-only{
-        display: block;
+        display: block !important;
     }
 }
 
