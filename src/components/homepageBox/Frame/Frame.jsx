@@ -4,7 +4,7 @@ import "./style.css";
 
 export const Frame = () => {
   return (
-    <div className="frame">
+    <div className="frame-mobile">
       <div className="service">
         <div className="overlap">
           <div className="overlap-group-wrapper">

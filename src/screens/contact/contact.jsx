@@ -182,9 +182,9 @@ export const Contact = () => {
             <>
               <div className="overlap-wrapper">
                 <div className="overlap-3">
-                  <img className="pyramids-2" alt="Pyramids" />
+                  <img className="pyramids-2" alt="Pyramids" src="/contact/pyramids-1.png"/>
                   <img className="minimal-podium-2" alt="Minimal podium" />
-                  <img className="rectangle-2" alt="Rectangle" src="/contact/rectangle-118-16.svg" />
+                  <img className="rectangle-2" alt="Rectangle" src="/contact/rectangle-118-15.svg" />
                   <div className="frame-23">
                     <div className="frame-24">
                       <div className="text-wrapper-18">BRANCH OFFICE</div>

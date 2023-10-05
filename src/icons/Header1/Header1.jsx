@@ -13,14 +13,17 @@ export const Header1 = ({ className, white }) => {
   return (
     <>
       <MobileNav show={showNav} setShow={setShowNav} />
-      <div className="mobile-na">
-        <Link to="/">
-          <img className="logo-mobile" alt="Logo" src="/services/logo-1.png" />
-        </Link>
-        <button onClick={()=> setShowNav(true)}>
-          <img className="menu-mobile" alt="menu" src={white? "/menuwhite.svg": "/menu.png"} />
-        </button>
+      <div className="mobile-only">
+        <div className="mobile-na">
+          <Link to="/">
+            <img className="logo-mobile" alt="Logo" src="/services/logo-1.png" />
+          </Link>
+          <button onClick={() => setShowNav(true)}>
+            <img className="menu-mobile" alt="menu" src={white ? "/menuwhite.svg" : "/menu.png"} />
+          </button>
+        </div>
       </div>
+
       {/* <svg
       className={`header-1 ${className}`}
       fill="none"

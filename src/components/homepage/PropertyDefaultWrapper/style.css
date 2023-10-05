@@ -27,6 +27,7 @@
   font-family: "Source Sans Pro", Helvetica;
   font-size: 32px;
   font-weight: 600;
+  z-index: 1;
   letter-spacing: -0.48px;
   line-height: 44.8px;
   margin-top: -1px;
@@ -38,6 +39,7 @@
   align-items: flex-start;
   align-self: stretch;
   display: flex;
+  z-index: 1;
   flex: 0 0 auto;
   flex-direction: column;
   gap: 24px;
@@ -256,6 +258,14 @@
   position: relative;
   top: -57px;
   width: 1170px;
+}
+.property-default-wrapper-main .property-1-5-variant-3::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: -10px;
+  height:  100%;
+  background: rgba(0, 0, 0, 0.35);
 }
 
 .property-default-wrapper-main .property-1-5-variant-2 {

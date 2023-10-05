@@ -1,10 +1,10 @@
-.carousel {
+.carousel-no {
   height: 580px;
   overflow: hidden;
   width: 1440px;
 }
 
-.carousel .overlap-group {
+.carousel-no .overlap-group {
   height: 714px;
   left: -163px;
   position: relative;
@@ -12,7 +12,7 @@
   width: 1805px;
 }
 
-.carousel .img {
+.carousel-no .img {
   height: 656px;
   left: 718px;
   object-fit: cover;
@@ -21,7 +21,7 @@
   width: 1087px;
 }
 
-.carousel .rectangle-2 {
+.carousel-no .rectangle-2 {
   background: linear-gradient(
     180deg,
     rgb(0, 0, 0) 0%,
@@ -38,7 +38,7 @@
   width: 1676px;
 }
 
-.carousel .frame-2 {
+/* .carousel-no .frame-2 {
   align-items: flex-start;
   display: inline-flex;
   flex-direction: column;
@@ -46,9 +46,9 @@
   left: 243px;
   position: absolute;
   top: 214px;
-}
+} */
 
-.carousel .text-wrapper {
+.carousel-no .text-wrapper {
   color: #ffffff;
   font-family: "Source Sans Pro", Helvetica;
   font-size: 35px;
@@ -60,7 +60,7 @@
   width: 396px;
 }
 
-.carousel .frame-3 {
+.carousel-no .frame-3 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -69,7 +69,7 @@
   position: relative;
 }
 
-.carousel .with-efficient-and {
+.carousel-no .with-efficient-and {
   color: var(--neutral-10);
   font-family: "Source Sans Pro", Helvetica;
   font-size: 17px;
@@ -81,7 +81,7 @@
   width: 461px;
 }
 
-.carousel .button {
+.carousel-no .button {
   all: unset;
   align-items: center;
   box-sizing: border-box;
@@ -91,7 +91,7 @@
   position: relative;
 }
 
-.carousel .text-wrapper-2 {
+.carousel-no .text-wrapper-2 {
   color: #ffffff;
   font-family: "Source Sans Pro", Helvetica;
   font-size: 17px;
@@ -104,13 +104,13 @@
   width: fit-content;
 }
 
-.carousel .arrow-forward-2 {
+.carousel-no .arrow-forward-2 {
   height: 24px;
   position: relative;
   width: 24px;
 }
 
-.carousel .text-wrapper-3 {
+.carousel-no .text-wrapper-3 {
   color: #ffffff;
   font-family: var(--h4-REG-font-family);
   font-size: var(--h4-REG-font-size);
@@ -125,7 +125,7 @@
   white-space: nowrap;
 }
 
-.carousel .frame-4 {
+.carousel-no .frame-4 {
   align-items: flex-start;
   display: inline-flex;
   gap: 5px;
@@ -134,7 +134,7 @@
   top: 558px;
 }
 
-.carousel .ellipse-6 {
+.carousel-no .ellipse-6 {
   background-color: #f6f7f852;
   border-radius: 5.5px;
   height: 11px;
@@ -142,7 +142,7 @@
   width: 11px;
 }
 
-.carousel .ellipse-7 {
+.carousel-no .ellipse-7 {
   background-color: var(--neutral-30);
   border-radius: 5.5px;
   height: 11px;

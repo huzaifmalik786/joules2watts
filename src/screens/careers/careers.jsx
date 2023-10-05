@@ -141,7 +141,7 @@ export const Careers = () => {
               <div className="certification-badge">
                 <div className="a" />
               </div>
-              <img className="seekpng" alt="Seekpng" />
+              <img className="seekpng" alt="Seekpng" src="/about/seek.png"/>
             </>
           )}
 
@@ -230,7 +230,7 @@ export const Careers = () => {
                 <div className="frame-23" />
               </div>
               <div className="rectangle-7" />
-              <img className="seekpng-2" alt="Seekpng" />
+              <img className="seekpng-2" alt="Seekpng" src="/about/seek.png"/>
               <div className="frame-24">
                 <div className="frame-25">
                   <div className="text-wrapper-20">HYDERABAD OFFICE</div>

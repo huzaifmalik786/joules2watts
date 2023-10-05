@@ -2,11 +2,34 @@ import React from "react";
 import { useWindowWidth } from "../../breakpoints";
 import { Component } from "../../components/about/Component";
 import { Cta } from "../../components/about/Cta";
-import { StateDefaultWrapper } from "../../components/about/StateDefaultWrapper";
 import { Header1 } from "../../icons/Header1";
 import "./style.css";
 import { Header } from "../../components/shared/header";
 import { Footer } from "../../components/shared/footer";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+
+const ButtonGroup = ({ next, previous, ...rest }) => {
+  const {
+    carouselState: { currentSlide },
+  } = rest;
+  return (
+    <button onClick={() => next()} className="next-button">
+      <img className="arrow-forward-ios" alt="Arrow forward ios" src="/services/arrow-forward-ios.png" />
+    </button>
+  );
+};
+
+const ButtonGroup2 = ({ next, previous, ...rest }) => {
+  const {
+    carouselState: { currentSlide },
+  } = rest;
+  return (
+    <button onClick={() => next()} className="arrow">
+      <img className="arrow-forward-ios-2" alt="Arrow forward ios" src="/services/arrow-forward-ios.png" />
+    </button>
+  );
+};
 
 export const About = () => {
   const screenWidth = useWindowWidth();
@@ -16,7 +39,7 @@ export const About = () => {
       <div
         className="iphone"
         style={{
-          height: screenWidth < 450 ? "7382px" : screenWidth >= 450 ? "4905px" : undefined,
+          height: screenWidth < 450 ? "7582px" : screenWidth >= 450 ? "4905px" : undefined,
           width: screenWidth < 450 ? "390px" : screenWidth >= 450 ? "1440px" : undefined,
         }}
       >
@@ -55,83 +78,97 @@ export const About = () => {
                   <div className="section-industries">
                     <div className="overlap-group-3">
                       <div className="container">
-                        <div className="IT-services">
-                          <div className="smart-CEO-start-up">
-                            Smart CEO
-                            <br />
-                            Start-up 50 2017
-                          </div>
-                          <img className="frame-2" alt="Frame" src="/about/frame.svg" />
-                        </div>
-                        <div className="BFSI">
-                          <p className="text-wrapper-2">Women super achiever awards 2018</p>
-                          <div className="frame-wrapper">
-                            <div className="frame-3">
-                              <p className="by-femina-for">
-                                By Femina For Excellence Talent
-                                <br />
-                                industry
-                              </p>
+                        <Carousel
+                          arrows={false}
+                          swipeable={true}
+                          draggable={true}
+                          showDots={false}
+                          responsive={
+                            {
+                              desktop: {
+                                breakpoint: { max: 3000, min: 450 },
+                                items: 4.5,
+                                slidesToSlide: 1,
+                              }
+                            }}
+                          autoPlay={true}
+                          infinite
+                          autoPlaySpeed={3000}
+                          containerClass="carousel"
+                          itemClass="carousel-item"
+                          pauseOnHover={false}
+                          transitionDuration={500}
+                          customButtonGroup={<ButtonGroup />}
+                        >
+                          <div className="BFSI">
+                            <p className="text-wrapper-2">Smart CEO Start-up 50 2017</p>
+                            <div className="frame-wrapper">
+                              <div className="frame-3">
+                                <p className="by-femina-for">
+                                  For long term potential growth
+                                  and client satisfaction
+                                </p>
+                              </div>
                             </div>
+                            <img className="frame-4" alt="Frame" src="/about/frame-1.svg" />
                           </div>
-                          <img className="frame-4" alt="Frame" src="/about/frame-1.svg" />
-                        </div>
-                        <div className="telecom">
-                          <div className="text-wrapper-3">We innovation awards</div>
-                          <div className="div-wrapper">
-                            <div className="think-big-event-by-wrapper">
-                              <p className="think-big-event-by">
-                                “think Big” Event
-                                <br />
-                                by Weconnect And Niti Ayog
-                              </p>
+                          <div className="BFSI">
+                            <p className="text-wrapper-2">Women super achiever awards 2018</p>
+                            <div className="frame-wrapper">
+                              <div className="frame-3">
+                                <p className="by-femina-for">
+                                  By Femina For Excellence Talent
+                                  <br />
+                                  industry
+                                </p>
+                              </div>
                             </div>
+                            <img className="frame-4" alt="Frame" src="/about/frame-1.svg" />
                           </div>
-                          <img className="frame-5" alt="Frame" src="/about/frame-2.svg" />
-                        </div>
-                        <div className="telecom">
-                          <p className="text-wrapper-4">Entrepreneur of the year 2018</p>
-                          <div className="frame-6">
-                            <div className="frame-7">
-                              <p className="text-wrapper-5">
-                                Ubs Transformation Future Women
-                                <br />
-                                leader Awards
-                              </p>
+                          <div className="BFSI">
+                            <p className="text-wrapper-2">We innovation awards</p>
+                            <div className="frame-wrapper">
+                              <div className="frame-3">
+                                <p className="by-femina-for">
+                                  “Think Big” event
+                                  by WeConnect and niti ayog
+                                </p>
+                              </div>
                             </div>
+                            <img className="frame-4" alt="Frame" src="/about/frame-1.svg" />
                           </div>
-                          <img className="frame-8" alt="Frame" src="/about/frame-3.svg" />
-                        </div>
-                        <div className="telecom-2">
-                          <p className="text-wrapper-4">India’s 50 most exciting startups</p>
-                          <div className="frame-6">
-                            <div className="frame-7">
-                              <p className="text-wrapper-5">
-                                Award For Its Accelerated
-                                <br />
-                                growth And Differentiated Solutions
-                              </p>
+                          <div className="BFSI">
+                            <p className="text-wrapper-2">Entrepreneur of the year 2018</p>
+                            <div className="frame-wrapper">
+                              <div className="frame-3">
+                                <p className="by-femina-for">
+                                  UBS Transformation future women
+                                  leader awards
+                                </p>
+                              </div>
                             </div>
+                            <img className="frame-4" alt="Frame" src="/about/frame-1.svg" />
                           </div>
-                          <img className="frame-8" alt="Frame" src="/about/frame-4.svg" />
-                        </div>
-                        <div className="telecom-2">
-                          <div className="text-wrapper-6">Products</div>
-                        </div>
-                        <div className="telecom">
-                          <div className="text-wrapper-6">E-Commerce</div>
-                        </div>
-                        <div className="frame-9">
-                          <div className="for-long-term-wrapper">
-                            <p className="for-long-term">
-                              For Long Term Potential Growth <br />
-                              and Client Satisfaction
-                            </p>
+                          <div className="BFSI">
+                            <p className="text-wrapper-2">India’s 50 most exciting startups</p>
+                            <div className="frame-wrapper">
+                              <div className="frame-3">
+                                <p className="by-femina-for">
+                                  award for its accelerated
+                                  growth and differentiated solutions
+                                </p>
+                              </div>
+                            </div>
+                            <img className="frame-4" alt="Frame" src="/about/frame-1.svg" />
                           </div>
-                        </div>
-                      </div>
-                      <div className="arrow">
-                        <img className="arrow-forward-ios" alt="Arrow forward ios" src="/about/arrow-forward-ios.png" />
+                          <div className="telecom-2">
+                            <div className="text-wrapper-6">Products</div>
+                          </div>
+                          <div className="telecom">
+                            <div className="text-wrapper-6">E-Commerce</div>
+                          </div>
+                        </Carousel>
+
                       </div>
                     </div>
                   </div>
@@ -164,7 +201,7 @@ export const About = () => {
                   text="Connect with us"
                 />
               </div>
-              <img className="element-cube-design" alt="Element cube design" src="/about/cube.png"/>
+              <img className="element-cube-design" alt="Element cube design" src="/about/cube.png" />
               <img className="rectangle-3" alt="Rectangle" src="/about/rectangle-140.svg" />
               <div className="frame-11">
                 <div className="frame-12">
@@ -244,7 +281,7 @@ export const About = () => {
             <img className="rectangle-4" alt="Rectangle" src="/about/rectangle-118.svg" />
             <div className="frame-18">
               <div className="frame-19">
-                <img className="element" alt="Element" src="/about/man.png"/>
+                <img className="element" alt="Element" src="/about/man.png" />
                 <div className="frame-20">
                   <div className="frame-21">
                     <div className="text-wrapper-14">BM Gupta</div>
@@ -264,11 +301,11 @@ export const About = () => {
                   </p>
                 </div>
               </div>
-              <img className="linkedin-circled" alt="Linkedin circled" />
+              <img className="linkedin-circled" alt="Linkedin circled" src="/about/linkedin-circled-1.png" />
             </div>
             <div className="frame-22">
               <div className="frame-19">
-                <img className="element" alt="Element" src="/about/lady.png"/>
+                <img className="element" alt="Element" src="/about/lady.png" />
                 <div className="frame-20">
                   <div className="frame-21">
                     <div className="text-wrapper-17">Priti Sawant</div>
@@ -292,7 +329,7 @@ export const About = () => {
           </div>
           <div className="overlap-6">
             <div className="rectangle-5" />
-            <img className="seekpng" alt="Seekpng" src="/about/seek.png"/>
+            <img className="seekpng" alt="Seekpng" src="/about/seek.png" />
             <div className="frame-23">
               <div className="frame-24">
                 <div className="frame-25">
@@ -381,7 +418,7 @@ export const About = () => {
                 <div className="overlap-group-4">
                   <div className="ellipse-2" />
                   <img className="rectangle-7" alt="Rectangle" src="/about/rectangle-76-1.svg" />
-                  <img className="christina-2" alt="Christina" src="/about/christina.png"/>
+                  <img className="christina-2" alt="Christina" src="/about/christina.png" />
                 </div>
               </div>
               <Cta
@@ -405,12 +442,24 @@ export const About = () => {
                 </div>
               </div>
               <div className="frame-34">
-                <img className="mercedes-benz-logo" alt="Mercedes benz logo" />
-                <img className="GE-healthcare-logo" alt="Ge healthcare logo" />
-                <img className="sony-logo" alt="Sony logo" />
-                <img className="shell-logo" alt="Shell logo" />
-                <img className="amazon" alt="Amazon" />
-                <img className="wipro-logo-new-og" alt="Wipro logo new og" />
+                <img
+                  className="mercedes-benz-logo"
+                  alt="Mercedes benz logo"
+                  src="/logos/mercedes-benz-logo-2010-1.png"
+                />
+                <img
+                  className="GE-healthcare-logo"
+                  alt="Ge healthcare logo"
+                  src="/logos/ge-healthcare-logo-1.png"
+                />
+                <img className="sony-logo" alt="Sony logo" src="/logos/sony-logo-1.png" />
+                <img className="shell-logo" alt="Shell logo" src="/logos/shell-logo-1971-1995-1.png" />
+                <img className="amazon" alt="Amazon" src="/logos/amazon-1-1.png" />
+                <img
+                  className="wipro-logo-new-og"
+                  alt="Wipro logo new og"
+                  src="/logos/wipro-logo-new-og-502x263-1.png"
+                />
               </div>
             </div>
           </div>
@@ -443,20 +492,20 @@ export const About = () => {
                       <img
                         className="mercedes-benz-logo-2"
                         alt="Mercedes benz logo"
-                        src="/about/mercedes-benz-logo-2010-1.png"
+                        src="/logos/mercedes-benz-logo-2010-1.png"
                       />
                       <img
                         className="GE-healthcare-logo-2"
                         alt="Ge healthcare logo"
-                        src="/about/ge-healthcare-logo-1.png"
+                        src="/logos/ge-healthcare-logo-1.png"
                       />
-                      <img className="sony-logo-2" alt="Sony logo" src="/about/sony-logo-1.png" />
-                      <img className="shell-logo-2" alt="Shell logo" src="/about/shell-logo-1971-1995-1.png" />
-                      <img className="amazon-2" alt="Amazon" src="/about/amazon-1-2.png" />
+                      <img className="sony-logo-2" alt="Sony logo" src="/logos/sony-logo-1.png" />
+                      <img className="shell-logo-2" alt="Shell logo" src="/logos/shell-logo-1971-1995-1.png" />
+                      <img className="amazon-2" alt="Amazon" src="/logos/amazon-1-1.png" />
                       <img
                         className="wipro-logo-new-og-2"
                         alt="Wipro logo new og"
-                        src="/about/wipro-logo-new-og-502x263-1.png"
+                        src="/logos/wipro-logo-new-og-502x263-1.png"
                       />
                     </div>
                   </div>
@@ -545,89 +594,104 @@ export const About = () => {
           <div className="section-industries-2">
             <div className="overlap-group-3">
               <div className="container-2">
-                <div className="IT-services">
-                  <div className="smart-CEO-start-up">
-                    Smart CEO
-                    <br />
-                    Start-up 50 2017
-                  </div>
-                  <img className="frame-2" alt="Frame" src="/about/frame-5.svg" />
-                </div>
-                <div className="BFSI-2">
-                  <p className="text-wrapper-2">Women super achiever awards 2018</p>
-                  <div className="frame-wrapper">
-                    <div className="frame-3">
-                      <p className="by-femina-for">
-                        By Femina For Excellence Talent
-                        <br />
-                        industry
-                      </p>
+                <Carousel
+                  arrows={false}
+                  swipeable
+                  draggable
+                  showDots={false}
+                  responsive={
+                    {
+                      desktop: {
+                        breakpoint: { max: 450, min: 0 },
+                        items: 2,
+                        slidesToSlide: 1,
+                      }
+                    }}
+                  autoPlay={false}
+                  infinite
+                  autoPlaySpeed={3200}
+                  keyBoardControl={true}
+                  transitionDuration={500}
+                  containerClass="carousel"
+                  itemClass="carousel-item"
+                  pauseOnHover={false}
+                  customButtonGroup={<ButtonGroup2 />}
+                >
+                  <div className="BFSI-2">
+                    <p className="text-wrapper-2">Smart CEO Start-up 50 2017</p>
+                    <div className="frame-wrapper">
+                      <div className="frame-3">
+                        <p className="by-femina-for">
+                          For long term potential growth
+                          and client satisfaction
+                        </p>
+                      </div>
                     </div>
+                    <img className="frame-4" alt="Frame" src="/about/frame-1.svg" />
                   </div>
-                  <img className="frame-4" alt="Frame" src="/about/frame-6.svg" />
-                </div>
-                <div className="telecom-2">
-                  <div className="text-wrapper-3">We innovation awards</div>
-                  <div className="div-wrapper">
-                    <div className="think-big-event-by-wrapper">
-                      <p className="think-big-event-by">
-                        “think Big” Event
-                        <br />
-                        by Weconnect And Niti Ayog
-                      </p>
+                  <div className="BFSI-2">
+                    <p className="text-wrapper-2">Women super achiever awards 2018</p>
+                    <div className="frame-wrapper">
+                      <div className="frame-3">
+                        <p className="by-femina-for">
+                          By Femina For Excellence Talent
+                          <br />
+                          industry
+                        </p>
+                      </div>
                     </div>
+                    <img className="frame-4" alt="Frame" src="/about/frame-1.svg" />
                   </div>
-                  <img className="frame-5" alt="Frame" src="/about/frame-7.png" />
-                </div>
-                <div className="telecom">
-                  <p className="text-wrapper-4">Entrepreneur of the year 2018</p>
-                  <div className="frame-6">
-                    <div className="frame-7">
-                      <p className="text-wrapper-5">
-                        Ubs Transformation Future Women
-                        <br />
-                        leader Awards
-                      </p>
+                  <div className="BFSI-2">
+                    <p className="text-wrapper-2">We innovation awards</p>
+                    <div className="frame-wrapper">
+                      <div className="frame-3">
+                        <p className="by-femina-for">
+                          “Think Big” event
+                          by WeConnect and niti ayog
+                        </p>
+                      </div>
                     </div>
+                    <img className="frame-4" alt="Frame" src="/about/frame-1.svg" />
                   </div>
-                  <img className="frame-8" alt="Frame" src="/about/frame-8.png" />
-                </div>
-                <div className="telecom">
-                  <p className="text-wrapper-4">India’s 50 most exciting startups</p>
-                  <div className="frame-6">
-                    <div className="frame-7">
-                      <p className="text-wrapper-5">
-                        Award For Its Accelerated
-                        <br />
-                        growth And Differentiated Solutions
-                      </p>
+                  <div className="BFSI-2">
+                    <p className="text-wrapper-2">Entrepreneur of the year 2018</p>
+                    <div className="frame-wrapper">
+                      <div className="frame-3">
+                        <p className="by-femina-for">
+                          UBS Transformation future women
+                          leader awards
+                        </p>
+                      </div>
                     </div>
+                    <img className="frame-4" alt="Frame" src="/about/frame-1.svg" />
                   </div>
-                  <img className="frame-8" alt="Frame" src="/about/frame-8.png" />
-                </div>
-                <div className="telecom">
-                  <div className="text-wrapper-6">Products</div>
-                </div>
-                <div className="telecom-3">
-                  <div className="text-wrapper-6">E-Commerce</div>
-                </div>
-                <div className="frame-9">
-                  <div className="for-long-term-wrapper">
-                    <p className="for-long-term">
-                      For Long Term Potential Growth <br />
-                      and Client Satisfaction
-                    </p>
+                  <div className="BFSI-2">
+                    <p className="text-wrapper-2">India’s 50 most exciting startups</p>
+                    <div className="frame-wrapper">
+                      <div className="frame-3">
+                        <p className="by-femina-for">
+                          award for its accelerated
+                          growth and differentiated solutions
+                        </p>
+                      </div>
+                    </div>
+                    <img className="frame-4" alt="Frame" src="/about/frame-1.svg" />
                   </div>
-                </div>
-              </div>
-              <div className="arrow">
-                <img className="arrow-forward-ios-2" alt="Arrow forward ios" src="/about/arrow-forward-ios-1.png" />
+                  <div className="telecom">
+                    <div className="text-wrapper-6">Products</div>
+                  </div>
+                  <div className="telecom-3">
+                    <div className="text-wrapper-6">E-Commerce</div>
+                  </div>
+                </Carousel>
+
               </div>
             </div>
           </div>
           <div className="overlap-10">
             <div className="rectangle-9" />
-            <img className="element-d-cube-design" alt="Element cube design" src="/about/cube.png"/>
+            <img className="element-d-cube-design" alt="Element cube design" src="/about/cube.png" />
             <div className="frame-61">
               <p className="being-the-fastest-2">
                 <span className="text-wrapper-51">
@@ -656,7 +720,7 @@ export const About = () => {
             </div>
             <img className="rectangle-10" alt="Rectangle" src="/about/rectangle-178.svg" />
             <div className="frame-62">
-              <div className="frame-63">
+              <div className="frame-63 image-1">
                 <div className="frame-64">
                   <p className="div-4">
                     <span className="text-wrapper-8">
@@ -677,7 +741,7 @@ export const About = () => {
                   </p>
                 </div>
               </div>
-              <div className="frame-63">
+              <div className="frame-63 image-2">
                 <div className="frame-64">
                   <p className="div-4">
                     <span className="text-wrapper-8">
@@ -698,7 +762,7 @@ export const About = () => {
                   </p>
                 </div>
               </div>
-              <div className="frame-63">
+              <div className="frame-63 image-3">
                 <div className="frame-64">
                   <p className="div-4">
                     <span className="text-wrapper-8">
@@ -729,11 +793,11 @@ export const About = () => {
           </div>
           <div className="frame-66">
             <div className="frame-67">
-              <img className="element-2" alt="Element" />
+              <img className="element-2" alt="Element" src="/about/lady.png" />
               <div className="frame-68">
                 <div className="frame-69">
                   <div className="text-wrapper-54">Priti Sawant</div>
-                  <img className="linkedin-circled-3" alt="Linkedin circled" />
+                  <img className="linkedin-circled-3" alt="Linkedin circled" src="/about/linkedin-circled-1.png" />
                 </div>
                 <div className="text-wrapper-55">Founder &amp; CEO, JoulestoWatts</div>
                 <p className="text-wrapper-56">
@@ -752,7 +816,7 @@ export const About = () => {
           </div>
           <div className="frame-70">
             <div className="frame-67">
-              <img className="element-3" alt="Element" />
+              <img className="element-3" alt="Element" src="/about/man.png"/>
               <div className="frame-68">
                 <div className="frame-69">
                   <div className="text-wrapper-54">BM Gupta</div>
@@ -823,7 +887,7 @@ export const About = () => {
                 </div>
               </div>
             </div>
-            <img className="seekpng-2" alt="Seekpng" src="/about/seek.png"/>
+            <img className="seekpng-2" alt="Seekpng" src="/about/seek.png" />
           </div>
         </div>
         <Footer />

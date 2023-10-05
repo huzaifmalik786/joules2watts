@@ -21,6 +21,7 @@
 }
 
 .contact .overlap {
+  background: linear-gradient(0deg, rgba(21, 48, 50, 0.80) 0%, rgba(21, 48, 50, 0.80) 100%), url(../../../static/contact/image-1-2.png), lightgray 50% / cover no-repeat;
   background-position: 50% 50%;
   background-size: cover;
   height: 240px;
@@ -31,14 +32,17 @@
 }
 
 .contact .div {
-  color: var(--neutral-10);
-  font-family: var(--h1-REG-font-family);
-  font-size: var(--h1-REG-font-size);
-  font-style: var(--h1-REG-font-style);
-  font-weight: var(--h1-REG-font-weight);
+  color: var(--neutral-10, #F6F7F8);
+  text-align: center;
+  /* H1/REG */
+  font-family: Source Sans Pro;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  /* 60px */
+  letter-spacing: -0.75px;
   left: 85px;
-  letter-spacing: var(--h1-REG-letter-spacing);
-  line-height: var(--h1-REG-line-height);
   position: absolute;
   text-align: center;
   top: 87px;

@@ -51,13 +51,13 @@ export const Component = ({
                 )}
               </div>
             </div>
-            <div className="frame-13">
+            {/* <div className="frame-13">
               <div className="ellipse-13" />
               <div className="ellipse-14" />
               <div className="ellipse-15" />
               <div className="ellipse-14" />
               <div className="ellipse-14" />
-            </div>
+            </div> */}
           </>
         )}
 
@@ -111,13 +111,13 @@ export const Component = ({
                 )}
               </div>
             </div>
-            <div className="frame-13">
+            {/* <div className="frame-13">
               <div className="ellipse-14" />
               <div className="ellipse-16" />
               <div className="ellipse-14" />
               <div className="ellipse-17" />
               <div className="ellipse-18" />
-            </div>
+            </div> */}
           </div>
         )}
       </div>

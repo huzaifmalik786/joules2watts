@@ -12,6 +12,11 @@
   position: relative;
 }
 
+.carousel {
+  width: 100%;
+  height: auto;
+}
+
 .about .header-instance {
   height: 60px !important;
   left: 0 !important;
@@ -175,7 +180,6 @@
   height: 354px;
   left: 82px;
   overflow: hidden;
-  overflow-x: scroll;
   padding: 56px 0px;
   position: absolute;
   top: 1px;
@@ -273,6 +277,7 @@
 }
 
 .about .telecom {
+  background-image: url(../../../static//about/product.jpeg);
   background-position: 50% 50%;
   background-size: cover;
   height: 240px;
@@ -388,7 +393,7 @@
 }
 
 .about .telecom-2 {
-  background-image: url(../../../static/about/rectangle-25.png);
+  background-image: url(../../../static/about/ecommerce.jpeg);
   background-position: 50% 50%;
   background-size: cover;
   height: 240px;
@@ -446,11 +451,12 @@
 .about .arrow {
   background-color: #ffffff;
   border-radius: 30px;
-  box-shadow: -3px 1px 16px #00000040;
   height: 60px;
-  left: 1331px;
+  left: 270px;
   position: absolute;
-  top: 148px;
+  top: 80px;
+  outline: none;
+  border: none;
   width: 60px;
 }
 
@@ -543,6 +549,19 @@
   position: absolute;
   top: 1482px;
   width: 474px;
+}
+
+.about .image-1 {
+  background: url(../../../static//about/Rectangle\ 91.png);
+}
+
+.about .image-2 {
+  background: url(../../../static//about/Rectangle\ 92.png);
+
+}
+
+.about .image-3 {
+  background: url(../../../static//about/Rectangle\ 93.png);
 }
 
 .about .frame-12 {
@@ -1114,6 +1133,8 @@
 .about .frame-34 {
   align-items: center;
   display: inline-flex;
+  width: 100%;
+  overflow: scroll;
   flex: 0 0 auto;
   gap: 29px;
   justify-content: center;
@@ -1778,7 +1799,7 @@
 }
 
 .about .BFSI-2 {
-  background-image: url(../../../static/about/rectangle-24-1.svg);
+  background: #fff;
   background-size: 100% 100%;
   height: 240px;
   position: relative;
@@ -1795,11 +1816,11 @@
 }
 
 .about .arrow-forward-ios-2 {
-  height: 24px;
-  left: -2546px;
+  height: 18px;
+  left: 20px;
   position: absolute;
-  top: -12347px;
-  width: 24px;
+  top: 20px;
+  width: 18px;
 }
 
 .about .overlap-10 {

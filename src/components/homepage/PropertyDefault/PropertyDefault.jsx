@@ -15,26 +15,39 @@ export const PropertyDefault = ({
   arrowForward = "/homepage/arrow-forward-6.svg",
   carouselArrowForward = "/homepage/arrow-forward-7.svg",
   carouselArrowForwardClassName,
+  slide
 }) => {
   return (
     <div className={`property-default-main ${className}`}>
-      <div className="frame-15">
-        <div className="frame-16">
-          <div className="text-wrapper-10">Fitment mapping for efficacy</div>
-          <div className="frame-17">
-            <p className="text-wrapper-11">
-              J2W provides industry-leading recruitment process outsourcing solutions focused on scalability and
-              measurable results.
-            </p>
+      {slide == 1 &&
+        <div className="frame-15">
+          <div className="frame-16">
+            <div className="text-wrapper-10">Fitment mapping for efficacy</div>
+            <div className="frame-17">
+              <p className="text-wrapper-11">
+                J2W provides industry-leading recruitment process outsourcing solutions focused on scalability and
+                measurable results.
+              </p>
+            </div>
           </div>
+
         </div>
-        <div className="frame-18">
-          <div className="ellipse-19" />
-          <div className="ellipse-20" />
-          <div className="ellipse-20" />
+      }
+      {slide == 2 &&
+        <div className="frame-15-2">
+          <div className="frame-16">
+            <div className="text-wrapper-10">Your Growth Partners</div>
+            <div className="frame-17">
+              <p className="text-wrapper-11">
+                With a tech-oriented team on board, we aim to ensure maximum resource utilization for you company. We are you industry's leading growth partner working on AI powered mechanisms to bring you the best talent.
+              </p>
+            </div>
+          </div>
+
         </div>
-      </div>
-      <div className="frame-19">
+      }
+
+      {/* <div className="frame-19">
         <img className={`rectangle-6 ${rectangleClassName}`} alt="Rectangle" src="/homepage/rectangle-26.png" />
         <div className="overlap-group-3">
           <div className="frame-20">
@@ -64,7 +77,7 @@ export const PropertyDefault = ({
         arrowForward={carouselArrowForward}
         arrowForwardClassName={carouselArrowForwardClassName}
         className="carousel-instance"
-      />
+      /> */}
     </div>
   );
 };

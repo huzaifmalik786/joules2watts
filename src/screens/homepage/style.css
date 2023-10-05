@@ -11,16 +11,23 @@
   height: auto;
 }
 
+.homepage .carousel-1 {
+  position: absolute !important;
+  top: 475px !important;
+  width: 1459px !important;
+}
+
 .homepage .iphone {
   background-color: #ffffff;
   overflow: hidden;
   position: relative;
 }
 
-.homepage .frame-14728 {
+.homepage .mobile-carousel-1 {
   left: 16px !important;
   position: absolute !important;
   top: 1401px !important;
+  width: 100%;
 }
 
 .homepage .overlap-3 {
@@ -565,6 +572,7 @@
 }
 
 .homepage .frame-39 {
+  background-image: url(../../../static//homepage/deepmind-8hereyc6zt0-unsplash-1-1.png);
   background-position: 50% 50%;
   background-size: cover;
   height: 260px;
@@ -1539,6 +1547,13 @@
   width: fit-content;
 }
 
+.homepage .carousel-11{
+  position: absolute;
+  top: 5381px;
+  left: 0;
+  width: 100%;
+}
+
 .homepage .property-default-instance {
   left: 0 !important;
   position: absolute !important;
@@ -1797,6 +1812,7 @@
   left: 0 !important;
   position: absolute !important;
   top: 7564px !important;
+  width: 100%;
 }
 
 .homepage .carousel-5 {
@@ -1868,7 +1884,6 @@
   height: 237px;
   left: 18px;
   overflow: hidden;
-  overflow-x: scroll;
   padding: 56px 272px 56px 0px;
   position: absolute;
   top: 8483px;
@@ -1886,11 +1901,12 @@
 .homepage .arrow-forward-ios-wrapper {
   background-color: #ffffff;
   border-radius: 23px;
-  box-shadow: -2.3px 0.77px 12.27px #00000040;
+  border: none;
+  outline: none;
   height: 46px;
-  left: 27px;
+  left: 300px;
   position: absolute;
-  top: 90px;
+  top: 95px;
   width: 46px;
 }
 

@@ -7,25 +7,26 @@ import PropTypes from "prop-types";
 import React from "react";
 import "./style.css";
 
-export const Frame = ({ property1, className, rectangle = "/homepage/rectangle-190-7.svg" }) => {
+export const Frame = ({ property1, className, rectangle = "/homepage/rectangle-190.png" }) => {
   return (
-    <div className={`frame ${className}`}>
+    <div className={`homepage-frame`}>
       <img
-        className="rectangle"
+        className="rectangle-mobile"
         alt="Rectangle"
+        style={{objectFit:"cover"}}
         src={
           property1 === "variant-2"
-            ? "/homepage/rectangle-190-8.svg"
+            ? "/homepage/rectangle-190-2.svg"
             : property1 === "variant-3"
-            ? "/homepage/rectangle-190-9.svg"
+            ? "/homepage/rectangle-190-3.svg"
             : property1 === "variant-4"
-            ? "/homepage/rectangle-190-10.svg"
+            ? "/homepage/rectangle-190-4.svg"
             : property1 === "variant-5"
-            ? "/homepage/rectangle-190-11.svg"
+            ? "/homepage/rectangle-190-5.svg"
             : rectangle
         }
       />
-      <div className="div">
+      <div className="div-mobile">
         <div className="agile-talent">
           {property1 === "default" && <p className="text-wrapper-45">Agile Talent Fulfillment Through Devops</p>}
 
@@ -75,13 +76,13 @@ export const Frame = ({ property1, className, rectangle = "/homepage/rectangle-1
             </p>
           )}
         </div>
-        <div className="div-2">
+        {/* <div className="div-2">
           <div className={`ellipse property-1-${property1}`} />
           <div className={`ellipse-2 property-1-0-${property1}`} />
           <div className={`ellipse-3 property-1-1-${property1}`} />
           <div className={`ellipse-4 property-1-2-${property1}`} />
           <div className={`ellipse-5 property-1-3-${property1}`} />
-        </div>
+        </div> */}
       </div>
     </div>
   );

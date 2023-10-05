@@ -12,7 +12,7 @@ export const Industries = () => {
       <div
         className="iphone"
         style={{
-          height: screenWidth < 1440 ? "4140px" : screenWidth >= 1440 ? "4312px" : undefined,
+          height: screenWidth < 1440 ? "4240px" : screenWidth >= 1440 ? "4312px" : undefined,
           width: screenWidth < 1440 ? "390px" : screenWidth >= 1440 ? "1440px" : undefined,
         }}
       >
@@ -112,11 +112,11 @@ export const Industries = () => {
           {screenWidth < 1440 && (
             <>
               <div className="frame-11">
-                <img className="unknown" alt="Unknown" />
-                <img className="flipkart-logo" alt="Flipkart logo" />
-                <img className="edutech-social-share" alt="Edutech social share" />
-                <img className="OLX-logo" alt="Olx logo" />
-                <img className="element-lam" alt="Element lam" />
+                <img className="unknown" alt="Unknown" src="/industries/unknown-2.png"/>
+                <img className="flipkart-logo" alt="Flipkart logo" src="/industries/flipkart-logo-1.png"/>
+                <img className="edutech-social-share" alt="Edutech social share" src="/industries/edutech-social-share-1.png"/>
+                <img className="OLX-logo" alt="Olx logo" src="/industries/olx-logo-1.png"/>
+                <img className="element-lam" alt="Element lam" src="/industries/14-lam-1.png"/>
                 <div className="text-wrapper-20">OSBI</div>
                 <div className="group-3">
                   <div className="overlap-group-2">
@@ -140,7 +140,7 @@ export const Industries = () => {
                     alt="Utypaslbyxwfuwhfdzxd"
                     src="/industries/utypaslbyxwfuwhfdzxd-1.png"
                   />
-                  <img className="wipro-logo-new-og" alt="Wipro logo new og" />
+                  <img className="wipro-logo-new-og" alt="Wipro logo new og" src="/logos/wipro-logo-new-og-502x263-1.png"/>
                 </div>
                 <img className="deloitte-logo" alt="Deloitte logo" src="/industries/deloitte-logo-1.png" />
                 <div className="group-5">
@@ -207,7 +207,7 @@ export const Industries = () => {
                 <div className="overlap-7">
                   <div className="text-wrapper-31">Products</div>
                   <div className="amazon-wrapper">
-                    <img className="amazon" alt="Amazon" />
+                    <img className="amazon" alt="Amazon" src="/logos/amazon-1-1.png"/>
                   </div>
                   <div className="sony-logo-wrapper">
                     <img className="sony-logo" alt="Sony logo" src="/industries/sony-logo-1-1.png" />
@@ -379,7 +379,7 @@ export const Industries = () => {
               <div className="text-wrapper-52">Captive Industries</div>
               <div className="group-20">
                 <img className="unknown-3" alt="Unknown" src="/industries/unknown-1.png" />
-                <img className="mercedes-benz-logo" alt="Mercedes benz logo" />
+                <img className="mercedes-benz-logo" alt="Mercedes benz logo" src="/logos/mercedes-benz-logo-2010-1.png"/>
                 <img
                   className="centurylink-internet"
                   alt="Centurylink internet"
@@ -419,20 +419,20 @@ export const Industries = () => {
             <Header1 className="header-7" />
             <div className="frame-31">
               <div className="frame-32">
-                <img className="unknown-4" alt="Unknown" />
-                <img className="mercedes-benz-logo-2" alt="Mercedes benz logo" />
+                <img className="unknown-4" alt="Unknown" src="/industries/unknown-1.png"/>
+                <img className="mercedes-benz-logo-2" alt="Mercedes benz logo" src="/logos/mercedes-benz-logo-2010-1.png"/>
               </div>
               <div className="frame-33">
-                <img className="centurylink-internet-2" alt="Centurylink internet" />
-                <img className="img-3" alt="Img" />
+                <img className="centurylink-internet-2" alt="Centurylink internet" src="/industries/centurylink-internet-down-not-working-outage-1.png"/>
+                <img className="img-3" alt="Img" src="/industries/y47ggy7grvg5fmz7czpy7dczc4-1.png"/>
               </div>
               <div className="frame-34">
-                <img className="northern-trust-logo-2" alt="Northern trust logo" />
-                <img className="ge-healthcare-logo-2" alt="Ge healthcare logo" />
+                <img className="northern-trust-logo-2" alt="Northern trust logo" src="/industries/northern-trust-logo-1.png"/>
+                <img className="ge-healthcare-logo-2" alt="Ge healthcare logo" src="/industries/ge-healthcare-logo-vector-1.png"/>
               </div>
               <div className="frame-35">
-                <img className="shell-logo-icon-2" alt="Shell logo icon" />
-                <img className="element-px-pearson-logo" alt="Element pearson logo" />
+                <img className="shell-logo-icon-2" alt="Shell logo icon" src="/industries/shell-logo-icon-169759-1.png"/>
+                <img className="element-px-pearson-logo" alt="Element pearson logo" src="/industries/1200px-pearson-logo-1.png"/>
               </div>
             </div>
             <div className="text-wrapper-63">Captive Industries</div>
@@ -440,30 +440,30 @@ export const Industries = () => {
               <div className="overlap-24">
                 <div className="text-wrapper-64">Products</div>
                 <div className="img-wrapper">
-                  <img className="amazon-2" alt="Amazon" />
+                  <img className="amazon-2" alt="Amazon" src="/logos/amazon-1-1.png"/>
                 </div>
                 <div className="overlap-25">
-                  <img className="sony-logo-2" alt="Sony logo" />
+                  <img className="sony-logo-2" alt="Sony logo" src="/industries/sony-logo-1-1.png"/>
                 </div>
                 <div className="overlap-26">
-                  <img className="env-yodlee-color-2" alt="Env yodlee color" />
+                  <img className="env-yodlee-color-2" alt="Env yodlee color" src="/industries/env-yodlee-color-logo-cmyk-1-1.png"/>
                 </div>
                 <div className="overlap-27">
-                  <img className="na-logo-black-rgb-2" alt="Na logo black rgb" />
+                  <img className="na-logo-black-rgb-2" alt="Na logo black rgb" src="/industries/na-logo-black-rgb-reg-mark-tcm19-21014-1.png"/>
                 </div>
                 <div className="overlap-group-8">
-                  <img className="smarten-spaces-logo-2" alt="Smarten spaces logo" />
+                  <img className="smarten-spaces-logo-2" alt="Smarten spaces logo" src="/industries/smarten-spaces-logo-1.png"/>
                 </div>
                 <div className="overlap-28">
                   <div className="rectangle-9" />
-                  <img className="inmobi-logo-2" alt="Inmobi logo" />
+                  <img className="inmobi-logo-2" alt="Inmobi logo" src="/industries/inmobi-logo-1.png"/>
                 </div>
                 <div className="overlap-29">
-                  <img className="xylem-logo-2" alt="Xylem logo" />
+                  <img className="xylem-logo-2" alt="Xylem logo" src="/industries/xylem-logo-1.png"/>
                 </div>
                 <div className="frame-36">
                   <div className="rectangle-10" />
-                  <img className="vmware-2" alt="Vmware" />
+                  <img className="vmware-2" alt="Vmware" src="/industries/vmware-1.png"/>
                 </div>
               </div>
             </div>
@@ -476,7 +476,7 @@ export const Industries = () => {
                     alt="Utypaslbyxwfuwhfdzxd"
                     src="/industries/utypaslbyxwfuwhfdzxd-1-1.png"
                   />
-                  <img className="wipro-logo-new-og-2" alt="Wipro logo new og" />
+                  <img className="wipro-logo-new-og-2" alt="Wipro logo new og" src="/logos/wipro-logo-new-og-502x263-1.png"/>
                 </div>
                 <img className="deloitte-logo-2" alt="Deloitte logo" src="/industries/deloitte-logo-1-1.png" />
                 <div className="group-26">

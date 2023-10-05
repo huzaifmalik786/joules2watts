@@ -130,6 +130,7 @@
 
 .industries .image {
   position: absolute;
+  object-fit: cover;
 }
 
 .industries .frame-2 {
@@ -1741,10 +1742,10 @@
 }
 
 .industries .frame-24 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: flex-start;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16.5px 33px;
+  gap: 16.5px;
   left: 13px;
   position: absolute;
   top: 115px;

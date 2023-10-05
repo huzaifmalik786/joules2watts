@@ -17,7 +17,7 @@ export const Leadership = () => {
           width: screenWidth < 1440 ? "390px" : screenWidth >= 1440 ? "1440px" : undefined,
         }}
       >
-        <Header/>
+        <Header />
         {screenWidth < 1440 && (
           <>
             <div className="div-wrapper">
@@ -53,7 +53,7 @@ export const Leadership = () => {
               width: screenWidth >= 1440 ? "1448px" : screenWidth < 1440 ? "394px" : undefined,
             }}
             alt="Modern geometrical"
-            src={screenWidth >= 1440 ? "/leadership/modern-geometrical-wallpaper-with-round-lines-1.png" : undefined}
+            src="/leadership/modern-geometrical-wallpaper-with-round-lines-1.png"
           />
           <img
             className="rectangle"
@@ -68,8 +68,8 @@ export const Leadership = () => {
               screenWidth >= 1440
                 ? "/leadership/rectangle-151-1.svg"
                 : screenWidth < 1440
-                ? "/leadership/rectangle-151-2.svg"
-                : undefined
+                  ? "/leadership/rectangle-151-2.svg"
+                  : undefined
             }
           />
           <img
@@ -98,7 +98,7 @@ export const Leadership = () => {
             {screenWidth >= 1440 && (
               <>
                 <div className="frame-10">
-                  <img className="element" alt="Element" />
+                  <img className="element" alt="Element" src="/about/lady.png"/>
                   <div className="frame-11">
                     <div className="frame-12">
                       <div className="text-wrapper-12">Priti Sawant</div>
@@ -117,17 +117,17 @@ export const Leadership = () => {
                     </p>
                   </div>
                 </div>
-                <img className="linkedin-circled" alt="Linkedin circled" />
+                <img className="linkedin-circled" alt="Linkedin circled" src="/about/linkedin-circled-1.png"/>
               </>
             )}
 
             {screenWidth < 1440 && (
               <div className="frame-13">
-                <img className="img" alt="Element" />
+                <img className="img" alt="Element" src="/about/lady.png"/>
                 <div className="frame-14">
                   <div className="frame-15">
                     <div className="text-wrapper-15">Priti Sawant</div>
-                    <img className="linkedin-circled-2" alt="Linkedin circled" />
+                    <img className="linkedin-circled-2" alt="Linkedin circled" src="/about/linkedin-circled-1.png"/>
                   </div>
                   <div className="text-wrapper-16">Founder &amp; CEO, JoulestoWatts</div>
                   <p className="text-wrapper-17">
@@ -150,11 +150,11 @@ export const Leadership = () => {
           <>
             <div className="frame-16">
               <div className="frame-13">
-                <img className="element-2" alt="Element" />
+                <img className="element-2" alt="Element" src="/about/man.png"/>
                 <div className="frame-14">
                   <div className="frame-15">
                     <div className="text-wrapper-15">BM Gupta</div>
-                    <img className="linkedin-circled-3" alt="Linkedin circled" />
+                    <img className="linkedin-circled-3" alt="Linkedin circled" src="/about/linkedin-circled-1.png"/>
                   </div>
                   <div className="text-wrapper-16">Chief Operating Officer, JoulestoWatts</div>
                   <p className="text-wrapper-17">
@@ -204,7 +204,7 @@ export const Leadership = () => {
           <>
             <div className="frame-22">
               <div className="frame-10">
-                <img className="element" alt="Element" />
+                <img className="element" alt="Element" src="/about/man.png"/>
                 <div className="frame-11">
                   <div className="frame-12">
                     <div className="text-wrapper-21">BM Gupta</div>
@@ -224,7 +224,7 @@ export const Leadership = () => {
                   </p>
                 </div>
               </div>
-              <img className="linkedin-circled-4" alt="Linkedin circled" />
+              <img className="linkedin-circled-4" alt="Linkedin circled" src="/about/linkedin-circled-1.png"/>
             </div>
             <div className="overlap-2">
               <div className="frame-23">
@@ -238,12 +238,24 @@ export const Leadership = () => {
                   </div>
                 </div>
                 <div className="frame-28">
-                  <img className="mercedes-benz-logo" alt="Mercedes benz logo" />
-                  <img className="GE-healthcare-logo" alt="Ge healthcare logo" />
-                  <img className="sony-logo" alt="Sony logo" />
-                  <img className="shell-logo" alt="Shell logo" />
-                  <img className="amazon" alt="Amazon" />
-                  <img className="wipro-logo-new-og" alt="Wipro logo new og" />
+                  <img
+                    className="mercedes-benz-logo"
+                    alt="Mercedes benz logo"
+                    src="/logos/mercedes-benz-logo-2010-1.png"
+                  />
+                  <img
+                    className="GE-healthcare-logo"
+                    alt="Ge healthcare logo"
+                    src="/logos/ge-healthcare-logo-1.png"
+                  />
+                  <img className="sony-logo" alt="Sony logo" src="/logos/sony-logo-1.png" />
+                  <img className="shell-logo" alt="Shell logo" src="/logos/shell-logo-1971-1995-1.png" />
+                  <img className="amazon" alt="Amazon" src="/logos/amazon-1-1.png" />
+                  <img
+                    className="wipro-logo-new-og"
+                    alt="Wipro logo new og"
+                    src="/logos/wipro-logo-new-og-502x263-1.png"
+                  />
                 </div>
               </div>
             </div>
@@ -251,7 +263,7 @@ export const Leadership = () => {
               <img className="group-4" alt="Group" src="/leadership/group-33.png" />
               <img className="group-5" alt="Group" src="/leadership/group-34.png" />
               <img className="linkedin-circled-5" alt="Linkedin circled" src="/leadership/linkedin-circled-2.png" />
-              <img className="linkedin-circled-6" alt="Linkedin circled" />
+              <img className="linkedin-circled-6" alt="Linkedin circled" src="/leadership/linkedin-circled-2.png"/>
             </div>
             <div className="overlap-4">
               <div className="group-6">
@@ -282,7 +294,7 @@ export const Leadership = () => {
             </div>
           </>
         )}
-        <Footer/>
+        <Footer />
       </div>
     </div>
   );

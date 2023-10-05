@@ -4,7 +4,6 @@
   flex-direction: column;
   gap: 36px;
   overflow: hidden;
-  overflow-x: scroll;
   padding: 80px 16px 96px 15px;
   position: relative;
   width: 456px;
@@ -34,6 +33,7 @@
   display: inline-flex;
   flex: 0 0 auto;
   gap: 16px;
+  width: 100%;
   position: relative;
 }
 
@@ -257,6 +257,8 @@
   align-items: center;
   flex-direction: column;
   gap: 56px;
+  width: 390px;
+  overflow: scroll;
 }
 
 .itcomponent .variant-4 {

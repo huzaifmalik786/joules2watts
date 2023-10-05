@@ -18,6 +18,9 @@ export const Component = ({
   vector2 = "/it/vector-9.svg",
   vector3 = "/it/vector-9.svg",
 }) => {
+  const [state, dispatch] = useReducer(reducer, {
+    property1: property1 || "service-cloud-services",
+  });
   return (
     <div className={`itcomponent ${className}`}>
       <div className="text-wrapper-4">Industry-leading IT solutions</div>
@@ -145,11 +148,11 @@ export const Component = ({
             {["service-digital", "variant-3", "variant-4", "variant-5", "variant-6", "variant-7"].includes(
               property1
             ) && (
-              <p className="text-wrapper-46">
-                Our digital services enable businesses to interact with consumers, increase online exposure, and improve
-                brand reputation.
-              </p>
-            )}
+                <p className="text-wrapper-46">
+                  Our digital services enable businesses to interact with consumers, increase online exposure, and improve
+                  brand reputation.
+                </p>
+              )}
 
             {property1 === "variant-2" && (
               <p className="text-wrapper-46">
@@ -207,29 +210,29 @@ export const Component = ({
               {["service-digital", "variant-2", "variant-3", "variant-4", "variant-5", "variant-6"].includes(
                 property1
               ) && (
-                <div className="frame-9">
-                  <img
-                    className="vector"
-                    alt="Vector"
-                    src={
-                      ["service-digital", "variant-2", "variant-6"].includes(property1) ? vector1 : "/it/vector-9.svg"
-                    }
-                  />
-                  <div className="digitalization">
-                    {property1 === "variant-3" && <>Digitalization</>}
+                  <div className="frame-9">
+                    <img
+                      className="vector"
+                      alt="Vector"
+                      src={
+                        ["service-digital", "variant-2", "variant-6"].includes(property1) ? vector1 : "/it/vector-9.svg"
+                      }
+                    />
+                    <div className="digitalization">
+                      {property1 === "variant-3" && <>Digitalization</>}
 
-                    {property1 === "service-digital" && <>BI &amp; Analytics</>}
+                      {property1 === "service-digital" && <>BI &amp; Analytics</>}
 
-                    {property1 === "variant-2" && <>Cloud Managed Services</>}
+                      {property1 === "variant-2" && <>Cloud Managed Services</>}
 
-                    {property1 === "variant-6" && <>Legacy Migration</>}
+                      {property1 === "variant-6" && <>Legacy Migration</>}
 
-                    {property1 === "variant-4" && <>Accessibility assurance</>}
+                      {property1 === "variant-4" && <>Accessibility assurance</>}
 
-                    {property1 === "variant-5" && <>Storage Management</>}
+                      {property1 === "variant-5" && <>Storage Management</>}
+                    </div>
                   </div>
-                </div>
-              )}
+                )}
 
               {["variant-4", "variant-5"].includes(property1) && (
                 <div className="frame-9">

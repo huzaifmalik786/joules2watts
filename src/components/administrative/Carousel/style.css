@@ -1,10 +1,10 @@
-.carousel {
+.carousel-no {
   height: 580px;
   overflow: hidden;
   width: 1440px;
 }
 
-.carousel .overlap-group {
+.carousel-no .overlap-group {
   height: 714px;
   left: -116px;
   position: relative;
@@ -12,7 +12,7 @@
   width: 1684px;
 }
 
-.carousel .rectangle {
+.carousel-no .rectangle {
   height: 580px;
   left: 463px;
   position: absolute;
@@ -20,7 +20,7 @@
   width: 1093px;
 }
 
-.carousel .div {
+.carousel-no .div {
   background: linear-gradient(
     180deg,
     rgb(0, 0, 0) 0%,
@@ -37,7 +37,7 @@
   width: 1684px;
 }
 
-.carousel .frame {
+.carousel-no .frame {
   align-items: flex-start;
   display: inline-flex;
   flex-direction: column;
@@ -47,7 +47,7 @@
   top: 242px;
 }
 
-.carousel .text-wrapper-2 {
+.carousel-no .text-wrapper-2 {
   color: var(--neutral-0);
   font-family: "Source Sans Pro", Helvetica;
   font-size: 35px;
@@ -60,16 +60,16 @@
   width: fit-content;
 }
 
-.carousel .frame-2 {
+/* .carousel-no .frame-2 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: column;
   gap: 24px;
   position: relative;
-}
+} */
 
-.carousel .our-client-and {
+.carousel-no .our-client-and {
   color: #f6f7f8;
   font-family: "Source Sans Pro", Helvetica;
   font-size: 17px;
@@ -81,7 +81,7 @@
   width: 436px;
 }
 
-.carousel .button {
+.carousel-no .button {
   all: unset;
   align-items: center;
   box-sizing: border-box;
@@ -91,7 +91,7 @@
   position: relative;
 }
 
-.carousel .text-wrapper-3 {
+.carousel-no .text-wrapper-3 {
   color: var(--neutral-0);
   font-family: "Source Sans Pro", Helvetica;
   font-size: 17px;
@@ -104,13 +104,13 @@
   width: fit-content;
 }
 
-.carousel .arrow-forward-2 {
+.carousel-no .arrow-forward-2 {
   height: 24px;
   position: relative;
   width: 24px;
 }
 
-.carousel .text-wrapper-4 {
+/* .carousel-no .text-wrapper-4 {
   color: var(--neutral-0);
   font-family: var(--h4-REG-font-family);
   font-size: var(--h4-REG-font-size);
@@ -123,9 +123,9 @@
   position: absolute;
   top: 120px;
   white-space: nowrap;
-}
+} */
 
-.carousel .frame-3 {
+.carousel-no .frame-3 {
   align-items: flex-start;
   display: inline-flex;
   gap: 5px;
@@ -134,7 +134,7 @@
   top: 560px;
 }
 
-.carousel .ellipse {
+.carousel-no .ellipse {
   background-color: #d9d9d952;
   border-radius: 5.5px;
   height: 11px;
@@ -142,7 +142,7 @@
   width: 11px;
 }
 
-.carousel .ellipse-2 {
+.carousel-no .ellipse-2 {
   background-color: #e9e9e9;
   border-radius: 5.5px;
   height: 11px;

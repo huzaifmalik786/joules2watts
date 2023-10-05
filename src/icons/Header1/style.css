@@ -1,5 +1,5 @@
 .mobile-na {
-    display: flex;
+    display: flex !important;
     width: 390px;
     height: 60px;
     padding: 16px;

@@ -1,24 +1,24 @@
-.frame {
+.homepage-frame {
   align-items: flex-start;
   display: inline-flex;
   flex-direction: column;
   position: relative;
 }
 
-.frame .rectangle {
+.homepage-frame .rectangle-mobile {
   height: 223px;
   position: relative;
   width: 360px;
 }
 
-.frame .div {
+.homepage-frame .div-mobile {
   background-color: #1b766e;
   height: 424px;
   position: relative;
   width: 360px;
 }
 
-.frame .agile-talent {
+.homepage-frame .agile-talent {
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
   background: linear-gradient(180deg, rgb(0, 223, 194) 0%, rgba(255, 255, 255, 0.72) 100%);
@@ -37,7 +37,7 @@
   width: 298px;
 }
 
-.frame .an-execution-driven {
+.homepage-frame .an-execution-driven {
   color: #ffffff;
   font-family: "Source Sans Pro", Helvetica;
   font-size: 18px;
@@ -50,7 +50,7 @@
   width: 298px;
 }
 
-.frame .div-2 {
+.homepage-frame .div-2 {
   align-items: flex-start;
   display: inline-flex;
   gap: 6.56px;
@@ -59,157 +59,157 @@
   top: 388px;
 }
 
-.frame .ellipse {
+.homepage-frame .ellipse {
   border-radius: 4.47px;
   height: 8.95px;
   position: relative;
   width: 8.95px;
 }
 
-.frame .ellipse-2 {
+.homepage-frame .ellipse-2 {
   border-radius: 4.47px;
   height: 8.95px;
   position: relative;
   width: 8.95px;
 }
 
-.frame .ellipse-3 {
+.homepage-frame .ellipse-3 {
   border-radius: 4.47px;
   height: 8.95px;
   position: relative;
   width: 8.95px;
 }
 
-.frame .ellipse-4 {
+.homepage-frame .ellipse-4 {
   border-radius: 4.47px;
   height: 8.95px;
   position: relative;
   width: 8.95px;
 }
 
-.frame .ellipse-5 {
+.homepage-frame .ellipse-5 {
   border-radius: 4.47px;
   height: 8.95px;
   position: relative;
   width: 8.95px;
 }
 
-.frame .variant-4 {
+.homepage-frame .variant-4 {
   height: 125px;
 }
 
-.frame .variant-2 {
+.homepage-frame .variant-2 {
   height: 125px;
 }
 
-.frame .variant-3 {
+.homepage-frame .variant-3 {
   height: 150px;
 }
 
-.frame .variant-5 {
+.homepage-frame .variant-5 {
   height: 150px;
 }
 
-.frame .default {
+.homepage-frame .default {
   height: 125px;
 }
 
-.frame .property-1-variant-4 {
+.homepage-frame .property-1-variant-4 {
   background-color: #c2c2c2;
 }
 
-.frame .property-1-variant-2 {
+.homepage-frame .property-1-variant-2 {
   background-color: #c2c2c2;
 }
 
-.frame .property-1-variant-3 {
+.homepage-frame .property-1-variant-3 {
   background-color: #c2c2c2;
 }
 
-.frame .property-1-variant-5 {
+.homepage-frame .property-1-variant-5 {
   background-color: #c2c2c2;
 }
 
-.frame .property-1-default {
+.homepage-frame .property-1-default {
   background-color: #4d9f98;
 }
 
-.frame .property-1-0-variant-4 {
+.homepage-frame .property-1-0-variant-4 {
   background-color: #c2c2c2;
 }
 
-.frame .property-1-0-variant-2 {
+.homepage-frame .property-1-0-variant-2 {
   background-color: #4d9f98;
 }
 
-.frame .property-1-0-variant-3 {
+.homepage-frame .property-1-0-variant-3 {
   background-color: #c2c2c2;
 }
 
-.frame .property-1-0-variant-5 {
+.homepage-frame .property-1-0-variant-5 {
   background-color: #c2c2c2;
 }
 
-.frame .property-1-0-default {
+.homepage-frame .property-1-0-default {
   background-color: #c2c2c2;
 }
 
-.frame .property-1-1-variant-4 {
+.homepage-frame .property-1-1-variant-4 {
   background-color: #c2c2c2;
 }
 
-.frame .property-1-1-variant-2 {
+.homepage-frame .property-1-1-variant-2 {
   background-color: #c2c2c2;
 }
 
-.frame .property-1-1-variant-3 {
+.homepage-frame .property-1-1-variant-3 {
   background-color: #4d9f98;
 }
 
-.frame .property-1-1-variant-5 {
+.homepage-frame .property-1-1-variant-5 {
   background-color: #c2c2c2;
 }
 
-.frame .property-1-1-default {
+.homepage-frame .property-1-1-default {
   background-color: #c2c2c2;
 }
 
-.frame .property-1-2-variant-4 {
+.homepage-frame .property-1-2-variant-4 {
   background-color: #4d9f98;
 }
 
-.frame .property-1-2-variant-2 {
+.homepage-frame .property-1-2-variant-2 {
   background-color: #c2c2c2;
 }
 
-.frame .property-1-2-variant-3 {
+.homepage-frame .property-1-2-variant-3 {
   background-color: #c2c2c2;
 }
 
-.frame .property-1-2-variant-5 {
+.homepage-frame .property-1-2-variant-5 {
   background-color: #c2c2c2;
 }
 
-.frame .property-1-2-default {
+.homepage-frame .property-1-2-default {
   background-color: #c2c2c2;
 }
 
-.frame .property-1-3-variant-4 {
+.homepage-frame .property-1-3-variant-4 {
   background-color: #c2c2c2;
 }
 
-.frame .property-1-3-variant-2 {
+.homepage-frame .property-1-3-variant-2 {
   background-color: #c2c2c2;
 }
 
-.frame .property-1-3-variant-3 {
+.homepage-frame .property-1-3-variant-3 {
   background-color: #c2c2c2;
 }
 
-.frame .property-1-3-variant-5 {
+.homepage-frame .property-1-3-variant-5 {
   background-color: #4d9f98;
 }
 
-.frame .property-1-3-default {
+.homepage-frame .property-1-3-default {
   background-color: #c2c2c2;
 }
