@@ -42,9 +42,10 @@
   background-color: #4d9f98 !important;
   border: unset !important;
   border-color: unset !important;
-  display: flex !important;
+  /* display: flex !important; */
+  flex: 0 0 auto !important;
   justify-content: center !important;
-  width: 127px !important;
+  /* width: 127px !important; */
 }
 
 .itcomponent .instance-node {
@@ -295,6 +296,10 @@
   gap: 56px;
 }
 
+.itcomponent .property-1 {
+  width: 330px;
+}
+
 .itcomponent .property-1-service-digital {
   width: 330px;
 }
@@ -328,7 +333,7 @@
   width: 330px;
 }
 
-.itcomponent .property-1-0-variant-4 {
+.itcomponent .property-1-0 {
   align-self: stretch;
   flex-direction: column;
   width: 100%;

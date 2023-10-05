@@ -9,7 +9,7 @@ import "./style.css";
 
 export const Component = ({ property1, className }) => {
   return (
-    <div className={`component ${className}`}>
+    <div className={`component-about ${className}`}>
       <div className="bring-the-best-out">
         <span className="text-wrapper">Bring&nbsp;&nbsp;the best out of your </span>
         <span className="span">

@@ -1,10 +1,10 @@
-.component {
+.component-about {
   height: 180px;
   position: relative;
   width: 484px;
 }
 
-.component .bring-the-best-out {
+.component-about .bring-the-best-out {
   color: transparent;
   font-family: "Source Sans Pro", Helvetica;
   font-size: 50px;
@@ -17,7 +17,7 @@
   width: 484px;
 }
 
-.component .text-wrapper {
+.component-about .text-wrapper {
   color: #2c3e47;
   font-family: var(--h1-REG-font-family);
   font-size: var(--h1-REG-font-size);
@@ -27,7 +27,7 @@
   line-height: var(--h1-REG-line-height);
 }
 
-.component .span {
+.component-about .span {
   color: #4d9f98;
   font-weight: 700;
   text-decoration: underline;

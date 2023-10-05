@@ -49,13 +49,12 @@ export const PropertyServiceWrapper = ({
             text="Cloud services"
           />
           <Cta
-            className={`${
-              ["service-cloud-services", "service-digital"].includes(state.property1)
+            className={`${["service-cloud-services", "service-digital"].includes(state.property1)
                 ? "class-7"
                 : state.property1 === "service-product-engineering"
-                ? "class-6"
-                : "class-8"
-            }`}
+                  ? "class-6"
+                  : "class-8"
+              }`}
             divClassName={`${state.property1 === "service-product-engineering" ? "class-4" : "class-5"}`}
             hasArrowForward={false}
             onClick={() => {
@@ -236,33 +235,33 @@ export const PropertyServiceWrapper = ({
                 "service-infrastruture-services",
                 "service-product-engineering",
               ].includes(state.property1) && (
-                <div className="frame-16">
-                  <img
-                    className="vector-2"
-                    alt="Vector"
-                    src={
-                      ["service-app-modernization", "service-cloud-services", "service-digital"].includes(
-                        state.property1
-                      )
-                        ? vector1
-                        : "/it/vector-9.svg"
-                    }
-                  />
-                  <div className="digitalization-2">
-                    {state.property1 === "service-product-engineering" && <>Digitalization</>}
+                  <div className="frame-16">
+                    <img
+                      className="vector-2"
+                      alt="Vector"
+                      src={
+                        ["service-app-modernization", "service-cloud-services", "service-digital"].includes(
+                          state.property1
+                        )
+                          ? vector1
+                          : "/it/vector-9.svg"
+                      }
+                    />
+                    <div className="digitalization-2">
+                      {state.property1 === "service-product-engineering" && <>Digitalization</>}
 
-                    {state.property1 === "service-cloud-services" && <>Cloud Managed Services</>}
+                      {state.property1 === "service-cloud-services" && <>Cloud Managed Services</>}
 
-                    {state.property1 === "service-app-modernization" && <>Legacy Migration</>}
+                      {state.property1 === "service-app-modernization" && <>Legacy Migration</>}
 
-                    {state.property1 === "service-digital" && <>BI &amp; Analytics</>}
+                      {state.property1 === "service-digital" && <>BI &amp; Analytics</>}
 
-                    {state.property1 === "service-QA-and-testing" && <>Accessibility assurance</>}
+                      {state.property1 === "service-QA-and-testing" && <>Accessibility assurance</>}
 
-                    {state.property1 === "service-infrastruture-services" && <>Storage Management</>}
+                      {state.property1 === "service-infrastruture-services" && <>Storage Management</>}
+                    </div>
                   </div>
-                </div>
-              )}
+                )}
 
               {["service-QA-and-testing", "service-infrastruture-services"].includes(state.property1) && (
                 <div className="frame-16">
@@ -282,78 +281,78 @@ export const PropertyServiceWrapper = ({
               "service-digital",
               "service-infrastruture-services",
             ].includes(state.property1) && (
-              <div className="frame-17">
-                <div className="frame-16">
-                  <img
-                    className="vector-2"
-                    alt="Vector"
-                    src={
-                      ["service-cloud-services", "service-digital"].includes(state.property1)
-                        ? vector2
-                        : "/it/vector-9.svg"
-                    }
-                  />
-                  <div className="functional-testing-2">
-                    {state.property1 === "service-QA-and-testing" && <>Functional testing</>}
-
-                    {state.property1 === "service-infrastruture-services" && <>Security Services</>}
-
-                    {state.property1 === "service-app-modernization" && <>System Integration</>}
-
-                    {state.property1 === "service-cloud-services" && <>Cloud Security</>}
-
-                    {state.property1 === "service-digital" && <>Mobility</>}
-                  </div>
-                </div>
-                <div className="frame-16">
-                  <img
-                    className="vector-2"
-                    alt="Vector"
-                    src={
-                      ["service-cloud-services", "service-digital"].includes(state.property1)
-                        ? vector3
-                        : "/it/vector-9.svg"
-                    }
-                  />
-                  <div className="cloud-migration">
-                    {state.property1 === "service-cloud-services" && <>Cloud Migration</>}
-
-                    {state.property1 === "service-digital" && <>UX/UI</>}
-
-                    {state.property1 === "service-QA-and-testing" && <>Performance testing/engineering</>}
-
-                    {state.property1 === "service-infrastruture-services" && <>Workplace Services</>}
-
-                    {state.property1 === "service-app-modernization" && <>EDI Services</>}
-                  </div>
-                </div>
-                {["service-QA-and-testing", "service-app-modernization", "service-infrastruture-services"].includes(
-                  state.property1
-                ) && (
+                <div className="frame-17">
                   <div className="frame-16">
-                    <img className="vector-2" alt="Vector" src="/it/vector-9.svg" />
-                    <div className="ERP-testing-2">
-                      {state.property1 === "service-QA-and-testing" && <>ERP testing</>}
+                    <img
+                      className="vector-2"
+                      alt="Vector"
+                      src={
+                        ["service-cloud-services", "service-digital"].includes(state.property1)
+                          ? vector2
+                          : "/it/vector-9.svg"
+                      }
+                    />
+                    <div className="functional-testing-2">
+                      {state.property1 === "service-QA-and-testing" && <>Functional testing</>}
 
-                      {state.property1 === "service-infrastruture-services" && <>Cyber Security</>}
+                      {state.property1 === "service-infrastruture-services" && <>Security Services</>}
 
-                      {state.property1 === "service-app-modernization" && <>UX/UI</>}
+                      {state.property1 === "service-app-modernization" && <>System Integration</>}
+
+                      {state.property1 === "service-cloud-services" && <>Cloud Security</>}
+
+                      {state.property1 === "service-digital" && <>Mobility</>}
                     </div>
                   </div>
-                )}
-
-                {["service-QA-and-testing", "service-infrastruture-services"].includes(state.property1) && (
                   <div className="frame-16">
-                    <img className="vector-2" alt="Vector" src="/it/vector-9.svg" />
-                    <div className="customer-experience-2">
-                      {state.property1 === "service-QA-and-testing" && <>Customer experience testing</>}
+                    <img
+                      className="vector-2"
+                      alt="Vector"
+                      src={
+                        ["service-cloud-services", "service-digital"].includes(state.property1)
+                          ? vector3
+                          : "/it/vector-9.svg"
+                      }
+                    />
+                    <div className="cloud-migration">
+                      {state.property1 === "service-cloud-services" && <>Cloud Migration</>}
 
-                      {state.property1 === "service-infrastruture-services" && <>BCP/ DR</>}
+                      {state.property1 === "service-digital" && <>UX/UI</>}
+
+                      {state.property1 === "service-QA-and-testing" && <>Performance testing/engineering</>}
+
+                      {state.property1 === "service-infrastruture-services" && <>Workplace Services</>}
+
+                      {state.property1 === "service-app-modernization" && <>EDI Services</>}
                     </div>
                   </div>
-                )}
-              </div>
-            )}
+                  {["service-QA-and-testing", "service-app-modernization", "service-infrastruture-services"].includes(
+                    state.property1
+                  ) && (
+                      <div className="frame-16">
+                        <img className="vector-2" alt="Vector" src="/it/vector-9.svg" />
+                        <div className="ERP-testing-2">
+                          {state.property1 === "service-QA-and-testing" && <>ERP testing</>}
+
+                          {state.property1 === "service-infrastruture-services" && <>Cyber Security</>}
+
+                          {state.property1 === "service-app-modernization" && <>UX/UI</>}
+                        </div>
+                      </div>
+                    )}
+
+                  {["service-QA-and-testing", "service-infrastruture-services"].includes(state.property1) && (
+                    <div className="frame-16">
+                      <img className="vector-2" alt="Vector" src="/it/vector-9.svg" />
+                      <div className="customer-experience-2">
+                        {state.property1 === "service-QA-and-testing" && <>Customer experience testing</>}
+
+                        {state.property1 === "service-infrastruture-services" && <>BCP/ DR</>}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              )}
           </div>
         </div>
         <img
@@ -363,16 +362,16 @@ export const PropertyServiceWrapper = ({
             state.property1 === "service-product-engineering"
               ? "/it/rectangle-228-7.png"
               : state.property1 === "service-QA-and-testing"
-              ? "/it/rectangle-228-3.png"
-              : state.property1 === "service-infrastruture-services"
-              ? "/it/rectangle-228-4.png"
-              : state.property1 === "service-app-modernization"
-              ? "/it/rectangle-228-5.png"
-              : state.property1 === "service-professional-services"
-              ? "/it/rectangle-228-6.png"
-              : state.property1 === "service-digital"
-              ? rectangle
-              : "/it/rectangle-228-2.png"
+                ? "/it/rectangle-228-3.png"
+                : state.property1 === "service-infrastruture-services"
+                  ? "/it/rectangle-228-4.png"
+                  : state.property1 === "service-app-modernization"
+                    ? "/it/rectangle-228-5.png"
+                    : state.property1 === "service-professional-services"
+                      ? "/it/rectangle-228-6.png"
+                      : state.property1 === "service-digital"
+                        ? rectangle
+                        : "/it/rectangle-228-2.png"
           }
         />
       </div>
@@ -381,88 +380,6 @@ export const PropertyServiceWrapper = ({
 };
 
 function reducer(state, action) {
-  if (state.property1 === "service-cloud-services") {
-    switch (action) {
-      case "click_408":
-        return {
-          property1: "service-professional-services",
-        };
-    }
-  }
-
-  if (state.property1 === "service-product-engineering") {
-    switch (action) {
-      case "click_408":
-        return {
-          property1: "service-professional-services",
-        };
-    }
-  }
-
-  if (state.property1 === "service-QA-and-testing") {
-    switch (action) {
-      case "click_482":
-        return {
-          property1: "service-cloud-services",
-        };
-
-      case "click_408":
-        return {
-          property1: "service-app-modernization",
-        };
-    }
-  }
-
-  if (state.property1 === "service-infrastruture-services") {
-    switch (action) {
-      case "click_482":
-        return {
-          property1: "service-cloud-services",
-        };
-
-      case "click_408":
-        return {
-          property1: "service-professional-services",
-        };
-    }
-  }
-
-  if (state.property1 === "service-app-modernization") {
-    switch (action) {
-      case "click_482":
-        return {
-          property1: "service-cloud-services",
-        };
-
-      case "click_408":
-        return {
-          property1: "service-professional-services",
-        };
-    }
-  }
-
-  if (state.property1 === "service-professional-services") {
-    switch (action) {
-      case "click_482":
-        return {
-          property1: "service-cloud-services",
-        };
-    }
-  }
-
-  if (state.property1 === "service-digital") {
-    switch (action) {
-      case "click_482":
-        return {
-          property1: "service-cloud-services",
-        };
-
-      case "click_408":
-        return {
-          property1: "service-professional-services",
-        };
-    }
-  }
 
   switch (action) {
     case "click":
@@ -493,6 +410,16 @@ function reducer(state, action) {
       return {
         ...state,
         property1: "service-app-modernization",
+      };
+    case "click_482":
+      return {
+        ...state,
+        property1: "service-cloud-services",
+      };
+    case "click_408":
+      return {
+        ...state,
+        property1: "service-professional-services",
       };
   }
 

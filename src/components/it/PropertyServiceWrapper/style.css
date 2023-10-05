@@ -45,6 +45,7 @@
   display: flex !important;
   justify-content: center !important;
   width: 127px !important;
+  cursor: pointer !important;
 }
 
 .property-service-wrapper .class-3 {
@@ -55,7 +56,13 @@
   display: flex !important;
   justify-content: center !important;
   width: 127px !important;
+  cursor: pointer !important;
+  transition: background-color ease-in-out 0.3s;
 }
+.property-service-wrapper .class-3:hover{
+  background-color: #4d9f98 !important;
+}
+
 
 .property-service-wrapper .class-4 {
   font-family: var(--subtitle-BLD-font-family) !important;
@@ -64,6 +71,8 @@
   font-weight: var(--subtitle-BLD-font-weight) !important;
   letter-spacing: var(--subtitle-BLD-letter-spacing) !important;
   line-height: var(--subtitle-BLD-line-height) !important;
+  cursor: pointer !important;
+
 }
 
 .property-service-wrapper .class-5 {
@@ -74,21 +83,31 @@
   font-weight: var(--subtitle-BLD-font-weight) !important;
   letter-spacing: var(--subtitle-BLD-letter-spacing) !important;
   line-height: var(--subtitle-BLD-line-height) !important;
+  cursor: pointer !important;
+}
+.property-service-wrapper .class-5:hover{
+  color: #fff !important;
 }
 
 .property-service-wrapper .class-6 {
   align-items: flex-end !important;
   flex: 0 0 auto !important;
   justify-content: center !important;
+  cursor: pointer !important;
 }
 
 .property-service-wrapper .class-7 {
   align-items: flex-end !important;
   background-color: #e6e6e6 !important;
+  cursor: pointer !important;
   border: unset !important;
   border-color: unset !important;
   flex: 0 0 auto !important;
   justify-content: center !important;
+  transition: background-color ease-in-out 0.3s;
+}
+.property-service-wrapper .class-7:hover{
+  background-color: #4d9f98 !important;
 }
 
 .property-service-wrapper .class-8 {
@@ -97,6 +116,11 @@
   flex: 0 0 auto !important;
   gap: 10px !important;
   justify-content: center !important;
+  cursor: pointer !important;
+  transition: background-color ease-in-out 0.3s;
+}
+.property-service-wrapper .class-8:hover{
+  background-color: #4d9f98 !important;
 }
 
 .property-service-wrapper .class-9 {
@@ -107,6 +131,7 @@
   flex: 0 0 auto !important;
   gap: 8px !important;
   justify-content: center !important;
+  cursor: pointer !important;
 }
 
 .property-service-wrapper .frame-12 {

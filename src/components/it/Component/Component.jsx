@@ -6,6 +6,7 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 import PropTypes from "prop-types";
 import React from "react";
 import { Cta } from "../Cta";
+import { useReducer } from "react";
 import "./style.css";
 
 export const Component = ({
@@ -25,289 +26,307 @@ export const Component = ({
     <div className={`itcomponent ${className}`}>
       <div className="text-wrapper-4">Industry-leading IT solutions</div>
       <div className={`frame-4 ${property1}`}>
-        {["service-digital", "variant-4", "variant-5", "variant-6", "variant-7"].includes(property1) && (
-          <div className="frame-5">
-            <Cta
-              className="CTA-instance"
-              divClassName="instance-node"
-              hasArrowForward={false}
-              property1="default"
-              text="Digital"
-            />
-            <Cta
-              className="CTA-2"
-              divClassName="CTA-3"
-              hasArrowForward={false}
-              property1="default"
-              text="Cloud services"
-            />
-            <Cta
-              className="CTA-2"
-              divClassName="CTA-3"
-              hasArrowForward={false}
-              property1="default"
-              text="Product engineering"
-            />
-            <Cta
-              className="CTA-2"
-              divClassName="CTA-3"
-              hasArrowForward={false}
-              property1="default"
-              text="QA and testing"
-            />
-            <Cta
-              className="CTA-2"
-              divClassName="CTA-3"
-              hasArrowForward={false}
-              property1="default"
-              text="Infrastructure Services"
-            />
-            <Cta
-              className="CTA-2"
-              divClassName="CTA-3"
-              hasArrowForward={false}
-              property1="default"
-              text="App modernization"
-            />
-            <Cta
-              className="CTA-2"
-              divClassName="CTA-3"
-              hasArrowForward={false}
-              property1="default"
-              text="Professional Services"
-            />
-          </div>
-        )}
-
-        {["variant-2", "variant-3"].includes(property1) && (
-          <>
-            <Cta className="CTA-4" divClassName="CTA-3" hasArrowForward={false} property1="default" text="Digital" />
-            <Cta
-              className={`${property1 === "variant-3" ? "CTA-2" : "class"}`}
-              divClassName={`${property1 === "variant-3" ? "CTA-3" : "instance-node"}`}
-              hasArrowForward={false}
-              property1={property1 === "variant-3" ? "default" : "hover"}
-              text="Cloud services"
-            />
-            <Cta
-              className={`${property1 === "variant-3" ? "class" : "CTA-2"}`}
-              divClassName={`${property1 === "variant-3" ? "instance-node" : "CTA-3"}`}
-              hasArrowForward={false}
-              property1={property1 === "variant-3" ? "hover" : "default"}
-              text="Product engineering"
-            />
-            <Cta
-              className="CTA-2"
-              divClassName="CTA-3"
-              hasArrowForward={false}
-              property1="default"
-              text="QA and testing"
-            />
-            <Cta
-              className="CTA-2"
-              divClassName="CTA-3"
-              hasArrowForward={false}
-              property1="default"
-              text="Infrastructure Services"
-            />
-            <Cta
-              className="CTA-2"
-              divClassName="CTA-3"
-              hasArrowForward={false}
-              property1="default"
-              text="App modernization"
-            />
-            <Cta
-              className="CTA-2"
-              divClassName="CTA-3"
-              hasArrowForward={false}
-              property1="default"
-              text="Professional Services"
-            />
-          </>
-        )}
+        <div className="frame-5">
+          <Cta
+            className={`${state.property1 === "service-digital" ? "CTA-instance" : "CTA-2"}`}
+            divClassName={`${state.property1 === "service-digital" ? "instance-node" : "CTA-3"}`}
+            hasArrowForward={false}
+            property1="default"
+            text="Digital"
+            onClick={() => {
+              dispatch("click");
+            }}
+          />
+          <Cta
+            className={`${state.property1 === "service-cloud-services" ? "CTA-instance" : "CTA-2"}`}
+            divClassName={`${state.property1 === "service-cloud-services" ? "instance-node" : "CTA-3"}`}
+            hasArrowForward={false}
+            property1="default"
+            text="Cloud services"
+            onClick={() => {
+              dispatch("click_482");
+            }}
+          />
+          <Cta
+            className={`${state.property1 === "service-product-engineering" ? "CTA-instance" : "CTA-2"}`}
+            divClassName={`${state.property1 === "service-product-engineering" ? "instance-node" : "CTA-3"}`}
+            hasArrowForward={false}
+            property1="default"
+            text="Product engineering"
+            onClick={() => {
+              dispatch("click_396");
+            }}
+          />
+          <Cta
+            className={`${state.property1 === "service-QA-and-testing" ? "CTA-instance" : "CTA-2"}`}
+            divClassName={`${state.property1 === "service-QA-and-testing" ? "instance-node" : "CTA-3"}`}
+            hasArrowForward={false}
+            property1="default"
+            text="QA and testing"
+            onClick={() => {
+              dispatch("click_399");
+            }}
+          />
+          <Cta
+            className={`${state.property1 === "service-infrastucture-services" ? "CTA-instance" : "CTA-2"}`}
+            divClassName={`${state.property1 === "service-infrastucture-services" ? "instance-node" : "CTA-3"}`}
+            hasArrowForward={false}
+            property1="default"
+            text="Infrastructure Services"
+            onClick={() => {
+              dispatch("click_402");
+            }}
+          />
+          <Cta
+            className={`${state.property1 === "service-app-modernization" ? "CTA-instance" : "CTA-2"}`}
+            divClassName={`${state.property1 === "service-app-modernization" ? "instance-node" : "CTA-3"}`}
+            hasArrowForward={false}
+            property1="default"
+            text="App modernization"
+            onClick={() => {
+              dispatch("click_405");
+            }}
+          />
+          <Cta
+            className={`${state.property1 === "service-professional-services" ? "CTA-instance" : "CTA-2"}`}
+            divClassName={`${state.property1 === "service-professional-services" ? "instance-node" : "CTA-3"}`}
+            hasArrowForward={false}
+            property1="default"
+            text="Professional Services"
+            onClick={() => {
+              dispatch("click_408");
+            }}
+          />
+        </div>
       </div>
       <div className="frame-wrapper">
         <div className={`frame-6 ${frameClassName}`}>
           <div className="digital">
-            {property1 === "service-digital" && <>Digital</>}
+            {state.property1 === "service-cloud-services" && <>Cloud Services</>}
 
-            {property1 === "variant-2" && <>Cloud Services</>}
+            {state.property1 === "service-product-engineering" && <>Product Engineering</>}
 
-            {property1 === "variant-3" && <>Product Engineering</>}
+            {state.property1 === "service-QA-and-testing" && <>Qa And Testing</>}
 
-            {property1 === "variant-4" && <>Qa And Testing</>}
+            {state.property1 === "service-infrastruture-services" && <>Infrastructure Services</>}
 
-            {property1 === "variant-5" && <>Infrastructure Services</>}
+            {state.property1 === "service-app-modernization" && <>App Modernization</>}
 
-            {property1 === "variant-6" && <>App Modernization</>}
+            {state.property1 === "service-professional-services" && <>Professional Services</>}
 
-            {property1 === "variant-7" && <>Professional Services</>}
+            {state.property1 === "service-digital" && <>Digital</>}
           </div>
-          <div className={`our-digital-services property-1-${property1}`}>
-            {["service-digital", "variant-3", "variant-4", "variant-5", "variant-6", "variant-7"].includes(
-              property1
-            ) && (
-                <p className="text-wrapper-46">
-                  Our digital services enable businesses to interact with consumers, increase online exposure, and improve
-                  brand reputation.
-                </p>
-              )}
-
-            {property1 === "variant-2" && (
+          <div className={`our-digital-services property-1`}>
+            {state.property1 === "service-cloud-services" && (
               <p className="text-wrapper-46">
                 With the help of scalable and adaptable cloud services, businesses can use distant servers for data
                 storage, processing power, and software applications.
               </p>
             )}
+
+            {state.property1 === "service-product-engineering" && (
+              <p className="text-wrapper-46">
+                With a focus on providing high-quality, user-centred solutions, we  innovate, design, develop, test and
+                deploy software solutions.
+              </p>
+            )}
+
+            {state.property1 === "service-QA-and-testing" && (
+              <p className="text-wrapper-46">
+                Software applications are thoroughly assessed by QA and testing teams to ensure they adhere to quality
+                standards, are error-free, and operate as intended.
+              </p>
+            )}
+
+            {state.property1 === "service-infrastruture-services" && (
+              <p className="text-wrapper-46">
+                The provision and maintenance of crucial IT infrastructure elements including servers, networks, and
+                storage systems are referred to as infrastructure services. These services ensure that vital IT
+                infrastructure is always available, dependable, and secure, allowing organisations to run smoothly.
+              </p>
+            )}
+
+            {state.property1 === "service-app-modernization" && (
+              <p className="text-wrapper-46">
+                Businesses can increase performance, scalability, and user pleasure by modernising existing apps.
+              </p>
+            )}
+
+            {state.property1 === "service-professional-services" && (
+              <p className="text-wrapper-46">
+                Professional services provide a broad spectrum of specialized knowledge offered to enterprises to meet
+                their unique requirements. These services include consulting, project management, instruction, and
+                application.
+              </p>
+            )}
+
+            {state.property1 === "service-digital" && (
+              <p className="text-wrapper-46">
+                Our digital services enable businesses to interact with consumers, increase online exposure, and improve
+                brand reputation.
+              </p>
+            )}
           </div>
-          <div className={`frame-7 property-1-0-${property1}`}>
+          <div className={`frame-7 property-1-0`}>
             <div className="frame-8">
               <div className="frame-9">
                 <img
                   className="vector"
                   alt="Vector"
-                  src={["service-digital", "variant-2", "variant-6"].includes(property1) ? vector : "/it/vector-9.svg"}
+                  src={["service-app-modernization", "service-cloud-services", "service-digital"].includes(property1) ? vector : "/it/vector-9.svg"}
                 />
                 <div className="time-and-material">
-                  {property1 === "variant-7" && <>Time and Material</>}
+                  {state.property1 === "service-professional-services" && <>Time and Material</>}
 
-                  {property1 === "variant-4" && <>Test advisory &amp; consulting</>}
+                  {state.property1 === "service-QA-and-testing" && <>Test advisory &amp; consulting</>}
 
-                  {property1 === "variant-5" && <>Data Center Management</>}
+                  {state.property1 === "service-infrastruture-services" && <>Data Center Management</>}
 
-                  {property1 === "variant-3" && <>SaaS-ification</>}
+                  {state.property1 === "service-product-engineering" && <>SaaS-ification</>}
 
-                  {property1 === "service-digital" && <>AI/ML</>}
+                  {state.property1 === "service-cloud-services" && <>Cloud Advisory</>}
 
-                  {property1 === "variant-2" && <>Cloud Advisory</>}
+                  {state.property1 === "service-app-modernization" && <>Custom Development</>}
 
-                  {property1 === "variant-6" && <>Custom Development</>}
+                  {state.property1 === "service-digital" && <>AI/ML</>}
                 </div>
               </div>
               <div className="frame-9">
                 <img
                   className="vector"
                   alt="Vector"
-                  src={["service-digital", "variant-2", "variant-6"].includes(property1) ? img : "/it/vector-9.svg"}
+                  src={["service-app-modernization", "service-cloud-services", "service-digital"].includes(property1) ? img : "/it/vector-9.svg"}
                 />
                 <div className="lab-on-hire">
-                  {property1 === "variant-3" && <>Lab-on-Hire</>}
+                  {state.property1 === "service-product-engineering" && <>Lab-on-Hire</>}
 
-                  {property1 === "service-digital" && <>RPA</>}
+                  {state.property1 === "service-cloud-services" && <>Cloud App Development</>}
 
-                  {property1 === "variant-2" && <>Cloud App Development</>}
+                  {state.property1 === "service-app-modernization" && <>Application Maintenance</>}
 
-                  {property1 === "variant-6" && <>Application Maintenance</>}
+                  {state.property1 === "service-digital" && <>RPA</>}
 
-                  {property1 === "variant-7" && <>Extended Delivery Center (EDC)</>}
+                  {state.property1 === "service-professional-services" && <>Extended Delivery Center (EDC)</>}
 
-                  {property1 === "variant-4" && <>Intelligent automation</>}
+                  {state.property1 === "service-QA-and-testing" && <>Intelligent automation</>}
 
-                  {property1 === "variant-5" && <>Server Management</>}
+                  {state.property1 === "service-infrastruture-services" && <>Server Management</>}
                 </div>
               </div>
-              {["service-digital", "variant-2", "variant-3", "variant-4", "variant-5", "variant-6"].includes(
-                property1
+              {[
+                "service-QA-and-testing",
+                "service-app-modernization",
+                "service-cloud-services",
+                "service-digital",
+                "service-infrastruture-services",
+                "service-product-engineering",
+              ].includes(
+                state.property1
               ) && (
                   <div className="frame-9">
                     <img
                       className="vector"
                       alt="Vector"
                       src={
-                        ["service-digital", "variant-2", "variant-6"].includes(property1) ? vector1 : "/it/vector-9.svg"
+                        ["service-app-modernization", "service-cloud-services", "service-digital"].includes(property1) ? vector1 : "/it/vector-9.svg"
                       }
                     />
                     <div className="digitalization">
-                      {property1 === "variant-3" && <>Digitalization</>}
+                      {state.property1 === "service-product-engineering" && <>Digitalization</>}
 
-                      {property1 === "service-digital" && <>BI &amp; Analytics</>}
+                      {state.property1 === "service-cloud-services" && <>Cloud Managed Services</>}
 
-                      {property1 === "variant-2" && <>Cloud Managed Services</>}
+                      {state.property1 === "service-app-modernization" && <>Legacy Migration</>}
 
-                      {property1 === "variant-6" && <>Legacy Migration</>}
+                      {state.property1 === "service-digital" && <>BI &amp; Analytics</>}
 
-                      {property1 === "variant-4" && <>Accessibility assurance</>}
+                      {state.property1 === "service-QA-and-testing" && <>Accessibility assurance</>}
 
-                      {property1 === "variant-5" && <>Storage Management</>}
+                      {state.property1 === "service-infrastruture-services" && <>Storage Management</>}
                     </div>
                   </div>
                 )}
 
-              {["variant-4", "variant-5"].includes(property1) && (
+              {["service-QA-and-testing", "service-infrastruture-services"].includes(property1) && (
                 <div className="frame-9">
                   <img className="vector" alt="Vector" src="/it/vector-9.svg" />
                   <div className="security-testing">
-                    {property1 === "variant-4" && <>Security testing</>}
+                    {state.property1 === "service-QA-and-testing" && <>Security testing</>}
 
-                    {property1 === "variant-5" && <>Network Services</>}
+                    {state.property1 === "service-infrastruture-services" && <>Network Services</>}
                   </div>
                 </div>
               )}
             </div>
-            {["service-digital", "variant-2", "variant-4", "variant-5", "variant-6"].includes(property1) && (
-              <div className="frame-8">
-                <div className="frame-9">
-                  <img
-                    className="vector"
-                    alt="Vector"
-                    src={["service-digital", "variant-2"].includes(property1) ? vector2 : "/it/vector-9.svg"}
-                  />
-                  <div className="functional-testing">
-                    {property1 === "variant-4" && <>Functional testing</>}
-
-                    {property1 === "variant-5" && <>Security Services</>}
-
-                    {property1 === "variant-6" && <>System Integration</>}
-
-                    {property1 === "service-digital" && <>Mobility</>}
-
-                    {property1 === "variant-2" && <>Cloud Security</>}
-                  </div>
-                </div>
-                <div className="frame-9">
-                  <img
-                    className="vector"
-                    alt="Vector"
-                    src={["service-digital", "variant-2"].includes(property1) ? vector3 : "/it/vector-9.svg"}
-                  />
-                  <div className="UX-UI">
-                    {property1 === "service-digital" && <>UX/UI</>}
-
-                    {property1 === "variant-2" && <>Cloud Migration</>}
-
-                    {property1 === "variant-4" && <>Performance testing/engineering</>}
-
-                    {property1 === "variant-5" && <>Workplace Services</>}
-
-                    {property1 === "variant-6" && <>EDI Services</>}
-                  </div>
-                </div>
-                {["variant-4", "variant-5", "variant-6"].includes(property1) && (
+            {[
+              "service-QA-and-testing",
+              "service-app-modernization",
+              "service-cloud-services",
+              "service-digital",
+              "service-infrastruture-services",
+            ].includes(state.property1) && (
+                <div className="frame-8">
                   <div className="frame-9">
-                    <img className="vector" alt="Vector" src="/it/vector-9.svg" />
-                    <div className="ERP-testing">
-                      {property1 === "variant-4" && <>ERP testing</>}
+                    <img
+                      className="vector"
+                      alt="Vector"
+                      src={["service-cloud-services", "service-digital"].includes(property1) ? vector2 : "/it/vector-9.svg"}
+                    />
+                    <div className="functional-testing">
+                      {state.property1 === "service-QA-and-testing" && <>Functional testing</>}
 
-                      {property1 === "variant-5" && <>Cyber Security</>}
+                      {state.property1 === "service-infrastruture-services" && <>Security Services</>}
 
-                      {property1 === "variant-6" && <>UX/UI</>}
+                      {state.property1 === "service-app-modernization" && <>System Integration</>}
+
+                      {state.property1 === "service-cloud-services" && <>Cloud Security</>}
+
+                      {state.property1 === "service-digital" && <>Mobility</>}
                     </div>
                   </div>
-                )}
-
-                {["variant-4", "variant-5"].includes(property1) && (
                   <div className="frame-9">
-                    <img className="vector" alt="Vector" src="/it/vector-9.svg" />
-                    <div className="customer-experience">
-                      {property1 === "variant-4" && <>Customer experience testing</>}
+                    <img
+                      className="vector"
+                      alt="Vector"
+                      src={["service-cloud-services", "service-digital"].includes(property1) ? vector3 : "/it/vector-9.svg"}
+                    />
+                    <div className="UX-UI">
+                      {state.property1 === "service-cloud-services" && <>Cloud Migration</>}
 
-                      {property1 === "variant-5" && <>BCP/ DR</>}
+                      {state.property1 === "service-digital" && <>UX/UI</>}
+
+                      {state.property1 === "service-QA-and-testing" && <>Performance testing/engineering</>}
+
+                      {state.property1 === "service-infrastruture-services" && <>Workplace Services</>}
+
+                      {state.property1 === "service-app-modernization" && <>EDI Services</>}
                     </div>
                   </div>
-                )}
-              </div>
-            )}
+                  {["service-QA-and-testing", "service-app-modernization", "service-infrastruture-services"].includes(property1) && (
+                    <div className="frame-9">
+                      <img className="vector" alt="Vector" src="/it/vector-9.svg" />
+                      <div className="ERP-testing">
+                        {state.property1 === "service-QA-and-testing" && <>ERP testing</>}
+
+                        {state.property1 === "service-infrastruture-services" && <>Cyber Security</>}
+
+                        {state.property1 === "service-app-modernization" && <>UX/UI</>}
+                      </div>
+                    </div>
+                  )}
+
+                  {["service-QA-and-testing", "service-infrastruture-services"].includes(property1) && (
+                    <div className="frame-9">
+                      <img className="vector" alt="Vector" src="/it/vector-9.svg" />
+                      <div className="customer-experience">
+                        {state.property1 === "service-QA-and-testing" && <>Customer experience testing</>}
+
+                        {state.property1 === "service-infrastruture-services" && <>BCP/ DR</>}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              )}
           </div>
         </div>
       </div>
@@ -315,15 +334,61 @@ export const Component = ({
   );
 };
 
+function reducer(state, action) {
+  switch (action) {
+    case "click":
+      return {
+        ...state,
+        property1: "service-digital",
+      };
+
+    case "click_396":
+      return {
+        ...state,
+        property1: "service-product-engineering",
+      };
+
+    case "click_399":
+      return {
+        ...state,
+        property1: "service-QA-and-testing",
+      };
+
+    case "click_402":
+      return {
+        ...state,
+        property1: "service-infrastruture-services",
+      };
+
+    case "click_405":
+      return {
+        ...state,
+        property1: "service-app-modernization",
+      };
+    case "click_482":
+      return {
+        ...state,
+        property1: "service-cloud-services",
+      };
+    case "click_408":
+      return {
+        ...state,
+        property1: "service-professional-services",
+      };
+  }
+
+  return state;
+}
+
 Component.propTypes = {
   property1: PropTypes.oneOf([
+    "service-cloud-services",
+    "service-infrastruture-services",
     "service-digital",
-    "variant-5",
-    "variant-2",
-    "variant-3",
-    "variant-4",
-    "variant-7",
-    "variant-6",
+    "service-product-engineering",
+    "service-QA-and-testing",
+    "service-professional-services",
+    "service-app-modernization",
   ]),
   vector: PropTypes.string,
   img: PropTypes.string,

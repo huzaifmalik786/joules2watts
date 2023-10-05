@@ -806,7 +806,7 @@ export const Iphone = () => {
               </div>
               <div className="frame-69">
                 <img
-                  className="mercedes-benz-logo2"
+                  className="mercedes-benz-logo-2"
                   alt="Mercedes benz logo"
                   src="/logos/mercedes-benz-logo-2010-1.png"
                 />
