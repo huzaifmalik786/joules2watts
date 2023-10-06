@@ -29,12 +29,12 @@ export const Service = ({ stateProp, card, className, CTAArrowForward = "/servic
             <>
               <div
                 className="frame"
-                onMouseLeave={() => {
-                  dispatch("mouse_leave_736");
-                }}
-                onMouseEnter={() => {
-                  dispatch("mouse_enter_736");
-                }}
+              // onMouseLeave={() => {
+              //   dispatch("mouse_leave_736");
+              // }}
+              // onMouseEnter={() => {
+              //   dispatch("mouse_enter_736");
+              // }}
               >
                 {(state.card === "FLX" ||
                   state.card === "GIC" ||
@@ -119,7 +119,21 @@ export const Service = ({ stateProp, card, className, CTAArrowForward = "/servic
                     </>
                   )}
                 </div>
-                <Cta arrowForward={CTAArrowForward} className="CTA-instance" property1="default" text="Learn More" />
+                <Cta arrowForward={CTAArrowForward} className="CTA-instance" property1="default" text="Learn More"
+                  link={
+                    state.card === ""
+                      ? "/staffing-solution"
+                      : state.card === "default"
+                        ? "/administrative-and-payroll-management"
+                        : state.card === "FLX"
+                          ? "/rpo"
+                          : state.card === "RPO"
+                            ? "/consulting"
+                            : state.card =="GIC"
+                            ? "/hire-train-deploy"
+                            : "/msp"
+                  }
+                />
               </div>
             </>
           )}
@@ -140,6 +154,7 @@ export const Service = ({ stateProp, card, className, CTAArrowForward = "/servic
                 className="CTA-instance"
                 property1="default"
                 text="Learn More"
+                link="/staffing-solution"
               />
             </div>
           </div>

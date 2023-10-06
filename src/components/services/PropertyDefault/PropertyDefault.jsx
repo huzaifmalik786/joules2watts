@@ -27,6 +27,7 @@ export const PropertyDefault = ({ className, frameClassName, CTAArrowForward = "
             className="design-component-instance-node"
             property1="default"
             text="Learn More"
+            link="/it-services"
           />
         </div>
       </div>

@@ -35,4 +35,10 @@
   border: 1px solid;
   border-color: var(--neutral-0);
   gap: 10px;
+  transition: all ease-in-out 0.3s;
+}
+
+.property-default-wrapper.property-1-default:hover {
+  background-color: #4d9f98;
+  gap: 8px;
 }

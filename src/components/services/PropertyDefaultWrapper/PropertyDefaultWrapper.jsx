@@ -23,12 +23,12 @@ export const PropertyDefaultWrapper = ({
   return (
     <div
       className={`property-default-wrapper property-1-${state.property1} ${className}`}
-      onMouseLeave={() => {
-        dispatch("mouse_leave");
-      }}
-      onMouseEnter={() => {
-        dispatch("mouse_enter");
-      }}
+      // onMouseLeave={() => {
+      //   dispatch("mouse_leave");
+      // }}
+      // onMouseEnter={() => {
+      //   dispatch("mouse_enter");
+      // }}
     >
       <p className={` ${divClassName}`}>{text}</p>
       <img

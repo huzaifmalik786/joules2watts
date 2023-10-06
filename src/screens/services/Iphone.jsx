@@ -83,6 +83,7 @@ export const Services = () => {
                       className="instance-node"
                       property1="default"
                       text="Learn More"
+                      link="/hire-train-deploy"
                     />
                   </div>
                 </div>
@@ -102,6 +103,7 @@ export const Services = () => {
                       className="instance-node"
                       property1="default"
                       text="Learn More"
+                      link="/it-services"
                     />
                   </div>
                 </div>
@@ -172,6 +174,7 @@ export const Services = () => {
                       className="instance-node"
                       property1="default"
                       text="Learn More"
+                      link="/msp"
                     />
                   </div>
                 </div>
@@ -191,6 +194,7 @@ export const Services = () => {
                       className="instance-node"
                       property1="default"
                       text="Learn More"
+                      link="/rpo"
                     />
                   </div>
                 </div>
@@ -210,6 +214,7 @@ export const Services = () => {
                       className="instance-node"
                       property1="default"
                       text="Learn More"
+                      link="/staffing-solution"
                     />
                   </div>
                 </div>
@@ -229,6 +234,7 @@ export const Services = () => {
                       className="instance-node"
                       property1="default"
                       text="Learn More"
+                      link="/administrative-and-payroll-management"
                     />
                   </div>
                 </div>
@@ -248,6 +254,7 @@ export const Services = () => {
                       className="instance-node"
                       property1="default"
                       text="Learn More"
+                      link="/consulting"
                     />
                   </div>
                 </div>
@@ -458,6 +465,7 @@ export const Services = () => {
                 divClassName="CTA-7"
                 property1="default"
                 text="Connect with us"
+                link="/contact-us"
               />
               <Service
                 CTAArrowForward="/services/arrow-forward-28.svg"
@@ -619,6 +627,7 @@ export const Services = () => {
                     divClassName="CTA-12"
                     property1="default"
                     text="Learn more"
+                    link="/industries"
                   />
                 </div>
               </div>
@@ -732,6 +741,7 @@ export const Services = () => {
                         divClassName="CTA-12"
                         property1="default"
                         text="Learn more"
+                      link="/industries"
                       />
                     </div>
                   </div>
@@ -885,13 +895,13 @@ export const Services = () => {
           <div className="mobile-only">
             <div className="group-18">
               <div className="headline-4">Diguro Cyber Security</div>
-              <Cta
+              {/* <Cta
                 arrowForward="/services/arrow-forward-12.svg"
                 className="CTA-17"
                 divClassName="CTA-12"
                 property1="default"
                 text="Learn more"
-              />
+              /> */}
               <img
                 className="copy-of-CYBER-SEC-2"
                 alt="Copy of CYBER SEC"
