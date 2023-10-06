@@ -22,6 +22,7 @@ export const Frame = () => {
               hasArrowForward={false}
               property1="default"
               text="Learn More"
+              link="/it-services"
             />
           </div>
         </div>
@@ -46,6 +47,7 @@ export const Frame = () => {
               divClassName="CTA-3"
               property1="default"
               text="Learn More"
+              link="/administrative-and-payroll-management"
             />
           </div>
         </div>
@@ -67,6 +69,7 @@ export const Frame = () => {
               divClassName="CTA-3"
               property1="default"
               text="Learn More"
+              link="hire-train-deploy"
             />
           </div>
         </div>
@@ -88,6 +91,7 @@ export const Frame = () => {
               divClassName="CTA-3"
               property1="default"
               text="Learn More"
+              link="/rpo"
             />
           </div>
         </div>
@@ -107,6 +111,7 @@ export const Frame = () => {
               divClassName="CTA-3"
               property1="default"
               text="Learn More"
+              link="/staffing-solution"
             />
           </div>
         </div>
@@ -132,6 +137,7 @@ export const Frame = () => {
                 divClassName="CTA-3"
                 property1="default"
                 text="Learn More"
+                link="/consulting"
               />
             </div>
           </div>

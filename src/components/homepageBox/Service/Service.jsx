@@ -33,132 +33,139 @@ export const Service = ({
           (state.card === "six" && state.state === "default") ||
           state.card === "three" ||
           state.card === "two") && (
-          <>
-            <div className="frame">
-              {(state.card === "five" ||
-                state.card === "four" ||
-                state.card === "one" ||
-                state.card === "six" ||
-                (state.card === "three" && state.state === "default") ||
-                state.card === "two") && (
-                <div className="overlap-group-3">
-                  {state.card === "one" && <div className="rectangle" />}
+            <>
+              <div className="frame">
+                {(state.card === "five" ||
+                  state.card === "four" ||
+                  state.card === "one" ||
+                  state.card === "six" ||
+                  (state.card === "three" && state.state === "default") ||
+                  state.card === "two") && (
+                    <div className="overlap-group-3">
+                      {state.card === "one" && <div className="rectangle" />}
 
-                  {["four", "six", "three"].includes(state.card) && (
-                    <img
-                      className="shutterstock"
-                      alt="Shutterstock"
-                      src={
-                        state.card === "three"
-                          ? "/homepage/shutterstock-1485872414-1-17.png"
-                          : state.card === "six"
-                          ? "/homepage/shutterstock-1485872414-1-15.png"
-                          : "/homepage/shutterstock-1485872414-1-20.png"
-                      }
-                    />
+                      {["four", "six", "three"].includes(state.card) && (
+                        <img
+                          className="shutterstock"
+                          alt="Shutterstock"
+                          src={
+                            state.card === "three"
+                              ? "/homepage/shutterstock-1485872414-1-17.png"
+                              : state.card === "six"
+                                ? "/homepage/shutterstock-1485872414-1-15.png"
+                                : "/homepage/shutterstock-1485872414-1-20.png"
+                          }
+                        />
+                      )}
+
+                      {["four", "three"].includes(state.card) && <div className="div" />}
+
+                      {state.card === "six" && (
+                        <>
+                          <div className="rectangle-2" />
+                          <p className="consulting-for">
+                            Consulting for Global <br />
+                            In-house Centers (GICs)
+                          </p>
+                        </>
+                      )}
+                    </div>
                   )}
+              </div>
+              <div className="frame-2">
+                {(state.card === "four" ||
+                  state.card === "one" ||
+                  (state.card === "three" && state.state === "default") ||
+                  (state.card === "two" && state.state === "default")) && (
+                    <div className="frame-3">
+                      {["four", "one"].includes(state.card) && (
+                        <div className="hire-train-deploy">
+                          {state.card === "one" && <>Hire, Train &amp; Deploy</>}
 
-                  {["four", "three"].includes(state.card) && <div className="div" />}
+                          {state.card === "four" && <div className="master-service-homepage">Master Service Provider</div>}
+                        </div>
+                      )}
 
-                  {state.card === "six" && (
-                    <>
-                      <div className="rectangle-2" />
-                      <p className="consulting-for">
-                        Consulting for Global <br />
-                        In-house Centers (GICs)
-                      </p>
-                    </>
-                  )}
-                </div>
-              )}
+                      {state.card === "two" && (
+                        <>
+                          Administrative and <br />
+                          Payroll Management
+                        </>
+                      )}
 
-              {/* {state.state === "hover" && state.card === "three" && (
-                <img className="img" alt="Shutterstock" src="/homepage/shutterstock_1485872414_1.png" />
-              )} */}
-            </div>
-            <div className="frame-2">
-              {(state.card === "four" ||
-                state.card === "one" ||
-                (state.card === "three" && state.state === "default") ||
-                (state.card === "two" && state.state === "default")) && (
-                <div className="frame-3">
-                  {["four", "one"].includes(state.card) && (
-                    <div className="hire-train-deploy">
-                      {state.card === "one" && <>Hire, Train &amp; Deploy</>}
-
-                      {state.card === "four" && <div className="master-service-homepage">Master Service Provider</div>}
+                      {state.card === "three" && <>Recruitment Process Outsourcing</>}
                     </div>
                   )}
 
-                  {state.card === "two" && (
-                    <>
-                      Administrative and <br />
-                      Payroll Management
-                    </>
-                  )}
+                {state.state === "hover" && (
+                  <>
+                    <div className="flexible-staffing">
+                      {state.card === "five" && <>Flexible Staffing</>}
 
-                  {state.card === "three" && <>Recruitment Process Outsourcing</>}
-                </div>
-              )}
+                      {state.card === "two" && (
+                        <>
+                          Administrative and <br />
+                          Payroll Management
+                        </>
+                      )}
 
-              {state.state === "hover" && (
-                <>
-                  <div className="flexible-staffing">
-                    {state.card === "five" && <>Flexible Staffing</>}
+                      {state.card === "three" && <>Recruitment Process Outsourcing</>}
+                    </div>
+                    <div className="joulestowatts">
+                      {state.card === "five" && (
+                        <p className="text-wrapper-6">
+                          Joulestowatts Flexible staffing services helps employers find temporary and direct hires through
+                          a streamlined hiring process optimized for quick and cost-effective recruitment.
+                        </p>
+                      )}
 
-                    {state.card === "two" && (
-                      <>
-                        Administrative and <br />
-                        Payroll Management
-                      </>
-                    )}
+                      {state.card === "two" && (
+                        <p className="text-wrapper-6">
+                          We are committed to delivering world-class payroll management and the most dependable HR
+                          solutions.
+                        </p>
+                      )}
 
-                    {state.card === "three" && <>Recruitment Process Outsourcing</>}
-                  </div>
-                  <div className="joulestowatts">
-                    {state.card === "five" && (
-                      <p className="text-wrapper-6">
-                        Joulestowatts Flexible staffing services helps employers find temporary and direct hires through
-                        a streamlined hiring process optimized for quick and cost-effective recruitment.
-                      </p>
-                    )}
+                      {state.card === "three" && (
+                        <p className="text-wrapper-6">
+                          Joulestowatts RPO (Recruitment Process Outsourcing) solutions enable businesses to source and
+                          hire talent faster.
+                        </p>
+                      )}
+                    </div>
+                  </>
+                )}
 
-                    {state.card === "two" && (
-                      <p className="text-wrapper-6">
-                        We are committed to delivering world-class payroll management and the most dependable HR
-                        solutions.
-                      </p>
-                    )}
-
-                    {state.card === "three" && (
-                      <p className="text-wrapper-6">
-                        Joulestowatts RPO (Recruitment Process Outsourcing) solutions enable businesses to source and
-                        hire talent faster.
-                      </p>
-                    )}
-                  </div>
-                </>
-              )}
-
-              <Cta
-                arrowForward={
-                  state.card === "five"
-                    ? "/homepage/arrow-forward-16.svg"
-                    : state.state === "hover" && state.card === "two"
-                    ? "/homepage/arrow-forward-13.svg"
-                    : state.state === "hover" && state.card === "three"
-                    ? "/homepage/arrow-forward-12.svg"
-                    : state.card === "six"
-                    ? CTAArrowForward1
-                    : CTAArrowForward
-                }
-                className="CTA-instance"
-                property1="default"
-                text="Learn More"
-              />
-            </div>
-          </>
-        )}
+                <Cta
+                  arrowForward={
+                    state.card === "five"
+                      ? "/homepage/arrow-forward-16.svg"
+                      : state.state === "hover" && state.card === "two"
+                        ? "/homepage/arrow-forward-13.svg"
+                        : state.state === "hover" && state.card === "three"
+                          ? "/homepage/arrow-forward-12.svg"
+                          : state.card === "six"
+                            ? CTAArrowForward1
+                            : CTAArrowForward
+                  }
+                  className="CTA-instance"
+                  property1="default"
+                  text="Learn More"
+                  link={
+                    state.card === "five"
+                      ? "/staffing-solution"
+                      : state.card === "two"
+                        ? "/administrative-and-payroll-management"
+                        :  state.card === "three"
+                          ? "/rpo"
+                          : state.card === "six"
+                            ? "/consulting"
+                            : "/hire-train-deplo"
+                  }
+                />
+              </div>
+            </>
+          )}
 
         {state.state === "hover" && ["four", "one", "six"].includes(state.card) && (
           <div className="overlap-group-3">
@@ -187,6 +194,7 @@ export const Service = ({
                         className="CTA-instance"
                         property1="default"
                         text="Learn More"
+                        link="/consulting"
                       />
                     </div>
                   </>
@@ -208,6 +216,7 @@ export const Service = ({
                       className="CTA-instance"
                       property1="default"
                       text="Learn More"
+                      link="/msp"
                     />
                   </>
                 )}
@@ -224,7 +233,7 @@ export const Service = ({
                     strategies to recruit, retain, and manage talent.
                   </p>
                 </div>
-                <Cta arrowForward="/homepage/arrow-forward-10.svg" className="CTA-2" property1="default" text="Learn More" />
+                <Cta arrowForward="/homepage/arrow-forward-10.svg" className="CTA-2" property1="default" text="Learn More" link="/hire-train-deploy"/>
               </>
             )}
           </div>
@@ -236,7 +245,7 @@ export const Service = ({
             <div className="rectangle-4" />
             <div className="frame-8">
               <div className="text-wrapper-2">Flexible Staffing</div>
-              <Cta arrowForward={CTAImg} className="CTA-instance" property1="default" text="Learn More" />
+              <Cta arrowForward={CTAImg} className="CTA-instance" property1="default" text="Learn More" link="/staffing-solution"/>
             </div>
           </>
         )}

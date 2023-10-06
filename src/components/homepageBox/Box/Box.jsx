@@ -26,6 +26,7 @@ export const Box = () => {
               divClassName="CTA-5"
               property1="default"
               text="Connect with us"
+              link="/contact-us"
             />
           </div>
           <Service

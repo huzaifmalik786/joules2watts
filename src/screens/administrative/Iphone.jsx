@@ -1,6 +1,6 @@
 import React from "react";
 import { useWindowWidth } from "../../breakpoints";
-import { Carousel } from "../../components/administrative/Carousel";
+// import { Carousel } from "../../components/administrative/Carousel";
 import { CarouselWrapper } from "../../components/administrative/CarouselWrapper";
 import { Cta } from "../../components/administrative/Cta";
 import { PropertyDefaultWrapper } from "../../components/administrative/PropertyDefaultWrapper";
@@ -564,13 +564,13 @@ export const Administrative = () => {
                   <div className="rectangle-16" />
                 </div>
               </div>
-              <Carousel
+              {/* <Carousel
                 arrowForward="/administrative/arrow-forward-9.png"
                 arrowForwardClassName="frame-61"
                 className="carousel-02"
                 overlapGroupClassName="carousel-02-instance"
                 rectangleClassName="frame-60"
-              />
+              /> */}
               <CarouselWrapper
                 arrowForward="/administrative/arrow-forward-9.png"
                 arrowForwardClassName="carousel-03-instance"
@@ -668,8 +668,7 @@ export const Administrative = () => {
                         items: 3,
                         slidesToSlide: 1,
                       }
-                    }
-                  }
+                    }}
                   autoPlay={true}
                   infinite
                   autoPlaySpeed={3200}
@@ -692,15 +691,18 @@ export const Administrative = () => {
                       <div className="text-wrapper-59">Product</div>
                     </div>
                   </div>
-                  <div className="div-wrapper-2">
+                  <div className="telecom-3">
                     <div className="text-wrapper-58">ITES</div>
                   </div>
-                  <div className="div-wrapper-2">
+                  <div className="telecom-4">
                     <div className="text-wrapper-58">SME</div>
                   </div>
                 </Carousel>
 
               </div>
+              {/* <div className="arrow">
+                <img className="arrow-forward-ios" alt="Arrow forward ios" src="/administrative/arrow-forward-ios.png" />
+              </div> */}
             </div>
           </div>
           <div className="group-7">

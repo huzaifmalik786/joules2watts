@@ -29,6 +29,7 @@ export const PropertyDefault = ({ className, rectangle = "/img/rectangle-33-1.sv
             hasArrowForward={false}
             property1="default"
             text="Learn More"
+            link="/it-services"
           />
         </div>
       </div>

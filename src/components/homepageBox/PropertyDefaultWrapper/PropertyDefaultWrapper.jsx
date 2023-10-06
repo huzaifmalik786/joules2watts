@@ -25,7 +25,7 @@ export const PropertyDefaultWrapper = ({ className, CTAArrowForward = "/homepage
               With over 85+ global education partners, Joulestowatts offers the best trainers in the industry. An execution-driven methodology from hiring to deployment with complete assistance & tested strategies to recruit, retain, and manage talent.
             </div>
           </div>
-          <Cta arrowForward={CTAArrowForward} className="CTA-3" property1="default" text="Learn More" />
+          <Cta arrowForward={CTAArrowForward} className="CTA-3" property1="default" text="Learn More" link="/hire-train-deploy"/>
         </div>
       </div>
     </div>

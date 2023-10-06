@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import "./style.css"
 import { useWindowWidth } from '../../../breakpoints'
+import { Link } from 'react-router-dom';
 
 
 export const Footer = () => {
@@ -19,13 +20,25 @@ export const Footer = () => {
                 <div className="overlap-8-shared">
                     <div className="frame-49-shared">
                         <div className="DIV-2-shared">
-                            <div className="text-wrapper-29-shared">Services</div>
+                            <Link to="/services-overview">
+                                <div className="text-wrapper-29-shared">Services</div>
+                            </Link>
                             <div className="text-wrapper-29-shared">Platforms</div>
-                            <div className="text-wrapper-29-shared">About</div>
-                            <div className="text-wrapper-29-shared">Leadership</div>
-                            <div className="text-wrapper-29-shared">Industries</div>
-                            <div className="text-wrapper-29-shared">Careers</div>
-                            <div className="text-wrapper-29-shared">CSR</div>
+                            <Link to="/about-us">
+                                <div className="text-wrapper-29-shared">About</div>
+                            </Link>
+                            <Link to="/leadership">
+                                <div className="text-wrapper-29-shared">Leadership</div>
+                            </Link>
+                            <Link to="/industries">
+                                <div className="text-wrapper-29-shared">Industries</div>
+                            </Link>
+                            <Link to="/careers">
+                                <div className="text-wrapper-29-shared">Careers</div>
+                            </Link>
+                            <Link to="/csr-policy">
+                                <div className="text-wrapper-29-shared">CSR</div>
+                            </Link>
                         </div>
                         <a
                             className="text-wrapper-30-shared"
@@ -59,8 +72,12 @@ export const Footer = () => {
                         >
                             LinkedIn
                         </a>
-                        <div className="text-wrapper-34-shared">Privacy policy</div>
-                        <div className="text-wrapper-35-shared">Contact us</div>
+                        <Link to="/privacy-policy">
+                            <div className="text-wrapper-34-shared">Privacy policy</div>
+                        </Link>
+                        <Link to="/contact-us">
+                            <div className="text-wrapper-35-shared">Contact us</div>
+                        </Link>
                         <div className="frame-39-shared">
                             <div className="text-wrapper-36-shared">HEAD OFFICE</div>
                             <p className="text-wrapper-37-shared">
@@ -88,7 +105,9 @@ export const Footer = () => {
                         <div className="frame-41-shared">
                             <p className="text-wrapper-39-shared">© Copyright © 2018-19 Joulestowatts Business Solutions Pvt. Ltd.</p>
                             <div className="ellipse-9-shared" />
-                            <div className="text-wrapper-39-shared">Privacy Policy</div>
+                            <Link to="/privacy-policy">
+                                <div className="text-wrapper-39-shared">Privacy Policy</div>
+                            </Link>
                         </div>
                     </div>
                     <img className="logo-3-shared" alt="Logo" src="/services/logo.png" />
@@ -105,17 +124,33 @@ export const Footer = () => {
                             </p>
                         </div>
                         <div className="DIV-3-shared">
-                            <div className="text-wrapper-29-shared">Leadership</div>
-                            <div className="text-wrapper-53-shared">Industries</div>
-                            <div className="text-wrapper-53-shared">Careers</div>
-                            <div className="text-wrapper-53-shared">CSR</div>
+                            <Link to="/leadership">
+                                <div className="text-wrapper-29-shared">Leadership</div>
+                            </Link>
+                            <Link to="/industries">
+                                <div className="text-wrapper-53-shared">Industries</div>
+                            </Link>
+                            <Link to="/careers">
+                                <div className="text-wrapper-53-shared">Careers</div>
+                            </Link>
+                            <Link to="/csr-policy">
+                                <div className="text-wrapper-53-shared">CSR</div>
+                            </Link>
                         </div>
                         <div className="DIV-4-shared">
-                            <div className="text-wrapper-29-shared">Services</div>
+                            <Link to="/services-overview">
+                                <div className="text-wrapper-29-shared">Services</div>
+                            </Link>
                             <div className="text-wrapper-53-shared">Platforms</div>
-                            <div className="text-wrapper-53-shared">About</div>
-                            <div className="text-wrapper-53-shared">Contact us</div>
-                            <div className="text-wrapper-53-shared">Privacy policy</div>
+                            <Link to="/about-us">
+                                <div className="text-wrapper-53-shared">About</div>
+                            </Link>
+                            <Link to="/contact-us">
+                                <div className="text-wrapper-53-shared">Contact us</div>
+                            </Link>
+                            <Link to="/privacy-policy">
+                                <div className="text-wrapper-53-shared">Privacy policy</div>
+                            </Link>
                         </div>
                         <div className="frame-75-shared">
                             <div className="group-20-shared">
@@ -180,7 +215,9 @@ export const Footer = () => {
                         <div className="frame-78-shared">
                             <p className="text-wrapper-55-shared">© Copyright © 2018-19 Joulestowatts Business Solutions Pvt. Ltd.</p>
                             <div className="ellipse-14-shared" />
-                            <div className="text-wrapper-56-shared">Privacy Policy</div>
+                            <Link to="/privacy-policy">
+                                <div className="text-wrapper-56-shared">Privacy Policy</div>
+                            </Link>
                         </div>
                     </div>
                 </div>

@@ -12,6 +12,7 @@ import { Header } from "../../components/shared/header";
 import { Box } from "../../components/homepageBox/Box/Box";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { Link } from "react-router-dom";
 
 const ButtonGroup = ({ next, previous, ...rest }) => {
   const {
@@ -334,6 +335,7 @@ export const Homepage = () => {
               divClassName="CTA-4"
               property1="default"
               text="Connect with us"
+              link="/contact-us"
             />
           </div>
           <div className="text-wrapper-28">Al-powered Talent Intelligence Platforms</div>
@@ -357,6 +359,7 @@ export const Homepage = () => {
                 divClassName="CTA-7"
                 property1="default"
                 text="Explore"
+                link="/j2w-premiere-lounge"
               />
             </div>
             <div className="overlap-group-wrapper">
@@ -470,6 +473,7 @@ export const Homepage = () => {
                 divClassName="CTA-7"
                 property1="default"
                 text="Explore"
+                link="/offer-letter-platform"
               />
             </div>
           </div>
@@ -486,11 +490,14 @@ export const Homepage = () => {
                       industries use JoulestoWatts products.
                     </p>
                   </div>
-                  <button className="CTA-wrapper">
-                    <button className="this-is-who-we-are-wrapper">
-                      <div className="this-is-who-we-are-2">Learn more</div>
+                  <Link to="/industries">
+                    <button className="CTA-wrapper">
+                      <button className="this-is-who-we-are-wrapper">
+                        <div className="this-is-who-we-are-2">Learn more</div>
+                      </button>
                     </button>
-                  </button>
+                  </Link>
+
                 </div>
               </div>
               <div className="container">
@@ -645,6 +652,7 @@ export const Homepage = () => {
                     divClassName="CTA-7"
                     property1="default"
                     text="Explore"
+                    link="/j2w-premiere-lounge"
                   />
                 </div>
               </div>
@@ -675,6 +683,7 @@ export const Homepage = () => {
                   divClassName="CTA-7"
                   property1="default"
                   text="Explore"
+                  link="/offer-letter-platform"
                 />
               </div>
             </div>
@@ -698,6 +707,7 @@ export const Homepage = () => {
               divClassName="CTA-7"
               property1="default"
               text="Explore"
+              link="/offer-letter-platform"
             />
           </div>
           <div className="carousel-4">
@@ -732,7 +742,7 @@ export const Homepage = () => {
                 property1="default"
                 rectangleClassName="carousel-5"
               />
-                 <PropertyDefaultWrapper
+              <PropertyDefaultWrapper
                 arrowForward="/homepage/arrow-forward-20.png"
                 arrowForwardClassName="carousel-6"
                 carouselArrowForward="/homepage/arrow-forward-20.png"
@@ -752,11 +762,14 @@ export const Homepage = () => {
                 JoulestoWatts products.
               </p>
             </div>
-            <button className="CTA-wrapper">
-              <button className="this-is-who-we-are-wrapper">
-                <div className="this-is-who-we-are-2">Learn more</div>
+            <Link to="/industries">
+              <button className="CTA-wrapper">
+                <button className="this-is-who-we-are-wrapper">
+                  <div className="this-is-who-we-are-2">Learn more</div>
+                </button>
               </button>
-            </button>
+            </Link>
+
           </div>
           <div className="container-2">
             <Carousel
