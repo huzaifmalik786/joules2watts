@@ -18,19 +18,13 @@ export const Service = ({
   CTAArrowForward1 = "/homepage/arrow-forward-15.svg",
 }) => {
   const [state, dispatch] = useReducer(reducer, {
-    state: stateProp || "default",
+    state: "hover",
     card: card || "one",
   });
 
   return (
     <div
       className={`service-homepage ${state.card} state-${state.state} ${className}`}
-      onMouseLeave={() => {
-        dispatch("mouse_leave");
-      }}
-      onMouseEnter={() => {
-        dispatch("mouse_enter");
-      }}
     >
       <div className="overlap-3">
         {((state.card === "five" && state.state === "hover") ||
@@ -78,9 +72,9 @@ export const Service = ({
                 </div>
               )}
 
-              {state.state === "hover" && state.card === "three" && (
-                <img className="img" alt="Shutterstock" src="/homepage/shutterstock-1485872414-1-12.png" />
-              )}
+              {/* {state.state === "hover" && state.card === "three" && (
+                <img className="img" alt="Shutterstock" src="/homepage/shutterstock_1485872414_1.png" />
+              )} */}
             </div>
             <div className="frame-2">
               {(state.card === "four" ||
@@ -92,7 +86,7 @@ export const Service = ({
                     <div className="hire-train-deploy">
                       {state.card === "one" && <>Hire, Train &amp; Deploy</>}
 
-                      {state.card === "four" && <div className="master-service">Master Service Provider</div>}
+                      {state.card === "four" && <div className="master-service-homepage">Master Service Provider</div>}
                     </div>
                   )}
 
@@ -168,12 +162,11 @@ export const Service = ({
 
         {state.state === "hover" && ["four", "one", "six"].includes(state.card) && (
           <div className="overlap-group-3">
-            {state.card === "six" && (
+            {/* {state.card === "six" && (
               <>
                 <img className="img" alt="Shutterstock" src="/homepage/shutterstock-1485872414-1-14.png" />
-                <img className="rectangle-3" alt="Rectangle" src="/homepage/rectangle-33-2.svg" />
               </>
-            )}
+            )} */}
 
             {["four", "six"].includes(state.card) && (
               <div className="frame-4">
@@ -202,8 +195,8 @@ export const Service = ({
                 {state.card === "four" && (
                   <>
                     <div className="frame-5">
-                      <div className="master-service-wrapper">
-                        <div className="master-service">Master Service Provider</div>
+                      <div className="master-service-homepage-wrapper">
+                        <div className="master-service-homepage">Master Service Provider</div>
                       </div>
                       <p className="p">
                         Joulestowatts has a perfect combination of expertise, technology, and thought leaders to manage

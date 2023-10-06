@@ -11,22 +11,13 @@ import "./style.css";
 
 export const Service = ({ stateProp, card, className, CTAArrowForward = "/services/arrow-forward-35.svg" }) => {
   const [state, dispatch] = useReducer(reducer, {
-    state: stateProp || "default",
+    state: "hover",
     card: card || "GIC",
   });
 
   return (
     <div
       className={`service card-${state.card} state-${state.state} ${className}`}
-      onMouseLeave={() => {
-        dispatch("mouse_leave");
-      }}
-      onMouseEnter={() => {
-        dispatch("mouse_enter");
-      }}
-      onClick={() => {
-        dispatch("click");
-      }}
     >
       <div className="overlap-17">
         {(state.card === "FLX" ||
@@ -35,128 +26,103 @@ export const Service = ({ stateProp, card, className, CTAArrowForward = "/servic
           state.card === "ITS" ||
           state.card === "RPO" ||
           state.card === "default") && (
-          <>
-            <div
-              className="frame"
-              onMouseLeave={() => {
-                dispatch("mouse_leave_736");
-              }}
-              onMouseEnter={() => {
-                dispatch("mouse_enter_736");
-              }}
-            >
-              {(state.card === "FLX" ||
-                state.card === "GIC" ||
-                state.card === "HRD" ||
-                (state.card === "ITS" && state.state === "default") ||
-                state.card === "RPO" ||
-                state.card === "default") && (
-                <div className="overlap-group-11">
-                  {state.state === "default" && state.card === "GIC" && (
+            <>
+              <div
+                className="frame"
+                onMouseLeave={() => {
+                  dispatch("mouse_leave_736");
+                }}
+                onMouseEnter={() => {
+                  dispatch("mouse_enter_736");
+                }}
+              >
+                {(state.card === "FLX" ||
+                  state.card === "GIC" ||
+                  state.card === "HRD" ||
+                  (state.card === "ITS" && state.state === "default") ||
+                  state.card === "RPO" ||
+                  state.card === "default") && (
+                    <div className="overlap-group-11">
+                      {state.state === "default" && state.card === "GIC" && (
+                        <>
+                          <img className="shutterstock" alt="Shutterstock" />
+                          <div className="rectangle" />
+                        </>
+                      )}
+
+                      {((state.card === "FLX" && state.state === "hover") ||
+                        (state.card === "GIC" && state.state === "hover") ||
+                        state.card === "HRD" ||
+                        state.card === "ITS" ||
+                        state.card === "RPO" ||
+                        state.card === "default") && <div className="rectangle-2" />}
+                    </div>
+                  )}
+              </div>
+              <div className="frame-2">
+                <div className="frame-3">
+                  {state.state === "hover" && (
                     <>
-                      <img className="shutterstock" alt="Shutterstock" />
-                      <div className="rectangle" />
+                      <div className="administrative">
+                        {state.card === "default" && <>Administrative &amp; Payroll Management</>}
+
+                        {state.card === "RPO" && (
+                          <>
+                            Consulting for Global <br />
+                            In-house Centers (GICs)
+                          </>
+                        )}
+
+                        {state.card === "ITS" && <>Master Service Provider</>}
+
+                        {state.card === "GIC" && <>Hire, Train &amp; Deploy</>}
+
+                        {state.card === "FLX" && <>Recruitment Process Outsourcing</>}
+                      </div>
+                      <div className="we-are-committed-to">
+                        {state.card === "default" && (
+                          <p className="text-wrapper-61">
+                            We are committed to delivering world-class payroll management and the most dependable HR
+                            solutions.
+                          </p>
+                        )}
+
+                        {state.card === "RPO" && (
+                          <p className="text-wrapper-61">
+                            We at Joulestowatts have tailored our services&nbsp;&nbsp;to address the critical challenges
+                            that GICs face in India.
+                          </p>
+                        )}
+
+                        {state.card === "ITS" && (
+                          <p className="text-wrapper-61">
+                            Joulestowatts has a perfect combination of expertise, technology, and thought leaders to
+                            manage your operations in various verticals.
+                          </p>
+                        )}
+
+                        {state.card === "GIC" && (
+                          <p className="text-wrapper-61">
+                            With over 85+ global education partners, Joulestowatts offers the best trainers in the
+                            industry. An execution-driven methodology from hiring to deployment with complete assistance
+                            &amp; tested strategies to recruit, retain, and manage talent.
+                          </p>
+                        )}
+
+                        {state.card === "FLX" && (
+                          <p className="text-wrapper-61">
+                            Joulestowatts RPO (Recruitment Process Outsourcing) solutions enable businesses to source and
+                            hire talent faster.
+                          </p>
+                        )}
+                      </div>
                     </>
                   )}
-
-                  {((state.card === "FLX" && state.state === "hover") ||
-                    (state.card === "GIC" && state.state === "hover") ||
-                    state.card === "HRD" ||
-                    state.card === "ITS" ||
-                    state.card === "RPO" ||
-                    state.card === "default") && <div className="rectangle-2" />}
                 </div>
-              )}
-
-              {state.card === "ITS" && state.state === "hover" && (
-                <img className="shutterstock-2" alt="Shutterstock" src="/services/shutterstock-1485872414-1-5.png" />
-              )}
-            </div>
-            <div className="frame-2">
-              <div className="frame-3">
-                {state.state === "default" && (
-                  <div className="hire-train-deploy">
-                    {state.card === "GIC" && <>Hire, Train &amp; Deploy</>}
-
-                    {state.card === "default" && <>Administrative &amp; Payroll Management</>}
-
-                    {state.card === "FLX" && <>Recruitment Process Outsourcing</>}
-
-                    {state.card === "RPO" && (
-                      <p className="text-wrapper-61">
-                        Consulting for Global <br />
-                        In-house Centers (GICs)
-                      </p>
-                    )}
-
-                    {state.card === "ITS" && <>Master Service Provider</>}
-
-                    {state.card === "HRD" && <>Flexible Staffing</>}
-                  </div>
-                )}
-
-                {state.state === "hover" && (
-                  <>
-                    <div className="administrative">
-                      {state.card === "default" && <>Administrative &amp; Payroll Management</>}
-
-                      {state.card === "RPO" && (
-                        <p className="text-wrapper-61">
-                          Consulting for Global <br />
-                          In-house Centers (GICs)
-                        </p>
-                      )}
-
-                      {state.card === "ITS" && <>Master Service Provider</>}
-
-                      {state.card === "GIC" && <>Hire, Train &amp; Deploy</>}
-
-                      {state.card === "FLX" && <>Recruitment Process Outsourcing</>}
-                    </div>
-                    <div className="we-are-committed-to">
-                      {state.card === "default" && (
-                        <p className="text-wrapper-61">
-                          We are committed to delivering world-class payroll management and the most dependable HR
-                          solutions.
-                        </p>
-                      )}
-
-                      {state.card === "RPO" && (
-                        <p className="text-wrapper-61">
-                          We at Joulestowatts have tailored our services&nbsp;&nbsp;to address the critical challenges
-                          that GICs face in India.
-                        </p>
-                      )}
-
-                      {state.card === "ITS" && (
-                        <p className="text-wrapper-61">
-                          Joulestowatts has a perfect combination of expertise, technology, and thought leaders to
-                          manage your operations in various verticals.
-                        </p>
-                      )}
-
-                      {state.card === "GIC" && (
-                        <p className="text-wrapper-61">
-                          With over 85+ global education partners, Joulestowatts offers the best trainers in the
-                          industry. An execution-driven methodology from hiring to deployment with complete assistance
-                          &amp; tested strategies to recruit, retain, and manage talent.
-                        </p>
-                      )}
-
-                      {state.card === "FLX" && (
-                        <p className="text-wrapper-61">
-                          Joulestowatts RPO (Recruitment Process Outsourcing) solutions enable businesses to source and
-                          hire talent faster.
-                        </p>
-                      )}
-                    </div>
-                  </>
-                )}
+                <Cta arrowForward={CTAArrowForward} className="CTA-instance" property1="default" text="Learn More" />
               </div>
-              <Cta arrowForward={CTAArrowForward} className="CTA-instance" property1="default" text="Learn More" />
-            </div>
-          </>
-        )}
+            </>
+          )}
 
         {state.state === "hover" && state.card === "HRD" && (
           <div className="overlap-group">

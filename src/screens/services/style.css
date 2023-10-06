@@ -5,10 +5,12 @@
   justify-content: center;
   width: 100%;
 }
-.services .carousel{
+
+.services .carousel {
   width: 100%;
   height: auto;
 }
+
 .services .div-2 {
   background-color: #ffffff;
   overflow: hidden;
@@ -109,6 +111,19 @@
   position: relative;
 }
 
+.services .text-wrapper-5-p {
+  color: var(--neutral-0, #FFF);
+  font-size: 17px;
+  font-style: normal;
+  width: 476px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.17px;
+  align-self: stretch;
+  font-family: "Source Sans Pro", Helvetica;
+  position: relative;
+}
+
 .services .instance-node {
   flex: 0 0 auto !important;
 }
@@ -139,6 +154,7 @@
 .services .CTA-2 {
   left: 104px !important;
   position: absolute !important;
+  display: flex !important;
   top: 174px !important;
 }
 
@@ -383,12 +399,22 @@
 
 .services .frame-wrapper {
   background: conic-gradient(from 180deg at 50% 50%, rgb(77, 159, 152) 0deg, rgb(46, 80, 83) 360deg);
+  border-radius: 12px;
+  height: 293px;
+  overflow: hidden;
+  position: relative;
+  width: 321px;
+}
+
+.services .frame-wrapper-in {
   background-image: url(../../../static/services/frame-3800.svg);
   background-size: 100% 100%;
   border-radius: 12px;
   height: 293px;
   overflow: hidden;
-  position: relative;
+  position: absolute;
+  width: 100%;
+  height: 100%;
   width: 321px;
 }
 
@@ -990,6 +1016,7 @@
 
 .services .overlap-6 {
   position: absolute;
+  background: var(--secondary-04, #2C3E47);
 }
 
 .services .group-11 {
@@ -1212,14 +1239,13 @@
 
 
 .services .container {
-  align-items: center;
   display: flex;
+  align-items: center;
   gap: 24px;
   height: 354px;
   left: 0;
   overflow: hidden;
-  overflow-x: scroll;
-  padding: 56px 272px 56px 0px;
+  padding: 56px 0 56px 0px;
   position: absolute;
   top: 325px;
   width: 843px;
@@ -1227,7 +1253,6 @@
 
 .services .BFSI {
   background-image: url(../../../static/services/rectangle-24.svg);
-  background-size: 100% 100%;
   height: 240px;
   position: relative;
   width: 264px;
@@ -1858,7 +1883,7 @@
 }
 
 .services .mockup-text {
-  background-color: var(--border);
+  background: var(--border, #20484f1a);
   border-radius: 8.2px;
   height: 8px;
   left: 83px;
@@ -1868,7 +1893,7 @@
 }
 
 .services .mockup-text-2 {
-  background-color: var(--border);
+  background: var(--border, #20484f1a);
   border-radius: 8.2px;
   height: 8px;
   left: 83px;
@@ -1878,7 +1903,7 @@
 }
 
 .services .fake-button {
-  background-color: var(--primary-green);
+  background: var(--Primary-Green, #B8E4DA);
   border-radius: 5.46px;
   height: 25px;
   left: 83px;

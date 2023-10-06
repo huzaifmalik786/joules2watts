@@ -48,7 +48,7 @@
   height: 132px;
   left: 64px;
   position: absolute;
-  top: 94px;
+  top: 34px;
 }
 
 .property-default .div-wrapper {
@@ -72,6 +72,19 @@
   position: relative;
   white-space: nowrap;
   width: 477px;
+}
+
+.property-default .text-wrapper-3-p {
+  color: var(--neutral-0, #FFF);
+  width: 477px;
+  /* Subtitle/REG */
+  font-family: Source Sans Pro;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 23.8px */
+  letter-spacing: -0.17px;
 }
 
 .property-default .design-component-instance-node {

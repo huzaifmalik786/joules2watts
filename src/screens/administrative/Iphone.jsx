@@ -9,6 +9,19 @@ import { Header1 } from "../../icons/Header1";
 import "./style.css";
 import { Header } from "../../components/shared/header";
 import { Footer } from "../../components/shared/footer";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+
+const ButtonGroup = ({ next, previous, ...rest }) => {
+  const {
+    carouselState: { currentSlide },
+  } = rest;
+  return (
+    <button onClick={() => next()} className="next-button">
+      <img className="arrow-forward-ios" alt="Arrow forward ios" src="/services/arrow-forward-ios.png" />
+    </button>
+  );
+};
 
 export const Administrative = () => {
   const screenWidth = useWindowWidth();
@@ -40,7 +53,7 @@ export const Administrative = () => {
                     <img
                       className="two-collegues"
                       alt="Two collegues"
-                      src="/administrative/two-collegues-working-business-center-1.png"
+                      src="/administrative/two-collegues-working-business-center.png"
                     />
                     <div className="friendly-partners" />
                   </div>
@@ -122,7 +135,7 @@ export const Administrative = () => {
             alt="Two collegues"
             src={
               screenWidth >= 450
-                ? "/administrative/two-collegues-working-business-center-1.png"
+                ? "/administrative/two-collegues-working-business-center.png"
                 : screenWidth < 450
                   ? "/administrative/rectangle-137-5.svg"
                   : undefined
@@ -643,27 +656,50 @@ export const Administrative = () => {
                 </div>
               </div>
               <div className="container">
-                <div className="BFSI">
-                  <div className="text-wrapper-58">Captive Services</div>
-                </div>
-                <div className="div-wrapper-2">
-                  <div className="text-wrapper-58">IT Services</div>
-                </div>
-                <div className="telecom">
-                  <div className="overlap-group-10">
-                    <div className="text-wrapper-59">Product</div>
-                    <div className="text-wrapper-59">Product</div>
+                <Carousel
+                  arrows={false}
+                  swipeable
+                  draggable
+                  showDots={false}
+                  responsive={
+                    {
+                      desktop: {
+                        breakpoint: { max: 3000, min: 450 },
+                        items: 3,
+                        slidesToSlide: 1,
+                      }
+                    }
+                  }
+                  autoPlay={true}
+                  infinite
+                  autoPlaySpeed={3200}
+                  keyBoardControl={true}
+                  transitionDuration={500}
+                  containerClass="carousel"
+                  itemClass="carousel-item"
+                  pauseOnHover={false}
+                  customButtonGroup={<ButtonGroup />}
+                >
+                  <div className="BFSI">
+                    <div className="text-wrapper-58">Captive Services</div>
                   </div>
-                </div>
-                <div className="div-wrapper-2">
-                  <div className="text-wrapper-58">ITES</div>
-                </div>
-                <div className="div-wrapper-2">
-                  <div className="text-wrapper-58">SME</div>
-                </div>
-              </div>
-              <div className="arrow">
-                <img className="arrow-forward-ios" alt="Arrow forward ios" src="/administrative/arrow-forward-ios.png" />
+                  <div className="div-wrapper-2">
+                    <div className="text-wrapper-58">IT Services</div>
+                  </div>
+                  <div className="telecom">
+                    <div className="overlap-group-10">
+                      <div className="text-wrapper-59">Product</div>
+                      <div className="text-wrapper-59">Product</div>
+                    </div>
+                  </div>
+                  <div className="div-wrapper-2">
+                    <div className="text-wrapper-58">ITES</div>
+                  </div>
+                  <div className="div-wrapper-2">
+                    <div className="text-wrapper-58">SME</div>
+                  </div>
+                </Carousel>
+
               </div>
             </div>
           </div>

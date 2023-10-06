@@ -1,16 +1,16 @@
-.property-default-wrapper {
+.property-default-wrapper-home {
   background-color: #2e5053;
   /* height: 320px; */
-  overflow: hidden;
-  width: 720px;
+  /* overflow: hidden; */
+  /* width: 720px; */
 }
 
-.property-default-wrapper .overlap-2 {
+.property-default-wrapper-home .overlap-2 {
   height: 392px;
   position: relative;
 }
 
-.property-default-wrapper .frame-10 {
+.property-default-wrapper-home .frame-10 {
   height: 320px;
   left: 0;
   position: absolute;
@@ -19,12 +19,12 @@
   width: 720px;
 }
 
-.property-default-wrapper .overlap-group-2 {
-  height: 689px;
+.property-default-wrapper-home .overlap-group-2 {
+  height: 320px;
   position: relative;
 }
 
-.property-default-wrapper .shutterstock-2 {
+.property-default-wrapper-home .shutterstock-2 {
   height: 320px;
   left: 0;
   object-fit: cover;
@@ -34,10 +34,10 @@
   width: 720px;
 }
 
-.property-default-wrapper .rectangle-6 {
+.property-default-wrapper-home .rectangle-6 {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(43.56, 43.56, 43.56) 100%);
   background-blend-mode: multiply;
-  height: 689px;
+  height: 320px;
   left: 0;
   position: absolute;
   top: 0;
@@ -45,27 +45,27 @@
   width: 720px;
 }
 
-.property-default-wrapper .frame-11 {
+.property-default-wrapper-home .frame-11 {
   align-items: flex-start;
   display: inline-flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 20px;
   height: 298px;
   left: 64px;
   position: absolute;
-  top: 94px;
+  top: 20px;
 }
 
-.property-default-wrapper .hire-train-deploy-wrapper {
+.property-default-wrapper-home .hire-train-deploy-wrapper {
   align-items: flex-start;
   display: inline-flex;
   flex-direction: column;
-  gap: 35px;
-  height: 80px;
+  gap: 24px;
+  height: 208px;
   position: relative;
 }
 
-.property-default-wrapper .hire-train-deploy-3 {
+.property-default-wrapper-home .hire-train-deploy-3 {
   color: #ffffff;
   flex: 1;
   font-family: "Source Sans Pro", Helvetica;
@@ -78,6 +78,20 @@
   width: 477px;
 }
 
-.property-default-wrapper .CTA-3 {
+.property-default-wrapper-home .hire-train-deploy-text {
+  color: var(--neutral-0, #FFF);
+
+  /* H6 / REG */
+  font-family: Source Sans Pro;
+  font-size: 20px;
+  font-style: normal;
+  width: 477px;
+  font-weight: 400;
+  line-height: 140%;
+  /* 28px */
+  letter-spacing: -0.2px;
+}
+
+.property-default-wrapper-home .CTA-3 {
   flex: 0 0 auto !important;
 }

@@ -33,5 +33,6 @@
 .CTA.default {
   border: 1px solid;
   border-color: #ffffff;
+  background-color: transparent !important;
   gap: 10px;
 }

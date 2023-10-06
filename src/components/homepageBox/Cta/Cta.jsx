@@ -14,7 +14,7 @@ export const Cta = ({
   divClassName,
   text = "This is who we are",
   arrowForwardClassName,
-  arrowForward = "/img/arrow-forward-9.svg",
+  arrowForward = "/homepage/arrow-forward-9.svg",
   hasArrowForward = true,
 }) => {
   const [state, dispatch] = useReducer(reducer, {
@@ -24,19 +24,13 @@ export const Cta = ({
   return (
     <div
       className={`CTA ${state.property1} ${className}`}
-      onMouseLeave={() => {
-        dispatch("mouse_leave");
-      }}
-      onMouseEnter={() => {
-        dispatch("mouse_enter");
-      }}
     >
       <p className={`this-is-who-we-are ${divClassName}`}>{text}</p>
       {hasArrowForward && (
         <img
           className={`arrow-forward ${arrowForwardClassName}`}
           alt="Arrow forward"
-          src={state.property1 === "hover" ? "/img/arrow-forward-8.svg" : arrowForward}
+          src={state.property1 === "hover" ? "/homepage/arrow-forward-8.svg" : arrowForward}
         />
       )}
     </div>

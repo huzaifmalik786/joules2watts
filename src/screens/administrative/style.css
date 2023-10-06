@@ -6,6 +6,11 @@
   width: 100%;
 }
 
+.administrative .carousel{
+  width: 100%;
+  height: auto;
+}
+
 .administrative .div-2 {
   background-color: #ffffff;
   overflow: hidden;
@@ -429,6 +434,7 @@
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
+  margin-bottom: 30px;
   flex-direction: column;
   gap: 16px;
   position: relative;
@@ -1744,14 +1750,8 @@
 }
 
 .administrative .rectangle-16 {
-  background: linear-gradient(
-    180deg,
-    rgb(88, 153.05, 147.5) 0%,
-    rgb(77, 159, 152) 22.4%,
-    rgb(77, 159, 152) 64.73%,
-    rgba(251.81, 251.81, 251.81, 0) 100%
-  );
-  filter: blur(80px);
+  background: linear-gradient(90deg, #589993 5.95%, #4D9F98 20.62%, #4D9F98 48.33%, rgba(252, 252, 252, 0.00) 71.42%);
+filter: blur(40px);
   height: 790px;
   left: 0;
   position: absolute;

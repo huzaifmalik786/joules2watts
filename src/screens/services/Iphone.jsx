@@ -18,9 +18,19 @@ const ButtonGroup = ({ next, previous, ...rest }) => {
     carouselState: { currentSlide },
   } = rest;
   return (
-      <button onClick={() => next()} className="next-button">
-        <img className="arrow-forward-ios desktop-only" alt="Arrow forward ios" src="/services/arrow-forward-ios.png" />
-      </button>
+    <button onClick={() => next()} className="next-button">
+      <img className="arrow-forward-ios desktop-only" alt="Arrow forward ios" src="/services/arrow-forward-ios.png" />
+    </button>
+  );
+};
+const ButtonGroup2 = ({ next, previous, ...rest }) => {
+  const {
+    carouselState: { currentSlide },
+  } = rest;
+  return (
+    <button onClick={() => next()} className="arrow-forward-ios-wrapper">
+      <img className="arrow-forward-ios-2" alt="Arrow forward ios" src="/services/arrow-forward-ios.png" />
+    </button>
   );
 };
 
@@ -107,7 +117,9 @@ export const Services = () => {
                 width: screenWidth >= 1440 ? "732px" : screenWidth < 1440 ? "390px" : undefined,
               }}
             >
-              <CtaWrapper arrowForward="/services/arrow-forward-2.svg" className="CTA-2 mobile-only" />
+              <div className="mobile-only">
+                <CtaWrapper arrowForward="/services/arrow-forward-2.svg" className="CTA-2" />
+              </div>
 
               <div
                 className="innovative-talent"
@@ -252,64 +264,91 @@ export const Services = () => {
                   </div>
                 </div>
                 <div className="frame-16">
-                  <div className="frame-wrapper">
-                    <div className="frame-17">
-                      <div className="frame-18">
-                        <div className="text-wrapper-10">Offer Letter</div>
-                        <p className="text-wrapper-11">
-                          One-stop solution for qualified <br />
-                          &amp; regular skill fulfillment
-                        </p>
-                      </div>
-                      <button className="button">
-                        <div className="this-is-who-we-are-2">Explore</div>
-                        <img className="arrow-forward-3" alt="Arrow forward" src="/services/arrow-forward-8.svg" />
-                      </button>
-                    </div>
-                  </div>
-                  <div className="frame-19">
-                    <div className="overlap-group-5">
-                      <img className="group" alt="Group" src="/services/group.png" />
-                      <div className="ellipse" />
-                      <div className="ellipse-2" />
-                      <div className="frame-20">
-                        <div className="frame-18">
-                          <div className="text-wrapper-10">Premier Lounge</div>
-                          <p className="text-wrapper-12">
-                            India’s first-of-its kind solution for your niche skill fullfillment
-                          </p>
+                  <Carousel
+                    arrows={false}
+                    swipeable
+                    draggable
+                    showDots={false}
+                    responsive={
+                      {
+                        desktop: {
+                          breakpoint: { max: 450, min: 0 },
+                          items: 2,
+                          slidesToSlide: 1,
+                        }
+                      }}
+                    autoPlay={true}
+                    infinite
+                    autoPlaySpeed={3200}
+                    keyBoardControl={true}
+                    transitionDuration={500}
+                    containerClass="carousel"
+                    itemClass="carousel-item"
+                    pauseOnHover={false}
+                  >
+                    <div className="frame-wrapper">
+                      <div className="frame-wrapper-in">
+                        <div className="frame-17">
+                          <div className="frame-18">
+                            <div className="text-wrapper-10">Offer Letter</div>
+                            <p className="text-wrapper-11">
+                              One-stop solution for qualified <br />
+                              &amp; regular skill fulfillment
+                            </p>
+                          </div>
+                          <button className="button">
+                            <div className="this-is-who-we-are-2">Explore</div>
+                            <img className="arrow-forward-3" alt="Arrow forward" src="/services/arrow-forward-8.svg" />
+                          </button>
                         </div>
-                        <button className="button">
-                          <div className="this-is-who-we-are-2">Explore</div>
-                          <img className="arrow-forward-4" alt="Arrow forward" src="/services/arrow-forward-9.png" />
-                        </button>
                       </div>
+
                     </div>
-                    <img className="group-2" alt="Group" src="/services/group-1.png" />
-                  </div>
-                  <div className="frame-21">
-                    <div className="overlap-2">
-                      <div className="ellipse-3" />
-                      <div className="ellipse-4" />
-                      <div className="frame-22">
-                        <div className="frame-18">
-                          <div className="text-wrapper-10">J2W Evolve</div>
-                          <p className="text-wrapper-11">
-                            Get the assistance of well-qualified trainers to identify the right talent fit for your
-                            organization.
-                          </p>
+                    <div className="frame-19">
+                      <div className="overlap-group-5">
+                        <img className="group" alt="Group" src="/services/group.png" />
+                        <div className="ellipse" />
+                        <div className="ellipse-2" />
+                        <div className="frame-20">
+                          <div className="frame-18">
+                            <div className="text-wrapper-10">Premier Lounge</div>
+                            <p className="text-wrapper-12">
+                              India’s first-of-its kind solution for your niche skill fullfillment
+                            </p>
+                          </div>
+                          <button className="button">
+                            <div className="this-is-who-we-are-2">Explore</div>
+                            <img className="arrow-forward-3" alt="Arrow forward" src="/services/arrow-forward-8.svg" />
+                          </button>
                         </div>
-                        <button className="button">
-                          <div className="this-is-who-we-are-2">Explore</div>
-                          <img className="arrow-forward-5" alt="Arrow forward" src="/services/arrow-forward-9.png" />
-                        </button>
+                      </div>
+                      <img className="group-2" alt="Group" src="/services/group-1.png" />
+                    </div>
+                    <div className="frame-21">
+                      <div className="overlap-2">
+                        <div className="ellipse-3" />
+                        <div className="ellipse-4" />
+                        <div className="frame-22">
+                          <div className="frame-18">
+                            <div className="text-wrapper-10">J2W Evolve</div>
+                            <p className="text-wrapper-11">
+                              Get the assistance of well-qualified trainers to identify the right talent fit for your
+                              organization.
+                            </p>
+                          </div>
+                          <button className="button">
+                            <div className="this-is-who-we-are-2">Explore</div>
+                            <img className="arrow-forward-3" alt="Arrow forward" src="/services/arrow-forward-8.svg" />
+                          </button>
+                        </div>
+                      </div>
+                      <div className="overlap-3">
+                        <img className="group-3" alt="Group" src="/services/group-1.png" />
+                        <img className="group-4" alt="Group" src="/services/group-1.png" />
                       </div>
                     </div>
-                    <div className="overlap-3">
-                      <img className="group-3" alt="Group" src="/services/group-1.png" />
-                      <img className="group-4" alt="Group" src="/services/group-1.png" />
-                    </div>
-                  </div>
+                  </Carousel>
+
                 </div>
               </div>
             </div>
@@ -522,24 +561,48 @@ export const Services = () => {
 
             <div className="mobile-only">
               <div className="container">
-                <div className="BFSI">
-                  <div className="text-wrapper-40">Captive Services</div>
-                </div>
-                <div className="IT-services">
-                  <div className="text-wrapper-40">IT Services</div>
-                </div>
-                <div className="telecom">
-                  <div className="overlap-group-9">
-                    <div className="text-wrapper-41">Product</div>
-                    <div className="text-wrapper-41">Product</div>
+                <Carousel
+                  arrows={false}
+                  swipeable
+                  draggable
+                  showDots={false}
+                  responsive={
+                    {
+                      desktop: {
+                        breakpoint: { max: 450, min: 0 },
+                        items: 3,
+                        slidesToSlide: 1,
+                      }
+                    }}
+                  autoPlay={true}
+                  infinite
+                  autoPlaySpeed={3200}
+                  keyBoardControl={true}
+                  transitionDuration={500}
+                  containerClass="carousel"
+                  itemClass="carousel-item"
+                  pauseOnHover={false}
+                >
+                  <div className="BFSI">
+                    <div className="text-wrapper-40">Captive Services</div>
                   </div>
-                </div>
-                <div className="telecom-2">
-                  <div className="text-wrapper-40">ITES</div>
-                </div>
-                <div className="telecom-3">
-                  <div className="text-wrapper-40">SME</div>
-                </div>
+                  <div className="IT-services">
+                    <div className="text-wrapper-40">IT Services</div>
+                  </div>
+                  <div className="telecom">
+                    <div className="overlap-group-9">
+                      <div className="text-wrapper-41">Product</div>
+                      <div className="text-wrapper-41">Product</div>
+                    </div>
+                  </div>
+                  <div className="telecom-2">
+                    <div className="text-wrapper-40">ITES</div>
+                  </div>
+                  <div className="telecom-3">
+                    <div className="text-wrapper-40">SME</div>
+                  </div>
+                </Carousel>
+
               </div>
               <div className="frame-50">
                 <div className="frame-51">

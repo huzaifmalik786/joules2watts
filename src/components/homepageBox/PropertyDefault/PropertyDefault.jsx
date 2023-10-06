@@ -20,6 +20,9 @@ export const PropertyDefault = ({ className, rectangle = "/img/rectangle-33-1.sv
         <div className="frame-9">
           <div className="div-wrapper">
             <div className="text-wrapper-3">Managed IT services</div>
+            <div className="text-wrapper-3-p">
+              Experience seamless technology operations with our Managed IT Services. We take the complexity out of IT management, offering proactive monitoring, rapid issue resolution, and strategic guidance to ensure your business remains agile and secure.
+            </div>
           </div>
           <Cta
             className="design-component-instance-node"

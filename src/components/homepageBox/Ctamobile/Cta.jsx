@@ -15,7 +15,7 @@ export const Cta = ({
   text = "This is who we are",
   hasArrowForward = true,
   arrowForwardClassName,
-  arrowForward = "/img/arrow-forward.svg",
+  arrowForward = "/homepage/arrow-forward.svg",
 }) => {
   const [state, dispatch] = useReducer(reducer, {
     property1: property1 || "default",
@@ -36,7 +36,7 @@ export const Cta = ({
         <img
           className={`arrow-forward ${arrowForwardClassName}`}
           alt="Arrow forward"
-          src={state.property1 === "hover" ? "/img/arrow-forward-1.svg" : arrowForward}
+          src={state.property1 === "hover" ? "/homepage/arrow-forward-1.svg" : arrowForward}
         />
       )}
     </div>

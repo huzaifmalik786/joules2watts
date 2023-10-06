@@ -35,4 +35,10 @@
   border: 1px solid;
   border-color: #ffffff;
   gap: 10px;
+  transition: all ease-in-out 0.3s;
+}
+
+.CTA.property-1-4-default:hover {
+  background-color: #4d9f98 !important;
+  gap: 8px !important;
 }

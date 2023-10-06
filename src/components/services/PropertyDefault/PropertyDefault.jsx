@@ -18,6 +18,9 @@ export const PropertyDefault = ({ className, frameClassName, CTAArrowForward = "
         <div className="frame-6">
           <div className="div-wrapper">
             <div className="text-wrapper-3">Managed IT services</div>
+            <div className="text-wrapper-5-p">
+              Experience seamless technology operations with our Managed IT Services. We take the complexity out of IT management, offering proactive monitoring, rapid issue resolution, and strategic guidance to ensure your business remains agile and secure.
+            </div>
           </div>
           <Cta
             arrowForward={CTAArrowForward}
