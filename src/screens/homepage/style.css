@@ -288,6 +288,7 @@
   margin-left: -9px;
   margin-right: -9px;
   position: relative;
+  white-space: nowrap;
   width: 193px;
 }
 
@@ -331,6 +332,7 @@
   font-style: var(--subtitle-REG-font-style);
   font-weight: var(--subtitle-REG-font-weight);
   letter-spacing: var(--subtitle-REG-letter-spacing);
+  white-space: nowrap;
   line-height: var(--subtitle-REG-line-height);
   position: relative;
   width: 121px;
@@ -1520,8 +1522,10 @@
 }
 
 .homepage .CTA-10 {
-  all: unset;
+  cursor: pointer;
   align-items: center;
+  outline: none;
+  border: none;
   background-color: #05464c;
   border-radius: 56px;
   box-sizing: border-box;

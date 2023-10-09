@@ -43,8 +43,8 @@ export const Services = () => {
         <div
           className="div-2"
           style={{
-            height: screenWidth < 1440 ? "6907px" : screenWidth >= 1440 ? "5593px" : undefined,
-            width: screenWidth < 1440 ? "390px" : screenWidth >= 1440 ? "1440px" : undefined,
+            height: screenWidth < 450 ? "6907px" : screenWidth >= 450 ? "5593px" : undefined,
+            width: screenWidth < 450 ? "390px" : screenWidth >= 450 ? "1440px" : undefined,
           }}
         >
           <Header />
@@ -53,18 +53,18 @@ export const Services = () => {
           <div
             className="overlap"
             style={{
-              height: screenWidth < 1440 ? "3631px" : screenWidth >= 1440 ? "3687px" : undefined,
-              left: screenWidth < 1440 ? "0" : screenWidth >= 1440 ? "-3px" : undefined,
-              top: screenWidth < 1440 ? "60px" : screenWidth >= 1440 ? "-3px" : undefined,
-              width: screenWidth < 1440 ? "1438px" : screenWidth >= 1440 ? "1441px" : undefined,
+              height: screenWidth < 450 ? "3631px" : screenWidth >= 450 ? "3687px" : undefined,
+              left: screenWidth < 450 ? "0" : screenWidth >= 450 ? "-3px" : undefined,
+              top: screenWidth < 450 ? "60px" : screenWidth >= 450 ? "-3px" : undefined,
+              width: screenWidth < 450 ? "1438px" : screenWidth >= 450 ? "1441px" : undefined,
             }}
           >
             <div
               className="rectangle-5"
               style={{
-                height: screenWidth >= 1440 ? "3090px" : screenWidth < 1440 ? "3012px" : undefined,
-                top: screenWidth >= 1440 ? "99px" : screenWidth < 1440 ? "0" : undefined,
-                width: screenWidth >= 1440 ? "1440px" : screenWidth < 1440 ? "390px" : undefined,
+                height: screenWidth >= 450 ? "3090px" : screenWidth < 450 ? "3012px" : undefined,
+                top: screenWidth >= 450 ? "99px" : screenWidth < 450 ? "0" : undefined,
+                width: screenWidth >= 450 ? "1440px" : screenWidth < 450 ? "390px" : undefined,
               }}
             />
             <div className="mobile-only">
@@ -113,10 +113,10 @@ export const Services = () => {
             <div
               className="frame-10"
               style={{
-                height: screenWidth >= 1440 ? "136px" : screenWidth < 1440 ? "219px" : undefined,
-                left: screenWidth >= 1440 ? "354px" : screenWidth < 1440 ? "0" : undefined,
-                top: screenWidth >= 1440 ? "174px" : screenWidth < 1440 ? "79px" : undefined,
-                width: screenWidth >= 1440 ? "732px" : screenWidth < 1440 ? "390px" : undefined,
+                height: screenWidth >= 450 ? "136px" : screenWidth < 450 ? "219px" : undefined,
+                left: screenWidth >= 450 ? "354px" : screenWidth < 450 ? "0" : undefined,
+                top: screenWidth >= 450 ? "174px" : screenWidth < 450 ? "79px" : undefined,
+                width: screenWidth >= 450 ? "732px" : screenWidth < 450 ? "390px" : undefined,
               }}
             >
               <div className="mobile-only">
@@ -127,15 +127,15 @@ export const Services = () => {
                 className="innovative-talent"
                 style={{
                   color:
-                    screenWidth < 1440 ? "var(--neutral-10)" : screenWidth >= 1440 ? "var(--secondary-02)" : undefined,
-                  fontSize: screenWidth < 1440 ? "16px" : screenWidth >= 1440 ? "50px" : undefined,
-                  fontWeight: screenWidth < 1440 ? "400" : screenWidth >= 1440 ? "600" : undefined,
-                  height: screenWidth < 1440 ? "66px" : screenWidth >= 1440 ? "60px" : undefined,
-                  left: screenWidth < 1440 ? "54px" : screenWidth >= 1440 ? "0" : undefined,
-                  letterSpacing: screenWidth < 1440 ? "-0.16px" : screenWidth >= 1440 ? "-1.25px" : undefined,
-                  lineHeight: screenWidth < 1440 ? "22.4px" : screenWidth >= 1440 ? "60.0px" : undefined,
-                  top: screenWidth < 1440 ? "91px" : screenWidth >= 1440 ? "-1px" : undefined,
-                  width: screenWidth < 1440 ? "282px" : screenWidth >= 1440 ? "732px" : undefined,
+                    screenWidth < 450 ? "var(--neutral-10)" : screenWidth >= 450 ? "var(--secondary-02)" : undefined,
+                  fontSize: screenWidth < 450 ? "16px" : screenWidth >= 450 ? "50px" : undefined,
+                  fontWeight: screenWidth < 450 ? "400" : screenWidth >= 450 ? "600" : undefined,
+                  height: screenWidth < 450 ? "66px" : screenWidth >= 450 ? "60px" : undefined,
+                  left: screenWidth < 450 ? "54px" : screenWidth >= 450 ? "0" : undefined,
+                  letterSpacing: screenWidth < 450 ? "-0.16px" : screenWidth >= 450 ? "-1.25px" : undefined,
+                  lineHeight: screenWidth < 450 ? "22.4px" : screenWidth >= 450 ? "60.0px" : undefined,
+                  top: screenWidth < 450 ? "91px" : screenWidth >= 450 ? "-1px" : undefined,
+                  width: screenWidth < 450 ? "282px" : screenWidth >= 450 ? "732px" : undefined,
                 }}
               >
                 <p className="text-wrapper-61 mobile-only">
@@ -143,7 +143,7 @@ export const Services = () => {
                   you covered.
                 </p>
 
-                {screenWidth >= 1440 && <>Transforming Through Technology</>}
+                {screenWidth >= 450 && <>Transforming Through Technology</>}
               </div>
               <div className="transforming-through mobile-only">
                 Transforming Through <br />
@@ -514,10 +514,10 @@ export const Services = () => {
           <div
             className="overlap-6"
             style={{
-              height: screenWidth < 1440 ? "696px" : screenWidth >= 1440 ? "644px" : undefined,
-              left: screenWidth < 1440 ? "-201px" : screenWidth >= 1440 ? "-4px" : undefined,
-              top: screenWidth < 1440 ? "3691px" : screenWidth >= 1440 ? "4945px" : undefined,
-              width: screenWidth < 1440 ? "843px" : screenWidth >= 1440 ? "1444px" : undefined,
+              height: screenWidth < 450 ? "696px" : screenWidth >= 450 ? "644px" : undefined,
+              left: screenWidth < 450 ? "-201px" : screenWidth >= 450 ? "-4px" : undefined,
+              top: screenWidth < 450 ? "3691px" : screenWidth >= 450 ? "4945px" : undefined,
+              width: screenWidth < 450 ? "843px" : screenWidth >= 450 ? "1444px" : undefined,
             }}
           >
             <div className="group-11 desktop-only">
@@ -712,16 +712,16 @@ export const Services = () => {
           <div
             className="frame-60"
             style={{
-              height: screenWidth >= 1440 ? "356px" : screenWidth < 1440 ? "385px" : undefined,
-              left: screenWidth >= 1440 ? "0" : screenWidth < 1440 ? "25px" : undefined,
-              top: screenWidth >= 1440 ? "3684px" : screenWidth < 1440 ? "4971px" : undefined,
-              width: screenWidth >= 1440 ? "1440px" : screenWidth < 1440 ? "345px" : undefined,
+              height: screenWidth >= 450 ? "356px" : screenWidth < 450 ? "385px" : undefined,
+              left: screenWidth >= 450 ? "0" : screenWidth < 450 ? "25px" : undefined,
+              top: screenWidth >= 450 ? "3684px" : screenWidth < 450 ? "4971px" : undefined,
+              width: screenWidth >= 450 ? "1440px" : screenWidth < 450 ? "345px" : undefined,
             }}
           >
             <div
               className="overlap-12"
               style={{
-                height: screenWidth >= 1440 ? "356px" : screenWidth < 1440 ? "385px" : undefined,
+                height: screenWidth >= 450 ? "356px" : screenWidth < 450 ? "385px" : undefined,
               }}
             >
               <div className="desktop-only">
@@ -828,17 +828,17 @@ export const Services = () => {
               <div
                 className="UI-element mobile-only"
                 style={{
-                  borderRadius: screenWidth < 1440 ? "8.2px" : screenWidth >= 1440 ? "30px" : undefined,
+                  borderRadius: screenWidth < 450 ? "8.2px" : screenWidth >= 450 ? "30px" : undefined,
                   boxShadow:
-                    screenWidth < 1440
+                    screenWidth < 450
                       ? "0px 2.73px 27.32px #8a8a8a0a"
-                      : screenWidth >= 1440
+                      : screenWidth >= 450
                         ? "-3px 1px 16px #00000040"
                         : undefined,
-                  height: screenWidth < 1440 ? "132px" : screenWidth >= 1440 ? "60px" : undefined,
-                  left: screenWidth < 1440 ? "50px" : screenWidth >= 1440 ? "1365px" : undefined,
-                  top: screenWidth < 1440 ? "253px" : screenWidth >= 1440 ? "151px" : undefined,
-                  width: screenWidth < 1440 ? "295px" : screenWidth >= 1440 ? "60px" : undefined,
+                  height: screenWidth < 450 ? "132px" : screenWidth >= 450 ? "60px" : undefined,
+                  left: screenWidth < 450 ? "50px" : screenWidth >= 450 ? "1365px" : undefined,
+                  top: screenWidth < 450 ? "253px" : screenWidth >= 450 ? "151px" : undefined,
+                  width: screenWidth < 450 ? "295px" : screenWidth >= 450 ? "60px" : undefined,
                 }}
               >
                 <div>

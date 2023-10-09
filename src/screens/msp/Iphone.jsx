@@ -16,8 +16,8 @@ export const Iphone = () => {
       <div
         className="div-2"
         style={{
-          height: screenWidth < 1440 ? "5455px" : screenWidth >= 1440 ? "3648px" : undefined,
-          width: screenWidth < 1440 ? "390px" : screenWidth >= 1440 ? "1440px" : undefined,
+          height: screenWidth < 450 ? "5455px" : screenWidth >= 450 ? "3648px" : undefined,
+          width: screenWidth < 450 ? "390px" : screenWidth >= 450 ? "1440px" : undefined,
         }}
       >
         <Header />
@@ -26,9 +26,9 @@ export const Iphone = () => {
         <div
           className="overlap"
           style={{
-            height: screenWidth >= 1440 ? "1455px" : screenWidth < 1440 ? "2177px" : undefined,
-            top: screenWidth >= 1440 ? "1px" : screenWidth < 1440 ? "60px" : undefined,
-            width: screenWidth >= 1440 ? "1441px" : screenWidth < 1440 ? "390px" : undefined,
+            height: screenWidth >= 450 ? "1455px" : screenWidth < 450 ? "2177px" : undefined,
+            top: screenWidth >= 450 ? "1px" : screenWidth < 450 ? "60px" : undefined,
+            width: screenWidth >= 450 ? "1441px" : screenWidth < 450 ? "390px" : undefined,
           }}
         >
           <div className="desktop-only">
@@ -457,24 +457,24 @@ export const Iphone = () => {
         <div
           className="overlap-19"
           style={{
-            height: screenWidth >= 1440 ? "669px" : screenWidth < 1440 ? "1050px" : undefined,
-            left: screenWidth >= 1440 ? "-12px" : screenWidth < 1440 ? "-185px" : undefined,
-            top: screenWidth >= 1440 ? "2979px" : screenWidth < 1440 ? "3545px" : undefined,
-            width: screenWidth >= 1440 ? "1452px" : screenWidth < 1440 ? "742px" : undefined,
+            height: screenWidth >= 450 ? "669px" : screenWidth < 450 ? "1050px" : undefined,
+            left: screenWidth >= 450 ? "-12px" : screenWidth < 450 ? "-185px" : undefined,
+            top: screenWidth >= 450 ? "2979px" : screenWidth < 450 ? "3545px" : undefined,
+            width: screenWidth >= 450 ? "1452px" : screenWidth < 450 ? "742px" : undefined,
           }}
         >
           <div
             className="frame-57"
             style={{
-              height: screenWidth < 1440 ? "307px" : screenWidth >= 1440 ? "380px" : undefined,
-              left: screenWidth < 1440 ? "0" : screenWidth >= 1440 ? "3px" : undefined,
-              width: screenWidth < 1440 ? "742px" : screenWidth >= 1440 ? "1449px" : undefined,
+              height: screenWidth < 450 ? "307px" : screenWidth >= 450 ? "380px" : undefined,
+              left: screenWidth < 450 ? "0" : screenWidth >= 450 ? "3px" : undefined,
+              width: screenWidth < 450 ? "742px" : screenWidth >= 450 ? "1449px" : undefined,
             }}
           >
             <div
               className="overlap-group-6"
               style={{
-                height: screenWidth < 1440 ? "307px" : screenWidth >= 1440 ? "380px" : undefined,
+                height: screenWidth < 450 ? "307px" : screenWidth >= 450 ? "380px" : undefined,
               }}
             >
               <div className="frame-58 desktop-only">
@@ -498,10 +498,10 @@ export const Iphone = () => {
                 className="frame-61"
                 style={{
                   backgroundColor:
-                    screenWidth >= 1440 ? "var(--secondary-03)" : screenWidth < 1440 ? "#f6f7f8" : undefined,
-                  height: screenWidth >= 1440 ? "380px" : screenWidth < 1440 ? "307px" : undefined,
-                  left: screenWidth >= 1440 ? "0" : screenWidth < 1440 ? "185px" : undefined,
-                  width: screenWidth >= 1440 ? "724px" : screenWidth < 1440 ? "390px" : undefined,
+                    screenWidth >= 450 ? "var(--secondary-03)" : screenWidth < 450 ? "#f6f7f8" : undefined,
+                  height: screenWidth >= 450 ? "380px" : screenWidth < 450 ? "307px" : undefined,
+                  left: screenWidth >= 450 ? "0" : screenWidth < 450 ? "185px" : undefined,
+                  width: screenWidth >= 450 ? "724px" : screenWidth < 450 ? "390px" : undefined,
                 }}
               >
                 <div className="desktop-only">

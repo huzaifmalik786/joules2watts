@@ -1,85 +1,67 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import "./style.css";
 
-export const LeadForm = () => {
+export const LeadForm = ({ setOpenModal, openModal }) => {
+  const ref = useRef(null);
+
+  const handleClickOutside = (event) => {
+
+    if ((event?.target)?.id === 'modal') {
+      setOpenModal(!openModal)
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("click", handleClickOutside);
+    return () => {
+      document.removeEventListener("click", handleClickOutside);
+    };
+  }, []);
   return (
-    <div className="lead-form">
-      <div className="lead-form-wrapper">
-        <div className="div-3">
-          <div className="frame-79">
+    <div className="popup" id="modal">
+      <div className="lead-form">
+        <div className="div">
+          <div className="frame">
             <img className="everything-you-need" alt="Everything you need" src="/services/everything-you-need.png" />
-            <div className="frame-80">
-              <div className="frame-81">
-                <div className="frame-82">
-                  <div className="frame-82">
-                    <div className="frame-83">
-                      <div className="component">
-                        <div className="frame-84">
-                          <div className="group-22">
-                            <p className="div-4">
-                              <span className="text-wrapper-57">Name</span>
-                              <span className="text-wrapper-58">*</span>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="component-2">
-                        <div className="frame-84">
-                          <div className="group-22">
-                            <p className="div-4">
-                              <span className="text-wrapper-57">Mobile Number</span>
-                              <span className="text-wrapper-58">*</span>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
+            <div className="frame-2">
+              <div className="frame-3">
+                <div className="frame-4">
+                  <div className="frame-4">
+                    <div className="frame-5">
+                      <input className="component-form" placeholder="Name*" />
+                      <input className="frame-wrapper" placeholder="Mobile Number*" />
                     </div>
-                    <div className="component-3">
-                      <div className="frame-84">
-                        <div className="group-22">
-                          <p className="div-4">
-                            <span className="text-wrapper-57">Official Email Address</span>
-                            <span className="text-wrapper-58">*</span>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
+                    <input className="div-wrapper" placeholder="Official Email Address" />
                   </div>
-                  <div className="component-4">
-                    <div className="frame-84">
-                      <div className="group-23">
-                        <p className="text-wrapper-59">Give us a short brief on your requirement</p>
-                      </div>
-                    </div>
-                  </div>
+                  <textarea className="component-2" placeholder="Give us a short brief on your requirement" />
                 </div>
-                <button className="btn-wrapper">
+                <button className="CTA">
                   <button className="btn">
-                    <button className="CTA-19">Submit</button>
+                    <button className="text-wrapper">Submit</button>
                   </button>
                 </button>
               </div>
-              <div className="frame-85">
-                <div className="frame-86">
-                  <div className="frame-87">
+              <div className="frame-7">
+                <div className="frame-8">
+                  <div className="frame-9">
                     <div className="missed-video-call">
                       <img className="calendar-today" alt="Calendar today" src="/services/calendar-today.png" />
                     </div>
-                    <div className="group-24">
-                      <p className="text-wrapper-60">
+                    <div className="group-2">
+                      <p className="p">
                         Can’t Wait? We can’t either. You can schedule a quick video call or simply drop us an email
                       </p>
                     </div>
                   </div>
-                  <div className="frame-88">
-                    <button className="CTA-20">
-                      <button className="btn-2">
-                        <button className="CTA-21">Schedule a Call</button>
+                  <div className="frame-10">
+                    <button className="btn-wrapper">
+                      <button className="CTA-wrapper">
+                        <button className="button">Schedule a Call</button>
                       </button>
                     </button>
-                    <button className="CTA-22">
-                      <button className="btn-3">
-                        <button className="CTA-21">Whatsapp us</button>
+                    <button className="CTA-2">
+                      <button className="btn-2">
+                        <button className="button">Whatsapp us</button>
                       </button>
                     </button>
                   </div>
@@ -87,9 +69,11 @@ export const LeadForm = () => {
               </div>
             </div>
           </div>
-          <img className="close" alt="Close" src="/services/close-1.png" />
+          <button className="close-button" onClick={() => setOpenModal(false)}>
+            <img className="close" alt="Close" src="/services/close-1.png" />
+          </button>
         </div>
       </div>
-    </div>
+    </div >
   );
 };

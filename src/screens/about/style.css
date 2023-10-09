@@ -1091,7 +1091,7 @@
 
 .about .frame-31 {
   align-items: center;
-  display: inline-flex;
+  display: flex;
   flex: 0 0 auto;
   flex-direction: column;
   gap: 51px;
@@ -1134,7 +1134,6 @@
   align-items: center;
   display: inline-flex;
   width: 100%;
-  overflow: scroll;
   flex: 0 0 auto;
   gap: 29px;
   justify-content: center;

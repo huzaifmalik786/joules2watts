@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, useLocation, Route, Routes } from "react-router-dom";
 import { useWindowWidth } from "./breakpoints";
 import { Iphone } from "./screens/msp";
 import { Services } from "./screens/services";
@@ -21,10 +21,10 @@ import { Privacy } from "./screens/privacy";
 import { CSR } from "./screens/csr";
 import { Homepage } from "./screens/homepage";
 
-const router = createBrowserRouter([
+const router = [
   {
     path: "/",
-    element: <Homepage/>
+    element: <Homepage />
   },
   {
     path: "/msp",
@@ -68,36 +68,43 @@ const router = createBrowserRouter([
   },
   {
     path: '/about-us',
-    element: <About/>
+    element: <About />
   },
   {
     path: "/contact-us",
-    element: <Contact/>
+    element: <Contact />
   },
   {
     path: "/industries",
-    element: <Industries/>
+    element: <Industries />
   },
   {
     path: "/leadership",
-    element: <Leadership/>
+    element: <Leadership />
   },
   {
     path: "/careers",
-    element: <Careers/>
+    element: <Careers />
   },
   {
     path: "/privacy-policy",
-    element: <Privacy/>
+    element: <Privacy />
   },
   {
     path: "/csr-policy",
-    element: <CSR/>
+    element: <CSR />
   }
-]);
+];
 
 export const App = () => {
-  const screenWidth = useWindowWidth();
+  const screenWidth = useWindowWidth();;
+
+  const { pathname } = useLocation();
+
+  // Automatically scrolls to top whenever pathname changes
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
   // useEffect(() => {
   //   console.log(window.innerWidth, screenWidth)
   //   if (window.innerWidth > 450) {
@@ -111,5 +118,14 @@ export const App = () => {
 
   // }, [window.innerWidth]);
 
-  return <RouterProvider router={router} />;
+  // return <RouterProvider router={router} />;
+  return (
+    <Routes>
+      {router.map((route) => {
+        return (
+          <Route path={route.path} element={route.element} />
+        )
+      })}
+    </Routes>
+  )
 };

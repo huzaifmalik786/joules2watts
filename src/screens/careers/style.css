@@ -888,6 +888,11 @@
   top: 0;
   width: 656px;
 }
+@media (max-width: 450px) {
+  .careers .frame-21 {
+    width: 100%;
+  }
+}
 
 .careers .frame-21::before {
   content: 'Drop your CV here(pdf,doc,docx)';
@@ -924,6 +929,7 @@
 }
 
 .careers .a-2 {
+  background-image: url(../../../static/careers/rectangle.png);
   background-size: 100% 100%;
   height: 149px;
   left: 31px;

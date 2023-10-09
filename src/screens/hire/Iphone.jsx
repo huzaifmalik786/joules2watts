@@ -16,15 +16,15 @@ export const Hire = () => {
     <div
       className="hire"
       style={{
-        backgroundColor: screenWidth < 1440 ? "#ffffff" : screenWidth >= 1440 ? "#f6f7f8" : undefined,
+        backgroundColor: screenWidth < 450 ? "#ffffff" : screenWidth >= 450 ? "#f6f7f8" : undefined,
       }}
     >
       <div
         className="div-2"
         style={{
-          backgroundColor: screenWidth < 1440 ? "#ffffff" : screenWidth >= 1440 ? "#f6f7f8" : undefined,
-          height: screenWidth < 1440 ? "7740px" : screenWidth >= 1440 ? "5333px" : undefined,
-          width: screenWidth < 1440 ? "390px" : screenWidth >= 1440 ? "1440px" : undefined,
+          backgroundColor: screenWidth < 450 ? "#ffffff" : screenWidth >= 450 ? "#f6f7f8" : undefined,
+          height: screenWidth < 450 ? "7740px" : screenWidth >= 450 ? "5333px" : undefined,
+          width: screenWidth < 450 ? "390px" : screenWidth >= 450 ? "1440px" : undefined,
         }}
       >
         <Header />
@@ -79,10 +79,10 @@ export const Hire = () => {
         <div
           className="overlap-2"
           style={{
-            height: screenWidth >= 1440 ? "1051px" : screenWidth < 1440 ? "1108px" : undefined,
-            left: screenWidth >= 1440 ? "-1px" : screenWidth < 1440 ? "0" : undefined,
-            top: screenWidth >= 1440 ? "841px" : screenWidth < 1440 ? "1017px" : undefined,
-            width: screenWidth >= 1440 ? "1441px" : screenWidth < 1440 ? "390px" : undefined,
+            height: screenWidth >= 450 ? "1051px" : screenWidth < 450 ? "1108px" : undefined,
+            left: screenWidth >= 450 ? "-1px" : screenWidth < 450 ? "0" : undefined,
+            top: screenWidth >= 450 ? "841px" : screenWidth < 450 ? "1017px" : undefined,
+            width: screenWidth >= 450 ? "1441px" : screenWidth < 450 ? "390px" : undefined,
           }}
         >
           <div className="desktop-only">
@@ -237,9 +237,9 @@ export const Hire = () => {
         <div
           className="overlap-6"
           style={{
-            height: screenWidth >= 1440 ? "613px" : screenWidth < 1440 ? "1349px" : undefined,
-            top: screenWidth >= 1440 ? "-5px" : screenWidth < 1440 ? "2425px" : undefined,
-            width: screenWidth >= 1440 ? "1450px" : screenWidth < 1440 ? "392px" : undefined,
+            height: screenWidth >= 450 ? "613px" : screenWidth < 450 ? "1349px" : undefined,
+            top: screenWidth >= 450 ? "-5px" : screenWidth < 450 ? "2425px" : undefined,
+            width: screenWidth >= 450 ? "1450px" : screenWidth < 450 ? "392px" : undefined,
           }}
         >
           <div className="desktop-only">
@@ -609,41 +609,41 @@ export const Hire = () => {
         <div
           className="carousel-2"
           style={{
-            height: screenWidth < 1440 ? "796px" : screenWidth >= 1440 ? "488px" : undefined,
-            top: screenWidth < 1440 ? "5034px" : screenWidth >= 1440 ? "3921px" : undefined,
-            width: screenWidth < 1440 ? "390px" : screenWidth >= 1440 ? "1440px" : undefined,
+            height: screenWidth < 450 ? "796px" : screenWidth >= 450 ? "488px" : undefined,
+            top: screenWidth < 450 ? "5034px" : screenWidth >= 450 ? "3921px" : undefined,
+            width: screenWidth < 450 ? "390px" : screenWidth >= 450 ? "1440px" : undefined,
           }}
         >
           <div
             className="frame-68"
             style={{
-              height: screenWidth < 1440 ? "1425px" : screenWidth >= 1440 ? "488px" : undefined,
-              width: screenWidth < 1440 ? "667px" : screenWidth >= 1440 ? "1440px" : undefined,
+              height: screenWidth < 450 ? "1425px" : screenWidth >= 450 ? "488px" : undefined,
+              width: screenWidth < 450 ? "667px" : screenWidth >= 450 ? "1440px" : undefined,
             }}
           >
             <div
               className="overlap-group-9"
               style={{
-                height: screenWidth < 1440 ? "923px" : screenWidth >= 1440 ? "697px" : undefined,
-                left: screenWidth < 1440 ? "-134px" : screenWidth >= 1440 ? "-149px" : undefined,
-                top: screenWidth < 1440 ? "-24px" : screenWidth >= 1440 ? "-130px" : undefined,
-                width: screenWidth < 1440 ? "687px" : screenWidth >= 1440 ? "1757px" : undefined,
+                height: screenWidth < 450 ? "923px" : screenWidth >= 450 ? "697px" : undefined,
+                left: screenWidth < 450 ? "-134px" : screenWidth >= 450 ? "-149px" : undefined,
+                top: screenWidth < 450 ? "-24px" : screenWidth >= 450 ? "-130px" : undefined,
+                width: screenWidth < 450 ? "687px" : screenWidth >= 450 ? "1757px" : undefined,
               }}
             >
               <img
                 className="rectangle-12"
                 style={{
-                  left: screenWidth < 1440 ? "134px" : screenWidth >= 1440 ? "149px" : undefined,
-                  top: screenWidth < 1440 ? "24px" : screenWidth >= 1440 ? "130px" : undefined,
-                  width: screenWidth < 1440 ? "390px" : screenWidth >= 1440 ? "1440px" : undefined,
+                  left: screenWidth < 450 ? "134px" : screenWidth >= 450 ? "149px" : undefined,
+                  top: screenWidth < 450 ? "24px" : screenWidth >= 450 ? "130px" : undefined,
+                  width: screenWidth < 450 ? "390px" : screenWidth >= 450 ? "1440px" : undefined,
                 }}
                 alt="Rectangle"
               />
               <div
                 className="frame-69"
                 style={{
-                  left: screenWidth < 1440 ? "214px" : screenWidth >= 1440 ? "229px" : undefined,
-                  top: screenWidth < 1440 ? "166px" : screenWidth >= 1440 ? "272px" : undefined,
+                  left: screenWidth < 450 ? "214px" : screenWidth >= 450 ? "229px" : undefined,
+                  top: screenWidth < 450 ? "166px" : screenWidth >= 450 ? "272px" : undefined,
                 }}
               >
                 <div className="linkedin" />
@@ -651,10 +651,10 @@ export const Hire = () => {
               <img
                 className="shutterstock"
                 style={{
-                  height: screenWidth < 1440 ? "441px" : screenWidth >= 1440 ? "488px" : undefined,
-                  left: screenWidth < 1440 ? "134px" : screenWidth >= 1440 ? "857px" : undefined,
-                  top: screenWidth < 1440 ? "379px" : screenWidth >= 1440 ? "130px" : undefined,
-                  width: screenWidth < 1440 ? "390px" : screenWidth >= 1440 ? "732px" : undefined,
+                  height: screenWidth < 450 ? "441px" : screenWidth >= 450 ? "488px" : undefined,
+                  left: screenWidth < 450 ? "134px" : screenWidth >= 450 ? "857px" : undefined,
+                  top: screenWidth < 450 ? "379px" : screenWidth >= 450 ? "130px" : undefined,
+                  width: screenWidth < 450 ? "390px" : screenWidth >= 450 ? "732px" : undefined,
                 }}
                 alt="Shutterstock"
                 src="/hire/shutterstock-1704596071-1-1.png"
@@ -662,27 +662,27 @@ export const Hire = () => {
               <div
                 className="rectangle-13"
                 style={{
-                  height: screenWidth < 1440 ? "687px" : screenWidth >= 1440 ? "697px" : undefined,
-                  left: screenWidth < 1440 ? "-118px" : screenWidth >= 1440 ? "0" : undefined,
-                  top: screenWidth < 1440 ? "118px" : screenWidth >= 1440 ? "0" : undefined,
-                  transform: screenWidth < 1440 ? "rotate(90.00deg)" : undefined,
-                  width: screenWidth < 1440 ? "923px" : screenWidth >= 1440 ? "1757px" : undefined,
+                  height: screenWidth < 450 ? "687px" : screenWidth >= 450 ? "697px" : undefined,
+                  left: screenWidth < 450 ? "-118px" : screenWidth >= 450 ? "0" : undefined,
+                  top: screenWidth < 450 ? "118px" : screenWidth >= 450 ? "0" : undefined,
+                  transform: screenWidth < 450 ? "rotate(90.00deg)" : undefined,
+                  width: screenWidth < 450 ? "923px" : screenWidth >= 450 ? "1757px" : undefined,
                 }}
               />
               <div
                 className="frame-70"
                 style={{
-                  left: screenWidth < 1440 ? "150px" : screenWidth >= 1440 ? "229px" : undefined,
-                  top: screenWidth < 1440 ? "106px" : screenWidth >= 1440 ? "212px" : undefined,
+                  left: screenWidth < 450 ? "150px" : screenWidth >= 450 ? "229px" : undefined,
+                  top: screenWidth < 450 ? "106px" : screenWidth >= 450 ? "212px" : undefined,
                 }}
               >
                 <p
                   className="we-are-your-growth"
                   style={{
-                    fontSize: screenWidth < 1440 ? "22px" : screenWidth >= 1440 ? "29px" : undefined,
-                    letterSpacing: screenWidth < 1440 ? "-0.22px" : screenWidth >= 1440 ? "-0.29px" : undefined,
-                    lineHeight: screenWidth < 1440 ? "30.8px" : screenWidth >= 1440 ? "40.6px" : undefined,
-                    width: screenWidth < 1440 ? "358px" : screenWidth >= 1440 ? "587px" : undefined,
+                    fontSize: screenWidth < 450 ? "22px" : screenWidth >= 450 ? "29px" : undefined,
+                    letterSpacing: screenWidth < 450 ? "-0.22px" : screenWidth >= 450 ? "-0.29px" : undefined,
+                    lineHeight: screenWidth < 450 ? "30.8px" : screenWidth >= 450 ? "40.6px" : undefined,
+                    width: screenWidth < 450 ? "358px" : screenWidth >= 450 ? "587px" : undefined,
                   }}
                 >
                   We are your growth partners for a wide array of holistic talent solutions.&nbsp;&nbsp;Leverage our
@@ -690,15 +690,15 @@ export const Hire = () => {
                 </p>
                 <PropertyDefaultWrapper
                   arrowForward={
-                    screenWidth < 1440
+                    screenWidth < 450
                       ? "/hire/arrow-forward-59.svg"
-                      : screenWidth >= 1440
+                      : screenWidth >= 450
                         ? "/hire/arrow-forward-65.svg"
                         : undefined
                   }
-                  arrowForwardClassName={`${screenWidth < 1440 && "class-3"}`}
-                  className={`${screenWidth < 1440 && "class"} ${screenWidth >= 1440 && "class-2"}`}
-                  divClassName={`${screenWidth < 1440 && "class-4"} ${screenWidth >= 1440 && "class-5"}`}
+                  arrowForwardClassName={`${screenWidth < 450 && "class-3"}`}
+                  className={`${screenWidth < 450 && "class"} ${screenWidth >= 450 && "class-2"}`}
+                  divClassName={`${screenWidth < 450 && "class-4"} ${screenWidth >= 450 && "class-5"}`}
                   property1="default"
                   text="About us"
                 />
@@ -709,7 +709,7 @@ export const Hire = () => {
             <img
               className="rectangle-14"
               style={{
-                top: screenWidth < 1440 ? "-7798px" : screenWidth >= 1440 ? "-1143px" : undefined,
+                top: screenWidth < 450 ? "-7798px" : screenWidth >= 450 ? "-1143px" : undefined,
               }}
               alt="Rectangle"
             />
@@ -728,13 +728,13 @@ export const Hire = () => {
                     <img
                       className="arrow-forward-3"
                       style={{
-                        marginTop: screenWidth < 1440 ? "-8170.00px" : screenWidth >= 1440 ? "-1515.00px" : undefined,
+                        marginTop: screenWidth < 450 ? "-8170.00px" : screenWidth >= 450 ? "-1515.00px" : undefined,
                       }}
                       alt="Arrow forward"
                       src={
-                        screenWidth < 1440
+                        screenWidth < 450
                           ? "/hire/arrow-forward-9.png"
-                          : screenWidth >= 1440
+                          : screenWidth >= 450
                             ? "/hire/arrow-forward-66.png"
                             : undefined
                       }
@@ -752,13 +752,13 @@ export const Hire = () => {
           </div>
           <Carousel
             arrowForward={
-              screenWidth < 1440
+              screenWidth < 450
                 ? "/hire/arrow-forward-9.png"
-                : screenWidth >= 1440
+                : screenWidth >= 450
                   ? "/hire/arrow-forward-66.png"
                   : undefined
             }
-            arrowForwardClassName={`${screenWidth < 1440 && "class-6"} ${screenWidth >= 1440 && "class-7"}`}
+            arrowForwardClassName={`${screenWidth < 450 && "class-6"} ${screenWidth >= 450 && "class-7"}`}
             className="carousel-03"
           />
         </div>
@@ -797,10 +797,10 @@ export const Hire = () => {
         <div
           className="frame-81"
           style={{
-            height: screenWidth < 1440 ? "1050px" : screenWidth >= 1440 ? "713px" : undefined,
-            left: screenWidth < 1440 ? "-185px" : screenWidth >= 1440 ? "0" : undefined,
-            top: screenWidth < 1440 ? "5830px" : screenWidth >= 1440 ? "1892px" : undefined,
-            width: screenWidth < 1440 ? "742px" : screenWidth >= 1440 ? "1449px" : undefined,
+            height: screenWidth < 450 ? "1050px" : screenWidth >= 450 ? "713px" : undefined,
+            left: screenWidth < 450 ? "-185px" : screenWidth >= 450 ? "0" : undefined,
+            top: screenWidth < 450 ? "5830px" : screenWidth >= 450 ? "1892px" : undefined,
+            width: screenWidth < 450 ? "742px" : screenWidth >= 450 ? "1449px" : undefined,
           }}
         >
           <div className="mobile-only">

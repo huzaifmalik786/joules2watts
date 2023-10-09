@@ -11,11 +11,11 @@ import { Footer } from "../../components/shared/footer";
 export const Lounge = () => {
   const screenWidth = useWindowWidth();
   // useEffect(() => {
-  //   if (window.innerWidth > 390) {
+  //   if (window.innerWidth > 450) {
   //     document.body.style.transform = `scale(${window.innerWidth / 1440})`;
   //   }
   //   else {
-  //     document.body.style.transform = `scale(${window.innerWidth / 390})`;
+  //     document.body.style.transform = `scale(${window.innerWidth / 450})`;
   //   }
   //   document.body.style.transformOrigin = `top center`;
   //   console.log(window.innerWidth)
@@ -25,8 +25,8 @@ export const Lounge = () => {
       <div
         className="div-2"
         style={{
-          height: screenWidth < 390 ? "7796px" : screenWidth >= 390 ? "5388px" : undefined,
-          width: screenWidth < 390 ? "390px" : screenWidth >= 390 ? "1440px" : undefined,
+          height: screenWidth < 450 ? "7796px" : screenWidth >= 450 ? "5388px" : undefined,
+          width: screenWidth < 450 ? "390px" : screenWidth >= 450 ? "1440px" : undefined,
         }}
       >
         <Header />
@@ -62,10 +62,10 @@ export const Lounge = () => {
         <div
           className="overlap-3"
           style={{
-            height: screenWidth >= 390 ? "1291px" : screenWidth < 390 ? "1050px" : undefined,
-            left: screenWidth >= 390 ? "0" : screenWidth < 390 ? "-185px" : undefined,
-            top: screenWidth >= 390 ? "0" : screenWidth < 390 ? "5886px" : undefined,
-            width: screenWidth >= 390 ? "1440px" : screenWidth < 390 ? "742px" : undefined,
+            height: screenWidth >= 450 ? "1291px" : screenWidth < 450 ? "1050px" : undefined,
+            left: screenWidth >= 450 ? "0" : screenWidth < 450 ? "-185px" : undefined,
+            top: screenWidth >= 450 ? "0" : screenWidth < 450 ? "5886px" : undefined,
+            width: screenWidth >= 450 ? "1440px" : screenWidth < 450 ? "742px" : undefined,
           }}
         >
           <div className="desktop-only">
@@ -175,13 +175,13 @@ export const Lounge = () => {
         <div
           className="overlap-4"
           style={{
-            height: screenWidth >= 390 ? "1317px" : screenWidth < 390 ? "1846px" : undefined,
-            left: screenWidth >= 390 ? "-5px" : screenWidth < 390 ? "-2px" : undefined,
-            top: screenWidth >= 390 ? "2265px" : screenWidth < 390 ? "1178px" : undefined,
-            width: screenWidth >= 390 ? "1444px" : screenWidth < 390 ? "392px" : undefined,
+            height: screenWidth >= 450 ? "1317px" : screenWidth < 450 ? "1846px" : undefined,
+            left: screenWidth >= 450 ? "-5px" : screenWidth < 450 ? "-2px" : undefined,
+            top: screenWidth >= 450 ? "2265px" : screenWidth < 450 ? "1178px" : undefined,
+            width: screenWidth >= 450 ? "1444px" : screenWidth < 450 ? "392px" : undefined,
           }}
         >
-          {screenWidth >= 390 && (
+          {screenWidth >= 450 && (
             <div className="carousel-2">
               <div className="frame-24">
                 <div className="overlap-group-5">
@@ -204,13 +204,13 @@ export const Lounge = () => {
           <div
             className="rectangle-7"
             style={{
-              backgroundColor: screenWidth >= 390 ? "#e6e9e9" : screenWidth < 390 ? "#f6f7f8" : undefined,
-              height: screenWidth >= 390 ? "830px" : screenWidth < 390 ? "1144px" : undefined,
-              left: screenWidth >= 390 ? "2px" : screenWidth < 390 ? "0" : undefined,
-              width: screenWidth >= 390 ? "1440px" : screenWidth < 390 ? "392px" : undefined,
+              backgroundColor: screenWidth >= 450 ? "#e6e9e9" : screenWidth < 450 ? "#f6f7f8" : undefined,
+              height: screenWidth >= 450 ? "830px" : screenWidth < 450 ? "1144px" : undefined,
+              left: screenWidth >= 450 ? "2px" : screenWidth < 450 ? "0" : undefined,
+              width: screenWidth >= 450 ? "1440px" : screenWidth < 450 ? "392px" : undefined,
             }}
           />
-          {screenWidth >= 390 && (
+          {screenWidth >= 450 && (
             <>
               <div className="ellipse-4" />
               <div className="frame-25">
@@ -320,7 +320,7 @@ export const Lounge = () => {
             </>
           )}
 
-          {screenWidth < 390 && (
+          {screenWidth < 450 && (
             <>
               <p className="an-AI-driven">
                 An AI-driven approach ensures you get the best talent by assuring scalability, reliability &amp;
@@ -464,9 +464,9 @@ export const Lounge = () => {
         <div
           className="frame-61"
           style={{
-            gap: screenWidth >= 390 ? "16px" : screenWidth < 390 ? "24px" : undefined,
-            left: screenWidth >= 390 ? "303px" : screenWidth < 390 ? "19px" : undefined,
-            top: screenWidth >= 390 ? "3664px" : screenWidth < 390 ? "3185px" : undefined,
+            gap: screenWidth >= 450 ? "16px" : screenWidth < 450 ? "24px" : undefined,
+            left: screenWidth >= 450 ? "303px" : screenWidth < 450 ? "19px" : undefined,
+            top: screenWidth >= 450 ? "3664px" : screenWidth < 450 ? "3185px" : undefined,
           }}
         >
           <div className="desktop-only">
