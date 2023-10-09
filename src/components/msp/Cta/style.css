@@ -1,4 +1,4 @@
-.CTA {
+.CTA-msp {
   align-items: center;
   border-radius: 56px;
   display: inline-flex;
@@ -6,7 +6,7 @@
   position: relative;
 }
 
-.CTA .this-is-who-we-are {
+.CTA-msp .this-is-who-we-are {
   color: #ffffff;
   font-family: "Source Sans Pro", Helvetica;
   font-size: 17px;
@@ -19,19 +19,24 @@
   width: fit-content;
 }
 
-.CTA .arrow-forward {
+.CTA-msp .arrow-forward {
   height: 24px;
   position: relative;
   width: 24px;
 }
 
-.CTA.hover {
+.CTA-msp.hover {
   background-color: var(--primary-02);
   gap: 8px;
 }
 
-.CTA.default {
+.CTA-msp.default {
   border: 1px solid;
   border-color: #ffffff;
   gap: 10px;
+  transition: all ease-in-out 0.3s;
+}
+
+.CTA-msp.default:hover{
+  gap: 8px;
 }

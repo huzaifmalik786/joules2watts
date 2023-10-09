@@ -136,7 +136,7 @@ textarea::placeholder {
   width: 294px;
 }
 
-.lead-form .div-wrapper {
+.lead-form .div-wrapper-lead {
   align-items: center;
   border: 0.5px solid;
   border-color: var(--neutral-grey);
@@ -405,7 +405,7 @@ textarea::placeholder {
     flex-direction: column;
     gap: 16px;
   }
-  .lead-form input,textarea, .frame-2, .frame-3, .frame-4, .frame-5, .component-form, .frame-wrapper, .div-wrapper, .component-2, .frame-7{
+  .lead-form input,textarea, .frame-2, .frame-3, .frame-4, .frame-5, .component-form, .frame-wrapper, .div-wrapper-lead, .component-2, .frame-7{
     width: 100% !important;
   }
   .lead-form input,textarea{

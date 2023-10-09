@@ -7,6 +7,7 @@ import PropTypes from "prop-types";
 import React from "react";
 import { useReducer } from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 export const PropertyDefaultWrapper = ({
   property1,
@@ -15,28 +16,32 @@ export const PropertyDefaultWrapper = ({
   text = "This is who we are",
   arrowForward = "/services/arrow-forward-48.svg",
   arrowForwardClassName,
+  link
 }) => {
   const [state, dispatch] = useReducer(reducer, {
     property1: property1 || "default",
   });
 
   return (
-    <div
-      className={`property-default-wrapper property-1-${state.property1} ${className}`}
+    <Link to={link}>
+      <div
+        className={`property-default-wrapper property-1-${state.property1} ${className}`}
       // onMouseLeave={() => {
       //   dispatch("mouse_leave");
       // }}
       // onMouseEnter={() => {
       //   dispatch("mouse_enter");
       // }}
-    >
-      <p className={` ${divClassName}`}>{text}</p>
-      <img
-        className={`arrow-forward-2 ${arrowForwardClassName}`}
-        alt="Arrow forward"
-        src={state.property1 === "hover" ? "/services/arrow-forward-49.svg" : arrowForward}
-      />
-    </div>
+      >
+        <p className={` ${divClassName}`}>{text}</p>
+        <img
+          className={`arrow-forward-2 ${arrowForwardClassName}`}
+          alt="Arrow forward"
+          src={state.property1 === "hover" ? "/services/arrow-forward-49.svg" : arrowForward}
+        />
+      </div>
+    </Link>
+
   );
 };
 

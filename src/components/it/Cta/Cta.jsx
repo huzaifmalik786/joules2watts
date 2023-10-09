@@ -7,6 +7,7 @@ import PropTypes from "prop-types";
 import React from "react";
 import { useReducer } from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 export const Cta = ({
   property1,
@@ -17,31 +18,35 @@ export const Cta = ({
   arrowForwardClassName,
   hasArrowForward = true,
   onClick,
+  link
 }) => {
   const [state, dispatch] = useReducer(reducer, {
     property1: property1 || "default",
   });
 
   return (
-    <div
-      className={`CTA ${state.property1} ${className}`}
-      onClick={onClick}
-      onMouseLeave={() => {
-        dispatch("mouse_leave");
-      }}
-      onMouseEnter={() => {
-        dispatch("mouse_enter");
-      }}
-    >
-      <p className={`this-is-who-we-are ${divClassName}`}>{text}</p>
-      {hasArrowForward && (
-        <img
-          className={`arrow-forward ${arrowForwardClassName}`}
-          alt="Arrow forward"
-          src={state.property1 === "hover" ? "/it/arrow-forward-5.svg" : arrowForward}
-        />
-      )}
-    </div>
+    <Link to={link}>
+      <div
+        className={`CTA ${state.property1} ${className}`}
+        onClick={onClick}
+      // onMouseLeave={() => {
+      //   dispatch("mouse_leave");
+      // }}
+      // onMouseEnter={() => {
+      //   dispatch("mouse_enter");
+      // }}
+      >
+        <p className={`this-is-who-we-are ${divClassName}`}>{text}</p>
+        {hasArrowForward && (
+          <img
+            className={`arrow-forward ${arrowForwardClassName}`}
+            alt="Arrow forward"
+            src={state.property1 === "hover" ? "/it/arrow-forward-5.svg" : arrowForward}
+          />
+        )}
+      </div>
+    </Link>
+
   );
 };
 

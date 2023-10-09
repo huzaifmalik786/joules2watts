@@ -1157,7 +1157,9 @@
 }
 
 .consulting .CTA-7 {
-  all: unset;
+  cursor: pointer;
+  border: none;
+  outline: none;
   align-items: center;
   background-color: var(--secondary-02);
   box-sizing: border-box;
@@ -3256,7 +3258,9 @@
 }
 
 .consulting .CTA-14 {
-  all: unset;
+  cursor: pointer;
+  outline: none;
+  border: none;
   align-items: center;
   background-color: var(--secondary-02);
   box-sizing: border-box;

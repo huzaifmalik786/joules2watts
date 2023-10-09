@@ -6,13 +6,17 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 import PropTypes from "prop-types";
 import React from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 export const Cta = ({ className, arrowForward = "/consulting/arrow-forward-19.svg" }) => {
   return (
-    <button className={`CTA ${className}`}>
-      <div className="text-wrapper">Connect with us</div>
-      <img className="arrow-forward" alt="Arrow forward" src={arrowForward} />
-    </button>
+    <Link to="/contact-us">
+      <button className={`CTA ${className}`}>
+        <div className="text-wrapper">Connect with us</div>
+        <img className="arrow-forward" alt="Arrow forward" src={arrowForward} />
+      </button>
+    </Link>
+
   );
 };
 

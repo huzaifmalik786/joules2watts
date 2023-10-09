@@ -22,12 +22,12 @@ export const Cta = ({
   return (
     <div
       className={`CTA ${state.property1} ${className}`}
-      onMouseLeave={() => {
-        dispatch("mouse_leave");
-      }}
-      onMouseEnter={() => {
-        dispatch("mouse_enter");
-      }}
+      // onMouseLeave={() => {
+      //   dispatch("mouse_leave");
+      // }}
+      // onMouseEnter={() => {
+      //   dispatch("mouse_enter");
+      // }}
     >
       <p className={`this-is-who-we-are ${divClassName}`}>{text}</p>
       <img

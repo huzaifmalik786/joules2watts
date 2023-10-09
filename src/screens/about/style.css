@@ -1432,7 +1432,9 @@
 }
 
 .about .button {
-  all: unset;
+  cursor: pointer;
+  border: none;
+  outline: none;
   align-items: center;
   background-color: var(--secondary-02);
   box-sizing: border-box;
@@ -1551,7 +1553,9 @@
 }
 
 .about .CTA-6 {
-  all: unset;
+  cursor: pointer;
+  border: none;
+  outline: none;
   align-items: center;
   background-color: var(--secondary-02);
   box-sizing: border-box;

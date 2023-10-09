@@ -826,7 +826,9 @@
 }
 
 .lounge .CTA-5 {
-  all: unset;
+  cursor: pointer;
+  outline: none;
+  border: none;
   align-items: center;
   background-color: var(--secondary-02);
   box-sizing: border-box;
@@ -2553,7 +2555,9 @@
 }
 
 .lounge .CTA-7 {
-  all: unset;
+  cursor: pointer;
+  outline: none;
+  border: none;
   align-items: center;
   background-color: var(--secondary-02);
   box-sizing: border-box;

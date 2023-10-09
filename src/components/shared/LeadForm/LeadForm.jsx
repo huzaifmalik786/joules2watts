@@ -31,7 +31,7 @@ export const LeadForm = ({ setOpenModal, openModal }) => {
                       <input className="component-form" placeholder="Name*" />
                       <input className="frame-wrapper" placeholder="Mobile Number*" />
                     </div>
-                    <input className="div-wrapper" placeholder="Official Email Address" />
+                    <input className="div-wrapper-lead" placeholder="Official Email Address" />
                   </div>
                   <textarea className="component-2" placeholder="Give us a short brief on your requirement" />
                 </div>

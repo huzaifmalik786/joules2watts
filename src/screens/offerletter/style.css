@@ -1130,7 +1130,9 @@
 }
 
 .offerletter .CTA-4 {
-  all: unset;
+  cursor: pointer;
+  outline: none;
+  border: none;
   align-items: center;
   background-color: var(--secondary-02);
   box-sizing: border-box;
@@ -1933,7 +1935,9 @@
 }
 
 .offerletter .CTA-8 {
-  all: unset;
+  cursor: pointer;
+  outline: none;
+  border: none;
   align-items: center;
   background-color: var(--secondary-02);
   box-sizing: border-box;

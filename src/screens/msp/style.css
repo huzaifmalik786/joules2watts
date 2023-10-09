@@ -698,7 +698,7 @@
   left: 0;
   position: absolute;
   top: 39px;
-  width: 146px;
+  width: 160px;
 }
 
 .msp .rectangle-7 {
@@ -708,7 +708,7 @@
   left: 0;
   position: absolute;
   top: 85px;
-  width: 146px;
+  width: 160px;
 }
 
 .msp .rectangle-8 {
@@ -718,7 +718,7 @@
   left: 0;
   position: absolute;
   top: 132px;
-  width: 146px;
+  width: 160px;
 }
 
 .msp .text-wrapper-23 {
@@ -801,7 +801,7 @@
   height: 18px;
   left: 31px;
   letter-spacing: -0.29px;
-  line-height: 40.6px;
+  line-height: 10px;
   position: absolute;
   top: 15px;
   white-space: nowrap;
@@ -831,7 +831,7 @@
   left: 0;
   position: absolute;
   top: 103px;
-  width: 152px;
+  width: 165px;
 }
 
 .msp .line {
@@ -899,7 +899,7 @@
   left: 4px;
   position: absolute;
   top: 242px;
-  width: 146px;
+  width: 165px;
 }
 
 .msp .text-wrapper-28 {
@@ -925,7 +925,7 @@
   left: 344px;
   position: absolute;
   top: 242px;
-  width: 146px;
+  width: 160px;
 }
 
 .msp .text-wrapper-29 {
@@ -959,7 +959,7 @@
   left: 0;
   position: absolute;
   top: 0;
-  width: 146px;
+  width: 160px;
 }
 
 .msp .text-wrapper-30 {
@@ -1921,14 +1921,12 @@
 }
 
 .msp .overlap-18 {
-  background: linear-gradient(
-    180deg,
-    rgb(0, 0, 0) 0%,
-    rgb(7, 17, 3) 25%,
-    rgb(31.88, 31.88, 31.88) 44.79%,
-    rgb(46.75, 46.75, 46.75) 61.46%,
-    rgba(0, 0, 0, 0) 100%
-  );
+  background: linear-gradient(180deg,
+      rgb(0, 0, 0) 0%,
+      rgb(7, 17, 3) 25%,
+      rgb(31.88, 31.88, 31.88) 44.79%,
+      rgb(46.75, 46.75, 46.75) 61.46%,
+      rgba(0, 0, 0, 0) 100%);
   filter: blur(80px);
   height: 714px;
   left: -116px;
@@ -2261,7 +2259,9 @@
 }
 
 .msp .CTA-10 {
-  all: unset;
+  cursor: pointer;
+  outline: none;
+  border: none;
   align-items: center;
   background-color: var(--secondary-02);
   box-sizing: border-box;
@@ -2727,7 +2727,9 @@
 }
 
 .msp .CTA-11 {
-  all: unset;
+  cursor: pointer;
+  outline: none;
+  border: none;
   align-items: center;
   background-color: var(--secondary-02);
   box-sizing: border-box;

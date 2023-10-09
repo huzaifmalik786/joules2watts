@@ -34,4 +34,9 @@
   border: 1px solid;
   border-color: #ffffff;
   gap: 10px;
+  transition: all ease-in-out 0.3s;
+}
+
+.CTA.default:hover{
+  gap: 8px;
 }

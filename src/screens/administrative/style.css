@@ -1525,7 +1525,9 @@
 }
 
 .administrative .CTA-11 {
-  all: unset;
+  cursor: pointer;
+  border: none;
+  outline: none;
   align-items: center;
   background-color: var(--secondary-02);
   box-sizing: border-box;
@@ -1915,7 +1917,9 @@
 }
 
 .administrative .CTA-15 {
-  all: unset;
+  cursor: pointer;
+  border: none;
+  outline: none;
   align-items: center;
   background-color: var(--secondary-02);
   box-sizing: border-box;

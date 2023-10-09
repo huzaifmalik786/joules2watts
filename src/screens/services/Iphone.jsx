@@ -12,6 +12,7 @@ import { Header } from "../../components/shared/header";
 import { Footer } from "../../components/shared/footer";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { LeadForm } from "../../components/shared/LeadForm";
 
 const ButtonGroup = ({ next, previous, ...rest }) => {
   const {
@@ -36,9 +37,13 @@ const ButtonGroup2 = ({ next, previous, ...rest }) => {
 
 export const Services = () => {
   const screenWidth = useWindowWidth();
+  const [openModal, setOpenModal] = useState(false);
 
   return (
     <>
+      {openModal &&
+        <LeadForm openModal={openModal} setOpenModal={setOpenModal} />
+      }
       <div className="services">
         <div
           className="div-2"
@@ -303,10 +308,13 @@ export const Services = () => {
                               &amp; regular skill fulfillment
                             </p>
                           </div>
-                          <button className="button">
-                            <div className="this-is-who-we-are-2">Explore</div>
-                            <img className="arrow-forward-3" alt="Arrow forward" src="/services/arrow-forward-8.svg" />
-                          </button>
+                          <Link to="/offer-letter-platform">
+                            <button className="button">
+                              <div className="this-is-who-we-are-2">Explore</div>
+                              <img className="arrow-forward-3" alt="Arrow forward" src="/services/arrow-forward-8.svg" />
+                            </button>
+                          </Link>
+
                         </div>
                       </div>
 
@@ -323,10 +331,13 @@ export const Services = () => {
                               India’s first-of-its kind solution for your niche skill fullfillment
                             </p>
                           </div>
-                          <button className="button">
-                            <div className="this-is-who-we-are-2">Explore</div>
-                            <img className="arrow-forward-3" alt="Arrow forward" src="/services/arrow-forward-8.svg" />
-                          </button>
+                          <Link to="/j2w-premier-lounge">
+                            <button className="button">
+                              <div className="this-is-who-we-are-2">Explore</div>
+                              <img className="arrow-forward-3" alt="Arrow forward" src="/services/arrow-forward-8.svg" />
+                            </button>
+                          </Link>
+
                         </div>
                       </div>
                       <img className="group-2" alt="Group" src="/services/group-1.png" />
@@ -410,6 +421,7 @@ export const Services = () => {
                             divClassName="CTA-4"
                             property1="default"
                             text="Explore"
+                            link="/offer-letter-platform"
                           />
                         </div>
                       </div>
@@ -433,6 +445,7 @@ export const Services = () => {
                             divClassName="CTA-4"
                             property1="default"
                             text="Explore"
+                            link="/j2w-premiere-lounge"
                           />
                         </div>
                       </div>
@@ -559,7 +572,7 @@ export const Services = () => {
                   </div>
                 </div>
                 <Link to="/lead-form">
-                  <button className="CTA-11">
+                  <button className="CTA-11" onClick={() => setOpenModal(true)}>
                     <div className="text-wrapper-26">Schedule a call now</div>
                     <img className="arrow-forward-6" alt="Arrow forward" src="/services/arrow-forward-21.svg" />
                   </button>
@@ -665,6 +678,7 @@ export const Services = () => {
                     divClassName="CTA-4"
                     property1="default"
                     text="Explore"
+                    link="/j2w-premiere-lounge"
                   />
                 </div>
               </div>
@@ -703,6 +717,7 @@ export const Services = () => {
                   divClassName="CTA-4"
                   property1="default"
                   text="Explore"
+                  link="/offer-letter-platform"
                 />
               </div>
             </div>
@@ -741,7 +756,7 @@ export const Services = () => {
                         divClassName="CTA-12"
                         property1="default"
                         text="Learn more"
-                      link="/industries"
+                        link="/industries"
                       />
                     </div>
                   </div>
@@ -966,7 +981,7 @@ export const Services = () => {
                     <p className="are-we-a-good-fit-4">
                       Are we a good fit for your company&#39;s challenges? Let’s talk it out today
                     </p>
-                    <button className="CTA-18">
+                    <button className="CTA-18" onClick={() => setOpenModal(true)}>
                       <div className="text-wrapper-26">Schedule a call now</div>
                       <img className="arrow-forward-6" alt="Arrow forward" src="/services/arrow-forward-13.svg" />
                     </button>

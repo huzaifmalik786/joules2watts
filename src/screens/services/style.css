@@ -1225,7 +1225,9 @@
 }
 
 .services .CTA-11 {
-  all: unset;
+  cursor: pointer;
+  outline: none;
+  border: none;
   align-items: center;
   background-color: var(--secondary-02);
   box-sizing: border-box;
@@ -2293,7 +2295,9 @@
 }
 
 .services .CTA-18 {
-  all: unset;
+  cursor: pointer;
+  outline: none;
+  border: none;
   align-items: center;
   background-color: var(--secondary-02);
   box-sizing: border-box;

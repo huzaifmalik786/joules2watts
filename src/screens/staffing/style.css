@@ -1403,14 +1403,15 @@
 }
 
 .staffing .text-wrapper-31 {
-  color: #2e5053;
-  font-family: var(--title-mega-font-family);
-  font-size: var(--title-mega-font-size);
-  font-style: var(--title-mega-font-style);
-  font-weight: var(--title-mega-font-weight);
+  color: var(--secondary-03, #2E5053);
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 101.5%;
+  letter-spacing: -1.8px;
   height: 48px;
-  letter-spacing: var(--title-mega-letter-spacing);
-  line-height: var(--title-mega-line-height);
   margin-top: -1px;
   position: relative;
   white-space: nowrap;
@@ -1427,6 +1428,7 @@
   line-height: 23.8px;
   position: relative;
   width: 207px;
+  margin-top: 14px;
 }
 
 .staffing .frame-25 {
@@ -1541,14 +1543,15 @@
 }
 
 .staffing .text-wrapper-35 {
-  color: #2e5053;
-  font-family: var(--title-mega-font-family);
-  font-size: var(--title-mega-font-size);
-  font-style: var(--title-mega-font-style);
-  font-weight: var(--title-mega-font-weight);
+  color: var(--secondary-03, #2E5053);
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 101.5%;
+  letter-spacing: -1.8px;
   height: 48px;
-  letter-spacing: var(--title-mega-letter-spacing);
-  line-height: var(--title-mega-line-height);
   margin-top: -1px;
   position: relative;
   white-space: nowrap;
@@ -1578,14 +1581,15 @@
 }
 
 .staffing .text-wrapper-37 {
-  color: #2e5053;
-  font-family: var(--title-mega-font-family);
-  font-size: var(--title-mega-font-size);
-  font-style: var(--title-mega-font-style);
-  font-weight: var(--title-mega-font-weight);
+  color: var(--secondary-03, #2E5053);
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 101.5%;
+  letter-spacing: -1.8px;
   height: 48px;
-  letter-spacing: var(--title-mega-letter-spacing);
-  line-height: var(--title-mega-line-height);
   margin-top: -1px;
   position: relative;
   text-align: center;
@@ -1783,13 +1787,11 @@
 }
 
 .staffing .rectangle-12 {
-  background: linear-gradient(
-    180deg,
-    rgb(88, 153.05, 147.5) 0%,
-    rgb(77, 159, 152) 22.4%,
-    rgb(77, 159, 152) 64.73%,
-    rgba(251.81, 251.81, 251.81, 0) 100%
-  );
+  background: linear-gradient(180deg,
+      rgb(88, 153.05, 147.5) 0%,
+      rgb(77, 159, 152) 22.4%,
+      rgb(77, 159, 152) 64.73%,
+      rgba(251.81, 251.81, 251.81, 0) 100%);
   filter: blur(80px);
   height: 687px;
   left: -67px;
@@ -1864,14 +1866,12 @@
 }
 
 .staffing .overlap-14 {
-  background: linear-gradient(
-    180deg,
-    rgb(0, 0, 0) 0%,
-    rgb(7, 17, 3) 25%,
-    rgb(31.88, 31.88, 31.88) 44.79%,
-    rgb(46.75, 46.75, 46.75) 61.46%,
-    rgba(0, 0, 0, 0) 100%
-  );
+  background: linear-gradient(180deg,
+      rgb(0, 0, 0) 0%,
+      rgb(7, 17, 3) 25%,
+      rgb(31.88, 31.88, 31.88) 44.79%,
+      rgb(46.75, 46.75, 46.75) 61.46%,
+      rgba(0, 0, 0, 0) 100%);
   filter: blur(80px);
   height: 714px;
   left: -116px;
@@ -2197,7 +2197,9 @@
 }
 
 .staffing .CTA-10 {
-  all: unset;
+  cursor: pointer;
+  outline: none;
+  border: none;
   align-items: center;
   background-color: var(--secondary-02);
   box-sizing: border-box;
@@ -2315,8 +2317,24 @@
   width: fit-content;
 }
 
+.staffing .text-40 {
+  color: var(--secondary-03, #2E5053);
+  text-align: center;
+
+  /* Title/Mega */
+  font-family: Source Sans Pro;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 101.5%;
+  /* 60.9px */
+  letter-spacing: -1.8px;
+}
+
 .staffing .CTA-12 {
-  all: unset;
+  cursor: pointer;
+  outline: none;
+  border: none;
   align-items: center;
   background-color: var(--secondary-02);
   box-sizing: border-box;
@@ -2702,13 +2720,11 @@
 }
 
 .staffing .rectangle-17 {
-  background: linear-gradient(
-    180deg,
-    rgb(88, 153.05, 147.5) 0%,
-    rgb(77, 159, 152) 22.4%,
-    rgb(77, 159, 152) 64.73%,
-    rgba(251.81, 251.81, 251.81, 0) 100%
-  );
+  background: linear-gradient(180deg,
+      rgb(88, 153.05, 147.5) 0%,
+      rgb(77, 159, 152) 22.4%,
+      rgb(77, 159, 152) 64.73%,
+      rgba(251.81, 251.81, 251.81, 0) 100%);
   filter: blur(80px);
   height: 697px;
   left: 0;

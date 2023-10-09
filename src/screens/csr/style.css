@@ -200,13 +200,16 @@
 }
 
 .csr .text-wrapper-5 {
-  color: var(--secondary-02);
-  font-family: var(--h1-REG-font-family);
-  font-size: var(--h1-REG-font-size);
-  font-style: var(--h1-REG-font-style);
-  font-weight: var(--h1-REG-font-weight);
-  letter-spacing: var(--h1-REG-letter-spacing);
-  line-height: var(--h1-REG-line-height);
+  color: var(--secondary-02, #00DFC2);
+  text-align: center;
+  /* H1/REG */
+  font-family: Source Sans Pro;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  /* 60px */
+  letter-spacing: -0.75px;
   margin-top: -1px;
   position: relative;
   text-align: center;
