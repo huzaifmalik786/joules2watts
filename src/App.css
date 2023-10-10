@@ -1,13 +1,13 @@
 
 .mobile-only{
-    display: none !important;
+    display: none;
 }
 
 body{
     overflow-x: hidden;
 }
 
-@media (max-width: 450px) {
+/* @media (max-width: 450px) {
     .desktop-only{
         display: none !important;
     }
@@ -16,6 +16,7 @@ body{
     }
 }
 
+*/
 .next-button{
     background: #fff;
     outline: none;

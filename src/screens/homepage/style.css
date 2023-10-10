@@ -4,6 +4,8 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  /* background: red; */
+    overflow: hidden;
 }
 
 .homepage .carousel {
@@ -17,10 +19,13 @@
   width: 1459px !important;
 }
 
+/* .homepage .iphone * {
+  transform: scale(0.5);
+} */
 .homepage .iphone {
   background-color: #ffffff;
-  overflow: hidden;
-  position: relative;
+  /* overflow: hidden; */
+    position: relative;
 }
 
 .homepage .mobile-carousel-1 {
