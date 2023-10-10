@@ -100,7 +100,7 @@ export const Homepage = () => {
               transitionDuration={500}
             // customDot={<CustomDot/>}
             >
-              <Frame property1="default" rectangle="/homepage/rectangle-190.png" />
+              <Frame property1="default" rectangle="/homepage/rectangle-190.webp" />
               <Frame property1="variant-2" />
               <Frame property1="variant-3" />
               <Frame property1="variant-4" />
@@ -174,7 +174,7 @@ export const Homepage = () => {
                     overlapClassName="component-instance"
                     overlapGroupClassName="component-2-instance"
                     property1="frame-14693"
-                    rectangle="/homepage/rectangle-190.png"
+                    rectangle="/homepage/rectangle-190.webp"
                     rectangleClassName="instance-node"
                   />
                   <Component
@@ -182,7 +182,7 @@ export const Homepage = () => {
                     overlapClassName="component-instance"
                     overlapGroupClassName="component-2-instance"
                     property1="frame-14694"
-                    rectangle="/homepage/rectangle-190.png"
+                    rectangle="/homepage/rectangle-190.webp"
                     rectangleClassName="instance-node"
                   />
                   <Component
@@ -190,7 +190,7 @@ export const Homepage = () => {
                     overlapClassName="component-instance"
                     overlapGroupClassName="component-2-instance"
                     property1="frame-14695"
-                    rectangle="/homepage/rectangle-190.png"
+                    rectangle="/homepage/rectangle-190.webp"
                     rectangleClassName="instance-node"
                   />
                   <Component
@@ -198,7 +198,7 @@ export const Homepage = () => {
                     overlapClassName="component-instance"
                     overlapGroupClassName="component-2-instance"
                     property1="frame-14696"
-                    rectangle="/homepage/rectangle-190.png"
+                    rectangle="/homepage/rectangle-190.webp"
                     rectangleClassName="instance-node"
                   />
                   <Component
@@ -206,7 +206,7 @@ export const Homepage = () => {
                     overlapClassName="component-instance"
                     overlapGroupClassName="component-2-instance"
                     property1="frame-14697"
-                    rectangle="/homepage/rectangle-190.png"
+                    rectangle="/homepage/rectangle-190.webp"
                     rectangleClassName="instance-node"
                   />
                 </Carousel>
@@ -214,8 +214,8 @@ export const Homepage = () => {
               </div>
 
               <div className="rectangle-7" />
-              <img className="rectangle-8" alt="Rectangle" src="/homepage/rectangle-218.svg" />
-              <img className="rectangle-9" alt="Rectangle" src="/homepage/rectangle-219.svg" />
+              <img className="rectangle-8" alt="Rectangle" src="/homepage/rectangle-218.webp" />
+              <img className="rectangle-9" alt="Rectangle" src="/homepage/rectangle-219.webp" />
               <div className="frame-24">
                 <img
                   className="your-future"
@@ -276,7 +276,7 @@ export const Homepage = () => {
               </div>
             </div>
             <div className="frame-34">
-              <img className="rectangle-14" alt="Rectangle" src="/homepage/rectangle-218-1.svg" />
+              <img className="rectangle-14" alt="Rectangle" src="/homepage/rectangle-218-1.webp" />
               <div className="frame-35">
                 <div className="frame-28">
                   <div className="text-wrapper-20">06</div>
@@ -286,7 +286,7 @@ export const Homepage = () => {
             </div>
             <div className="frame-36">
               <div className="card">
-                <img className="deepmind" alt="Deepmind" src="/homepage/deepmind-8hereyc6zt0-unsplash-1.png" />
+                <img className="deepmind" alt="Deepmind" src="/homepage/deepmind-8hereyc6zt0-unsplash-1.webp" />
                 <div className="frame-37">
                   <div className="frame-38">
                     <div className="text-wrapper-24">Hire Smarter Talent Seamlessly.</div>
@@ -298,7 +298,7 @@ export const Homepage = () => {
                 </div>
               </div>
               <div className="card-2">
-                <img className="deepmind-hereyczt" alt="Deepmind" src="/homepage/deepmind-8hereyc6zt0-unsplash-1-3.png" />
+                <img className="deepmind-hereyczt" alt="Deepmind" src="/homepage/deepmind-8hereyc6zt0-unsplash-1-3.webp" />
                 <div className="frame-37">
                   <div className="frame-38">
                     <div className="text-wrapper-24">Transforming Through Technology</div>
@@ -372,7 +372,7 @@ export const Homepage = () => {
                   <img
                     className="smiley-businesswoman"
                     alt="Smiley businesswoman"
-                    src="/homepage/smiley-businesswoman-posing-outdoors-with-arms-crossed-copy-spac-1.png"
+                    src="/homepage/smiley-businesswoman-posing-outdoors-with-arms-crossed-copy-spac-1.webp"
                   />
                 </div>
               </div>
@@ -414,7 +414,7 @@ export const Homepage = () => {
           >
             <div className="desktop-only">
               <div className="card-3">
-                <img className="deepmind-2" alt="Deepmind" src="/homepage/deepmind-8hereyc6zt0-unsplash-1.png" />
+                <img className="deepmind-2" alt="Deepmind" src="/homepage/deepmind-8hereyc6zt0-unsplash-1.webp" />
                 <div className="frame-54">
                   <div className="frame-42">
                     <div className="text-wrapper-33">Hire Smarter Talent Seamlessly.</div>
@@ -439,7 +439,7 @@ export const Homepage = () => {
                 </div>
               </div>
               <div className="card-5">
-                <img className="deepmind-3" alt="Deepmind" src="/homepage/deepmind-8hereyc6zt0-unsplash-1-2.png" />
+                <img className="deepmind-3" alt="Deepmind" src="/homepage/deepmind-8hereyc6zt0-unsplash-1-2.webp" />
                 <div className="frame-54">
                   <div className="frame-42">
                     <div className="text-wrapper-33">Transforming Through Technology</div>
@@ -459,7 +459,7 @@ export const Homepage = () => {
                     <img className="vector" alt="Vector" src="/homepage/vector-5-1.svg" />
                     <img className="vector-2" alt="Vector" src="/homepage/vector-2-1.svg" />
                     <img className="vector-3" alt="Vector" src="/homepage/vector-4-1.svg" />
-                    <img className="mask-group" alt="Mask group" src="/homepage/mask-group-3.png" />
+                    <img className="mask-group" alt="Mask group" src="/homepage/mask-group-3.webp" />
                   </div>
                 </div>
               </div>
@@ -637,7 +637,7 @@ export const Homepage = () => {
                       <img
                         className="smiley-businesswoman-2"
                         alt="Smiley businesswoman"
-                        src="/homepage/smiley-businesswoman-posing-outdoors-with-arms-crossed-copy-spac.png"
+                        src="/homepage/smiley-businesswoman-posing-outdoors-with-arms-crossed-copy-spac.webp"
                       />
                     </div>
                   </div>
@@ -669,7 +669,7 @@ export const Homepage = () => {
                       <img className="vector-4" alt="Vector" src="/homepage/vector-5.svg" />
                       <img className="vector-5" alt="Vector" src="/homepage/vector-2.svg" />
                       <img className="vector-6" alt="Vector" src="/homepage/vector-4.svg" />
-                      <img className="mask-group-3" alt="Mask group" src="/homepage/mask-group-1.png" />
+                      <img className="mask-group-3" alt="Mask group" src="/homepage/mask-group-1.webp" />
                     </div>
                   </div>
                 </div>

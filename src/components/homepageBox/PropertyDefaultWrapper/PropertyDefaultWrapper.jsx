@@ -14,7 +14,7 @@ export const PropertyDefaultWrapper = ({ className, CTAArrowForward = "/homepage
       <div className="overlap-2">
         <div className="frame-10">
           <div className="overlap-group-2">
-            <img className="shutterstock-2" alt="Shutterstock" src="/homepage/shutterstock-1485872414-1-9.png" />
+            <img className="shutterstock-2" alt="Shutterstock" src="/homepage/shutterstock-1485872414-1-9.webp" />
             <div className="rectangle-6" />
           </div>
         </div>

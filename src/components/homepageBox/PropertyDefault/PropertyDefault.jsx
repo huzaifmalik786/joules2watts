@@ -8,7 +8,7 @@ import React from "react";
 import { Cta } from "../Cta";
 import "./style.css";
 
-export const PropertyDefault = ({ className, rectangle = "/img/rectangle-33-1.svg" }) => {
+export const PropertyDefault = ({ className, rectangle = "/img/rectangle-33-1.webp" }) => {
   return (
     <div className={`property-default ${className}`}>
       <div className="overlap">

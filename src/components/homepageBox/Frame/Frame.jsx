@@ -31,7 +31,7 @@ export const Frame = () => {
         <div className="overlap">
           <div className="overlap-group-wrapper-2">
             <div className="overlap-group-2">
-              <img className="shutterstock" alt="Shutterstock" src="/homepage/shutterstock-1485872414-1-4.png" />
+              <img className="shutterstock" alt="Shutterstock" src="/homepage/shutterstock-1485872414-1-4.webp" />
               <div className="rectangle-2" />
             </div>
           </div>
@@ -56,7 +56,7 @@ export const Frame = () => {
         <div className="overlap">
           <div className="overlap-group-wrapper-3">
             <div className="overlap-group-3">
-              <img className="img" alt="Shutterstock" src="/homepage/shutterstock-1485872414-1-3.png" />
+              <img className="img" alt="Shutterstock" src="/homepage/shutterstock-1485872414-1-3.webp" />
               <div className="rectangle-3" />
             </div>
           </div>
@@ -78,7 +78,7 @@ export const Frame = () => {
         <div className="overlap-2">
           <div className="overlap-group-wrapper-4">
             <div className="overlap-group-4">
-              <img className="shutterstock-2" alt="Shutterstock" src="/homepage/shutterstock-1485872414-1-2.png" />
+              <img className="shutterstock-2" alt="Shutterstock" src="/homepage/shutterstock-1485872414-1-2.webp" />
               <div className="rectangle-4" />
             </div>
           </div>
@@ -99,7 +99,7 @@ export const Frame = () => {
       <div className="overlap-wrapper">
         <div className="overlap">
           <div className="shutterstock-wrapper">
-            <img className="shutterstock-3" alt="Shutterstock" src="/homepage/shutterstock-1485872414-1-1.png" />
+            <img className="shutterstock-3" alt="Shutterstock" src="/homepage/shutterstock-1485872414-1-1.webp" />
           </div>
           <div className="rectangle-5" />
           <div className="div-5">
@@ -120,7 +120,7 @@ export const Frame = () => {
         <div className="overlap-3">
           <div className="overlap-group-wrapper-5-mobile">
             <div className="overlap-group-5-mobile">
-              <img className="img" alt="Shutterstock" src="/homepage/shutterstock-1485872414-1.png" />
+              <img className="img" alt="Shutterstock" src="/homepage/shutterstock-1485872414-1.webp" />
               <div className="rectangle-6" />
             </div>
           </div>

@@ -1347,7 +1347,7 @@
 }
 
 .homepage .BFSI {
-  background-image: url(../../../static/homepage/rectangle-24.svg);
+  background-image: url(../../../static/homepage/rectangle-24.webp);
   background-size: 100% 100%;
   height: 240px;
   position: relative;
@@ -1371,7 +1371,7 @@
 
 .homepage .IT-services {
   background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
-  background-image: url(../../../static/homepage/image-1.png);
+  background-image: url(../../../static/homepage/image-1.webp);
   background-size: 100% 100%;
   height: 240px;
   position: relative;
@@ -1379,7 +1379,7 @@
 }
 
 .homepage .telecom {
-  background-image: url(../../../static/homepage/rectangle-25.png);
+  background-image: url(../../../static/homepage/rectangle-25.webp);
   background-size: 100% 100%;
   height: 240px;
   position: relative;
@@ -1387,7 +1387,7 @@
 }
 
 .homepage .telecom-2 {
-  background-image: url(../../../static/homepage/rectangle-25-1.png);
+  background-image: url(../../../static/homepage/rectangle-25-1.webp);
   background-size: 100% 100%;
   height: 240px;
   position: relative;
@@ -1418,7 +1418,7 @@
 }
 
 .homepage .IT-services-2 {
-  background-image: url(../../../static/homepage/rectangle-23.png);
+  background-image: url(../../../static/homepage/rectangle-23.webp);
   background-position: 50% 50%;
   background-size: cover;
   height: 240px;
@@ -1427,7 +1427,7 @@
 }
 
 .homepage .telecom-3 {
-  background-image: url(../../../static/homepage/rectangle-25-2.png);
+  background-image: url(../../../static/homepage/rectangle-25-2.webp);
   background-position: 50% 50%;
   background-size: cover;
   height: 240px;
@@ -1436,7 +1436,7 @@
 }
 
 .homepage .telecom-4 {
-  background-image: url(../../../static/homepage/rectangle-25-3.png);
+  background-image: url(../../../static/homepage/rectangle-25-3.webp);
   background-position: 50% 50%;
   background-size: cover;
   height: 240px;
@@ -1895,7 +1895,7 @@
 }
 
 .homepage .gics-gccs-wrapper {
-  background-image: url(../../../static/homepage/rectangle-24-1.svg);
+  background-image: url(../../../static/homepage/rectangle-24-1.webp);
   background-size: 100% 100%;
   height: 240px;
   position: relative;

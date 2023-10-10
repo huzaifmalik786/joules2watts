@@ -8,7 +8,7 @@
 }
 
 .frame-mobile .service {
-  background-image: url(../../../../static/homepage/service.svg);
+  background-image: url(../../../../static/homepage/service.webp);
   background-position: 50% 50%;
   background-size: cover;
   height: 312.78px;
@@ -25,7 +25,7 @@
 
 .frame-mobile .overlap-group-wrapper {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 27.6%, rgba(0, 0, 0, 0.36) 60.42%, rgba(0, 0, 0, 0.56) 100%);
-  background-image: url(../../../../static/homepage/frame-3792.png);
+  background-image: url(../../../../static/homepage/frame-3792.webp);
   height: 313px;
   left: 0;
   position: absolute;

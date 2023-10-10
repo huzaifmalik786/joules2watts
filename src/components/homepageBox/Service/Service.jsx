@@ -50,10 +50,10 @@ export const Service = ({
                           alt="Shutterstock"
                           src={
                             state.card === "three"
-                              ? "/homepage/shutterstock-1485872414-1-17.png"
+                              ? "/homepage/shutterstock-1485872414-1-17.webp"
                               : state.card === "six"
-                                ? "/homepage/shutterstock-1485872414-1-15.png"
-                                : "/homepage/shutterstock-1485872414-1-20.png"
+                                ? "/homepage/shutterstock-1485872414-1-15.webp"
+                                : "/homepage/shutterstock-1485872414-1-20.webp"
                           }
                         />
                       )}

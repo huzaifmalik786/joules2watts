@@ -1,5 +1,5 @@
 .property-default {
-  background-image: url(../../../../static/homepage/property-1-default.svg);
+  background-image: url(../../../../static/homepage/property-1-default.webp);
   background-position: 50% 50%;
   background-size: cover;
   height: 320px;
@@ -13,7 +13,7 @@
 
 .property-default .overlap-group-wrapper {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 27.6%, rgba(0, 0, 0, 0.36) 60.42%, rgba(0, 0, 0, 0.56) 100%);
-  background-image: url(../../../../static/homepage/frame-3792-1.png);
+  background-image: url(../../../../static/homepage/frame-3792-1.webp);
   background-position: 50% 50%;
   background-size: cover;
   height: 320px;
@@ -24,7 +24,7 @@
 }
 
 .property-default .overlap-group {
-  background-image: url(../../../../static/homepage/shutterstock-1485872414-1-8.png);
+  background-image: url(../../../../static/homepage/shutterstock-1485872414-1-8.webp);
   background-position: 50% 50%;
   background-size: cover;
   height: 320px;
