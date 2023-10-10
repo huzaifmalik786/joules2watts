@@ -43,7 +43,7 @@ export const RPO = () => {
                     <img
                       className="friendly-partners"
                       alt="Friendly partners"
-                      src="/rpo/friendly-partners-handshaking-group-meeting-thanking-successful.png"
+                      src="/rpo/friendly-partners-handshaking-group-meeting-thanking-successful.webp"
                     />
                   </div>
                   <img className="ellipse-5" alt="Ellipse" />
@@ -94,7 +94,7 @@ export const RPO = () => {
                       <img
                         className="abstract-geometric"
                         alt="Abstract geometric"
-                        src="/rpo/abstract-geometric-design-element-3d-hexagonal-three-dimensional-1.png"
+                        src="/rpo/abstract-geometric-design-element-3d-hexagonal-three-dimensional-1.webp"
                       />
                       <img className="rectangle-4" alt="Rectangle" src="/rpo/rectangle-138-4.svg" />
                     </div>
@@ -344,7 +344,7 @@ export const RPO = () => {
                 <div className="frame-40">
                   <div className="linkedin" />
                 </div>
-                <img className="shutterstock" alt="Shutterstock" src="/rpo/shutterstock-1704596071-1-1.png" />
+                <img className="shutterstock" alt="Shutterstock" src="/rpo/shutterstock-1704596071-1-1.webp" />
                 <div className="rectangle-9" />
                 <div className="frame-41">
                   <p className="we-are-your-growth">
@@ -428,7 +428,7 @@ export const RPO = () => {
               <img
                 className="abstract-geometric-2"
                 alt="Abstract geometric"
-                src="/rpo/abstract-geometric-design-element-3d-hexagonal-three-dimensional-1.png"
+                src="/rpo/abstract-geometric-design-element-3d-hexagonal-three-dimensional-1.webp"
               />
               <img className="rectangle-13" alt="Rectangle" src="/rpo/rectangle-138-5.svg" />
               <div className="group-13">
@@ -613,7 +613,7 @@ export const RPO = () => {
               <img
                 className="friendly-partners-2"
                 alt="Friendly partners"
-                src="/rpo/friendly-partners-handshaking-group-meeting-thanking-successful-1.png"
+                src="/rpo/friendly-partners-handshaking-group-meeting-thanking-successful-1.webp"
               />
               <div className="frame-70">
                 <p className="hire-the-right-2">

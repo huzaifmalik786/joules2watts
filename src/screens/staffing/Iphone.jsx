@@ -52,7 +52,7 @@ export const Staffing = () => {
                     <img
                       className="business-people"
                       alt="Business people"
-                      src="/staffing/business-people-walking-modern-glass-600w-670152970-1-1.png"
+                      src="/staffing/business-people-walking-modern-glass-600w-670152970-1-1.webp"
                     />
                     <div className="rectangle-4" />
                   </div>
@@ -76,7 +76,7 @@ export const Staffing = () => {
               <img
                 className="business-people-2"
                 alt="Business people"
-                src="/staffing/business-people-walking-modern-glass-600w-670152970-1-1.png"
+                src="/staffing/business-people-walking-modern-glass-600w-670152970-1-1.webp"
               />
               <div className="rectangle-6" />
               <div className="frame-7">
@@ -111,7 +111,7 @@ export const Staffing = () => {
                       <div className="overlap-5">
                         <div className="frame-8">
                           <div className="overlap-group-3">
-                            <img className="group-3" alt="Group" src="/staffing/group-7.png" />
+                            <img className="group-3" alt="Group" src="/staffing/group-7.webp" />
                             <img className="vector" alt="Vector" src="/staffing/vector-6-1.svg" />
                             <img className="vector-2" alt="Vector" src="/staffing/vector-8-1.svg" />
                             <img className="vector-3" alt="Vector" src="/staffing/vector-10-2.svg" />
@@ -512,7 +512,7 @@ export const Staffing = () => {
                   <div className="frame-40">
                     <div className="linkedin" />
                   </div>
-                  <img className="shutterstock" alt="Shutterstock" src="/staffing/shutterstock-1704596071-1.png" />
+                  <img className="shutterstock" alt="Shutterstock" src="/staffing/shutterstock-1704596071-1.webp" />
                   <div className="rectangle-12" />
                   <div className="frame-41">
                     <p className="we-are-your-growth">
@@ -689,7 +689,7 @@ export const Staffing = () => {
                 <div className="frame-63">
                   <div className="overlap-group-11">
                     <img className="rectangle-16" alt="Rectangle" />
-                    <img className="shutterstock-2" alt="Shutterstock" src="/staffing/shutterstock-1704596071-1.png" />
+                    <img className="shutterstock-2" alt="Shutterstock" src="/staffing/shutterstock-1704596071-1.webp" />
                     <div className="rectangle-17" />
                     <p className="we-are-your-growth-2">
                       We are your growth partners for a wide array of holistic talent solutions.&nbsp;&nbsp;Leverage our
@@ -742,7 +742,7 @@ export const Staffing = () => {
             <div className="group-17">
               <div className="text-wrapper-60">Our features</div>
               <div className="row">
-                <div className="box">
+                <div className="box-s">
                   <img className="opened-folder" alt="Opened folder" src="/staffing/opened-folder.png" />
                   <div className="header-3">
                     <div className="text-wrapper-61">Employee Experience Zone:</div>

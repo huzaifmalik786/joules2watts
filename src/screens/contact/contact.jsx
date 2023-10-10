@@ -142,7 +142,7 @@ export const Contact = () => {
         >
           <div className="background-image desktop-only">
             <div className="overlap-group-2">
-              <img className="pyramids" alt="Pyramids" src="/contact/pyramids-1.png" />
+              <img className="pyramids" alt="Pyramids" src="/contact/pyramids-1.webp" />
               <div className="frame-20">
                 <div className="frame-21">
                   <div className="text-wrapper-16">HEAD OFFICE</div>
@@ -164,7 +164,7 @@ export const Contact = () => {
               <img
                 className="minimal-podium"
                 alt="Minimal podium"
-                src="/contact/minimal-podium-product-display-stand-pedestal-studio-gray-color.png"
+                src="/contact/minimal-podium-product-display-stand-pedestal-studio-gray-color.webp"
               />
               <img className="rectangle" alt="Rectangle" src="/contact/rectangle-118-15.svg" />
             </div>
@@ -173,9 +173,9 @@ export const Contact = () => {
           <div className="mobile-only">
             <div className="overlap-wrapper">
               <div className="overlap-3">
-                <img className="pyramids-2" alt="Pyramids" src="/contact/pyramids-1.png" />
+                <img className="pyramids-2" alt="Pyramids" src="/contact/pyramids-1.webp" />
                 <img className="minimal-podium-2" alt="Minimal podium"
-                  src="/contact/minimal-podium-product-display-stand-pedestal-studio-gray-color.png"
+                  src="/contact/minimal-podium-product-display-stand-pedestal-studio-gray-color.webp"
                 />
                 <img className="rectangle-2" alt="Rectangle" src="/contact/rectangle-118-15.svg" />
                 <div className="frame-23">
@@ -285,7 +285,7 @@ export const Contact = () => {
           style={{
             backgroundImage:
               screenWidth >= 450
-                ? "url(/contact/mask-group-8.png)"
+                ? "url(/contact/mask-group-8.webp)"
                 : screenWidth < 450
                   ? "url(/contact/arrow-forward-ios-1.png)"
                   : undefined,

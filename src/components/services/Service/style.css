@@ -84,7 +84,7 @@
 }
 
 .service .overlap-group {
-  background-image: url(../../../../static/services/shutterstock-1485872414-1-8.png);
+  background-image: url(../../../../static/services/shutterstock-1485872414-1-8.webp);
   background-size: 100% 100%;
   height: 648px;
   position: relative;
@@ -269,7 +269,7 @@
 }
 
 .service.card-ITS .frame {
-  background-image: url(../../../../static//services/shutterstock_1485872414.png);
+  background-image: url(../../../../static/services/shutterstock_1485872414.webp);
   object-fit: cover;
   background-position: 100% 100%;
   height: 646px;
@@ -303,27 +303,27 @@
 
 .service.state-hover.card-RPO .frame {
   /* width: 1272px; */
-  background-image: url(../../../../static//services/shutterstock-1485872414-1-4.png);
+  background-image: url(../../../../static/services/shutterstock-1485872414-1-4.webp);
   object-fit: cover;
   background-size: 100% 100%;
 }
 
 .service.state-hover.card-FLX .frame {
   /* width: 1272px; */
-  background-image: url(../../../../static//services/shutterstock-1485872414-1-7.png);
+  background-image: url(../../../../static/services/shutterstock-1485872414-1-7.webp);
   background-size: 100% 100%;
   object-fit: cover;
 }
 
 .service.state-hover.card-GIC .frame {
-  background-image: url(../../../../static//services/shutterstock_1485872414_1.png);
+  background-image: url(../../../../static/services/shutterstock_1485872414_1.webp);
   object-fit: cover;
   background-size: 100% 100%;
   width: 748px;
 }
 
 .service.card-default.state-hover .frame {
-  background-image: url(../../../../static//services/shutterstock_1485872414_2.png);
+  background-image: url(../../../../static/services/shutterstock_1485872414_2.webp);
   object-fit: cover;
   height: 650px;
   background-size: 100% 100%;

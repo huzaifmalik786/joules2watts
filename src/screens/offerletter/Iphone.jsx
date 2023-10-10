@@ -47,7 +47,7 @@ export const OfferLetter = () => {
                       <img
                         className="smiling-confident"
                         alt="Smiling confident"
-                        src="/offerletter/smiling-confident-businesswoman-posing-with-arms-folded-1.png"
+                        src="/offerletter/smiling-confident-businesswoman-posing-with-arms-folded-1.webp"
                       />
                     </div>
                   </div>
@@ -109,7 +109,7 @@ export const OfferLetter = () => {
 
                 <div className="desktop-only">
                   <div className="ellipse-7" />
-                  <img className="partner" alt="Partner" src="/offerletter/partner-3x-1.png" />
+                  <img className="partner" alt="Partner" src="/offerletter/partner-3x-1.webp" />
                 </div>
               </div>
             </div>
@@ -190,7 +190,7 @@ export const OfferLetter = () => {
               <div className="group-7">
                 <div className="frame-23">
                   <div className="frame-24">
-                    <img className="image-5" alt="Image" src="/offerletter/image-3-4.png" />
+                    <img className="image-5" alt="Image" src="/offerletter/image-3-4.webp" />
                   </div>
                   <div className="text-wrapper-20">Category-wise job search</div>
                 </div>
@@ -205,7 +205,7 @@ export const OfferLetter = () => {
               <div className="carousel-2">
                 <div className="frame-25">
                   <div className="overlap-group-5">
-                    <img className="rectangle-8" alt="Rectangle" src="/offerletter/Rectangle26.png" />
+                    <img className="rectangle-8" alt="Rectangle" src="/offerletter/Rectangle26.webp" />
                     <div className="rectangle-9" />
                     <p className="text-wrapper-21">
                       With access to over 1.5 million profiles, a dedicated screening team at JoulestoWatts uses
@@ -270,7 +270,7 @@ export const OfferLetter = () => {
               </div>
               <div className="frame-39">
                 <div className="partner-wrapper">
-                  <img className="partner-x" alt="Partner" src="/offerletter/partner-3x-1.png" />
+                  <img className="partner-x" alt="Partner" src="/offerletter/partner-3x-1.webp" />
                 </div>
                 <div className="ellipse-11" />
               </div>
@@ -306,7 +306,7 @@ export const OfferLetter = () => {
                       <img
                         className="smiling-confident-2"
                         alt="Smiling confident"
-                        src="/offerletter/smiling-confident-businesswoman-posing-with-arms-folded-1.png"
+                        src="/offerletter/smiling-confident-businesswoman-posing-with-arms-folded-1.webp"
                       />
                     </div>
                   </div>
@@ -555,7 +555,7 @@ export const OfferLetter = () => {
               <div className="group-16">
                 <div className="frame-67">
                   <div className="frame-68">
-                    <img className="image-12" alt="Image" src="/offerletter/image-3-4.png" />
+                    <img className="image-12" alt="Image" src="/offerletter/image-3-4.webp" />
                   </div>
                   <div className="text-wrapper-41">Category-wise job search</div>
                 </div>

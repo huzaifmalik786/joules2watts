@@ -169,7 +169,7 @@ export const Hire = () => {
               </div>
               <div className="group-6">
                 <div className="overlap-4">
-                  <img className="mask-group" alt="Mask group" src="/hire/mask-group-5.png" />
+                  <img className="mask-group" alt="Mask group" src="/hire/mask-group-5.webp" />
                   <img className="mask-group-2" alt="Mask group" src="/hire/mask-group-6.png" />
                   <img className="mask-group-3" alt="Mask group" src="/hire/mask-group-7.png" />
                 </div>
@@ -180,7 +180,7 @@ export const Hire = () => {
               <div className="frame-27">
                 <div className="group-7">
                   <div className="overlap-group-4">
-                    <img className="mask-group-4" alt="Mask group" src="/hire/mask-group-2.png" />
+                    <img className="mask-group-4" alt="Mask group" src="/hire/mask-group-2.webp" />
                     <img className="mask-group-5" alt="Mask group" src="/hire/mask-group-3.png" />
                     <img className="mask-group-6" alt="Mask group" src="/hire/mask-group-4.png" />
                   </div>
@@ -666,7 +666,7 @@ export const Hire = () => {
                     width: screenWidth < 450 ? "390px" : screenWidth >= 450 ? "732px" : undefined,
                   }}
                   alt="Shutterstock"
-                  src="/hire/shutterstock-1704596071-1-1.png"
+                  src="/hire/shutterstock-1704596071-1-1.webp"
                 />
                 <div
                   className="rectangle-13"

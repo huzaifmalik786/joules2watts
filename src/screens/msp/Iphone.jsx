@@ -39,7 +39,7 @@ export const Iphone = () => {
           >
             <div className="desktop-only">
               <div className="rectangle-2" />
-              <img className="element" alt="Element" src="/msp/37-1.png" />
+              <img className="element" alt="Element" src="/msp/37-1.webp" />
               <div className="frame-11">
                 <div className="component">
                   <p className="rely-on">
@@ -407,11 +407,11 @@ export const Iphone = () => {
           <div className="carousel-2 mobile-only">
             <div className="frame-50">
               <div className="overlap-group-5">
-                <img className="rectangle-19" alt="Rectangle" src="/msp/rectangle-26-3.png" />
+                <img className="rectangle-19" alt="Rectangle" src="/msp/rectangle-26-3.webp" />
                 <div className="frame-51">
                   <div className="frame-8" />
                 </div>
-                <img className="shutterstock" alt="Shutterstock" src="/msp/shutterstock-1704596071-1.png" />
+                <img className="shutterstock" alt="Shutterstock" src="/msp/shutterstock-1704596071-1.webp" />
                 <div className="rectangle-20" />
                 <div className="frame-52">
                   <p className="we-are-your-growth">
@@ -604,7 +604,7 @@ export const Iphone = () => {
           </div>
           <div className="frame-78 mobile-only">
             <div className="frame-79">
-              <img className="deepmind" alt="Deepmind" src="/msp/deepmind-8hereyc6zt0-unsplash-1-3.png" />
+              <img className="deepmind" alt="Deepmind" src="/msp/deepmind-8hereyc6zt0-unsplash-1-3.webp" />
               <div className="frame-80">
                 <div className="frame-81">
                   <div className="text-wrapper-68">Recruitment Process</div>
@@ -626,7 +626,7 @@ export const Iphone = () => {
               </div>
             </div>
             <div className="frame-84">
-              <img className="deepmind" alt="Deepmind" src="/msp/deepmind-8hereyc6zt0-unsplash-1-3.png" />
+              <img className="deepmind" alt="Deepmind" src="/msp/deepmind-8hereyc6zt0-unsplash-1-3.webp" />
               <div className="frame-80">
                 <div className="frame-81">
                   <div className="text-wrapper-68">Recruitment Process</div>
@@ -648,7 +648,7 @@ export const Iphone = () => {
               </div>
             </div>
             <div className="frame-85">
-              <img className="deepmind" alt="Deepmind" src="/msp/deepmind-8hereyc6zt0-unsplash-1-3.png" />
+              <img className="deepmind" alt="Deepmind" src="/msp/deepmind-8hereyc6zt0-unsplash-1-3.webp" />
               <div className="frame-80">
                 <div className="frame-81">
                   <div className="text-wrapper-68">Recruitment Process</div>
@@ -679,11 +679,11 @@ export const Iphone = () => {
                     <div className="carousel-3">
                       <div className="frame-86">
                         <div className="overlap-group-9">
-                          <img className="rectangle-22" alt="Rectangle" src="/msp/rectangle-26-3.png" />
+                          <img className="rectangle-22" alt="Rectangle" src="/msp/rectangle-26-3.webp" />
                           <img
                             className="shutterstock-2"
                             alt="Shutterstock"
-                            src="/msp/shutterstock-1704596071-1-1.png"
+                            src="/msp/shutterstock-1704596071-1-1.webp"
                           />
                           <div className="rectangle-23" />
                           <Cta
@@ -736,7 +736,7 @@ export const Iphone = () => {
                   </div>
                 </div>
                 <div className="frame-87">
-                  <img className="deepmind-hereyczt" alt="Deepmind" src="/msp/deepmind-8hereyc6zt0-unsplash-1-4.png" />
+                  <img className="deepmind-hereyczt" alt="Deepmind" src="/msp/deepmind-8hereyc6zt0-unsplash-1-4.webp" />
                   <div className="frame-88">
                     <div className="frame-81">
                       <div className="text-wrapper-70">Supplier Management</div>
@@ -759,7 +759,7 @@ export const Iphone = () => {
                 </div>
               </div>
               <div className="frame-89">
-                <img className="deepmind-hereyczt" alt="Deepmind" src="/msp/deepmind-8hereyc6zt0-unsplash-1-4.png" />
+                <img className="deepmind-hereyczt" alt="Deepmind" src="/msp/deepmind-8hereyc6zt0-unsplash-1-4.webp" />
                 <div className="frame-88">
                   <div className="frame-81">
                     <div className="text-wrapper-70">Recruitment Process</div>
@@ -781,7 +781,7 @@ export const Iphone = () => {
                 </div>
               </div>
               <div className="frame-90">
-                <img className="deepmind-hereyczt" alt="Deepmind" src="/msp/deepmind-8hereyc6zt0-unsplash-1-4.png" />
+                <img className="deepmind-hereyczt" alt="Deepmind" src="/msp/deepmind-8hereyc6zt0-unsplash-1-4.webp" />
                 <div className="frame-91">
                   <div className="frame-92">
                     <div className="text-wrapper-73">Compliance Management</div>

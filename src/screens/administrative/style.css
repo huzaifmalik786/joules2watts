@@ -535,6 +535,7 @@
 }
 
 .administrative .text-wrapper-26 {
+  white-space: nowrap;
   color: #ffffff;
   font-family: var(--subtitle-MED-font-family);
   font-size: var(--subtitle-MED-font-size);
@@ -608,6 +609,7 @@
 }
 
 .administrative .text-wrapper-29 {
+  white-space: nowrap;
   color: #ffffff;
   font-family: var(--subtitle-MED-font-family);
   font-size: var(--subtitle-MED-font-size);
@@ -657,6 +659,7 @@
 }
 
 .administrative .text-wrapper-31 {
+  white-space: nowrap;
   color: #ffffff;
   font-family: var(--subtitle-MED-font-family);
   font-size: var(--subtitle-MED-font-size);
@@ -1646,6 +1649,7 @@
 }
 
 .administrative .text-wrapper-49 {
+  white-space: nowrap;
   color: #ffffff;
   font-family: var(--subtitle-MED-font-family);
   font-size: var(--subtitle-MED-font-size);
@@ -1668,6 +1672,7 @@
 
 .administrative .text-wrapper-50 {
   color: #ffffff;
+  white-space: nowrap;
   font-family: var(--subtitle-MED-font-family);
   font-size: var(--subtitle-MED-font-size);
   font-style: var(--subtitle-MED-font-style);
@@ -2125,7 +2130,7 @@
 }
 
 .administrative .BFSI {
-  background-image: url(../../../static/administrative/rectangle-24-2.svg);
+  background-image: url(../../../static/administrative/rectangle-24-2.webp);
   background-size: 100% 100%;
   height: 240px;
   position: relative;

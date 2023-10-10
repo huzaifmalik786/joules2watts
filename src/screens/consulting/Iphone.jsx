@@ -59,15 +59,15 @@ export const Consulting = () => {
               <img
                 className="businessman-showing"
                 alt="Businessman showing"
-                src="/consulting/businessman-showing-changes-report-1.png"
+                src="/consulting/businessman-showing-changes-report-1.webp"
               />
               <div className="overlap-group-wrapper">
                 <div className="overlap-group-2">
                   <div className="ellipse-3" />
                   <div className="ellipse-4" />
                   <img className="ellipse-5" alt="Ellipse" src="/consulting/ellipse-36.png" />
-                  <img className="rectangle-3" alt="Rectangle" src="/consulting/rectangle-42.png" />
-                  <img className="image" alt="Image" src="/consulting/image-4-2.png" />
+                  <img className="rectangle-3" alt="Rectangle" src="/consulting/rectangle-42.webp" />
+                  <img className="image" alt="Image" src="/consulting/image-4-2.webp" />
                   <div className="rectangle-4" />
                   <div className="rectangle-5" />
                 </div>
@@ -131,7 +131,7 @@ export const Consulting = () => {
                     </div>
                     <img className="ellipse-8" alt="Ellipse" />
                   </div>
-                  <img className="image-2" alt="Image" src="/consulting/image-4-2.png" />
+                  <img className="image-2" alt="Image" src="/consulting/image-4-2.webp" />
                   <div className="frame-10">
                     <p className="text-wrapper-9">Consulting for Global In-house Centers (GICs)</p>
                     <p className="we-at-joulestowatts-2">
@@ -143,7 +143,7 @@ export const Consulting = () => {
                 </div>
 
                 <div className="desktop-only">
-                  <img className="group-2" alt="Group" src="/consulting/group-24.png" />
+                  <img className="group-2" alt="Group" src="/consulting/group-24.webp" />
                   <div className="text-wrapper-10">GIC</div>
                   <div className="text-wrapper-11">Capital Markets</div>
                   <div className="text-wrapper-12">Banking</div>
@@ -204,7 +204,7 @@ export const Consulting = () => {
                   </div>
                   <div className="frame-19">
                     <div className="deepmind-wrapper">
-                      <img className="deepmind" alt="Deepmind" src="/consulting/deepmind-8hereyc6zt0-unsplash-1-2.png" />
+                      <img className="deepmind" alt="Deepmind" src="/consulting/deepmind-8hereyc6zt0-unsplash-1-2.webp" />
                     </div>
                     <div className="frame-20">
                       <div className="frame-21">
@@ -225,7 +225,7 @@ export const Consulting = () => {
                     <img
                       className="deepmind-hereyczt"
                       alt="Deepmind"
-                      src="/consulting/deepmind-8hereyc6zt0-unsplash-2-1.png"
+                      src="/consulting/deepmind-8hereyc6zt0-unsplash-2-1.webp"
                     />
                     <div className="frame-24">
                       <div className="frame-25">
@@ -256,7 +256,7 @@ export const Consulting = () => {
                       </div>
                     </div>
                     <div className="deepmind-hereyczt-wrapper">
-                      <img className="deepmind-2" alt="Deepmind" src="/consulting/deepmind-8hereyc6zt0-unsplash-2.png" />
+                      <img className="deepmind-2" alt="Deepmind" src="/consulting/deepmind-8hereyc6zt0-unsplash-2.webp" />
                     </div>
                   </div>
                 </div>
@@ -271,7 +271,7 @@ export const Consulting = () => {
               <img
                 className="sebastian-svenson"
                 alt="Sebastian svenson"
-                src="/consulting/sebastian-svenson-lpbydenbqqg-unsplash-1-1.png"
+                src="/consulting/sebastian-svenson-lpbydenbqqg-unsplash-1-1.webp"
               />
             </div>
 
@@ -392,7 +392,7 @@ export const Consulting = () => {
                 <div className="frame-37">
                   <div className="overlap-group-6">
                     <img className="rectangle-14" alt="Rectangle" src="/consulting/rectangle-26-3.png" />
-                    <img className="shutterstock" alt="Shutterstock" src="/consulting/shutterstock-1704596071-1-3.png" />
+                    <img className="shutterstock" alt="Shutterstock" src="/consulting/shutterstock-1704596071-1-3.webp" />
                     <div className="rectangle-15" />
                     <PropertyDefaultWrapper
                       arrowForward="/consulting/arrow-forward-89.svg"
@@ -490,7 +490,7 @@ export const Consulting = () => {
                     <img
                       className="sebastian-svenson-2"
                       alt="Sebastian svenson"
-                      src="/consulting/sebastian-svenson-lpbydenbqqg-unsplash-1-1.png"
+                      src="/consulting/sebastian-svenson-lpbydenbqqg-unsplash-1-1.webp"
                     />
                   </div>
                 </div>
@@ -558,7 +558,7 @@ export const Consulting = () => {
                   <div className="frame-72">
                     <div className="frame-26" />
                   </div>
-                  <img className="shutterstock-2" alt="Shutterstock" src="/consulting/shutterstock-1704596071-1-1.png" />
+                  <img className="shutterstock-2" alt="Shutterstock" src="/consulting/shutterstock-1704596071-1-1.webp" />
                   <div className="rectangle-19" />
                   <div className="frame-73">
                     <p className="we-are-your-growth-2">
@@ -675,7 +675,7 @@ export const Consulting = () => {
               </div>
             </div>
             <div className="frame-82">
-              <img className="deepmind-3" alt="Deepmind" src="/consulting/deepmind-8hereyc6zt0-unsplash-1-2.png" />
+              <img className="deepmind-3" alt="Deepmind" src="/consulting/deepmind-8hereyc6zt0-unsplash-1-2.webp" />
               <div className="frame-83">
                 <div className="frame-21">
                   <div className="text-wrapper-61">Methodical Approach</div>
@@ -692,7 +692,7 @@ export const Consulting = () => {
               </div>
             </div>
             <div className="frame-84">
-              <img className="deepmind-4" alt="Deepmind" src="/consulting/deepmind-8hereyc6zt0-unsplash-2.png" />
+              <img className="deepmind-4" alt="Deepmind" src="/consulting/deepmind-8hereyc6zt0-unsplash-2.webp" />
               <div className="frame-83">
                 <div className="frame-21">
                   <div className="text-wrapper-61">Our Tools</div>
@@ -708,7 +708,7 @@ export const Consulting = () => {
               </div>
             </div>
             <div className="frame-87">
-              <img className="deepmind-5" alt="Deepmind" src="/consulting/deepmind-8hereyc6zt0-unsplash-2-1.png" />
+              <img className="deepmind-5" alt="Deepmind" src="/consulting/deepmind-8hereyc6zt0-unsplash-2-1.webp" />
               <div className="frame-83">
                 <div className="frame-21">
                   <div className="text-wrapper-61">Support</div>

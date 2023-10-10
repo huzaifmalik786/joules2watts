@@ -269,6 +269,7 @@
 }
 
 .services .shutterstock-7 {
+  object-fit: cover;
   height: 360px;
   left: 0;
   position: absolute;
@@ -397,7 +398,7 @@
   width: 915px;
 }
 
-.services .frame-wrapper {
+.services .frame-wrapper-services {
   background: conic-gradient(from 180deg at 50% 50%, rgb(77, 159, 152) 0deg, rgb(46, 80, 83) 360deg);
   border-radius: 12px;
   height: 293px;
@@ -1254,7 +1255,7 @@
 }
 
 .services .BFSI {
-  background-image: url(../../../static/services/rectangle-24.svg);
+  background-image: url(../../../static/services/rectangle-24.webp);
   height: 240px;
   position: relative;
   width: 264px;
@@ -1275,7 +1276,7 @@
 }
 
 .services .IT-services {
-  background-image: url(../../../static/services/rectangle-23.png);
+  background-image: url(../../../static/services/rectangle-23.webp);
   background-position: 50% 50%;
   background-size: cover;
   height: 240px;
@@ -1284,7 +1285,7 @@
 }
 
 .services .telecom {
-  background-image: url(../../../static/services/rectangle-25.png);
+  background-image: url(../../../static/services/rectangle-25.webp);
   background-size: 100% 100%;
   height: 240px;
   position: relative;
@@ -1314,7 +1315,7 @@
 }
 
 .services .telecom-2 {
-  background-image: url(../../../static/services/rectangle-25-1.png);
+  background-image: url(../../../static/services/rectangle-25-1.webp);
   background-position: 50% 50%;
   background-size: cover;
   height: 240px;
@@ -1323,7 +1324,7 @@
 }
 
 .services .telecom-3 {
-  background-image: url(../../../static/services/rectangle-25-2.png);
+  background-image: url(../../../static/services/rectangle-25-2.webp);
   background-position: 50% 50%;
   background-size: cover;
   height: 240px;
@@ -1834,7 +1835,7 @@
 }
 
 .services .BFSI-2 {
-  background-image: url(../../../static/services/rectangle-24-1.svg);
+  background-image: url(../../../static/services/rectangle-24-1.webp);
   background-size: 100% 100%;
   height: 240px;
   position: relative;

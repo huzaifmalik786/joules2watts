@@ -115,7 +115,7 @@ export const Industries = () => {
                 <img className="flipkart-logo" alt="Flipkart logo" src="/industries/flipkart-logo-1.png" />
                 <img className="edutech-social-share" alt="Edutech social share" src="/industries/edutech-social-share-1.png" />
                 <img className="OLX-logo" alt="Olx logo" src="/industries/olx-logo-1.png" />
-                <img className="element-lam" alt="Element lam" src="/industries/14-lam-1.png" />
+                <img className="element-lam" alt="Element lam" src="/industries/14-lam-1.webp" />
                 <div className="text-wrapper-20">OSBI</div>
                 <div className="group-3">
                   <div className="overlap-group-2">
@@ -252,7 +252,7 @@ export const Industries = () => {
                 </div>
               </div>
               <img className="OLX-logo-2" alt="Olx logo" src="/industries/olx-logo-1.png" />
-              <img className="element-lam-2" alt="Element lam" src="/industries/14-lam-1.png" />
+              <img className="element-lam-2" alt="Element lam" src="/industries/14-lam-1.webp" />
               <button className="CTA-2" onClick={()=> setOpenModal(true)}>
                 <div className="text-wrapper-35">Schedule a call now</div>
                 <img className="arrow-forward" alt="Arrow forward" src="/industries/arrow-forward-155.svg" />

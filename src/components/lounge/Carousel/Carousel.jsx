@@ -11,7 +11,7 @@ export const Carousel = ({ className, arrowForwardClassName, arrowForward = "/lo
   return (
     <div className={`carousel ${className}`}>
       <div className="overlap-group">
-        <img className="rectangle" alt="Rectangle" src="/lounge/rectangle-26-2.png" />
+        <img className="rectangle" alt="Rectangle" src="/lounge/rectangle-26-2.webp" />
         <div className="div" />
         <div className="frame">
           <p className="text-wrapper">Requirement Fulfillment within 48 hours</p>

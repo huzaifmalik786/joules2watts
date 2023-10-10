@@ -44,7 +44,7 @@ export const CSR = () => {
             <img
               className="square-illusion"
               alt="Square illusion"
-              src="/csr/square-illusion-3579763-2992371-0-1.png"
+              src="/csr/square-illusion-3579763-2992371-0-1.webp"
             />
             <div className="frame-3">
               <div className="text-wrapper-5">Corporate Social Responsibility Policy</div>
@@ -84,7 +84,7 @@ export const CSR = () => {
             <img
               className="square-illusion-2"
               alt="Square illusion"
-              src="/csr/square-illusion-3579763-2992371-0-1.png"
+              src="/csr/square-illusion-3579763-2992371-0-1.webp"
             />
             <div className="text-wrapper-9">Focus Areas Include</div>
           </div>
@@ -124,7 +124,7 @@ export const CSR = () => {
                   movement.
                 </p>
               </div>
-              <img className="joy-of-giving" alt="Joy of giving" src="/csr/joy-of-giving-1.png" />
+              <img className="joy-of-giving" alt="Joy of giving" src="/csr/joy-of-giving-1.webp" />
             </div>
 
             <div className="overlap-3 mobile-only">
@@ -152,7 +152,7 @@ export const CSR = () => {
             width: screenWidth < 450 ? "310px" : screenWidth >= 450 ? "927px" : undefined,
           }}
           alt="Gift of knowledge"
-          src="/csr/gift-of-knowledge-1.png"
+          src="/csr/gift-of-knowledge-1.webp"
         />
         <div className="desktop-only">
           <p className="we-at-joulestowatts">
@@ -199,7 +199,7 @@ export const CSR = () => {
               less fortunate. People are given donation bags to encourage them to participate in the giving movement.
             </p>
           </div>
-          <img className="joy-of-giving-2" alt="Joy of giving" src="/csr/joy-of-giving-1.png" />
+          <img className="joy-of-giving-2" alt="Joy of giving" src="/csr/joy-of-giving-1.webp" />
           <div className="frame-25">
             <div className="frame-26">
               <div className="frame-27">

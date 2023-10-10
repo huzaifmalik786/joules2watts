@@ -12,9 +12,9 @@ export const Footer = () => {
                 className="footer-2-shared desktop-only"
                 style={{
                     backgroundColor:
-                        screenWidth >= 1440 ? "var(--white)" : screenWidth < 1440 ? "var(--secondary-04)" : undefined,
-                    height: screenWidth >= 1440 ? "292px" : screenWidth < 1440 ? "696px" : undefined,
-                    width: screenWidth >= 1440 ? "1441px" : screenWidth < 1440 ? "390px" : undefined,
+                        screenWidth >= 450 ? "var(--white)" : screenWidth < 450 ? "var(--secondary-04)" : undefined,
+                    height: screenWidth >= 450 ? "292px" : screenWidth < 450 ? "696px" : undefined,
+                    width: screenWidth >= 450 ? "1441px" : screenWidth < 450 ? "390px" : undefined,
                 }}
             >
                 <div className="overlap-8-shared">

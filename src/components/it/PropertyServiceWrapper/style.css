@@ -85,9 +85,9 @@
   line-height: var(--subtitle-BLD-line-height) !important;
   cursor: pointer !important;
 }
-.property-service-wrapper .class-5:hover{
+/* .property-service-wrapper .class-5:hover{
   color: #fff !important;
-}
+} */
 
 .property-service-wrapper .class-6 {
   align-items: flex-end !important;

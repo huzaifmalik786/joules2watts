@@ -68,7 +68,7 @@ export const ItServices = () => {
 
             <div className="mobile-only">
               <img className="hero" alt="Hero" src="/it/hero-1-1.png" />
-              <img className="image" alt="Image" src="/it/image-8.png" />
+              <img className="image" alt="Image" src="/it/image-8.webp" />
             </div>
 
             <div
@@ -122,11 +122,11 @@ export const ItServices = () => {
               <div className="carousel-2">
                 <div className="overlap-group-wrapper">
                   <div className="overlap-group-3">
-                    <img className="rectangle-3" alt="Rectangle" src="/it/rectangle-26-2.png" />
+                    <img className="rectangle-3" alt="Rectangle" src="/it/rectangle-26-2.webp" />
                     <div className="frame-30">
                       <div className="linkedin" />
                     </div>
-                    <img className="shutterstock" alt="Shutterstock" src="/it/shutterstock-1704596071-1.png" />
+                    <img className="shutterstock" alt="Shutterstock" src="/it/shutterstock-1704596071-1.webp" />
                     <div className="rectangle-4" />
                     <div className="frame-31">
                       <p className="we-are-your-growth">
@@ -288,7 +288,7 @@ export const ItServices = () => {
                   />
                 </div>
               </div>
-              <img className="image-2" alt="Image" src="/it/image-6.png" />
+              <img className="image-2" alt="Image" src="/it/image-6.webp" />
               <img className="hero-2" alt="Hero" src="/it/hero-1.png" />
               <div className="group-5">
                 <Cta
@@ -312,13 +312,13 @@ export const ItServices = () => {
                 className="component-25"
                 img="/it/vector.svg"
                 property1="service-digital"
-                rectangle="/it/rectangle-228.svg"
+                rectangle="/it/rectangle-228-1.webp"
                 vector="/it/vector.svg"
                 vector1="/it/vector.svg"
                 vector2="/it/vector.svg"
                 vector3="/it/vector.svg"
               />
-              <img className="image-3" alt="Image" src="/it/image-8.png" />
+              <img className="image-3" alt="Image" src="/it/image-8.webp" />
             </div>
           </div>
           <div className="desktop-only">
@@ -386,8 +386,8 @@ export const ItServices = () => {
             <div className="carousel-3">
               <div className="frame-62">
                 <div className="overlap-group-7">
-                  <img className="rectangle-8" alt="Rectangle" src="/it/rectangle-26-2.png" />
-                  <img className="shutterstock-2" alt="Shutterstock" src="/it/shutterstock-1704596071-1-1.png" />
+                  <img className="rectangle-8" alt="Rectangle" src="/it/rectangle-26-2.webp" />
+                  <img className="shutterstock-2" alt="Shutterstock" src="/it/shutterstock-1704596071-1-1.webp" />
                   <div className="rectangle-9" />
                   <p className="text-wrapper-45">
                     With JoulestoWatts be prepared to set off on a path of development and change together. Join forces

@@ -40,7 +40,7 @@ export const Privacy = () => {
                     <img
                       className="businessman-logging"
                       alt="Businessman logging"
-                      src="/privacy/businessman-logging-his-tablet-1.png"
+                      src="/privacy/businessman-logging-his-tablet-1.webp"
                     />
                     <div className="rectangle-3" />
                   </div>
@@ -102,9 +102,9 @@ export const Privacy = () => {
             alt="Hand holding cloud"
             src={
               screenWidth < 450
-                ? "/privacy/hand-holding-cloud-system-with-data-protection-1.png"
+                ? "/privacy/hand-holding-cloud-system-with-data-protection-1.webp"
                 : screenWidth >= 450
-                  ? "/privacy/businessman-logging-his-tablet-1.png"
+                  ? "/privacy/businessman-logging-his-tablet-1.webp"
                   : undefined
             }
           />
@@ -291,7 +291,7 @@ export const Privacy = () => {
             <img
               className="hand-holding-cloud-2"
               alt="Hand holding cloud"
-              src="/privacy/hand-holding-cloud-system-with-data-protection-1.png"
+              src="/privacy/hand-holding-cloud-system-with-data-protection-1.webp"
             />
           </div>
         </div>

@@ -51,11 +51,11 @@ export const Lounge = () => {
                   </p>
                   <div className="overlap-group-wrapper">
                     <div className="overlap-group-2">
-                      <img className="mask-group" alt="Mask group" src="/lounge/mask-group-9.png" />
+                      <img className="mask-group" alt="Mask group" src="/lounge/mask-group-9.webp" />
                       <img
                         className="smiley-businesswoman"
                         alt="Smiley businesswoman"
-                        src="/lounge/smiley-businesswoman-posing-outdoors-with-arms-crossed-copy-spac.png"
+                        src="/lounge/smiley-businesswoman-posing-outdoors-with-arms-crossed-copy-spac.webp"
                       />
                     </div>
                   </div>
@@ -77,7 +77,7 @@ export const Lounge = () => {
             <div className="desktop-only">
               <div className="rectangle-3" />
               <img className="rectangle-4" alt="Rectangle" src="/lounge/rectangle-78-3.svg" />
-              <img className="mike-u" alt="Mike u" src="/lounge/mike-u-jujypgv4rag-unsplash-1-1.png" />
+              <img className="mike-u" alt="Mike u" src="/lounge/mike-u-jujypgv4rag-unsplash-1-1.webp" />
               <p className="india-s-first-of-its-2">
                 <span className="span">India’s first-of-its kind solution for your </span>
                 <span className="text-wrapper-5">niche skill fulfillment</span>
@@ -105,11 +105,11 @@ export const Lounge = () => {
                 text="Connect with us"
                 link="/contact-us"
               />
-              <img className="mask-group-2" alt="Mask group" src="/lounge/mask-group-10.png" />
+              <img className="mask-group-2" alt="Mask group" src="/lounge/mask-group-10.webp" />
               <img
                 className="smiley-businesswoman-2"
                 alt="Smiley businesswoman"
-                src="/lounge/smiley-businesswoman-posing-outdoors-with-arms-crossed-copy-spac-1.png"
+                src="/lounge/smiley-businesswoman-posing-outdoors-with-arms-crossed-copy-spac-1.webp"
               />
             </div>
 
@@ -192,7 +192,7 @@ export const Lounge = () => {
               <div className="carousel-2">
                 <div className="frame-24">
                   <div className="overlap-group-5">
-                    <img className="pexels-pavel" alt="Pexels pavel" src="/lounge/pexels-pavel-danilyuk-5520297-1.png" />
+                    <img className="pexels-pavel" alt="Pexels pavel" src="/lounge/pexels-pavel-danilyuk-5520297-1.webp" />
                     <div className="rectangle-6" />
                     <p className="joulestowatt-s">
                       JoulestoWatt&#39;s premiere lounge is the next step to assessing and shortlisting accurate profiles
@@ -760,7 +760,7 @@ export const Lounge = () => {
                   <div className="frame-101">
                     <div className="linkedin" />
                   </div>
-                  <img className="pexels-pavel-2" alt="Pexels pavel" src="/lounge/pexels-pavel-danilyuk-5520297-1.png" />
+                  <img className="pexels-pavel-2" alt="Pexels pavel" src="/lounge/pexels-pavel-danilyuk-5520297-1.webp" />
                   <div className="rectangle-13" />
                   <div className="frame-102">
                     <p className="joulestowatt-s-2">

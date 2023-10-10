@@ -51,7 +51,7 @@ export const Leadership = () => {
               width: screenWidth >= 450 ? "1448px" : screenWidth < 450 ? "394px" : undefined,
             }}
             alt="Modern geometrical"
-            src="/leadership/modern-geometrical-wallpaper-with-round-lines-1.png"
+            src="/leadership/modern-geometrical-wallpaper-with-round-lines-1.webp"
           />
           <img
             className="rectangle"
@@ -166,8 +166,8 @@ export const Leadership = () => {
             </div>
           </div>
           <div className="frame-17">
-            <img className="group-2" alt="Group" src="/leadership/group-8851.png" />
-            <img className="group-3" alt="Group" src="/leadership/group-8850.png" />
+            <img className="group-2" alt="Group" src="/leadership/group-8851.webp" />
+            <img className="group-3" alt="Group" src="/leadership/group-8850.webp" />
           </div>
           <div className="frame-18">
             <div className="rectangle-2" />
@@ -251,8 +251,8 @@ export const Leadership = () => {
             </div>
           </div>
           <div className="overlap-3">
-            <img className="group-4" alt="Group" src="/leadership/group-33.png" />
-            <img className="group-5" alt="Group" src="/leadership/group-34.png" />
+            <img className="group-4" alt="Group" src="/leadership/group-33.webp" />
+            <img className="group-5" alt="Group" src="/leadership/group-34.webp" />
             <img className="linkedin-circled-5" alt="Linkedin circled" src="/leadership/linkedin-circled-2.png" />
             <img className="linkedin-circled-6" alt="Linkedin circled" src="/leadership/linkedin-circled-2.png" />
           </div>

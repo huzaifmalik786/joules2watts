@@ -39,7 +39,7 @@ export const Component = ({
                 {property1 === "frame-14695" && (
                   <>
                     <div className="rectangle-4" />
-                    <img className="rectangle-5" alt="Rectangle" src="/homepage/rectangle-190-3.svg" />
+                    <img className="rectangle-5" alt="Rectangle" src="/homepage/rectangle-190-3.webp" />
                     <div className="frame-12">
                       <p className="text-wrapper-8">Cloud And Hpc To Accelerate Hiring</p>
                       <p className="an-execution-driven-2">

@@ -76,7 +76,7 @@ export const Services = () => {
               <div className="overlap-group-wrapper">
                 <div className="overlap-group-3">
                   <div className="frame-7">
-                    <img className="shutterstock-3" alt="Shutterstock" src="/services/shutterstock-1485872414-1.png" />
+                    <img className="shutterstock-3" alt="Shutterstock" src="/services/shutterstock_1485872414_1.webp" />
                   </div>
                   <div className="rectangle-6" />
                   <div className="frame-8">
@@ -96,9 +96,9 @@ export const Services = () => {
               <div className="overlap-wrapper">
                 <div className="overlap-group-3">
                   <div className="frame-7">
-                    <img className="shutterstock-3" alt="Shutterstock" src="/services/shutterstock-1485872414-1.png" />
+                    <img className="shutterstock-3" alt="Shutterstock" src="/services/shutterstock-1485872414-1.webp" />
                   </div>
-                  <img className="rectangle-7" alt="Rectangle" src="/services/rectangle-33.svg" />
+                  <img className="rectangle-7" alt="Rectangle" src="/services/rectangle-33.webp" />
                   <div className="frame-8">
                     <div className="frame-9">
                       <div className="text-wrapper-5">Managed IT services</div>
@@ -165,8 +165,8 @@ export const Services = () => {
                 <div className="overlap-group-3">
                   <div className="frame-7">
                     <div className="overlap-group-4">
-                      <img className="shutterstock-4" alt="Shutterstock" src="/services/shutterstock-1485872414-1.png" />
-                      <img className="shutterstock-5" alt="Shutterstock" src="/services/shutterstock-1485872414-1.png" />
+                      <img className="shutterstock-4" alt="Shutterstock" src="/services/shutterstock-1485872414-1.webp" />
+                      <img className="shutterstock-5" alt="Shutterstock" src="/services/shutterstock-1485872414-1.webp" />
                     </div>
                   </div>
                   <div className="rectangle-6" />
@@ -187,7 +187,7 @@ export const Services = () => {
               <div className="service-3">
                 <div className="overlap-group-3">
                   <div className="frame-7">
-                    <img className="shutterstock-6" alt="Shutterstock" src="/services/shutterstock-1485872414-1-7.png" />
+                    <img className="shutterstock-6" alt="Shutterstock" src="/services/shutterstock-1485872414-1-7.webp" />
                   </div>
                   <div className="rectangle-6" />
                   <div className="frame-11">
@@ -207,7 +207,7 @@ export const Services = () => {
               <div className="service-4">
                 <div className="overlap-group-3">
                   <div className="frame-7">
-                    <img className="shutterstock-7" alt="Shutterstock" src="/services/shutterstock-1485872414-1-8.png" />
+                    <img className="shutterstock-7" alt="Shutterstock" src="/services/shutterstock-1485872414-1-8.webp" />
                   </div>
                   <div className="rectangle-6" />
                   <div className="frame-12">
@@ -227,7 +227,7 @@ export const Services = () => {
               <div className="service-5">
                 <div className="overlap-group-3">
                   <div className="frame-7">
-                    <img className="shutterstock-8" alt="Shutterstock" src="/services/shutterstock-1485872414-1-2.png" />
+                    <img className="shutterstock-8" alt="Shutterstock" src="/services/shutterstock-1485872414-1-2.webp" />
                   </div>
                   <div className="rectangle-6" />
                   <div className="frame-11">
@@ -247,7 +247,7 @@ export const Services = () => {
               <div className="service-6">
                 <div className="overlap-group-3">
                   <div className="frame-7">
-                    <img className="shutterstock-7" alt="Shutterstock" src="/services/Frame 3791 (1).png" />
+                    <img className="shutterstock-7" alt="Shutterstock" src="/services/Frame 3791 (1).webp" />
                   </div>
                   <div className="rectangle-6" />
                   <div className="frame-11">
@@ -298,7 +298,7 @@ export const Services = () => {
                     itemClass="carousel-item"
                     pauseOnHover={false}
                   >
-                    <div className="frame-wrapper">
+                    <div className="frame-wrapper-services">
                       <div className="frame-wrapper-in">
                         <div className="frame-17">
                           <div className="frame-18">
@@ -428,8 +428,8 @@ export const Services = () => {
                     </div>
                     <div className="frame-28">
                       <div className="overlap-4">
-                        <img className="group-5" alt="Group" src="/services/group-11.png" />
-                        <img className="group-6" alt="Group" src="/services/group-12.png" />
+                        <img className="group-5" alt="Group" src="/services/group-11.webp" />
+                        <img className="group-6" alt="Group" src="/services/group-12.webp" />
                         <div className="ellipse-5" />
                         <div className="ellipse-6" />
                         <div className="frame-29">
@@ -454,8 +454,8 @@ export const Services = () => {
                       <div className="overlap-5">
                         <div className="ellipse-7" />
                         <div className="ellipse-8" />
-                        <img className="group-7" alt="Group" src="/services/group-14.png" />
-                        <img className="group-8" alt="Group" src="/services/group-15.png" />
+                        <img className="group-7" alt="Group" src="/services/group-14.webp" />
+                        <img className="group-8" alt="Group" src="/services/group-15.webp" />
                         <div className="frame-32">
                           <div className="text-wrapper-14">J2W Evolve</div>
                           <p className="get-the-assistance">
@@ -838,7 +838,7 @@ export const Services = () => {
                 </div>
               </div>
 
-              <img className="BG-image mobile-only" alt="Bg image" src="/services/bg-image.svg" />
+              <img className="BG-image mobile-only" alt="Bg image" src="/services/bg-image.webp" />
 
               <div
                 className="UI-element mobile-only"
@@ -878,7 +878,7 @@ export const Services = () => {
               />
             </div>
             <div className="overlap-14">
-              <img className="BG-image-2" alt="Bg image" src="/services/bg-image-1.svg" />
+              <img className="BG-image-2" alt="Bg image" src="/services/bg-image-1.webp" />
               <div className="UI-element-2">
                 <div className="icon-wrapper">
                   <img className="icon-2" alt="Icon" src="/services/icon-1.svg" />

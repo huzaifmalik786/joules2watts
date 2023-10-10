@@ -28,6 +28,6 @@ export const Default = {
     vector1: "/it/vector-9.svg",
     vector2: "/it/vector-9.svg",
     vector3: "/it/vector-9.svg",
-    rectangle: "/it/rectangle-228-1.svg",
+    rectangle: "/it/rectangle-228-1.webp",
   },
 };

@@ -877,7 +877,7 @@
 }
 
 .offerletter .mask-group {
-  background-image: url(../../../static/offerletter/mask-group-1.png);
+  background-image: url(../../../static/offerletter/mask-group-1.webp);
   background-size: 100% 100%;
   box-shadow: 5px 5px 25px #00000012;
   height: 344px;
@@ -2083,7 +2083,7 @@
 }
 
 .offerletter .mask-group-3 {
-  background-image: url(../../../static/offerletter/mask-group-8.png);
+  background-image: url(../../../static/offerletter/mask-group-8.webp);
   background-size: 100% 100%;
   box-shadow: 5px 5px 25px #00000012;
   height: 144px;

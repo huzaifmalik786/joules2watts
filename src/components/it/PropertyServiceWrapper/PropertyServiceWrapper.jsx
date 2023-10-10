@@ -17,7 +17,7 @@ export const PropertyServiceWrapper = ({
   vector1 = "/it/vector-9.svg",
   vector2 = "/it/vector-9.svg",
   vector3 = "/it/vector-9.svg",
-  rectangle = "/it/rectangle-228-1.svg",
+  rectangle = "/it/rectangle-228-1.webp",
 }) => {
   const [state, dispatch] = useReducer(reducer, {
     property1: property1 || "service-cloud-services",
@@ -39,7 +39,7 @@ export const PropertyServiceWrapper = ({
             text="Digital"
           />
           <Cta
-            className={`${state.property1 === "service-cloud-services" ? "class-6" : "class-7"}`}
+            className={`${state.property1 === "service-cloud-services" ? "class-9" : "class-7"}`}
             divClassName={`${state.property1 === "service-cloud-services" ? "class-4" : "class-5"}`}
             hasArrowForward={false}
             onClick={() => {
@@ -52,8 +52,8 @@ export const PropertyServiceWrapper = ({
             className={`${["service-cloud-services", "service-digital"].includes(state.property1)
                 ? "class-7"
                 : state.property1 === "service-product-engineering"
-                  ? "class-6"
-                  : "class-8"
+                  ? "class-9"
+                  : "class-7"
               }`}
             divClassName={`${state.property1 === "service-product-engineering" ? "class-4" : "class-5"}`}
             hasArrowForward={false}
@@ -360,18 +360,18 @@ export const PropertyServiceWrapper = ({
           alt="Rectangle"
           src={
             state.property1 === "service-product-engineering"
-              ? "/it/rectangle-228-7.png"
+              ? "/it/rectangle-228-7.webp"
               : state.property1 === "service-QA-and-testing"
-                ? "/it/rectangle-228-3.png"
+                ? "/it/rectangle-228-3.webp"
                 : state.property1 === "service-infrastruture-services"
-                  ? "/it/rectangle-228-4.png"
+                  ? "/it/rectangle-228-4.webp"
                   : state.property1 === "service-app-modernization"
-                    ? "/it/rectangle-228-5.png"
+                    ? "/it/rectangle-228-5.webp"
                     : state.property1 === "service-professional-services"
-                      ? "/it/rectangle-228-6.png"
+                      ? "/it/rectangle-228-6.webp"
                       : state.property1 === "service-digital"
                         ? rectangle
-                        : "/it/rectangle-228-2.png"
+                        : "/it/rectangle-228-2.webp"
           }
         />
       </div>
