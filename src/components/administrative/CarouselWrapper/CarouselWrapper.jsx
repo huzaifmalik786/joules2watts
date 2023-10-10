@@ -11,7 +11,7 @@ export const CarouselWrapper = ({ className, arrowForwardClassName, arrowForward
   return (
     <div className={`carousel-wrapper ${className}`}>
       <div className="overlap-group-2">
-        <img className="rectangle-2" alt="Rectangle" src="/administrative/rectangle-26-2.png" />
+        <img className="rectangle-2" alt="Rectangle" src="/administrative/rectangle-26-2.webp" />
         <div className="rectangle-3" />
         <div className="frame-4">
           <p className="p">Requirement Fulfillment within 48 hours</p>

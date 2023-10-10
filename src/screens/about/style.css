@@ -216,7 +216,7 @@
 }
 
 .about .BFSI {
-  background-image: url(../../../static/about/rectangle-24.svg);
+  background-image: url(../../../static/about/rectangle-24.webp);
   background-size: 100% 100%;
   height: 240px;
   position: relative;
@@ -541,7 +541,7 @@
 }
 
 .about .frame-11 {
-  background: url(../../../static//about/Rectangle\ 91.png);
+  background: url(../../../static//about/Rectangle\ 91.webp);
   background-position: 50% 50%;
   background-size: cover;
   height: 430px;
@@ -552,16 +552,16 @@
 }
 
 .about .image-1 {
-  background: url(../../../static//about/Rectangle\ 91.png);
+  background: url(../../../static//about/Rectangle\ 91.webp);
 }
 
 .about .image-2 {
-  background: url(../../../static//about/Rectangle\ 92.png);
+  background: url(../../../static//about/Rectangle\ 92.webp);
 
 }
 
 .about .image-3 {
-  background: url(../../../static//about/Rectangle\ 93.png);
+  background: url(../../../static//about/Rectangle\ 93.webp);
 }
 
 .about .frame-12 {
@@ -683,7 +683,7 @@
 }
 
 .about .overlap-4 {
-  background: url(../../../static//about/Rectangle\ 92.png);
+  background: url(../../../static//about/Rectangle\ 92.webp);
   background-position: 50% 50%;
   background-size: cover;
   height: 430px;
@@ -702,7 +702,7 @@
 }
 
 .about .frame-16 {
-  background: url(../../../static//about/Rectangle\ 93.png);
+  background: url(../../../static//about/Rectangle\ 93.webp);
   background-position: 50% 50%;
   background-size: cover;
   height: 430px;
@@ -1810,7 +1810,7 @@
 }
 
 .about .telecom-3 {
-  background-image: url(../../../static/about/rectangle-25-1.png);
+  background-image: url(../../../static/about/rectangle-25-1.webp);
   background-position: 50% 50%;
   background-size: cover;
   height: 240px;

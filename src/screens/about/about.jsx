@@ -60,7 +60,7 @@ export const About = () => {
                     <div className="overlap-2">
                       <div className="ellipse" />
                       <img className="rectangle" alt="Rectangle" src="/about/rectangle-76.svg" />
-                      <img className="christina" alt="Christina" src="/about/christina.png" />
+                      <img className="christina" alt="Christina" src="/about/christina.webp" />
                     </div>
                     <div className="overlap-3">
                       <img className="img" alt="Rectangle" src="/about/rectangle-118-1.svg" />
@@ -209,7 +209,7 @@ export const About = () => {
                     link="/contact-us"
                   />
                 </div>
-                <img className="element-cube-design" alt="Element cube design" src="/about/cube.png" />
+                <img className="element-cube-design" alt="Element cube design" src="/about/cube.webp" />
                 <img className="rectangle-3" alt="Rectangle" src="/about/rectangle-140.svg" />
                 <div className="frame-11">
                   <div className="frame-12">
@@ -289,7 +289,7 @@ export const About = () => {
               <img className="rectangle-4" alt="Rectangle" src="/about/rectangle-118.svg" />
               <div className="frame-18">
                 <div className="frame-19">
-                  <img className="element" alt="Element" src="/about/man.png" />
+                  <img className="element" alt="Element" src="/about/man.webp" />
                   <div className="frame-20">
                     <div className="frame-21">
                       <div className="text-wrapper-14">BM Gupta</div>
@@ -313,7 +313,7 @@ export const About = () => {
               </div>
               <div className="frame-22">
                 <div className="frame-19">
-                  <img className="element" alt="Element" src="/about/lady.png" />
+                  <img className="element" alt="Element" src="/about/lady.webp" />
                   <div className="frame-20">
                     <div className="frame-21">
                       <div className="text-wrapper-17">Priti Sawant</div>
@@ -337,7 +337,7 @@ export const About = () => {
             </div>
             <div className="overlap-6">
               <div className="rectangle-5" />
-              <img className="seekpng" alt="Seekpng" src="/about/seek.png" />
+              <img className="seekpng" alt="Seekpng" src="/about/seek.webp" />
               <div className="frame-23">
                 <div className="frame-24">
                   <div className="frame-25">
@@ -426,7 +426,7 @@ export const About = () => {
                   <div className="overlap-group-4">
                     <div className="ellipse-2" />
                     <img className="rectangle-7" alt="Rectangle" src="/about/rectangle-76-1.svg" />
-                    <img className="christina-2" alt="Christina" src="/about/christina.png" />
+                    <img className="christina-2" alt="Christina" src="/about/christina.webp" />
                   </div>
                 </div>
                 <Cta
@@ -700,7 +700,7 @@ export const About = () => {
             </div>
             <div className="overlap-10">
               <div className="rectangle-9" />
-              <img className="element-d-cube-design" alt="Element cube design" src="/about/cube.png" />
+              <img className="element-d-cube-design" alt="Element cube design" src="/about/cube.webp" />
               <div className="frame-61">
                 <p className="being-the-fastest-2">
                   <span className="text-wrapper-51">
@@ -803,7 +803,7 @@ export const About = () => {
             </div>
             <div className="frame-66">
               <div className="frame-67">
-                <img className="element-2" alt="Element" src="/about/lady.png" />
+                <img className="element-2" alt="Element" src="/about/lady.webp" />
                 <div className="frame-68">
                   <div className="frame-69">
                     <div className="text-wrapper-54">Priti Sawant</div>
@@ -826,7 +826,7 @@ export const About = () => {
             </div>
             <div className="frame-70">
               <div className="frame-67">
-                <img className="element-3" alt="Element" src="/about/man.png" />
+                <img className="element-3" alt="Element" src="/about/man.webp" />
                 <div className="frame-68">
                   <div className="frame-69">
                     <div className="text-wrapper-54">BM Gupta</div>
@@ -897,7 +897,7 @@ export const About = () => {
                   </div>
                 </div>
               </div>
-              <img className="seekpng-2" alt="Seekpng" src="/about/seek.png" />
+              <img className="seekpng-2" alt="Seekpng" src="/about/seek.webp" />
             </div>
           </div>
           <Footer />

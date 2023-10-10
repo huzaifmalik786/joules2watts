@@ -59,7 +59,7 @@ export const Administrative = () => {
                       <img
                         className="two-collegues"
                         alt="Two collegues"
-                        src="/administrative/two-collegues-working-business-center.png"
+                        src="/administrative/two-collegues-working-business-center.webp"
                       />
                       <div className="friendly-partners" />
                     </div>
@@ -141,7 +141,7 @@ export const Administrative = () => {
               alt="Two collegues"
               src={
                 screenWidth >= 450
-                  ? "/administrative/two-collegues-working-business-center.png"
+                  ? "/administrative/two-collegues-working-business-center.webp"
                   : screenWidth < 450
                     ? "/administrative/rectangle-137-5.svg"
                     : undefined
@@ -327,7 +327,7 @@ export const Administrative = () => {
                 <div className="frame-33">
                   <div className="linkedin" />
                 </div>
-                <img className="shutterstock" alt="Shutterstock" src="/administrative/shutterstock-1704596071-1-4.png" />
+                <img className="shutterstock" alt="Shutterstock" src="/administrative/shutterstock-1704596071-1-4.webp" />
                 <div className="rectangle-9" />
                 <div className="frame-34">
                   <p className="we-are-your-growth">
@@ -568,7 +568,7 @@ export const Administrative = () => {
               <div className="carousel-3">
                 <div className="frame-59">
                   <div className="overlap-group-8">
-                    <img className="shutterstock-2" alt="Shutterstock" src="/administrative/shutterstock-1704596071-1-4.png" />
+                    <img className="shutterstock-2" alt="Shutterstock" src="/administrative/shutterstock-1704596071-1-4.webp" />
                     <div className="rectangle-16" />
                   </div>
                 </div>

@@ -13,7 +13,7 @@ export const Component = ({
   overlapClassName,
   overlapGroupClassName,
   rectangleClassName,
-  rectangle = "/homepage/rectangle-190-1.svg",
+  rectangle = "/homepage/rectangle-190-1.webp",
 }) => {
   return (
     <div className={`component ${className}`}>
@@ -69,10 +69,10 @@ export const Component = ({
               alt="Rectangle"
               src={
                 property1 === "frame-14696"
-                  ? "/homepage/rectangle-190-4.svg"
+                  ? "/homepage/rectangle-190-4.webp"
                   : property1 === "frame-14697"
-                  ? "/homepage/rectangle-190-5.svg"
-                  : "/homepage/rectangle-190-2.svg"
+                  ? "/homepage/rectangle-190-5.webp"
+                  : "/homepage/rectangle-190-2.webp"
               }
             />
             <div className="frame-14">

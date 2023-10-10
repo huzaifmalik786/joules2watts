@@ -7,7 +7,7 @@ import PropTypes from "prop-types";
 import React from "react";
 import "./style.css";
 
-export const Frame = ({ property1, className, rectangle = "/homepage/rectangle-190.png" }) => {
+export const Frame = ({ property1, className, rectangle = "/homepage/rectangle-190.webp" }) => {
   return (
     <div className={`homepage-frame`}>
       <img
@@ -16,13 +16,13 @@ export const Frame = ({ property1, className, rectangle = "/homepage/rectangle-1
         style={{objectFit:"cover"}}
         src={
           property1 === "variant-2"
-            ? "/homepage/rectangle-190-2.svg"
+            ? "/homepage/rectangle-190-2.webp"
             : property1 === "variant-3"
-            ? "/homepage/rectangle-190-3.svg"
+            ? "/homepage/rectangle-190-3.webp"
             : property1 === "variant-4"
             ? "/homepage/rectangle-190-4.svg"
             : property1 === "variant-5"
-            ? "/homepage/rectangle-190-5.svg"
+            ? "/homepage/rectangle-190-5.webp"
             : rectangle
         }
       />
