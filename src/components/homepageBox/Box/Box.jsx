@@ -35,7 +35,7 @@ export const Box = () => {
             className="service-instance"
             stateProp="default"
           />
-          <PropertyDefault className="property-1-default" rectangle="/homepage/rectangle-33.svg" />
+          <PropertyDefault className="property-1-default" rectangle="/homepage/rectangle-33.webp" />
           <Service CTAArrowForward="/homepage/arrow-forward-4.svg" card="three" className="service-2" stateProp="default" />
           <PropertyDefaultWrapper CTAArrowForward="/homepage/arrow-forward-3.svg" className="property-default-instance" />
           <Service CTAImg="/homepage/arrow-forward-2.svg" card="five" className="service-3" stateProp="default" />

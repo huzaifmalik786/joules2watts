@@ -21,7 +21,7 @@ export const PropertyDefaultWrapper = ({
       <div className="div-3">
         <div className="div-3">
           <div className={`overlap-group-8 property-1-5-${property1}`}>
-            <div className="frame-5">
+            <div className="frame-5-home">
               <div className="text-wrapper-4">{property1 == "variant-3" ? "Your Growth Partners" : "Fitment mapping for efficacy"}</div>
               <div className="div-wrapper">
                 <p className="p">
