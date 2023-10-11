@@ -73,12 +73,16 @@ const CustomDot = ({ onClick, ...rest }) => {
 export const Homepage = () => {
 	const screenWidth = useWindowWidth();
 	const [openModal, setOpenModal] = useState(false);
-	// useEffect(() => {
-  //   console.log(window.innerWidth);
-
-  //   // document.body.style.transform = `scale(${window.innerWidth / 1430})`;
-  //   // document.body.style.transformOrigin = `top center`;
-	// });
+	useEffect(() => {
+		// console.log(window.innerWidth);
+		if (window.innerWidth > 450) {
+			document.querySelector(".iphone").style.transform = `scale(${window.innerWidth / 1430})`;
+			document.querySelector(".iphone").style.transformOrigin = `top left`;
+		} else {
+			document.querySelector(".iphone").style.transform = `scale(${window.innerWidth / 390})`;
+			document.querySelector(".iphone").style.transformOrigin = `top left`;
+		}
+	});
 
 	return (
 		<>

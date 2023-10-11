@@ -40,19 +40,20 @@
     <script>
       let width = window.innerWidth;
       console.log({ width });
-      window.addEventListener("load", function () {
-        // TODO:Show loader
-        if (width < 550) {
-          document.querySelectorAll(".desktop-only").forEach((item) => (item.style.display = "none"));
-          document.querySelectorAll(".mobile-only").forEach((item) => (item.style.display = "block"));
-          //TODO: Hide Loader
-          document.querySelector("meta[name=viewport]").setAttribute("content", "width=device-width, user-scalable=no, initial-scale=" + window.innerWidth / 390 + "");
-        } else {
-          document.querySelectorAll(".mobile-only").forEach((item) => (item.style.display = "none"));
-          // TODO:Hide Loader
-          document.querySelector("meta[name=viewport]").setAttribute("content", "width=device-width, user-scalable=no, initial-scale=" + window.innerWidth / 1440 + "");
-        }
-      });
+      // window.addEventListener("load", function () {
+      //   // TODO:Show loader
+      //   if (width < 550) {
+      //     document.querySelectorAll(".desktop-only").forEach((item) => (item.style.display = "none"));
+      //     document.querySelectorAll(".mobile-only").forEach((item) => (item.style.display = "block"));
+      //     //TODO: Hide Loader
+      //     document.querySelector("meta[name=viewport]").setAttribute("content", "width=device-width, user-scalable=no, initial-scale=" + window.innerWidth / 390 + "");
+      //   } else {
+      //     alert(width)
+      //     document.querySelectorAll(".mobile-only").forEach((item) => (item.style.display = "none"));
+      //     // TODO:Hide Loader
+      //     document.querySelector("meta[name=viewport]").setAttribute("content", "width=device-width, user-scalable=no, initial-scale=" + window.innerWidth / 1440 + "");
+      //   }
+      // });
     </script>
     </body>
 </html>
