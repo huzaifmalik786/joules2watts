@@ -7,6 +7,11 @@
   width: 100%;
 }
 
+.msp .carousel {
+  width: 100%;
+  height: 450px;
+}
+
 .msp .div-2 {
   background-color: #ffffff;
   position: relative;
@@ -2299,6 +2304,7 @@
 
 .msp .frame-65 {
   align-items: center;
+  margin-left: 50px;
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: column;
@@ -2741,8 +2747,9 @@
 }
 
 .msp .frame-78 {
+  width: 100%;
   align-items: flex-start;
-  display: inline-flex;
+  display: inline-flex !important;
   gap: 40px;
   left: 16px;
   position: absolute;
@@ -2779,7 +2786,7 @@
   flex: 0 0 auto;
   flex-direction: column;
   gap: 14px;
-  padding: 0px 48px;
+  padding: 0px 32px;
   position: relative;
   width: 100%;
 }
@@ -2798,6 +2805,7 @@
 .msp .text-wrapper-68 {
   align-self: stretch;
   color: #1f1f1f;
+  white-space: nowrap;
   font-family: "Source Sans Pro", Helvetica;
   font-size: 24px;
   font-weight: 400;

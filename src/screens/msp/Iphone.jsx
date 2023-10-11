@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useWindowWidth } from "../../breakpoints";
-import { Carousel } from "../../components/msp/Carousel";
+// import { Carousel } from "../../components/msp/Carousel";
 import { Cta } from "../../components/msp/Cta";
 import { StateDefaultWrapper } from "../../components/msp/StateDefaultWrapper";
 import { Header1 } from "../../icons/Header1";
@@ -8,7 +8,8 @@ import "./style.css"
 import { Header } from "../../components/shared/header";
 import { Footer } from "../../components/shared/footer";
 import { LeadForm } from "../../components/shared/LeadForm";
-
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 export const Iphone = () => {
   const screenWidth = useWindowWidth();
   const [openModal, setOpenModal] = useState(false);
@@ -34,7 +35,7 @@ export const Iphone = () => {
       {openModal &&
         <LeadForm openModal={openModal} setOpenModal={setOpenModal} />
       }
-      <div className="msp" style={{height: height}}>
+      <div className="msp" style={{ height: height }}>
         <div
           className="div-2"
           style={{
@@ -472,11 +473,11 @@ export const Iphone = () => {
                 </div>
               </div>
             </div>
-            <Carousel
+            {/* <Carousel
               arrowForward="/msp/arrow-forward-92.png"
               arrowForwardClassName="carousel-instance"
               className="carousel-03"
-            />
+            /> */}
           </div>
 
           <div
@@ -556,136 +557,166 @@ export const Iphone = () => {
                   <div className="text-wrapper-56">Schedule a call now</div>
                   <img className="arrow-forward-3" alt="Arrow forward" src="/msp/arrow-forward-98.svg" />
                 </button>
-
-                <div className="frame-64 mobile-only">
-                  <div className="frame-65">
-                    <div className="frame-66">
-                      <div className="frame-67">
-                        <div className="frame-68">
-                          <p className="text-wrapper-57">Trusted by Fortune 500 Clients</p>
+                <div className="mobile-only">
+                  <div className="frame-64">
+                    <div className="frame-65">
+                      <div className="frame-66">
+                        <div className="frame-67">
+                          <div className="frame-68">
+                            <p className="text-wrapper-57">Trusted by Fortune 500 Clients</p>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="frame-69">
-                    <img
-                      className="mercedes-benz-logo"
-                      alt="Mercedes benz logo"
-                      src="/logos/mercedes-benz-logo-2010-1.png"
-                    />
-                    <img
-                      className="GE-healthcare-logo"
-                      alt="Ge healthcare logo"
-                      src="/logos/ge-healthcare-logo-1.png"
-                    />
-                    <img className="sony-logo" alt="Sony logo" src="/logos/sony-logo-1.png" />
-                    <img className="shell-logo" alt="Shell logo" src="/logos/shell-logo-1971-1995-1.png" />
-                    <img className="amazon" alt="Amazon" src="/logos/amazon-1-1.png" />
-                    <img
-                      className="wipro-logo-new-og"
-                      alt="Wipro logo new og"
-                      src="/logos/wipro-logo-new-og-502x263-1.png"
-                    />
+                    <div className="frame-69">
+                      <img
+                        className="mercedes-benz-logo"
+                        alt="Mercedes benz logo"
+                        src="/logos/mercedes-benz-logo-2010-1.png"
+                      />
+                      <img
+                        className="GE-healthcare-logo"
+                        alt="Ge healthcare logo"
+                        src="/logos/ge-healthcare-logo-1.png"
+                      />
+                      <img className="sony-logo" alt="Sony logo" src="/logos/sony-logo-1.png" />
+                      <img className="shell-logo" alt="Shell logo" src="/logos/shell-logo-1971-1995-1.png" />
+                      <img className="amazon" alt="Amazon" src="/logos/amazon-1-1.png" />
+                      <img
+                        className="wipro-logo-new-og"
+                        alt="Wipro logo new og"
+                        src="/logos/wipro-logo-new-og-502x263-1.png"
+                      />
+                    </div>
                   </div>
                 </div>
+
               </div>
             </div>
-            <div className="frame-73 mobile-only">
-              <div className="frame-74">
-                <div className="frame-75">
-                  <div className="text-wrapper-65">Ready to get started?</div>
-                  <p className="text-wrapper-66">
-                    Whether you still have some questions or you’re ready to sign up for a specific services right now,
-                    Our specialists are only a message away.
-                  </p>
+            <div className="mobile-only">
+              <div className="frame-73 ">
+                <div className="frame-74">
+                  <div className="frame-75">
+                    <div className="text-wrapper-65">Ready to get started?</div>
+                    <p className="text-wrapper-66">
+                      Whether you still have some questions or you’re ready to sign up for a specific services right now,
+                      Our specialists are only a message away.
+                    </p>
+                  </div>
                 </div>
-              </div>
-              <div className="group-19">
-                <div className="frame-76">
-                  <div className="overlap-group-8">
-                    <div className="frame-77">
-                      <div className="text-wrapper-67">Ready to get started?</div>
-                      <p className="are-we-a-good-fit-2">
-                        Are we a good fit for your company&#39;s challenges? Let’s talk it out today
-                      </p>
-                      <button className="CTA-11" onClick={() => setOpenModal(true)}>
-                        <div className="text-wrapper-56">Schedule a call now</div>
-                        <img className="arrow-forward-3" alt="Arrow forward" src="/msp/arrow-forward-94.svg" />
-                      </button>
+                <div className="group-19">
+                  <div className="frame-76">
+                    <div className="overlap-group-8">
+                      <div className="frame-77">
+                        <div className="text-wrapper-67">Ready to get started?</div>
+                        <p className="are-we-a-good-fit-2">
+                          Are we a good fit for your company&#39;s challenges? Let’s talk it out today
+                        </p>
+                        <button className="CTA-11" onClick={() => setOpenModal(true)}>
+                          <div className="text-wrapper-56">Schedule a call now</div>
+                          <img className="arrow-forward-3" alt="Arrow forward" src="/msp/arrow-forward-94.svg" />
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+
           </div>
-          <div className="frame-78 mobile-only">
-            <div className="frame-79">
-              <img className="deepmind" alt="Deepmind" src="/msp/deepmind-8hereyc6zt0-unsplash-1-3.webp" />
-              <div className="frame-80">
-                <div className="frame-81">
-                  <div className="text-wrapper-68">Recruitment Process</div>
-                  <p className="automate-the-entire">
-                    Automate the entire recruitment lifecycle &amp; enhances the process of sourcing, screening &amp;
-                    recruitment.
-                  </p>
+          <div className="mobile-only">
+            <div className="frame-78">
+              <Carousel
+                arrows={false}
+                swipeable
+                draggable
+                showDots={false}
+                responsive={
+                  {
+                    desktop: {
+                      breakpoint: { max: 450, min: 0 },
+                      items: 1,
+                      slidesToSlide: 1,
+                    }
+                  }}
+                autoPlay={true}
+                infinite
+                autoPlaySpeed={3200}
+                keyBoardControl={true}
+                transitionDuration={500}
+                containerClass="carousel"
+                itemClass="carousel-item"
+                pauseOnHover={false}
+              >
+                <div className="frame-79">
+                  <img className="deepmind" alt="Deepmind" src="/msp/deepmind-8hereyc6zt0-unsplash-1-3.webp" />
+                  <div className="frame-80">
+                    <div className="frame-81">
+                      <div className="text-wrapper-68">Recruitment Process</div>
+                      <p className="automate-the-entire">
+                        Automate the entire recruitment lifecycle &amp; enhances the process of sourcing, screening &amp;
+                        recruitment.
+                      </p>
+                    </div>
+                    <div className="frame-82">
+                      <div className="text-wrapper-69">Applicant Friendly</div>
+                    </div>
+                    <div className="frame-83">
+                      <div className="text-wrapper-69">Unprecedented automation</div>
+                    </div>
+                    <div className="frame-82">
+                      <div className="text-wrapper-69">Data Integration</div>
+                    </div>
+                    <div className="frame-8" />
+                  </div>
                 </div>
-                <div className="frame-82">
-                  <div className="text-wrapper-69">Applicant Friendly</div>
+                <div className="frame-84">
+                  <img className="deepmind" alt="Deepmind" src="/msp/deepmind-8hereyc6zt0-unsplash-1-3.webp" />
+                  <div className="frame-80">
+                    <div className="frame-81">
+                      <div className="text-wrapper-68">Supplier Management</div>
+                      <p className="automate-the-entire">
+                        A robust tool that helps businesses maintain staffing effectiveness and compliance while utilizing an extended third-party network.
+                      </p>
+                    </div>
+                    <div className="frame-82">
+                      <div className="text-wrapper-69">A Comprehensive and effective Database</div>
+                    </div>
+                    <div className="frame-83">
+                      <div className="text-wrapper-69">Business Intelligence</div>
+                    </div>
+                    <div className="frame-82">
+                      <div className="text-wrapper-69">Evaluation</div>
+                    </div>
+                    <div className="frame-8" />
+                  </div>
                 </div>
-                <div className="frame-83">
-                  <div className="text-wrapper-69">Unprecedented automation</div>
+                <div className="frame-85">
+                  <img className="deepmind" alt="Deepmind" src="/msp/deepmind-8hereyc6zt0-unsplash-1-3.webp" />
+                  <div className="frame-80">
+                    <div className="frame-81">
+                      <div className="text-wrapper-68">Compliance Management</div>
+                      <p className="automate-the-entire">
+                        The principal employer is responsible for managing the labour compliances of the contingent staff. Our tools aid in tracking compliance status of every supplier.
+                      </p>
+                    </div>
+                    <div className="frame-82">
+                      <div className="text-wrapper-69">Immediate Email triggers</div>
+                    </div>
+                    <div className="frame-83">
+                      <div className="text-wrapper-69">Real-time reports on compliance</div>
+                    </div>
+                    <div className="frame-82">
+                      <div className="text-wrapper-69">Automated communication</div>
+                    </div>
+                    <div className="frame-8" />
+                  </div>
                 </div>
-                <div className="frame-82">
-                  <div className="text-wrapper-69">Data Integration</div>
-                </div>
-                <div className="frame-8" />
-              </div>
-            </div>
-            <div className="frame-84">
-              <img className="deepmind" alt="Deepmind" src="/msp/deepmind-8hereyc6zt0-unsplash-1-3.webp" />
-              <div className="frame-80">
-                <div className="frame-81">
-                  <div className="text-wrapper-68">Recruitment Process</div>
-                  <p className="automate-the-entire">
-                    Automate the entire recruitment lifecycle &amp; enhances the process of sourcing, screening &amp;
-                    recruitment.
-                  </p>
-                </div>
-                <div className="frame-82">
-                  <div className="text-wrapper-69">Applicant Friendly</div>
-                </div>
-                <div className="frame-83">
-                  <div className="text-wrapper-69">Unprecedented automation</div>
-                </div>
-                <div className="frame-82">
-                  <div className="text-wrapper-69">Data Integration</div>
-                </div>
-                <div className="frame-8" />
-              </div>
-            </div>
-            <div className="frame-85">
-              <img className="deepmind" alt="Deepmind" src="/msp/deepmind-8hereyc6zt0-unsplash-1-3.webp" />
-              <div className="frame-80">
-                <div className="frame-81">
-                  <div className="text-wrapper-68">Recruitment Process</div>
-                  <p className="automate-the-entire">
-                    Automate the entire recruitment lifecycle &amp; enhances the process of sourcing, screening &amp;
-                    recruitment.
-                  </p>
-                </div>
-                <div className="frame-82">
-                  <div className="text-wrapper-69">Applicant Friendly</div>
-                </div>
-                <div className="frame-83">
-                  <div className="text-wrapper-69">Unprecedented automation</div>
-                </div>
-                <div className="frame-82">
-                  <div className="text-wrapper-69">Data Integration</div>
-                </div>
-                <div className="frame-8" />
-              </div>
+              </Carousel>
+
             </div>
           </div>
+
 
           <div className="desktop-only">
             <div className="overlap-22">
@@ -739,11 +770,11 @@ export const Iphone = () => {
                           </div>
                         </div>
                       </div>
-                      <Carousel
+                      {/* <Carousel
                         arrowForward="/msp/arrow-forward-100.png"
                         arrowForwardClassName="carousel-03-instance"
                         className="carousel-03"
-                      />
+                      /> */}
                     </div>
                     <p className="we-are-your-growth-2">
                       We are your growth partners for a wide array of holistic talent solutions.&nbsp;&nbsp;Leverage our
