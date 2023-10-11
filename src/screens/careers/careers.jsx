@@ -133,7 +133,18 @@ export const Careers = () => {
               validationSchema={validationSchema}
               initialValues={{ name: "", email: "", message: "" }}
               onSubmit={async (values) => {
-                console.log(values)
+                await axios.post("https://sheetdb.io/api/v1/j26dctl2r0gsg", {
+                  // headers: { 'Authorization': 'Bearer m3xzr16pka0v7fbaj92bmdyo2sowgsrlitar7tdu' },
+                  body: {
+                    Type: "Career",
+                    Name: values.name,
+                    Email: values.email,
+                    Message: values.message,
+                  }
+                }
+                )
+                alert("Response send Successfully")
+
               }}
             >
               {({ handleSubmit, handleChange, values, errors, touched }) => (
@@ -143,7 +154,7 @@ export const Careers = () => {
                     <div className="error">{errors.name}</div>
                   }
                   <input className="input mobile-only" placeholder="Email" type="email" name="email" onChange={handleChange} value={values.email} />
-                  {errors.name && touched.name &&
+                  {errors.email && touched.email &&
                     <div className="error">{errors.email}</div>
                   }
                   <input className="input mobile-only" placeholder="Message" type="text" name="message" onChange={handleChange} value={values.message} />
@@ -226,7 +237,18 @@ export const Careers = () => {
               validationSchema={validationSchema}
               initialValues={{ name: "", email: "", message: "" }}
               onSubmit={async (values) => {
-                console.log(values)
+                await axios.post("https://sheetdb.io/api/v1/j26dctl2r0gsg", {
+                  // headers: { 'Authorization': 'Bearer m3xzr16pka0v7fbaj92bmdyo2sowgsrlitar7tdu' },
+                  body: {
+                    Type: "Career",
+                    Name: values.name,
+                    Email: values.email,
+                    Message: values.message,
+                  }
+                }
+                )
+                alert("Response send Successfully")
+
               }}
             >
               {({ handleSubmit, handleChange, values, errors, touched }) => (

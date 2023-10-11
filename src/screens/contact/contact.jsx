@@ -6,6 +6,7 @@ import { Header } from "../../components/shared/header";
 import { Footer } from "../../components/shared/footer";
 import { Formik, Field, Form } from "formik";
 import * as Yup from 'yup';
+import axios from "axios";
 
 export const Contact = () => {
   const screenWidth = useWindowWidth();
@@ -64,7 +65,19 @@ export const Contact = () => {
               validationSchema={validationSchema}
               initialValues={{ name: "", email: "", subject: "", requirement: "" }}
               onSubmit={async (values) => {
-                console.log(values)
+                await axios.post("https://sheetdb.io/api/v1/j26dctl2r0gsg", {
+                  // headers: { 'Authorization': 'Bearer m3xzr16pka0v7fbaj92bmdyo2sowgsrlitar7tdu' },
+                  body: {
+                    Type: "Contact",
+                    Name: values.name,
+                    Email: values.email,
+                    Subject: values.subject,
+                    Requirement: values.requirement
+                  }
+                }
+                )
+                alert("Response send Successfully")
+
               }}
             >
               {({ handleSubmit, handleChange, values, errors, touched }) => (
@@ -167,7 +180,19 @@ export const Contact = () => {
               validationSchema={validationSchema}
               initialValues={{ name: "", email: "", subject: "", requirement: "" }}
               onSubmit={async (values) => {
-                console.log(values)
+                await axios.post("https://sheetdb.io/api/v1/j26dctl2r0gsg", {
+                  // headers: { 'Authorization': 'Bearer m3xzr16pka0v7fbaj92bmdyo2sowgsrlitar7tdu' },
+                  body: {
+                    Type: "Contact",
+                    Name: values.name,
+                    Email: values.email,
+                    Subject: values.subject,
+                    Requirement: values.requirement
+                  }
+                }
+                )
+                alert("Response send Successfully")
+
               }}
             >
               {({ handleSubmit, handleChange, values, errors, touched }) => (
@@ -591,6 +616,6 @@ export const Contact = () => {
         </div>
         <Footer />
       </div>
-    </div>
+    </div >
   );
 };
