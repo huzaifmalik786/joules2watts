@@ -2,6 +2,10 @@
     display: none !important;
 }
 
+.display-content {
+    display: contents !important;
+}
+
 body {
     overflow-x: hidden;
 }

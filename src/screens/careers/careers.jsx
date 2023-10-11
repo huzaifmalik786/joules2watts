@@ -129,14 +129,12 @@ export const Careers = () => {
               </p>
             </div>
 
-            <div className="mobile-only">
-              <input className="input" />
-              <input className="input" />
-              <input className="input" />
-              <div className="frame-7">
+              <input className="input mobile-only" />
+              <input className="input mobile-only" />
+              <input className="input mobile-only" />
+              <div className="frame-7 mobile-only">
                 <input type="file" className="frame-21 message" placeholder="Drop you CVs here(pdf,docs,docx)" accept=".pdf , .doc , .docx" />
               </div>
-            </div>
           </div>
           <div className="desktop-only">
             <div className="frame-8">
@@ -147,7 +145,7 @@ export const Careers = () => {
             <div className="certification-badge">
               <div className="a" />
             </div>
-            <img className="seekpng" alt="Seekpng" src="/about/seek.png" />
+            <img className="seekpng" alt="Seekpng" src="/about/seek.webp" />
           </div>
 
           <div className="mobile-only">
@@ -230,7 +228,7 @@ export const Careers = () => {
               <div className="frame-23" />
             </div>
             <div className="rectangle-7" />
-            <img className="seekpng-2" alt="Seekpng" src="/about/seek.png" />
+            <img className="seekpng-2" alt="Seekpng" src="/about/seek.webp" />
             <div className="frame-24">
               <div className="frame-25">
                 <div className="text-wrapper-20">HYDERABAD OFFICE</div>
