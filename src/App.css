@@ -1,19 +1,9 @@
-
-.mobile-only{
-    display: none;
+.mobile-only {
+    display: none !important;
 }
 
-body{
+body {
     overflow-x: hidden;
-}
-
-@media (max-width: 450px) {
-    .desktop-only{
-        display: none !important;
-    }
-    .mobile-only{
-        display: block !important;
-    }
 }
 
 
@@ -21,9 +11,20 @@ body{
     background: #fff;
     outline: none;
     border: none;
+    cursor: pointer;
     border-radius: 50%;
     position: absolute;
     right: 0;
     width: 60px;
     height: 60px;
+}
+
+@media (max-width: 450px) {
+    .mobile-only {
+        display: block !important;
+    }
+
+    .desktop-only {
+        display: none !important;
+    }
 }

@@ -11,7 +11,7 @@
   position: relative;
 }
 
-.state-default-wrapper .text-wrapper-4 {
+.state-default-wrapper .text-wrapper-4-drop {
   color: var(--secondary-03);
   font-family: "Source Sans Pro", Helvetica;
   font-size: 17px;
@@ -33,6 +33,6 @@
   border-radius: 45px;
 }
 
-.state-default-wrapper:hover .text-wrapper-4 {
+.state-default-wrapper:hover .text-wrapper-4-drop {
   color: #ffffff;
 }

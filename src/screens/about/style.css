@@ -2,13 +2,14 @@
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  /* justify-content: center; */
+  overflow: hidden;
   width: 100%;
 }
 
 .about .iphone {
   background-color: #ffffff;
-  overflow: hidden;
+  /* overflow: hidden; */
   position: relative;
 }
 

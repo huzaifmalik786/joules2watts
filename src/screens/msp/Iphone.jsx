@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useWindowWidth } from "../../breakpoints";
 import { Carousel } from "../../components/msp/Carousel";
 import { Cta } from "../../components/msp/Cta";
@@ -12,13 +12,29 @@ import { LeadForm } from "../../components/shared/LeadForm";
 export const Iphone = () => {
   const screenWidth = useWindowWidth();
   const [openModal, setOpenModal] = useState(false);
+  const [height, setHeight] = useState(0)
+
+  useEffect(() => {
+    // console.log(window.innerWidth);
+    if (window.innerWidth > 450) {
+      const el = document.querySelector('.footer-2-shared');
+      setHeight(el.getBoundingClientRect().bottom);
+      document.querySelector(".div-2").style.transform = `scale(${window.innerWidth / 1430})`;
+      document.querySelector(".div-2").style.transformOrigin = `top left`;
+    } else {
+      const el = document.querySelector('.footer-3-shared');
+      setHeight(el.getBoundingClientRect().bottom);
+      document.querySelector(".div-2").style.transform = `scale(${window.innerWidth / 390})`;
+      document.querySelector(".div-2").style.transformOrigin = `top left`;
+    }
+  });
 
   return (
     <>
       {openModal &&
         <LeadForm openModal={openModal} setOpenModal={setOpenModal} />
       }
-      <div className="msp">
+      <div className="msp" style={{height: height}}>
         <div
           className="div-2"
           style={{

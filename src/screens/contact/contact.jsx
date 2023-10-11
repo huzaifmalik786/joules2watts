@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import { useWindowWidth } from "../../breakpoints";
 import { Header1 } from "../../icons/Header1";
 import "./style.css";
@@ -7,9 +7,25 @@ import { Footer } from "../../components/shared/footer";
 
 export const Contact = () => {
   const screenWidth = useWindowWidth();
+  const [height, setHeight] = useState(0)
+
+  useEffect(() => {
+    // console.log(window.innerWidth);
+    if (window.innerWidth > 450) {
+      const el = document.querySelector('.footer-2-shared');
+      setHeight(el.getBoundingClientRect().bottom);
+      document.querySelector(".iphone").style.transform = `scale(${window.innerWidth / 1430})`;
+      document.querySelector(".iphone").style.transformOrigin = `top left`;
+    } else {
+      const el = document.querySelector('.footer-3-shared');
+      setHeight(el.getBoundingClientRect().bottom);
+      document.querySelector(".iphone").style.transform = `scale(${window.innerWidth / 390})`;
+      document.querySelector(".iphone").style.transformOrigin = `top left`;
+    }
+  });
 
   return (
-    <div className="contact">
+    <div className="contact" style={{height: height}}>
       <div
         className="iphone"
         style={{
@@ -283,19 +299,20 @@ export const Contact = () => {
         <div
           className="group-3"
           style={{
-            backgroundImage:
-              screenWidth >= 450
-                ? "url(/contact/mask-group-8.webp)"
-                : screenWidth < 450
-                  ? "url(/contact/arrow-forward-ios-1.png)"
-                  : undefined,
+            // backgroundImage:
+            //   screenWidth >= 450
+            //     ? "url(/contact/mask-group-8.webp)"
+            //     : screenWidth < 450
+            //       ? "url(/contact/arrow-forward-ios-1.png)"
+            //       : undefined,
             height: screenWidth >= 450 ? "644px" : screenWidth < 450 ? "173px" : undefined,
             left: screenWidth >= 450 ? "82px" : screenWidth < 450 ? "-3123px" : undefined,
             top: screenWidth >= 450 ? "2552px" : screenWidth < 450 ? "-8388px" : undefined,
             width: screenWidth >= 450 ? "1280px" : screenWidth < 450 ? "344px" : undefined,
           }}
         >
-          <div
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6581.918308586339!2d77.69241932941405!3d12.937127372998212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13ce1fb5f32b%3A0x84829378a982e603!2sJoulestoWatts%20Business%20Solutions%20Pvt%20Ltd%20-%20Belandur%20Branch!5e0!3m2!1sen!2sin!4v1696963074714!5m2!1sen!2sin" width="1280" height="644" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+          {/* <div
             className="frame-35"
             style={{
               display: screenWidth >= 450 ? "inline-flex" : screenWidth < 450 ? "flex" : undefined,
@@ -336,7 +353,7 @@ export const Contact = () => {
                 <div className="text-wrapper-13">JoulestoWatts Business Solution</div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="desktop-only">
           <div className="overlap-group-wrapper">
@@ -422,7 +439,8 @@ export const Contact = () => {
 
         <div className="mobile-only">
           <div className="overlap-5">
-            <div className="frame-42">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6581.918308586339!2d77.69241932941405!3d12.937127372998212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13ce1fb5f32b%3A0x84829378a982e603!2sJoulestoWatts%20Business%20Solutions%20Pvt%20Ltd%20-%20Belandur%20Branch!5e0!3m2!1sen!2sin!4v1696963074714!5m2!1sen!2sin" width="372" height="187" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            {/* <div className="frame-42">
               <div className="frame-43">
                 <img className="direction-2" alt="Direction" src="/contact/direction-1-3.svg" />
                 <p className="text-wrapper-35">
@@ -434,7 +452,7 @@ export const Contact = () => {
                   <div className="text-wrapper-37">JoulestoWatts Business Solution</div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="frame-45">
             <div className="frame-46">

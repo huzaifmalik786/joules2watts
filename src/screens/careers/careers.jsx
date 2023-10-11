@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect, useState} from "react";
 import { useWindowWidth } from "../../breakpoints";
 import { Cta } from "../../components/careers/Cta";
 import { Header1 } from "../../icons/Header1";
@@ -8,9 +8,25 @@ import { Footer } from "../../components/shared/footer";
 
 export const Careers = () => {
   const screenWidth = useWindowWidth();
+  const [height, setHeight] = useState(0);
+
+  useEffect(() => {
+    // console.log(window.innerWidth);
+    if (window.innerWidth > 450) {
+      const el = document.querySelector('.footer-2-shared');
+      setHeight(el.getBoundingClientRect().bottom);
+      document.querySelector(".iphone").style.transform = `scale(${window.innerWidth / 1430})`;
+      document.querySelector(".iphone").style.transformOrigin = `top left`;
+    } else {
+      const el = document.querySelector('.footer-3-shared');
+      setHeight(el.getBoundingClientRect().bottom);
+      document.querySelector(".iphone").style.transform = `scale(${window.innerWidth / 390})`;
+      document.querySelector(".iphone").style.transformOrigin = `top left`;
+    }
+  });
 
   return (
-    <div className="careers">
+    <div className="careers" style={{height: height}}>
       <div
         className="iphone"
         style={{

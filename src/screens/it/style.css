@@ -2,13 +2,13 @@
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  /* justify-content: center; */
+  overflow: hidden;
   width: 100%;
 }
 
 .itservices .iphone {
   background-color: #ffffff;
-  overflow: hidden;
   position: relative;
 }
 
@@ -405,7 +405,7 @@
 
 .itservices .rectangle-4 {
   background: linear-gradient(90deg, #589993 5.95%, #4D9F98 20.62%, #4D9F98 48.33%, rgba(252, 252, 252, 0.00) 71.42%);
-  filter: blur(40px);
+  /* filter: blur(40px); */
 
   height: 687px;
   left: -67px;

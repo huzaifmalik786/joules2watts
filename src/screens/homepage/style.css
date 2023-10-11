@@ -4,6 +4,7 @@
   flex-direction: row;
   /* justify-content: center; */
   width: 100%;
+  height: fit-content;
   /* background: red; */
     overflow: hidden;
 }
@@ -15,8 +16,9 @@
 
 .homepage .carousel-1 {
   position: absolute !important;
+  z-index: 1;
   top: 475px !important;
-  width: 1459px !important;
+  width: 1440px !important;
 }
 
 /* .homepage .iphone * {
@@ -1560,7 +1562,7 @@
   position: absolute;
   top: 5381px;
   left: 0;
-  width: 100%;
+  width: 1440px;
 }
 
 .homepage .property-default-instance {

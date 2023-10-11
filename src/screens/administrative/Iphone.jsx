@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useWindowWidth } from "../../breakpoints";
 // import { Carousel } from "../../components/administrative/Carousel";
 import { CarouselWrapper } from "../../components/administrative/CarouselWrapper";
@@ -27,13 +27,29 @@ const ButtonGroup = ({ next, previous, ...rest }) => {
 export const Administrative = () => {
   const screenWidth = useWindowWidth();
   const [openModal, setOpenModal] = useState(false);
+  const [height, setHeight] = useState(0);
+
+  useEffect(() => {
+    // console.log(window.innerWidth);
+    if (window.innerWidth > 450) {
+      const el = document.querySelector('.footer-2-shared');
+      setHeight(el.getBoundingClientRect().bottom);
+      document.querySelector(".div-2").style.transform = `scale(${window.innerWidth / 1440})`;
+      document.querySelector(".div-2").style.transformOrigin = `top left`;
+    } else {
+      const el = document.querySelector('.footer-3-shared');
+      setHeight(el.getBoundingClientRect().bottom);
+      document.querySelector(".div-2").style.transform = `scale(${window.innerWidth / 390})`;
+      document.querySelector(".div-2").style.transformOrigin = `top left`;
+    }
+  });
 
   return (
     <>
       {openModal &&
         <LeadForm openModal={openModal} setOpenModal={setOpenModal} />
       }
-      <div className="administrative">
+      <div className="administrative" style={{height: height}}>
         <div
           className="div-2"
           style={{
@@ -459,7 +475,7 @@ export const Administrative = () => {
                         <p className="are-we-a-good-fit">
                           Are we a good fit for your company&#39;s challenges? Let’s talk it out today
                         </p>
-                        <button className="CTA-11" onClick={()=> setOpenModal(true)}>
+                        <button className="CTA-11" onClick={() => setOpenModal(true)}>
                           <div className="text-wrapper-46">Schedule a call now</div>
                           <img className="arrow-forward-5" alt="Arrow forward" src="/administrative/arrow-forward-104.svg" />
                         </button>
@@ -613,7 +629,7 @@ export const Administrative = () => {
                       <img className="arrow-forward-5" alt="Arrow forward" src="/administrative/arrow-forward-108.svg" />
                     </button>
                   </div>
-                  <button className="CTA-15" onClick={()=> setOpenModal(true)}>
+                  <button className="CTA-15" onClick={() => setOpenModal(true)}>
                     <div className="text-wrapper-46">Schedule a call now</div>
                     <img className="arrow-forward-5" alt="Arrow forward" src="/administrative/arrow-forward-109.svg" />
                   </button>

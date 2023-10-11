@@ -102,23 +102,14 @@ export const App = () => {
   const { pathname } = useLocation();
 
   // Automatically scrolls to top whenever pathname changes
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  }
+  
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
-  // useEffect(() => {
-  //   console.log(window.innerWidth, screenWidth)
-  //   if (window.innerWidth > 450) {
-  //     document.body.style.transform = `scale(${window.innerWidth / 1440})`;
-  //     document.body.style.transformOrigin = `top center`;
-  //   }
-  //   else {
-  //     document.body.style.transform = `scale(${window.innerWidth / 390})`;
-  //     document.body.style.transformOrigin = `top center`;
-  //   }
-
-  // }, [window.innerWidth]);
-
-  // return <RouterProvider router={router} />;
+ 
   return (
     <Routes>
       {router.map((route) => {

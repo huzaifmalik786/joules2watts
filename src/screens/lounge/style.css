@@ -2,13 +2,13 @@
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  /* justify-content: center; */
+  overflow: hidden;
   width: 100%;
 }
 
 .lounge .div-2 {
   background-color: #ffffff;
-  overflow: hidden;
   position: relative;
 }
 

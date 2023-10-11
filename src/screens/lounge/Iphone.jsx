@@ -12,22 +12,28 @@ import { LeadForm } from "../../components/shared/LeadForm";
 export const Lounge = () => {
   const screenWidth = useWindowWidth();
   const [openModal, setOpenModal] = useState(false);
-  // useEffect(() => {
-  //   if (window.innerWidth > 450) {
-  //     document.body.style.transform = `scale(${window.innerWidth / 1440})`;
-  //   }
-  //   else {
-  //     document.body.style.transform = `scale(${window.innerWidth / 450})`;
-  //   }
-  //   document.body.style.transformOrigin = `top center`;
-  //   console.log(window.innerWidth)
-  // }, [window.innerWidth]);
+const [height, setHeight] = useState(0)
+
+  useEffect(() => {
+    if (window.innerWidth > 450) {
+      const el = document.querySelector('.footer-2-shared');
+      setHeight(el.getBoundingClientRect().bottom);
+      document.querySelector(".div-2").style.transform = `scale(${window.innerWidth / 1430})`;
+      document.querySelector(".div-2").style.transformOrigin = `top left`;
+    } else {
+      const el = document.querySelector('.footer-3-shared');
+      setHeight(el.getBoundingClientRect().bottom);
+      document.querySelector(".div-2").style.transform = `scale(${window.innerWidth / 390})`;
+      document.querySelector(".div-2").style.transformOrigin = `top left`;
+    }
+  });
+
   return (
     <>
       {openModal &&
         <LeadForm openModal={openModal} setOpenModal={setOpenModal} />
       }
-      <div className="lounge">
+      <div className="lounge" style={{height: height}}>
         <div
           className="div-2"
           style={{
@@ -168,7 +174,7 @@ export const Lounge = () => {
                         <p className="are-we-a-good-fit">
                           Are we a good fit for your company&#39;s challenges? Let’s talk it out today
                         </p>
-                        <button className="CTA-5" onClick={()=> setOpenModal(true)}>
+                        <button className="CTA-5" onClick={() => setOpenModal(true)}>
                           <div className="text-wrapper-19">Schedule a call now</div>
                           <img className="arrow-forward-2" alt="Arrow forward" src="/lounge/arrow-forward-116.svg" />
                         </button>
@@ -672,7 +678,7 @@ export const Lounge = () => {
                         <img className="arrow-forward-2" alt="Arrow forward" src="/lounge/arrow-forward-130.svg" />
                       </button>
                     </div>
-                    <button className="CTA-7" onClick={()=> setOpenModal(true)}>
+                    <button className="CTA-7" onClick={() => setOpenModal(true)}>
                       <div className="text-wrapper-19">Schedule a call now</div>
                       <img className="arrow-forward-2" alt="Arrow forward" src="/lounge/arrow-forward-131.svg" />
                     </button>

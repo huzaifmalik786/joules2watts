@@ -6,12 +6,16 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 import PropTypes from "prop-types";
 import React from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 export const StateDefaultWrapper = ({ default1 = false, className, divClassName }) => {
   return (
-    <button className={`state-default-wrapper default-${default1} ${className}`}>
-      <div className={`text-wrapper-4 ${divClassName}`}>Contact Us</div>
-    </button>
+    <Link to="/contact-us">
+      <button className={`state-default-wrapper default-${default1} ${className}`}>
+        <div className={`text-wrapper-4-drop ${divClassName}`}>Contact Us</div>
+      </button>
+    </Link>
+
   );
 };
 

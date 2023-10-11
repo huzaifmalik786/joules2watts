@@ -12,7 +12,9 @@ export const Header1 = ({ className, white }) => {
   const [showNav, setShowNav] = useState(false);
   return (
     <>
-      <MobileNav show={showNav} setShow={setShowNav} />
+      {showNav &&
+        <MobileNav show={showNav} setShow={setShowNav} />
+      }
       <div className="mobile-only">
         <div className="mobile-na">
           <Link to="/">

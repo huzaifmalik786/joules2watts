@@ -2,13 +2,13 @@
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  overflow: hidden;
+  /* justify-content: center; */
   width: 100%;
 }
 
 .consulting .div-2 {
   background-color: #ffffff;
-  overflow: hidden;
   position: relative;
 }
 
@@ -403,6 +403,7 @@
 }
 
 .consulting .frame-10 {
+  z-index: 1;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -2974,12 +2975,8 @@
 }
 
 .consulting .rectangle-19 {
-  background: linear-gradient(180deg,
-      rgb(88, 153.05, 147.5) 0%,
-      rgb(77, 159, 152) 22.4%,
-      rgb(77, 159, 152) 64.73%,
-      rgba(251.81, 251.81, 251.81, 0) 100%);
-  filter: blur(80px);
+  background: linear-gradient(90deg, #589993 5.95%, #4D9F98 20.62%, #4D9F98 48.33%, rgba(252, 252, 252, 0.00) 71.42%);
+  filter: blur(40px);
   height: 687px;
   left: -118px;
   position: absolute;

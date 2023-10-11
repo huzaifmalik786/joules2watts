@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useWindowWidth } from "../../breakpoints";
 import { Carousel } from "../../components/consulting/Carousel";
 import { Cta } from "../../components/consulting/Cta";
@@ -12,17 +12,33 @@ import { LeadForm } from "../../components/shared/LeadForm";
 export const Consulting = () => {
   const screenWidth = useWindowWidth();
   const [openModal, setOpenModal] = useState(false)
+  const [height , setHeight] = useState(0);
+
+  useEffect(() => {
+    // console.log(window.innerWidth);
+    if (window.innerWidth > 450) {
+      const el = document.querySelector('.footer-2-shared');
+      setHeight(el.getBoundingClientRect().bottom);
+      document.querySelector(".div-2").style.transform = `scale(${window.innerWidth / 1430})`;
+      document.querySelector(".div-2").style.transformOrigin = `top left`;
+    } else {
+      const el = document.querySelector('.footer-3-shared');
+      setHeight(el.getBoundingClientRect().bottom);
+      document.querySelector(".div-2").style.transform = `scale(${window.innerWidth / 390})`;
+      document.querySelector(".div-2").style.transformOrigin = `top left`;
+    }
+  });
 
   return (
     <>
       {openModal &&
         <LeadForm openModal={openModal} setOpenModal={setOpenModal} />
       }
-      <div className="consulting">
+      <div className="consulting" style={{height: height}}>
         <div
           className="div-2"
           style={{
-            height: screenWidth < 450 ? "7740px" : screenWidth >= 450 ? "4878px" : undefined,
+            height: screenWidth < 450 ? "7840px" : screenWidth >= 450 ? "4878px" : undefined,
             width: screenWidth < 450 ? "390px" : screenWidth >= 450 ? "1440px" : undefined,
           }}
         >
@@ -293,7 +309,7 @@ export const Consulting = () => {
                       <img className="arrow-forward-3" alt="Arrow forward" src="/consulting/arrow-forward-87.svg" />
                     </button>
                   </div>
-                  <button className="CTA-7" onClick={()=> setOpenModal(true)}>
+                  <button className="CTA-7" onClick={() => setOpenModal(true)}>
                     <div className="text-wrapper-23">Schedule a call now</div>
                     <img className="arrow-forward-3" alt="Arrow forward" src="/consulting/arrow-forward-88.svg" />
                   </button>
@@ -664,7 +680,7 @@ export const Consulting = () => {
                         <p className="are-we-a-good-fit-2">
                           Are we a good fit for your company&#39;s challenges? Let’s talk it out today
                         </p>
-                        <button className="CTA-14" onClick={()=> setOpenModal(true)}>
+                        <button className="CTA-14" onClick={() => setOpenModal(true)}>
                           <div className="text-wrapper-23">Schedule a call now</div>
                           <img className="arrow-forward-3" alt="Arrow forward" src="/consulting/arrow-forward-85.svg" />
                         </button>

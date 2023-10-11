@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useWindowWidth } from "../../breakpoints";
 import { Carousel } from "../../components/hire/Carousel";
 import { Cta } from "../../components/hire/Cta";
@@ -13,6 +13,22 @@ import { LeadForm } from "../../components/shared/LeadForm";
 export const Hire = () => {
   const screenWidth = useWindowWidth();
   const [openModal, setOpenModal] = useState(false);
+  const[height, setHeight] = useState(0)
+
+  useEffect(() => {
+    // console.log(window.innerWidth);
+    if (window.innerWidth > 450) {
+      const el = document.querySelector('.footer-2-shared');
+      setHeight(el.getBoundingClientRect().bottom);
+      document.querySelector(".div-2").style.transform = `scale(${window.innerWidth / 1430})`;
+      document.querySelector(".div-2").style.transformOrigin = `top left`;
+    } else {
+      const el = document.querySelector('.footer-3-shared');
+      setHeight(el.getBoundingClientRect().bottom);
+      document.querySelector(".div-2").style.transform = `scale(${window.innerWidth / 390})`;
+      document.querySelector(".div-2").style.transformOrigin = `top left`;
+    }
+  });
 
   return (
     <>
@@ -22,6 +38,7 @@ export const Hire = () => {
       <div
         className="hire"
         style={{
+          height: height,
           backgroundColor: screenWidth < 450 ? "#ffffff" : screenWidth >= 450 ? "#f6f7f8" : undefined,
         }}
       >

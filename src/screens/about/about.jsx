@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useWindowWidth } from "../../breakpoints";
 import { Component } from "../../components/about/Component";
 import { Cta } from "../../components/about/Cta";
@@ -35,13 +35,29 @@ const ButtonGroup2 = ({ next, previous, ...rest }) => {
 export const About = () => {
   const screenWidth = useWindowWidth();
   const [openModal, setOpenModal] = useState(false)
+  const [height, setHeight] = useState(0)
+  useEffect(() => {
+    // console.log(window.innerWidth);
+    if (window.innerWidth > 450) {
+      const el = document.querySelector('.footer-2-shared');
+      setHeight(el.getBoundingClientRect().bottom);
+      document.querySelector(".iphone").style.transform = `scale(${window.innerWidth / 1440})`;
+      document.querySelector(".iphone").style.transformOrigin = `top left`;
+    } else {
+      const el = document.querySelector('.footer-3-shared');
+      setHeight(el.getBoundingClientRect().bottom);
+      document.querySelector(".iphone").style.transform = `scale(${window.innerWidth / 390})`;
+      document.querySelector(".iphone").style.transformOrigin = `top left`;
+    }
+    console.log(height)
+  });
 
   return (
     <>
       {openModal &&
         <LeadForm openModal={openModal} setOpenModal={setOpenModal} />
       }
-      <div className="about">
+      <div className="about" style={{height: height}}>
         <div
           className="iphone"
           style={{
