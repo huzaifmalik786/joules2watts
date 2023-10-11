@@ -70,7 +70,7 @@ export const Industries = () => {
             </div>
 
             <img
-              className="image"
+              className="image mobile-only"
               style={{
                 height: screenWidth >= 450 ? "162px" : screenWidth < 450 ? "457px" : undefined,
                 left: screenWidth >= 450 ? "5px" : screenWidth < 450 ? "10px" : undefined,
@@ -78,7 +78,7 @@ export const Industries = () => {
                 width: screenWidth >= 450 ? "1440px" : screenWidth < 450 ? "390px" : undefined,
               }}
               alt="Image"
-              src={screenWidth >= 450 ? "/industries/image-1-1.svg" : screenWidth < 450 ? "/industries/hud-ball-1.gif" : undefined}
+              src={"/industries/hud-ball-1.gif"}
             />
             <div className="frame-2 mobile-only">
               <p className="text-wrapper-3">
