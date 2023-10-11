@@ -128,7 +128,7 @@ export const Industries = () => {
             <div className="mobile-only">
               <div className="frame-11">
                 <img className="unknown" alt="Unknown" src="/industries/unknown-2.png" />
-                <img className="flipkart-logo" alt="Flipkart logo" src="/industries/flipkart-logo-1.png" />
+                <img className="flipkart-logo" alt="Flipkart logo" src="/industries/flipkart-logo-1.webp" />
                 <img className="edutech-social-share" alt="Edutech social share" src="/industries/edutech-social-share-1.png" />
                 <img className="OLX-logo" alt="Olx logo" src="/industries/olx-logo-1.png" />
                 <img className="element-lam" alt="Element lam" src="/industries/14-lam-1.webp" />
@@ -168,7 +168,7 @@ export const Industries = () => {
               </div>
               <div className="group-6">
                 <img className="unknown-2" alt="Unknown" src="/industries/unknown-2.png" />
-                <img className="flipkart-logo-2" alt="Flipkart logo" src="/industries/flipkart-logo-1.png" />
+                <img className="flipkart-logo-2" alt="Flipkart logo" src="/industries/flipkart-logo-1.webp" />
                 <img
                   className="edutech-social-share-2"
                   alt="Edutech social share"
