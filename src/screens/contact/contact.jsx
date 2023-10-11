@@ -1,13 +1,22 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import { useWindowWidth } from "../../breakpoints";
 import { Header1 } from "../../icons/Header1";
 import "./style.css";
 import { Header } from "../../components/shared/header";
 import { Footer } from "../../components/shared/footer";
+import { Formik, Field, Form } from "formik";
+import * as Yup from 'yup';
 
 export const Contact = () => {
   const screenWidth = useWindowWidth();
   const [height, setHeight] = useState(0)
+
+  const validationSchema = Yup.object().shape({
+    name: Yup.string().required("Name is Required."),
+    email: Yup.string().email("Enter a valid email").required("Email is Required."),
+    subject: Yup.string().required("Subject is Required."),
+    requirement: Yup.string().required("This field is Required."),
+  })
 
   useEffect(() => {
     // console.log(window.innerWidth);
@@ -25,7 +34,7 @@ export const Contact = () => {
   });
 
   return (
-    <div className="contact" style={{height: height}}>
+    <div className="contact" style={{ height: height }}>
       <div
         className="iphone"
         style={{
@@ -51,18 +60,42 @@ export const Contact = () => {
                 <span className="text-wrapper-10">Drop us your details, we&#39;ll get in touch with you soon </span>
               </p>
             </div>
-            <div className="frame-9">
-              <div className="frame-10">
-                <input className="input" />
-                <input className="input" />
-              </div>
-              <input className="input" />
-              <textarea className="please-describe-your-wrapper" />
-              <button className="button">
-                <div className="text-wrapper-11">Submit</div>
-                <img className="arrow-circle-right" alt="Arrow circle right" src="/contact/arrow-circle-right.png" />
-              </button>
-            </div>
+            <Formik
+              validationSchema={validationSchema}
+              initialValues={{ name: "", email: "", subject: "", requirement: "" }}
+              onSubmit={async (values) => {
+                console.log(values)
+              }}
+            >
+              {({ handleSubmit, handleChange, values, errors, touched }) => (
+                <Form className="frame-9">
+                  <div className="frame-10">
+                    <input className="input" type="text" name="name" onChange={handleChange} value={values.name} placeholder="Name" required />
+                    {errors.name && touched.name &&
+                      <div className="error">{errors.name}</div>
+                    }
+                    <input type="email" className="input" name="email" onChange={handleChange} value={values.email} placeholder="Email" required />
+                    {errors.email && touched.email &&
+                      <div className="error">{errors.email}</div>
+                    }
+                  </div>
+                  <input type="text" className="input" name="subject" onChange={handleChange} value={values.subject} placeholder="Subject" required />
+                  {errors.subject && touched.subject &&
+                    <div className="error">{errors.subject}</div>
+                  }
+                  <textarea className="please-describe-your-wrapper" name="requirement" value={values.requirement} placeholder="Requirement" required onChange={handleChange} />
+                  {errors.requirement && touched.requirement &&
+                    <div className="error">{errors.requirement}</div>
+                  }
+                  <button className="button" onClick={handleSubmit}>
+                    <div className="text-wrapper-11">Submit</div>
+                    <img className="arrow-circle-right" alt="Arrow circle right" src="/contact/arrow-circle-right.png" />
+                  </button>
+                </Form>
+              )}
+            </Formik>
+
+
           </div>
           <div className="frame-11">
             <div className="text-wrapper-12">Contact Information</div>
@@ -130,20 +163,45 @@ export const Contact = () => {
                 <span className="text-wrapper-10">Drop us your details, we&#39;ll get in touch with you soon </span>
               </p>
             </div>
-            <div className="frame-17">
-              <div className="frame-18">
-                <input className="frame-19" placeholder="Name" />
-                <input className="frame-19" placeholder="Email" />
-              </div>
-              <input className="subject" placeholder="Subject" />
-              {/* <div className="input-wrapper"> */}
-              <textarea className="input-wrapper" placeholder="Please Describe your requirement" />
-              {/* </div> */}
-              <button className="button">
-                <div className="text-wrapper-11">Submit</div>
-                <img className="arrow-circle-right" alt="Arrow circle right" src="/contact/arrow-circle-right.png" />
-              </button>
-            </div>
+            <Formik
+              validationSchema={validationSchema}
+              initialValues={{ name: "", email: "", subject: "", requirement: "" }}
+              onSubmit={async (values) => {
+                console.log(values)
+              }}
+            >
+              {({ handleSubmit, handleChange, values, errors, touched }) => (
+                <Form className="frame-17">
+                  <div className="frame-18">
+                    <div>
+                      <input type="text" name="name" onChange={handleChange} value={values.name} className="frame-19" placeholder="Name" />
+                      {errors.name && touched.name &&
+                        <div className="error-2">{errors.name}</div>
+                      }
+                    </div>
+                    <div>
+                      <input type="email" name="email" onChange={handleChange} value={values.email} className="frame-19" placeholder="Email" />
+                      {errors.email && touched.email &&
+                        <div className="error-2">{errors.email}</div>
+                      }
+                    </div>
+
+                  </div>
+                  <input type="text" name="subject" onChange={handleChange} value={values.subject} className="subject" placeholder="Subject" />
+                  {errors.subject && touched.subject &&
+                    <div className="error">{errors.subject}</div>
+                  }
+                  <textarea name="requirement" onChange={handleChange} value={values.requirement} className="input-wrapper" placeholder="Please Describe your requirement" />
+                  {errors.requirement && touched.requirement &&
+                    <div className="error">{errors.requirement}</div>
+                  }
+                  <button className="button" onClick={handleSubmit}>
+                    <div className="text-wrapper-11">Submit</div>
+                    <img className="arrow-circle-right" alt="Arrow circle right" src="/contact/arrow-circle-right.png" />
+                  </button>
+                </Form>
+              )}
+            </Formik>
           </div>
         </div>
 
@@ -311,7 +369,7 @@ export const Contact = () => {
             width: screenWidth >= 450 ? "1280px" : screenWidth < 450 ? "344px" : undefined,
           }}
         >
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6581.918308586339!2d77.69241932941405!3d12.937127372998212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13ce1fb5f32b%3A0x84829378a982e603!2sJoulestoWatts%20Business%20Solutions%20Pvt%20Ltd%20-%20Belandur%20Branch!5e0!3m2!1sen!2sin!4v1696963074714!5m2!1sen!2sin" width="1280" height="644" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6581.918308586339!2d77.69241932941405!3d12.937127372998212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13ce1fb5f32b%3A0x84829378a982e603!2sJoulestoWatts%20Business%20Solutions%20Pvt%20Ltd%20-%20Belandur%20Branch!5e0!3m2!1sen!2sin!4v1696963074714!5m2!1sen!2sin" width="1280" height="644" style={{ border: 0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           {/* <div
             className="frame-35"
             style={{
@@ -439,7 +497,7 @@ export const Contact = () => {
 
         <div className="mobile-only">
           <div className="overlap-5">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6581.918308586339!2d77.69241932941405!3d12.937127372998212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13ce1fb5f32b%3A0x84829378a982e603!2sJoulestoWatts%20Business%20Solutions%20Pvt%20Ltd%20-%20Belandur%20Branch!5e0!3m2!1sen!2sin!4v1696963074714!5m2!1sen!2sin" width="372" height="187" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6581.918308586339!2d77.69241932941405!3d12.937127372998212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13ce1fb5f32b%3A0x84829378a982e603!2sJoulestoWatts%20Business%20Solutions%20Pvt%20Ltd%20-%20Belandur%20Branch!5e0!3m2!1sen!2sin!4v1696963074714!5m2!1sen!2sin" width="372" height="187" style={{ border: 0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             {/* <div className="frame-42">
               <div className="frame-43">
                 <img className="direction-2" alt="Direction" src="/contact/direction-1-3.svg" />

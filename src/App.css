@@ -10,8 +10,22 @@ body {
     overflow-x: hidden;
 }
 
+.error {
+    color: red;
+    font-family: "Source Sans Pro", Helvetica;
+    font-size: 12px;
+    margin: -22px 0 -15px 0;
+}
 
-.next-button{
+.error-2 {
+    color: red;
+    font-family: "Source Sans Pro", Helvetica;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+.next-button {
     background: #fff;
     outline: none;
     border: none;

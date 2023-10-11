@@ -159,7 +159,7 @@ textarea::placeholder {
   display: flex;
   gap: 362px;
   height: 112px;
-  max-height: 200px;
+  max-height: 150px;
   justify-content: center;
   overflow: hidden;
   padding: 14.5px 16px;

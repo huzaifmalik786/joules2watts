@@ -1,14 +1,22 @@
-import React,{useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import { useWindowWidth } from "../../breakpoints";
 import { Cta } from "../../components/careers/Cta";
 import { Header1 } from "../../icons/Header1";
 import "./style.css";
 import { Header } from "../../components/shared/header";
 import { Footer } from "../../components/shared/footer";
+import { Formik, Field, Form } from "formik";
+import * as Yup from 'yup';
 
 export const Careers = () => {
   const screenWidth = useWindowWidth();
   const [height, setHeight] = useState(0);
+
+  const validationSchema = Yup.object().shape({
+    name: Yup.string().required("Name is Required."),
+    email: Yup.string().email("Enter a valid email").required("Email is Required."),
+    cv: Yup.mixed().required("Please attach your cv.")
+  })
 
   useEffect(() => {
     // console.log(window.innerWidth);
@@ -26,7 +34,7 @@ export const Careers = () => {
   });
 
   return (
-    <div className="careers" style={{height: height}}>
+    <div className="careers" style={{ height: height }}>
       <div
         className="iphone"
         style={{
@@ -58,13 +66,6 @@ export const Careers = () => {
           />
           <div className="mobile-only">
             <div className="div" />
-            <Cta
-              arrowForward="/careers/arrow-forward-157.svg"
-              className="CTA-instance"
-              divClassName="instance-node"
-              property1="default"
-              text="Submit"
-            />
           </div>
 
           <div className="desktop-only">
@@ -128,13 +129,40 @@ export const Careers = () => {
                 Inovies St, Patrika Nagar, Madhapur, HITEC City, Hyderabad, Telangana – 500081
               </p>
             </div>
+            <Formik
+              validationSchema={validationSchema}
+              initialValues={{ name: "", email: "", message: "" }}
+              onSubmit={async (values) => {
+                console.log(values)
+              }}
+            >
+              {({ handleSubmit, handleChange, values, errors, touched }) => (
+                <Form style={{ display: "contents" }}>
+                  <input className="input mobile-only" placeholder="Name" type="text" name="name" onChange={handleChange} value={values.name} />
+                  {errors.name && touched.name &&
+                    <div className="error">{errors.name}</div>
+                  }
+                  <input className="input mobile-only" placeholder="Email" type="email" name="email" onChange={handleChange} value={values.email} />
+                  {errors.name && touched.name &&
+                    <div className="error">{errors.email}</div>
+                  }
+                  <input className="input mobile-only" placeholder="Message" type="text" name="message" onChange={handleChange} value={values.message} />
+                  <div className="frame-7 mobile-only">
+                    <input type="file" className="frame-21 message" placeholder="Drop you CVs here(pdf,docs,docx)" accept=".pdf , .doc , .docx" />
+                  </div>
+                  <Cta
+                    arrowForward="/careers/arrow-forward-157.svg"
+                    className="CTA-instance mobile-only"
+                    divClassName="instance-node"
+                    property1="default"
+                    text="Submit"
+                    onClick={handleSubmit}
+                  />
+                </Form>
+              )}
+            </Formik>
 
-              <input className="input mobile-only" />
-              <input className="input mobile-only" />
-              <input className="input mobile-only" />
-              <div className="frame-7 mobile-only">
-                <input type="file" className="frame-21 message" placeholder="Drop you CVs here(pdf,docs,docx)" accept=".pdf , .doc , .docx" />
-              </div>
+
           </div>
           <div className="desktop-only">
             <div className="frame-8">
@@ -181,13 +209,6 @@ export const Careers = () => {
                   <img className="rectangle-4" alt="Rectangle" src="/careers/rectangle-145-1.svg" />
                   <img className="rectangle-5" alt="Rectangle" src="/careers/rectangle-141-1.svg" />
                   <div className="rectangle-6" />
-                  <Cta
-                    arrowForward="/careers/arrow-forward-156.svg"
-                    className="CTA-2"
-                    divClassName="instance-node"
-                    property1="default"
-                    text="Submit"
-                  />
                   <p className="text-wrapper-17">
                     Do work that matters, with the flexibility to pursue your passion wherever it leads.
                   </p>
@@ -195,28 +216,60 @@ export const Careers = () => {
                 <p className="text-wrapper-18">1500+ jobs. 200+ locations. 1 team.</p>
               </div>
             </div>
-            <div className="frame-15">
-              <div className="frame-16">
-                <div className="frame-17">
-                  <div className="text-wrapper-19">Join our team!</div>
-                </div>
-              </div>
-              <div className="frame-18">
-                <input className="frame-19" placeholder="Name" />
-                <input className="frame-19" placeholder="Email" />
-              </div>
-              <input className="message" placeholder="Message" />
-            </div>
             <div className="frame-20">
               <p className="bring-your-ambition-2">
                 <span className="span">Bring your ambition to </span>
                 <span className="text-wrapper-7">make a difference</span>
               </p>
             </div>
-            <div className="frame-21-wrapper">
-              <input type="file" className="frame-21 message" placeholder="Drop you CVs here(pdf,docs,docx)" accept=".pdf , .doc , .docx" />
-              <img className="clip-2" alt="Clip" src="/careers/clip-1.png" />
-            </div>
+            <Formik
+              validationSchema={validationSchema}
+              initialValues={{ name: "", email: "", message: "" }}
+              onSubmit={async (values) => {
+                console.log(values)
+              }}
+            >
+              {({ handleSubmit, handleChange, values, errors, touched }) => (
+                <Form>
+                  <div className="frame-15">
+                    <div className="frame-16">
+                      <div className="frame-17">
+                        <div className="text-wrapper-19">Join our team!</div>
+                      </div>
+                    </div>
+                    <div className="frame-18">
+                      <div>
+                        <input type="text" className="frame-19" placeholder="Name" name="name" onChange={handleChange} value={values.name} />
+                        {errors.name && touched.name &&
+                          <div className="error-2">{errors.name}</div>
+                        }
+                      </div>
+                      <div>
+                        <input type="email" className="frame-19" placeholder="Email" name="email" onChange={handleChange} value={values.email} />
+                        {errors.name && touched.name &&
+                          <div className="error-2">{errors.email}</div>
+                        }
+                      </div>
+
+                    </div>
+                    <input className="message" placeholder="Message" type="text" name="message" onChange={handleChange} value={values.message} />
+                  </div>
+
+                  <div className="frame-21-wrapper">
+                    <input type="file" name="cv" className="frame-21 message" placeholder="Drop you CVs here(pdf,docs,docx)" accept=".pdf , .doc , .docx" />
+                    <img className="clip-2" alt="Clip" src="/careers/clip-1.png" />
+                  </div>
+                  <Cta
+                    arrowForward="/careers/arrow-forward-156.svg"
+                    className="CTA-2"
+                    divClassName="instance-node"
+                    property1="default"
+                    text="Submit"
+                    onClick={handleSubmit}
+                  />
+                </Form>
+              )}
+            </Formik>
 
           </div>
 
