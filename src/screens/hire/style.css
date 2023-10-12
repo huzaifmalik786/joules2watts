@@ -939,7 +939,7 @@
 }
 
 .hire .frame-30 {
-  background: conic-gradient(from 180deg at 50% 50%, rgb(77, 159, 152) 0deg, rgb(46, 80, 83) 360deg);
+  background-color: #4d9f98;
   background-image: url(../../../static/hire/frame-3800-4.svg);
   background-size: 100% 100%;
   height: 300px;
@@ -1529,12 +1529,26 @@
 
 .hire .frame-54 {
   align-items: flex-start;
-  display: flex;
+  display: inline-flex;
   gap: 24px;
+  overflow: hidden;
+  width: 100%;
+  flex: none;
+}
+
+.hire .frame-54-scroller {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+}
+
+.hire .frame-54-position {
   left: 16px;
+  overflow: scroll;
   position: absolute;
+  width: 390px;
   top: 3889px;
-  width: 949px;
 }
 
 .hire .group-11 {
@@ -1544,6 +1558,8 @@
 }
 
 .hire .div-3 {
+  background: #202020;
+  border-radius: 8px;
   height: 196px;
   left: 0;
   position: absolute;
@@ -1633,7 +1649,7 @@
   gap: 8px;
   left: 37px;
   position: relative;
-  top: 41px;
+  top: 28px;
   width: 222px;
 }
 
@@ -1710,6 +1726,8 @@
 }
 
 .hire .overlap-group-7 {
+  background: #2E5053;
+  border-radius: 8px;
   height: 196px;
   position: relative;
 }
@@ -1748,7 +1766,7 @@
   font-style: var(--h6-REG-font-style);
   font-weight: var(--h6-REG-font-weight);
   height: 56px;
-  left: 90px;
+  left: 70px;
   letter-spacing: var(--h6-REG-letter-spacing);
   line-height: var(--h6-REG-line-height);
   position: absolute;
@@ -1775,7 +1793,7 @@
   left: 0;
   position: absolute;
   top: 202px;
-  width: 50px;
+  width: 300px;
 }
 
 .hire .client-specific {
@@ -1790,7 +1808,7 @@
   line-height: var(--h6-REG-line-height);
   position: absolute;
   text-align: center;
-  top: 243px;
+  top: 227px;
   width: 168px;
 }
 
@@ -1799,7 +1817,7 @@
   left: 0;
   position: absolute;
   top: 341px;
-  width: 271px;
+  width: 300px;
 }
 
 .hire .group-16 {
@@ -1807,7 +1825,7 @@
   left: 0;
   position: absolute;
   top: 0;
-  width: 50px;
+  width: 300px;
 }
 
 .hire .instructor-led {
@@ -1822,7 +1840,7 @@
   line-height: var(--h6-REG-line-height);
   position: absolute;
   text-align: center;
-  top: 41px;
+  top: 28px;
   width: 236px;
 }
 
@@ -1831,7 +1849,7 @@
   left: 0;
   position: absolute;
   top: 619px;
-  width: 50px;
+  width: 300px;
 }
 
 .hire .group-18 {
@@ -1839,7 +1857,7 @@
   left: 0;
   position: absolute;
   top: 897px;
-  width: 50px;
+  width: 300px;
 }
 
 .hire .overlap-13 {
@@ -1862,7 +1880,7 @@
   line-height: var(--h6-REG-line-height);
   position: absolute;
   text-align: center;
-  top: 50px;
+  top: 36px;
   width: 218px;
 }
 
@@ -1871,7 +1889,7 @@
   left: 0;
   position: absolute;
   top: 758px;
-  width: 50px;
+  width: 300px;
 }
 
 .hire .feedback-fine-tuning {
@@ -1886,7 +1904,7 @@
   line-height: var(--h6-REG-line-height);
   position: absolute;
   text-align: center;
-  top: 660px;
+  top: 643px;
   width: 169px;
 }
 
@@ -1902,7 +1920,7 @@
   line-height: var(--h6-REG-line-height);
   position: absolute;
   text-align: center;
-  top: 952px;
+  top: 932px;
   width: 151px;
 }
 

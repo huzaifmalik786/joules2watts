@@ -393,125 +393,140 @@ export const Hire = () => {
             <div className="frame-53">
               <div className="text-wrapper-34">Our Methodology</div>
             </div>
-            <div className="frame-54">
-              <div className="group-11">
-                <div className="div-3">
-                  <div className="group-12">
-                    <div className="frame-55">
-                      <img className="rectangle-8" alt="Rectangle" src="/hire/rectangle-110-1.svg" />
-                      <div className="frame-56">
-                        <div className="text-wrapper-35">Aptitude Test</div>
+            <div className="frame-54-position">
+              <div className="frame-54-scroller">
+                <div className="frame-54">
+                  <div className="group-11">
+                    <div className="div-3">
+                      <div className="group-12">
+                        <div className="frame-55">
+                          <img className="rectangle-8" alt="Rectangle" src="/hire/rectangle-110-1.svg" />
+                          <div className="frame-56">
+                            <div className="text-wrapper-35">Aptitude Test</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="text-wrapper-36">Hire</div>
+                    </div>
+                    <div className="overlap-10">
+                      <div className="technical-test-wrapper">
+                        <p className="technical-test">
+                          Technical Test - Client specific
+                          <br /> - Net, Java
+                        </p>
+                      </div>
+                    </div>
+                    <div className="overlap-11">
+                      <div className="text-wrapper-37">Client Interview</div>
+                    </div>
+                    <div className="group-13">
+                      <div className="quality-graphic-desi-wrapper">
+                        <img
+                          className="quality-graphic-desi"
+                          alt="Quality graphic desi"
+                          src="/hire/quality-graphic-desi.png"
+                        />
                       </div>
                     </div>
                   </div>
-                  <div className="text-wrapper-36">Hire</div>
-                </div>
-                <div className="overlap-10">
-                  <div className="technical-test-wrapper">
-                    <p className="technical-test">
-                      Technical Test - Client specific
-                      <br /> - Net, Java
+                  <div className="group-14">
+                    <div className="div-3">
+                      <div className="div-3">
+                        <div className="overlap-group-7">
+                          <div className="frame-57">
+                            <img className="rectangle-8" alt="Rectangle" src="/hire/rectangle-110-1.svg" />
+                            <div className="frame-58" />
+                            <div className="certification-based">
+                              Certification based <br />
+                              training partner
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="text-wrapper-38">Train</div>
+                    </div>
+                    <img className="group-15" alt="Group" src="/hire/rectangle-123.svg" />
+                    <p className="client-specific">
+                      Client specific tailored <br />
+                      training module
+                    </p>
+                    <div className="overlap-12">
+                      <img className="group-16" alt="Group" src="/hire/group-45.png" />
+                      <p className="instructor-led">
+                        Instructor-led highly focused on
+                        <br />
+                        Skill gaps training
+                      </p>
+                    </div>
+                    <img className="group-17" alt="Group" src="/hire/group-45.png" />
+                    <img className="group-18" alt="Group" src="/hire/group-45.png" />
+                    <div className="overlap-13">
+                      <img className="group-16" alt="Group" src="/hire/rectangle-123.svg" />
+                      <p className="text-wrapper-39">4-6 weeks of rigorous training</p>
+                    </div>
+                    <img className="group-19" alt="Group" src="/hire/rectangle-123.svg" />
+                    <p className="feedback-fine-tuning">
+                      Feedback / fine-tuning <br />
+                      of training process
+                    </p>
+                    <div className="text-wrapper-40">Soft skills training</div>
+                    <p className="projects-and">
+                      Projects and Exercises with
+                      <br />
+                      Industry scenarios
+                    </p>
+                  </div>
+                  <div className="group-20">
+                    <div className="div-3">
+                      <div className="div-3">
+                        <div className="overlap-group-7" style={{ background: "#202020" }}>
+                          <div className="frame-57">
+                            <img className="rectangle-8" alt="Rectangle" src="/hire/rectangle-110-1.svg" />
+                            <div className="frame-58" />
+                            <div className="certification-based">
+                              Contrast placement
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="text-wrapper-38">Deploy</div>
+                    </div>
+                    {/* <div className="div-3">
+                      <div className="div-3">
+                        <img className="rectangle-10" alt="Rectangle" src="/hire/arrow-forward-9.png" />
+                        <div className="frame-59">
+                          <img className="rectangle-11" alt="Rectangle" src="/hire/arrow-forward-9.png" />
+                          <div className="text-wrapper-41">Contract placement</div>
+                        </div>
+                      </div>
+                      <div className="text-wrapper-42">Deploy</div>
+                    </div> */}
+                    <img className="group-15" alt="Group" src="/hire/rectangle-123.svg" />
+                    <p className="client-specific">
+                      Dedicated HR support
+                      for candidates
+                    </p>
+                    <div className="overlap-12">
+                      <img className="group-16" alt="Group" src="/hire/group-45.png" />
+                      <p className="instructor-led">
+                        Constant support
+                        and feedback
+                      </p>
+                    </div>
+                    <img className="group-17" alt="Group" src="/hire/group-45.png" />
+                    <div className="overlap-13">
+                      <img className="group-16" alt="Group" src="/hire/rectangle-123.svg" />
+                      <p className="text-wrapper-39">Continuous evaluation and guidance</p>
+                    </div>
+                    <p className="feedback-fine-tuning">
+                      Performance based conversion
                     </p>
                   </div>
                 </div>
-                <div className="overlap-11">
-                  <div className="text-wrapper-37">Client Interview</div>
-                </div>
-                <div className="group-13">
-                  <div className="quality-graphic-desi-wrapper">
-                    <img
-                      className="quality-graphic-desi"
-                      alt="Quality graphic desi"
-                      src="/hire/quality-graphic-desi.png"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="group-14">
-                <div className="div-3">
-                  <div className="div-3">
-                    <div className="overlap-group-7">
-                      <img className="rectangle-9" alt="Rectangle" src="/hire/rectangle-125-1.svg" />
-                      <div className="frame-57">
-                        <img className="rectangle-8" alt="Rectangle" src="/hire/rectangle-110-2.svg" />
-                        <div className="frame-58" />
-                        <div className="certification-based">
-                          Certification based <br />
-                          training partner
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="text-wrapper-38">Train</div>
-                </div>
-                <img className="group-15" alt="Group" src="/hire/group-44.png" />
-                <p className="client-specific">
-                  Client specific tailored <br />
-                  training module
-                </p>
-                <div className="overlap-12">
-                  <img className="group-16" alt="Group" src="/hire/group-45-1.png" />
-                  <p className="instructor-led">
-                    Instructor-led highly focused on
-                    <br />
-                    Skill gaps training
-                  </p>
-                </div>
-                <img className="group-17" alt="Group" src="/hire/group-45-1.png" />
-                <img className="group-18" alt="Group" src="/hire/group-45-1.png" />
-                <div className="overlap-13">
-                  <img className="group-16" alt="Group" src="/hire/group-46.png" />
-                  <p className="text-wrapper-39">4-6 weeks of rigorous training</p>
-                </div>
-                <img className="group-19" alt="Group" src="/hire/group-46.png" />
-                <p className="feedback-fine-tuning">
-                  Feedback / fine-tuning <br />
-                  of training process
-                </p>
-                <div className="text-wrapper-40">Soft skills training</div>
-                <p className="projects-and">
-                  Projects and Exercises with
-                  <br />
-                  Industry scenarios
-                </p>
-              </div>
-              <div className="group-20">
-                <div className="div-3">
-                  <div className="div-3">
-                    <img className="rectangle-10" alt="Rectangle" src="/hire/arrow-forward-9.png" />
-                    <div className="frame-59">
-                      <img className="rectangle-11" alt="Rectangle" src="/hire/arrow-forward-9.png" />
-                      <div className="text-wrapper-41">Contract placement</div>
-                    </div>
-                  </div>
-                  <div className="text-wrapper-42">Deploy</div>
-                </div>
-                <img className="group-21" alt="Group" src="/hire/arrow-forward-9.png" />
-                <img className="group-22" alt="Group" src="/hire/arrow-forward-9.png" />
-                <img className="group-23" alt="Group" src="/hire/arrow-forward-9.png" />
-                <div className="dedicated-HR-support">
-                  Dedicated HR support
-                  <br />
-                  for candidates
-                </div>
-                <div className="constant-support-and">
-                  Constant support
-                  <br />
-                  and feedback
-                </div>
-                <div className="performance-based">
-                  Performance based
-                  <br />
-                  conversion
-                </div>
-                <img className="group-24" alt="Group" src="/hire/arrow-forward-9.png" />
-                <div className="continuous">
-                  Continuous evaluation
-                  <br />
-                  and guidance
-                </div>
               </div>
             </div>
+
+
           </div>
 
           <div className="frame-60 desktop-only">
@@ -665,15 +680,6 @@ export const Hire = () => {
                   width: screenWidth < 450 ? "687px" : screenWidth >= 450 ? "1757px" : undefined,
                 }}
               >
-                <img
-                  className="rectangle-12"
-                  style={{
-                    left: screenWidth < 450 ? "134px" : screenWidth >= 450 ? "149px" : undefined,
-                    top: screenWidth < 450 ? "24px" : screenWidth >= 450 ? "130px" : undefined,
-                    width: screenWidth < 450 ? "390px" : screenWidth >= 450 ? "1440px" : undefined,
-                  }}
-                  alt="Rectangle"
-                />
                 <div
                   className="frame-69"
                   style={{

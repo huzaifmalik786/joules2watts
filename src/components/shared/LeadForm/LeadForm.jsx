@@ -97,7 +97,7 @@ export const LeadForm = ({ setOpenModal, openModal, factor }) => {
                 )}
               </Formik>
 
-              <div className="lead-frame-7">
+              {/* <div className="lead-frame-7">
                 <div className="lead-frame-8">
                   <div className="lead-frame-9">
                     <div className="lead-missed-video-call">
@@ -122,7 +122,7 @@ export const LeadForm = ({ setOpenModal, openModal, factor }) => {
                     </button>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <button className="lead-close-button" onClick={() => setOpenModal(false)}>

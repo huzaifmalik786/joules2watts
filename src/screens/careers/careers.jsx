@@ -156,9 +156,9 @@ export const Careers = () => {
                     <div className="error">{errors.email}</div>
                   }
                   <input className="input mobile-only" placeholder="Message" type="text" name="message" onChange={handleChange} value={values.message} />
-                  <div className="frame-7 mobile-only">
+                  {/* <div className="frame-7 mobile-only">
                     <input type="file" className="frame-21 message" placeholder="Drop you CVs here(pdf,docs,docx)" accept=".pdf , .doc , .docx" />
-                  </div>
+                  </div> */}
                   <Cta
                     arrowForward="/careers/arrow-forward-157.svg"
                     className="CTA-instance mobile-only"
@@ -275,10 +275,10 @@ export const Careers = () => {
                     <input className="message" placeholder="Message" type="text" name="message" onChange={handleChange} value={values.message} />
                   </div>
 
-                  <div className="frame-21-wrapper">
+                  {/* <div className="frame-21-wrapper">
                     <input type="file" name="cv" className="frame-21 message" placeholder="Drop you CVs here(pdf,docs,docx)" accept=".pdf , .doc , .docx" />
                     <img className="clip-2" alt="Clip" src="/careers/clip-1.png" />
-                  </div>
+                  </div> */}
                   <Cta
                     arrowForward="/careers/arrow-forward-156.svg"
                     className="CTA-2"

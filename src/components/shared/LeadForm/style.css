@@ -19,7 +19,7 @@
 
 .lead-form .lead-div {
   background-color: var(--neutralwhite);
-  height: 730px;
+  height: 630px;
   position: relative;
   width: 1000px;
 }
@@ -390,7 +390,7 @@ textarea::placeholder {
 
   .lead-form .lead-div{
     width: 380px;
-    height: 700px;
+    height: 600px;
   }
 
   .lead-form .lead-frame{
