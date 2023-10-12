@@ -3,13 +3,21 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { MobileNav } from "../../components/shared/MobileNav/MobileNav";
 import "./style.css"
 
 export const Header1 = ({ className, white }) => {
   const [showNav, setShowNav] = useState(false);
+  useEffect(() => {
+    if (showNav) {
+      document.querySelector("body").style.overflow = "hidden";
+    }
+    else{
+      document.querySelector("body").style.overflow = "auto";
+    }
+  },[showNav])
   return (
     <>
       {showNav &&

@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { createBrowserRouter, RouterProvider, useLocation, Route, Routes } from "react-router-dom";
-import { useWindowWidth } from "./breakpoints";
 import { Iphone } from "./screens/msp";
 import { Services } from "./screens/services";
 import { Hire } from "./screens/hire";
@@ -97,7 +96,6 @@ const router = [
 ];
 
 export const App = () => {
-  const screenWidth = useWindowWidth();;
 
   const { pathname } = useLocation();
 

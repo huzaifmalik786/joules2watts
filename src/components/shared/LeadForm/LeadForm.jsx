@@ -42,7 +42,7 @@ export const LeadForm = ({ setOpenModal, openModal }) => {
                   await axios.post("https://sheetdb.io/api/v1/j26dctl2r0gsg", {
                     // headers: { 'Authorization': 'Bearer m3xzr16pka0v7fbaj92bmdyo2sowgsrlitar7tdu' },
                     body: {
-                      Type: "get in touch",
+                      Type: "Get in Touch",
                       Name: values.name,
                       Email: values.email,
                       Phone: values.phone,
