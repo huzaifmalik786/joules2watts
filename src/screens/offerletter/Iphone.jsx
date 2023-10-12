@@ -35,7 +35,7 @@ export const OfferLetter = () => {
       {openModal &&
         <LeadForm openModal={openModal} setOpenModal={setOpenModal} />
       }
-      <div className="offerletter" style={{height: height}}>
+      <div className="offerletter" style={{ height: height }}>
         <div
           className="div-2"
           style={{
@@ -113,12 +113,24 @@ export const OfferLetter = () => {
                       </div>
                     </div>
                     <div className="frame-19">
-                      <img className="mercedes-benz-logo" alt="Mercedes benz logo" />
-                      <img className="GE-healthcare-logo" alt="Ge healthcare logo" />
-                      <img className="sony-logo" alt="Sony logo" />
-                      <img className="shell-logo" alt="Shell logo" />
-                      <img className="amazon" alt="Amazon" src="/offerletter/amazon-1-1.png" />
-                      <img className="wipro-logo-new-og" alt="Wipro logo new og" />
+                      <img
+                        className="mercedes-benz-logo"
+                        alt="Mercedes benz logo"
+                        src="/logos/mercedes-benz-logo-2010-1.png"
+                      />
+                      <img
+                        className="GE-healthcare-logo"
+                        alt="Ge healthcare logo"
+                        src="/logos/ge-healthcare-logo-1.png"
+                      />
+                      <img className="sony-logo" alt="Sony logo" src="/logos/sony-logo-1.png" />
+                      <img className="shell-logo" alt="Shell logo" src="/logos/shell-logo-1971-1995-1.png" />
+                      <img className="amazon" alt="Amazon" src="/logos/amazon-1-1.png" />
+                      <img
+                        className="wipro-logo-new-og"
+                        alt="Wipro logo new og"
+                        src="/logos/wipro-logo-new-og-502x263-1.png"
+                      />
                     </div>
                   </div>
                 </div>
@@ -247,34 +259,36 @@ export const OfferLetter = () => {
                 />
               </div>
             </div>
-
-            <div className="frame-31 mobile-only">
-              <div className="frame-32">
-                <div className="frame-33">
-                  <div className="text-wrapper-22">Ready to get started?</div>
-                  <p className="text-wrapper-23">
-                    Whether you still have some questions or you’re ready to sign up for a specific services right now,
-                    Our specialists are only a message away.
-                  </p>
+            <div className="mobile-only">
+              <div className="frame-31">
+                <div className="frame-32">
+                  <div className="frame-33">
+                    <div className="text-wrapper-22">Ready to get started?</div>
+                    <p className="text-wrapper-23">
+                      Whether you still have some questions or you’re ready to sign up for a specific services right now,
+                      Our specialists are only a message away.
+                    </p>
+                  </div>
                 </div>
-              </div>
-              <div className="group-8">
-                <div className="frame-34">
-                  <div className="overlap-group-6">
-                    <div className="frame-35">
-                      <div className="text-wrapper-24">Ready to get started?</div>
-                      <p className="are-we-a-good-fit">
-                        Are we a good fit for your company&#39;s challenges? Let’s talk it out today
-                      </p>
-                      <button className="CTA-4" onClick={()=>setOpenModal(true)}>
-                        <div className="text-wrapper-25">Schedule a call now</div>
-                        <img className="arrow-forward-3" alt="Arrow forward" src="/offerletter/arrow-forward-112.svg" />
-                      </button>
+                <div className="group-8">
+                  <div className="frame-34">
+                    <div className="overlap-group-6">
+                      <div className="frame-35">
+                        <div className="text-wrapper-24">Ready to get started?</div>
+                        <p className="are-we-a-good-fit">
+                          Are we a good fit for your company&#39;s challenges? Let’s talk it out today
+                        </p>
+                        <button className="CTA-4" onClick={() => setOpenModal(true)}>
+                          <div className="text-wrapper-25">Schedule a call now</div>
+                          <img className="arrow-forward-3" alt="Arrow forward" src="/offerletter/arrow-forward-112.svg" />
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+
           </div>
           <div className="frame-36 mobile-only">
             <div className="frame-37">
@@ -456,7 +470,7 @@ export const OfferLetter = () => {
                   </div>
                 </div>
               </div>
-              <button className="CTA-8" onClick={()=>setOpenModal(true)}>
+              <button className="CTA-8" onClick={() => setOpenModal(true)}>
                 <div className="text-wrapper-25">Schedule a call now</div>
                 <img className="arrow-forward-3" alt="Arrow forward" src="/offerletter/arrow-forward-54.svg" />
               </button>
@@ -486,16 +500,20 @@ export const OfferLetter = () => {
                 <img
                   className="mercedes-benz-logo-2"
                   alt="Mercedes benz logo"
-                  src="/offerletter/mercedes-benz-logo-2010-1.png"
+                  src="/logos/mercedes-benz-logo-2010-1.png"
                 />
-                <img className="GE-healthcare-logo-2" alt="Ge healthcare logo" src="/offerletter/ge-healthcare-logo-1.png" />
-                <img className="sony-logo-2" alt="Sony logo" src="/offerletter/sony-logo-1.png" />
-                <img className="shell-logo-2" alt="Shell logo" src="/offerletter/shell-logo-1971-1995-1.png" />
-                <img className="amazon-2" alt="Amazon" />
+                <img
+                  className="GE-healthcare-logo-2"
+                  alt="Ge healthcare logo"
+                  src="/logos/ge-healthcare-logo-1.png"
+                />
+                <img className="sony-logo-2" alt="Sony logo" src="/logos/sony-logo-1.png" />
+                <img className="shell-logo-2" alt="Shell logo" src="/logos/shell-logo-1971-1995-1.png" />
+                <img className="amazon-2" alt="Amazon" src="/logos/amazon-1-1.png" />
                 <img
                   className="wipro-logo-new-og-2"
                   alt="Wipro logo new og"
-                  src="/offerletter/wipro-logo-new-og-502x263-1.png"
+                  src="/logos/wipro-logo-new-og-502x263-1.png"
                 />
               </div>
             </div>
@@ -661,11 +679,10 @@ export const OfferLetter = () => {
             <div className="carousel-3">
               <div className="frame-79">
                 <div className="overlap-group-11">
-                  <img className="rectangle-19" alt="Rectangle" />
                   <div className="frame-80">
                     <div className="linkedin" />
                   </div>
-                  <img className="rectangle-20" alt="Rectangle" />
+                  <img className="rectangle-20" alt="Rectangle" src="/offerletter/Rectangle26.webp" />
                   <div className="rectangle-21" />
                   <div className="frame-81">
                     <p className="we-are-your-growth">

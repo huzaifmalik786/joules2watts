@@ -524,7 +524,6 @@ export const Staffing = () => {
             <div className="carousel-2 mobile-only">
               <div className="frame-39">
                 <div className="overlap-group-7">
-                  <img className="rectangle-11" alt="Rectangle" />
                   <div className="frame-40">
                     <div className="linkedin" />
                   </div>

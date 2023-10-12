@@ -636,9 +636,10 @@
 
 .leadership .frame-19 {
   align-items: flex-start;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   flex-wrap: wrap;
-  gap: 32px 96px;
+  gap: 32px 32px;
   justify-content: center;
   left: 52px;
   position: absolute;

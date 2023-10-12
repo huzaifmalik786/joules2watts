@@ -3521,6 +3521,7 @@
   letter-spacing: var(--subtitle-REG-letter-spacing);
   line-height: var(--subtitle-REG-line-height);
   position: relative;
+  white-space: nowrap;
   width: 121px;
 }
 
@@ -3533,6 +3534,7 @@
 }
 
 .hire .text-wrapper-70 {
+  white-space: nowrap;
   color: var(--neutral-70);
   font-family: var(--subtitle-REG-font-family);
   font-size: var(--subtitle-REG-font-size);

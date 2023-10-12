@@ -1217,7 +1217,7 @@
 }
 
 .offerletter .partner-wrapper {
-  background-image: url(../../../static/offerletter/rectangle-138-7.svg);
+  /* background-image: url(../../../static/offerletter/rectangle-138-7.svg); */
   background-size: 100% 100%;
   height: 575px;
   left: -16px;
@@ -2901,19 +2901,15 @@
 
 .offerletter .rectangle-20 {
   height: 401px;
-  left: 134px;
+  left: -464px;
   position: absolute;
   top: 419px;
-  width: 390px;
+  width: 1000px;
 }
 
 .offerletter .rectangle-21 {
-  background: linear-gradient(180deg,
-      rgb(88, 153.05, 147.5) 0%,
-      rgb(77, 159, 152) 22.4%,
-      rgb(77, 159, 152) 64.73%,
-      rgba(251.81, 251.81, 251.81, 0) 100%);
-  filter: blur(80px);
+  background: linear-gradient(90deg, #589993 5.95%, #4D9F98 20.62%, #4D9F98 48.33%, rgba(252, 252, 252, 0.00) 71.42%);
+  filter: blur(40px);
   height: 687px;
   left: -118px;
   position: absolute;

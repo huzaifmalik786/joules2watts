@@ -36,7 +36,7 @@
   overflow: hidden;
   position: absolute;
   top: 0;
-  width: 390px;
+  width: 390px !important;
 }
 
 .staffing .overlap-2 {
@@ -117,7 +117,7 @@
   height: 394px;
   left: -25px;
   position: absolute;
-  top: 99px;
+  top: 128px;
   transform: rotate(-180deg);
   width: 445px;
 }
@@ -1433,7 +1433,7 @@
 }
 
 .staffing .frame-25 {
-  background-image: url(../../../static/staffing/rectangle-56.webp);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.00) 100%), url(../../../static/staffing/rectangle-56.webp), lightgray 50% / cover no-repeat;
   background-position: 50% 50%;
   background-size: cover;
   height: 560px;
@@ -1479,7 +1479,7 @@
 }
 
 .staffing .frame-27 {
-  background-image: url(../../../static/staffing/rectangle-56-1.webp);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.00) 100%), url(../../../static/staffing/rectangle-56-1.webp), lightgray 50% / cover no-repeat;
   background-position: 50% 50%;
   background-size: cover;
   height: 560px;
@@ -1788,12 +1788,8 @@
 }
 
 .staffing .rectangle-12 {
-  background: linear-gradient(180deg,
-      rgb(88, 153.05, 147.5) 0%,
-      rgb(77, 159, 152) 22.4%,
-      rgb(77, 159, 152) 64.73%,
-      rgba(251.81, 251.81, 251.81, 0) 100%);
-  filter: blur(80px);
+  background: linear-gradient(90deg, #589993 5.95%, #4D9F98 20.62%, #4D9F98 48.33%, rgba(252, 252, 252, 0.00) 71.42%);
+  filter: blur(40px);
   height: 687px;
   left: -67px;
   position: absolute;
@@ -3574,7 +3570,7 @@
 }
 
 .staffing .frame-70 {
-  background-image: url(../../../static/staffing/rectangle-56.webp);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.00) 100%), url(../../../static/staffing/rectangle-56.webp), lightgray 50% / cover no-repeat;
   background-position: 50% 50%;
   background-size: cover;
   height: 464.3px;
@@ -3618,7 +3614,7 @@
 }
 
 .staffing .frame-72 {
-  background-image: url(../../../static/staffing/rectangle-56-1.webp);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.00) 100%), url(../../../static/staffing/rectangle-56-1.webp), lightgray 50% / cover no-repeat;
   background-position: 50% 50%;
   background-size: cover;
   height: 464.3px;

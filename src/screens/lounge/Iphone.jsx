@@ -12,7 +12,7 @@ import { LeadForm } from "../../components/shared/LeadForm";
 export const Lounge = () => {
   const screenWidth = useWindowWidth();
   const [openModal, setOpenModal] = useState(false);
-const [height, setHeight] = useState(0)
+  const [height, setHeight] = useState(0)
 
   useEffect(() => {
     if (window.innerWidth > 450) {
@@ -33,7 +33,7 @@ const [height, setHeight] = useState(0)
       {openModal &&
         <LeadForm openModal={openModal} setOpenModal={setOpenModal} />
       }
-      <div className="lounge" style={{height: height}}>
+      <div className="lounge" style={{ height: height }}>
         <div
           className="div-2"
           style={{
@@ -491,96 +491,98 @@ const [height, setHeight] = useState(0)
             </div>
 
             <div className="mobile-only">
-              <div className="frame-62">
-                <div className="frame-63">
-                  <div className="text-wrapper-49">On Demand Need</div>
-                  <p className="easily-find-quality">
-                    Easily find quality matches &amp; hire the best based on your engagement model.
-                  </p>
-                </div>
-                <div className="frame-64">
-                  <div className="rectangle-9" />
-                  <img className="suitcase-2" alt="Suitcase" src="/lounge/suitcase-1-1.svg" />
-                </div>
-              </div>
-              <div className="frame-65">
-                <div className="frame-66">
-                  <div className="post-your-project-2">
-                    Post your project
-                    <br />
-                    Requirements
+              <div style={{display:"flex", flexDirection:"column",gap:"30px"}}>
+                <div className="frame-62">
+                  <div className="frame-63">
+                    <div className="text-wrapper-49">On Demand Need</div>
+                    <p className="easily-find-quality">
+                      Easily find quality matches &amp; hire the best based on your engagement model.
+                    </p>
                   </div>
-                  <p className="text-wrapper-50">
-                    BI and Analytics based technology platform for engagement. Start by posting a job, and Premier
-                    Lounge will analyze your needs.
-                  </p>
-                </div>
-                <div className="frame-67">
-                  <div className="rectangle-9" />
-                  <img className="blueprint-2" alt="Blueprint" src="/lounge/blueprint-1.svg" />
-                </div>
-              </div>
-              <div className="frame-68">
-                <div className="frame-69">
-                  <div className="text-wrapper-51">Find Top notch consultants</div>
-                  <p className="text-wrapper-50">
-                    Range of top consultants from BFSI, Telecom, Retail, Creative, L&amp;D, Manufacturing, Automation,
-                    Big Data, Machine Learning, and many more domain experts.
-                  </p>
-                </div>
-                <div className="frame-70">
-                  <div className="img-wrapper">
-                    <img className="consultant-2" alt="Consultant" src="/lounge/consultant-1.svg" />
-                  </div>
-                </div>
-              </div>
-              <div className="frame-71">
-                <div className="frame-72">
                   <div className="frame-64">
                     <div className="rectangle-9" />
-                    <img className="candidate-2" alt="Candidate" src="/lounge/candidate-1.svg" />
+                    <img className="suitcase-2" alt="Suitcase" src="/lounge/suitcase-1-1.svg" />
                   </div>
-                  <div className="frame-73">
-                    <p className="text-wrapper-52">
-                      Engage as per your
+                </div>
+                <div className="frame-65">
+                  <div className="frame-66">
+                    <div className="post-your-project-2">
+                      Post your project
                       <br />
-                      choice of working model
+                      Requirements
+                    </div>
+                    <p className="text-wrapper-50">
+                      BI and Analytics based technology platform for engagement. Start by posting a job, and Premier
+                      Lounge will analyze your needs.
                     </p>
+                  </div>
+                  <div className="frame-67">
+                    <div className="rectangle-9" />
+                    <img className="blueprint-2" alt="Blueprint" src="/lounge/blueprint-1.svg" />
+                  </div>
+                </div>
+                <div className="frame-68">
+                  <div className="frame-69">
+                    <div className="text-wrapper-51">Find Top notch consultants</div>
+                    <p className="text-wrapper-50">
+                      Range of top consultants from BFSI, Telecom, Retail, Creative, L&amp;D, Manufacturing, Automation,
+                      Big Data, Machine Learning, and many more domain experts.
+                    </p>
+                  </div>
+                  <div className="frame-70">
+                    <div className="img-wrapper">
+                      <img className="consultant-2" alt="Consultant" src="/lounge/consultant-1.svg" />
+                    </div>
+                  </div>
+                </div>
+                <div className="frame-71">
+                  <div className="frame-72">
+                    <div className="frame-64">
+                      <div className="rectangle-9" />
+                      <img className="candidate-2" alt="Candidate" src="/lounge/candidate-1.svg" />
+                    </div>
+                    <div className="frame-73">
+                      <p className="text-wrapper-52">
+                        Engage as per your
+                        <br />
+                        choice of working model
+                      </p>
+                      <p className="text-wrapper-53">
+                        Engage in different working models: Consulting, Contracting, Full time, Part-time, and Assignment
+                        based.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="frame-74">
+                  <div className="frame-70">
+                    <div className="img-wrapper">
+                      <img className="clipboard-2" alt="Clipboard" src="/lounge/clipboard-1.svg" />
+                    </div>
+                  </div>
+                  <div className="frame-75">
+                    <div className="text-wrapper-52">Result driven task completion</div>
                     <p className="text-wrapper-53">
-                      Engage in different working models: Consulting, Contracting, Full time, Part-time, and Assignment
-                      based.
+                      Work efficiently and effectively using the Premier Lounge mobile app, and deliver digital assets in
+                      a secure environment.
                     </p>
                   </div>
                 </div>
-              </div>
-              <div className="frame-74">
-                <div className="frame-70">
-                  <div className="img-wrapper">
-                    <img className="clipboard-2" alt="Clipboard" src="/lounge/clipboard-1.svg" />
+                <div className="frame-76">
+                  <div className="frame-77">
+                    <div className="rectangle-9" />
+                    <img className="dollar-2" alt="Dollar" src="/lounge/dollar-1.svg" />
                   </div>
-                </div>
-                <div className="frame-75">
-                  <div className="text-wrapper-52">Result driven task completion</div>
-                  <p className="text-wrapper-53">
-                    Work efficiently and effectively using the Premier Lounge mobile app, and deliver digital assets in
-                    a secure environment.
-                  </p>
-                </div>
-              </div>
-              <div className="frame-76">
-                <div className="frame-77">
-                  <div className="rectangle-9" />
-                  <img className="dollar-2" alt="Dollar" src="/lounge/dollar-1.svg" />
-                </div>
-                <div className="frame-78">
-                  <div className="text-wrapper-52">
-                    Pay&nbsp;&nbsp;for work
-                    <br />
-                    authorized by you
+                  <div className="frame-78">
+                    <div className="text-wrapper-52">
+                      Pay&nbsp;&nbsp;for work
+                      <br />
+                      authorized by you
+                    </div>
+                    <p className="text-wrapper-53">
+                      Simplified global payments, including JPL payment protection, invoicing &amp; reporting.
+                    </p>
                   </div>
-                  <p className="text-wrapper-53">
-                    Simplified global payments, including JPL payment protection, invoicing &amp; reporting.
-                  </p>
                 </div>
               </div>
             </div>
@@ -762,7 +764,6 @@ const [height, setHeight] = useState(0)
             <div className="carousel-3">
               <div className="frame-100">
                 <div className="overlap-group-8">
-                  <img className="rectangle-12" alt="Rectangle" />
                   <div className="frame-101">
                     <div className="linkedin" />
                   </div>
