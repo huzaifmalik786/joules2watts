@@ -38,29 +38,32 @@ const ButtonGroup2 = ({ next, previous, ...rest }) => {
 export const Services = () => {
   const screenWidth = useWindowWidth();
   const [openModal, setOpenModal] = useState(false);
-  const [height, setHeight] = useState(0)
+  const [factor, setFactor] = useState();
 
   useEffect(() => {
-    // console.log(window.innerWidth);
     if (window.innerWidth > 450) {
-      const el = document.querySelector('.footer-2-shared');
-      setHeight(el.getBoundingClientRect().bottom);
-      document.querySelector(".div-2").style.transform = `scale(${window.innerWidth / 1430})`;
-      document.querySelector(".div-2").style.transformOrigin = `top left`;
+      setFactor(window.innerWidth / 1440);
     } else {
-      const el = document.querySelector('.footer-3-shared');
-      setHeight(el.getBoundingClientRect().bottom);
-      document.querySelector(".div-2").style.transform = `scale(${window.innerWidth / 390})`;
-      document.querySelector(".div-2").style.transformOrigin = `top left`;
+      setFactor(window.innerWidth / 390);
     }
+    document.querySelector(".div-2").style.transform = `scaleX(${factor})`;
+    document.querySelector("#app").style.transform = `scaleY(${factor})`;
+    document.querySelector(".div-2").style.transformOrigin = `top left`;
+    document.querySelector("#app").style.transformOrigin = `top left`;
   });
+
+  useEffect(() => {
+    if (openModal) {
+      document.querySelector("body").style.overflow = "hidden";
+    }
+    else {
+      document.querySelector("body").style.overflow = "auto";
+    }
+  }, [openModal])
 
   return (
     <>
-      {openModal &&
-        <LeadForm openModal={openModal} setOpenModal={setOpenModal} />
-      }
-      <div className="services" style={{height: height}}>
+      <div className="services">
         <div
           className="div-2"
           style={{
@@ -68,6 +71,13 @@ export const Services = () => {
             width: screenWidth < 450 ? "390px" : screenWidth >= 450 ? "1440px" : undefined,
           }}
         >
+           {openModal && (
+            <LeadForm
+              openModal={openModal}
+              setOpenModal={setOpenModal}
+              factor={factor}
+            />
+          )}
           <Header />
           <Header1 className="header-instance mobile-only" />
 

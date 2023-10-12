@@ -1,4 +1,4 @@
-import React,{useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import { useWindowWidth } from "../../breakpoints";
 import { Header1 } from "../../icons/Header1";
 import "./style.css";
@@ -7,28 +7,23 @@ import { Footer } from "../../components/shared/footer";
 
 export const Privacy = () => {
   const screenWidth = useWindowWidth();
-  const [height, setHeight] = useState(0)
+  const [factor, setFactor] = useState();
 
   useEffect(() => {
-    // console.log(window.innerWidth);
     if (window.innerWidth > 450) {
-      const el = document.querySelector('.footer-2-shared');
-      setHeight(el.getBoundingClientRect().bottom);
-      document.querySelector(".iphone").style.transform = `scale(${window.innerWidth / 1430})`;
-      document.querySelector(".iphone").style.transformOrigin = `top left`;
+      setFactor(window.innerWidth / 1440);
     } else {
-      const el = document.querySelector('.footer-3-shared');
-      setHeight(el.getBoundingClientRect().bottom);
-      document.querySelector(".iphone").style.transform = `scale(${window.innerWidth / 390})`;
-      document.querySelector(".iphone").style.transformOrigin = `top left`;
+      setFactor(window.innerWidth / 390);
     }
+    document.querySelector(".iphone").style.transform = `scaleX(${factor})`;
+    document.querySelector("#app").style.transform = `scaleY(${factor})`;
+    document.querySelector(".iphone").style.transformOrigin = `top left`;
+    document.querySelector("#app").style.transformOrigin = `top left`;
   });
-
   return (
     <div
       className="privacy"
       style={{
-        height: height,
         backgroundColor: screenWidth < 450 ? "#ffffff" : screenWidth >= 450 ? "#f6f7f8" : undefined,
       }}
     >

@@ -13,29 +13,32 @@ import { LeadForm } from "../../components/shared/LeadForm";
 export const ItServices = () => {
   const screenWidth = useWindowWidth();
   const [openModal, setOpenModal] = useState(false);
-  const [height, setHeight] = useState(0)
+  const [factor, setFactor] = useState();
 
   useEffect(() => {
-    // console.log(window.innerWidth);
     if (window.innerWidth > 450) {
-      const el = document.querySelector('.footer-2-shared');
-      setHeight(el.getBoundingClientRect().bottom);
-      document.querySelector(".iphone").style.transform = `scale(${window.innerWidth / 1430})`;
-      document.querySelector(".iphone").style.transformOrigin = `top left`;
+      setFactor(window.innerWidth / 1440);
     } else {
-      const el = document.querySelector('.footer-3-shared');
-      setHeight(el.getBoundingClientRect().bottom);
-      document.querySelector(".iphone").style.transform = `scale(${window.innerWidth / 390})`;
-      document.querySelector(".iphone").style.transformOrigin = `top left`;
+      setFactor(window.innerWidth / 390);
     }
+    document.querySelector(".iphone").style.transform = `scaleX(${factor})`;
+    document.querySelector("#app").style.transform = `scaleY(${factor})`;
+    document.querySelector(".iphone").style.transformOrigin = `top left`;
+    document.querySelector("#app").style.transformOrigin = `top left`;
   });
+
+  useEffect(() => {
+    if (openModal) {
+      document.querySelector("body").style.overflow = "hidden";
+    }
+    else {
+      document.querySelector("body").style.overflow = "auto";
+    }
+  }, [openModal])
 
   return (
     <>
-      {openModal &&
-        <LeadForm openModal={openModal} setOpenModal={setOpenModal} />
-      }
-      <div className="itservices" style={{height: height}}>
+      <div className="itservices" >
         <div
           className="iphone"
           style={{
@@ -43,6 +46,13 @@ export const ItServices = () => {
             width: screenWidth < 450 ? "390px" : screenWidth >= 450 ? "1440px" : undefined,
           }}
         >
+           {openModal && (
+            <LeadForm
+              openModal={openModal}
+              setOpenModal={setOpenModal}
+              factor={factor}
+            />
+          )}
           <Header />
           <Header1 className="header mobile" />
           <div className="mobile-only">
@@ -249,7 +259,7 @@ export const ItServices = () => {
                           <p className="are-we-a-good-fit">
                             Are we a good fit for your company&#39;s challenges? Let’s talk it out today
                           </p>
-                          <button className="CTA-14" onClick={()=> setOpenModal(true)}>
+                          <button className="CTA-14" onClick={() => setOpenModal(true)}>
                             <div className="text-wrapper-25">Schedule a call now</div>
                             <img className="arrow-forward-3" alt="Arrow forward" src="/it/arrow-forward-73.svg" />
                           </button>
@@ -369,7 +379,7 @@ export const ItServices = () => {
                         <img className="arrow-forward-3" alt="Arrow forward" src="/it/arrow-forward-61.svg" />
                       </button>
                     </div>
-                    <button className="CTA-20" onClick={()=> setOpenModal(true)}>
+                    <button className="CTA-20" onClick={() => setOpenModal(true)}>
                       <div className="text-wrapper-25">Schedule a call now</div>
                       <img className="arrow-forward-3" alt="Arrow forward" src="/it/arrow-forward-62.svg" />
                     </button>

@@ -13,32 +13,34 @@ import { LeadForm } from "../../components/shared/LeadForm";
 export const Hire = () => {
   const screenWidth = useWindowWidth();
   const [openModal, setOpenModal] = useState(false);
-  const[height, setHeight] = useState(0)
+  const [factor, setFactor] = useState();
 
   useEffect(() => {
-    // console.log(window.innerWidth);
     if (window.innerWidth > 450) {
-      const el = document.querySelector('.footer-2-shared');
-      setHeight(el.getBoundingClientRect().bottom);
-      document.querySelector(".div-2").style.transform = `scale(${window.innerWidth / 1430})`;
-      document.querySelector(".div-2").style.transformOrigin = `top left`;
+      setFactor(window.innerWidth / 1440);
     } else {
-      const el = document.querySelector('.footer-3-shared');
-      setHeight(el.getBoundingClientRect().bottom);
-      document.querySelector(".div-2").style.transform = `scale(${window.innerWidth / 390})`;
-      document.querySelector(".div-2").style.transformOrigin = `top left`;
+      setFactor(window.innerWidth / 390);
     }
+    document.querySelector(".div-2").style.transform = `scaleX(${factor})`;
+    document.querySelector("#app").style.transform = `scaleY(${factor})`;
+    document.querySelector(".div-2").style.transformOrigin = `top left`;
+    document.querySelector("#app").style.transformOrigin = `top left`;
   });
+
+  useEffect(() => {
+    if (openModal) {
+      document.querySelector("body").style.overflow = "hidden";
+    }
+    else {
+      document.querySelector("body").style.overflow = "auto";
+    }
+  }, [openModal])
 
   return (
     <>
-      {openModal &&
-        <LeadForm openModal={openModal} setOpenModal={setOpenModal} />
-      }
       <div
         className="hire"
         style={{
-          height: height,
           backgroundColor: screenWidth < 450 ? "#ffffff" : screenWidth >= 450 ? "#f6f7f8" : undefined,
         }}
       >
@@ -50,6 +52,13 @@ export const Hire = () => {
             width: screenWidth < 450 ? "390px" : screenWidth >= 450 ? "1440px" : undefined,
           }}
         >
+          {openModal && (
+            <LeadForm
+              openModal={openModal}
+              setOpenModal={setOpenModal}
+              factor={factor}
+            />
+          )}
           <Header />
           <Header1 className="header mobile-only" />
           <div className="mobile-only">
@@ -716,7 +725,7 @@ export const Hire = () => {
                   </p>
                   <PropertyDefaultWrapper
                     arrowForward={
-                        "/hire/arrow-forward-59.svg"
+                      "/hire/arrow-forward-59.svg"
                     }
                     arrowForwardClassName={`${screenWidth < 450 && "class-3"}`}
                     className={`${screenWidth < 450 && "class"} ${screenWidth >= 450 && "class-2"}`}
@@ -881,7 +890,7 @@ export const Hire = () => {
                         <p className="are-we-a-good-fit">
                           Are we a good fit for your company&#39;s challenges? Let’s talk it out today
                         </p>
-                        <button className="CTA-7" onClick={()=> setOpenModal(true)}>
+                        <button className="CTA-7" onClick={() => setOpenModal(true)}>
                           <div className="text-wrapper-57">Schedule a call now</div>
                           <img className="arrow-forward-4" alt="Arrow forward" src="/hire/arrow-forward-62.svg" />
                         </button>
@@ -996,7 +1005,7 @@ export const Hire = () => {
                         <img className="arrow-forward-4" alt="Arrow forward" src="/hire/arrow-forward-68.svg" />
                       </button>
                     </div>
-                    <button className="CTA-9" onClick={()=> setOpenModal(true)}>
+                    <button className="CTA-9" onClick={() => setOpenModal(true)}>
                       <div className="text-wrapper-57">Schedule a call now</div>
                       <img className="arrow-forward-4" alt="Arrow forward" src="/hire/arrow-forward-69.svg" />
                     </button>

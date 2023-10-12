@@ -10,7 +10,6 @@ import * as Yup from 'yup';
 
 export const Careers = () => {
   const screenWidth = useWindowWidth();
-  const [height, setHeight] = useState(0);
 
   const validationSchema = Yup.object().shape({
     name: Yup.string().required("Name is Required."),
@@ -18,23 +17,22 @@ export const Careers = () => {
     cv: Yup.mixed().required("Please attach your cv.")
   })
 
+  const [factor, setFactor] = useState();
+
   useEffect(() => {
-    // console.log(window.innerWidth);
     if (window.innerWidth > 450) {
-      const el = document.querySelector('.footer-2-shared');
-      setHeight(el.getBoundingClientRect().bottom);
-      document.querySelector(".iphone").style.transform = `scale(${window.innerWidth / 1430})`;
-      document.querySelector(".iphone").style.transformOrigin = `top left`;
+      setFactor(window.innerWidth / 1440);
     } else {
-      const el = document.querySelector('.footer-3-shared');
-      setHeight(el.getBoundingClientRect().bottom);
-      document.querySelector(".iphone").style.transform = `scale(${window.innerWidth / 390})`;
-      document.querySelector(".iphone").style.transformOrigin = `top left`;
+      setFactor(window.innerWidth / 390);
     }
+    document.querySelector(".iphone").style.transform = `scaleX(${factor})`;
+    document.querySelector("#app").style.transform = `scaleY(${factor})`;
+    document.querySelector(".iphone").style.transformOrigin = `top left`;
+    document.querySelector("#app").style.transformOrigin = `top left`;
   });
 
   return (
-    <div className="careers" style={{ height: height }}>
+    <div className="careers" >
       <div
         className="iphone"
         style={{

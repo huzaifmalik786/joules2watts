@@ -7,25 +7,23 @@ import { Footer } from "../../components/shared/footer";
 
 export const Leadership = () => {
   const screenWidth = useWindowWidth();
-  const [height, setHeight] = useState(0)
+  const [factor, setFactor] = useState();
 
   useEffect(() => {
-    // console.log(window.innerWidth);
     if (window.innerWidth > 450) {
-      const el = document.querySelector('.footer-2-shared');
-      setHeight(el.getBoundingClientRect().bottom);
-      document.querySelector(".iphone").style.transform = `scale(${window.innerWidth / 1430})`;
-      document.querySelector(".iphone").style.transformOrigin = `top left`;
+      setFactor(window.innerWidth / 1440);
     } else {
-      const el = document.querySelector('.footer-3-shared');
-      setHeight(el.getBoundingClientRect().bottom);
-      document.querySelector(".iphone").style.transform = `scale(${window.innerWidth / 390})`;
-      document.querySelector(".iphone").style.transformOrigin = `top left`;
+      setFactor(window.innerWidth / 390);
     }
+    document.querySelector(".iphone").style.transform = `scaleX(${factor})`;
+    document.querySelector("#app").style.transform = `scaleY(${factor})`;
+    document.querySelector(".iphone").style.transformOrigin = `top left`;
+    document.querySelector("#app").style.transformOrigin = `top left`;
   });
 
+
   return (
-    <div className="leadership" style={{height: height}}>
+    <div className="leadership" >
       <div
         className="iphone"
         style={{
@@ -159,7 +157,7 @@ export const Leadership = () => {
         <div className="mobile-only">
           <div className="frame-16">
             <div className="frame-13">
-              <img className="element-2" alt="Element" src="/about/man.png" />
+              <img className="element-2" alt="Element" src="/about/man.webp" />
               <div className="frame-14">
                 <div className="frame-15">
                   <div className="text-wrapper-15">BM Gupta</div>
@@ -211,7 +209,7 @@ export const Leadership = () => {
         <div className="desktop-only">
           <div className="frame-22">
             <div className="frame-10">
-              <img className="element" alt="Element" src="/about/man.png" />
+              <img className="element" alt="Element" src="/about/man.webp" />
               <div className="frame-11">
                 <div className="frame-12">
                   <div className="text-wrapper-21">BM Gupta</div>

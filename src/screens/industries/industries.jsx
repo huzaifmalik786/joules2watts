@@ -9,30 +9,32 @@ import { LeadForm } from "../../components/shared/LeadForm";
 
 export const Industries = () => {
   const screenWidth = useWindowWidth();
-  const [openModal, setOpenModal]= useState(false);
-  const [height, setHeight] = useState(0)
+  const [openModal, setOpenModal] = useState(false);
+  const [factor, setFactor] = useState();
 
   useEffect(() => {
-    // console.log(window.innerWidth);
     if (window.innerWidth > 450) {
-      const el = document.querySelector('.footer-2-shared');
-      setHeight(el.getBoundingClientRect().bottom);
-      document.querySelector(".iphone").style.transform = `scale(${window.innerWidth / 1430})`;
-      document.querySelector(".iphone").style.transformOrigin = `top left`;
+      setFactor(window.innerWidth / 1440);
     } else {
-      const el = document.querySelector('.footer-3-shared');
-      setHeight(el.getBoundingClientRect().bottom);
-      document.querySelector(".iphone").style.transform = `scale(${window.innerWidth / 390})`;
-      document.querySelector(".iphone").style.transformOrigin = `top left`;
+      setFactor(window.innerWidth / 390);
     }
+    document.querySelector(".iphone").style.transform = `scaleX(${factor})`;
+    document.querySelector("#app").style.transform = `scaleY(${factor})`;
+    document.querySelector(".iphone").style.transformOrigin = `top left`;
+    document.querySelector("#app").style.transformOrigin = `top left`;
   });
 
+  useEffect(() => {
+    if (openModal) {
+      document.querySelector("body").style.overflow = "hidden";
+    }
+    else {
+      document.querySelector("body").style.overflow = "auto";
+    }
+  }, [openModal])
   return (
     <>
-      {openModal &&
-        <LeadForm openModal={openModal} setOpenModal={setOpenModal} />
-      }
-      <div className="industries" style={{height: height}}>
+      <div className="industries" >
         <div
           className="iphone"
           style={{
@@ -40,6 +42,13 @@ export const Industries = () => {
             width: screenWidth < 450 ? "390px" : screenWidth >= 450 ? "1440px" : undefined,
           }}
         >
+          {openModal && (
+            <LeadForm
+              openModal={openModal}
+              setOpenModal={setOpenModal}
+              factor={factor}
+            />
+          )}
           <Header />
           <div
             className="overlap"
@@ -269,7 +278,7 @@ export const Industries = () => {
               </div>
               <img className="OLX-logo-2" alt="Olx logo" src="/industries/olx-logo-1.png" />
               <img className="element-lam-2" alt="Element lam" src="/industries/14-lam-1.webp" />
-              <button className="CTA-2" onClick={()=> setOpenModal(true)}>
+              <button className="CTA-2" onClick={() => setOpenModal(true)}>
                 <div className="text-wrapper-35">Schedule a call now</div>
                 <img className="arrow-forward" alt="Arrow forward" src="/industries/arrow-forward-155.svg" />
               </button>
