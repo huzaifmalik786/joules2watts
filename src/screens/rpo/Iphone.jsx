@@ -318,39 +318,41 @@ export const RPO = () => {
                 </div>
               </div>
             </div>
-
-            <div className="frame-34 mobile-only">
-              <div className="frame-35">
-                <div className="frame-36">
-                  <img className="group-7" alt="Group" src="/rpo/group-8800.png" />
-                  <div className="text-wrapper-27">Best-in-class Technology</div>
+            <div className="mobile-only">
+              <div className="frame-34">
+                <div className="frame-35">
+                  <div className="frame-36">
+                    <img className="group-7" alt="Group" src="/rpo/group-8800.png" />
+                    <div className="text-wrapper-27">Best-in-class Technology</div>
+                  </div>
+                  <div className="frame-37">
+                    <img className="group-8" alt="Group" src="/rpo/group-25.png" />
+                    <div className="text-wrapper-28">Seamless Compliance</div>
+                  </div>
                 </div>
-                <div className="frame-37">
-                  <img className="group-8" alt="Group" src="/rpo/group-25.png" />
-                  <div className="text-wrapper-28">Seamless Compliance</div>
+                <div className="frame-35">
+                  <div className="frame-37">
+                    <img className="group-9" alt="Group" src="/rpo/group-8804.png" />
+                    <div className="text-wrapper-29">Global Reach</div>
+                  </div>
+                  <div className="frame-37">
+                    <img className="group-10" alt="Group" src="/rpo/group-8803.png" />
+                    <div className="text-wrapper-30">Scalability</div>
+                  </div>
                 </div>
-              </div>
-              <div className="frame-35">
-                <div className="frame-37">
-                  <img className="group-9" alt="Group" src="/rpo/group-8804.png" />
-                  <div className="text-wrapper-29">Global Reach</div>
-                </div>
-                <div className="frame-37">
-                  <img className="group-10" alt="Group" src="/rpo/group-8803.png" />
-                  <div className="text-wrapper-30">Scalability</div>
-                </div>
-              </div>
-              <div className="frame-38">
-                <div className="frame-37">
-                  <img className="group-11" alt="Group" src="/rpo/group-8801.png" />
-                  <div className="text-wrapper-30">Flexibility</div>
-                </div>
-                <div className="frame-37">
-                  <img className="group-12" alt="Group" src="/rpo/group-8802.png" />
-                  <div className="text-wrapper-31">Enhanced candidate experience</div>
+                <div className="frame-38">
+                  <div className="frame-37">
+                    <img className="group-11" alt="Group" src="/rpo/group-8801.png" />
+                    <div className="text-wrapper-30">Flexibility</div>
+                  </div>
+                  <div className="frame-37">
+                    <img className="group-12" alt="Group" src="/rpo/group-8802.png" />
+                    <div className="text-wrapper-31">Enhanced candidate experience</div>
+                  </div>
                 </div>
               </div>
             </div>
+
           </div>
           <div className="carousel-2 mobile-only">
             <div className="frame-39">
@@ -615,7 +617,7 @@ export const RPO = () => {
                 </div>
               </>
 
-              <div className="desktop-only">
+              <div className="desktop-only" style={{display:"flex", flexDirection:"column", alignItems:"center"}}>
                 <img className="group-19" alt="Group" src="/rpo/group-8800-1.png" />
                 <div className="text-wrapper-47">Best-in-class Technology</div>
               </div>
