@@ -35,3 +35,10 @@
     letter-spacing: -0.14px;
     text-transform: capitalize;
 }
+
+@media (max-width: 450px) {
+    .solutiondropdown {
+        top: 90px;
+
+    }
+}

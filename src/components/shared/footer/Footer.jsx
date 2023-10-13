@@ -2,10 +2,12 @@ import React, { useState } from 'react'
 import "./style.css"
 import { useWindowWidth } from '../../../breakpoints'
 import { Link } from 'react-router-dom';
+import { PlatformDropdown } from '../platformDropdown';
 
 
 export const Footer = () => {
     const screenWidth = useWindowWidth();
+    const [platformSolutions, setPlatformSolutions] = useState(false);
     return (
         <>
             <div
@@ -23,7 +25,10 @@ export const Footer = () => {
                             <Link to="/services-overview">
                                 <div className="text-wrapper-29-shared">Services</div>
                             </Link>
-                            <div className="text-wrapper-29-shared">Platforms</div>
+                            <button className="text-wrapper-29-shared" style={{ background: "transparent", border: 'none', outline: 'none' }} onClick={() => setPlatformSolutions(!platformSolutions)}>Platforms</button>
+                            {platformSolutions &&
+                                <PlatformDropdown OpenSolutions={platformSolutions} setOpenSolutions={setPlatformSolutions} />
+                            }
                             <Link to="/about-us">
                                 <div className="text-wrapper-29-shared">About</div>
                             </Link>
@@ -141,7 +146,10 @@ export const Footer = () => {
                             <Link to="/services-overview">
                                 <div className="text-wrapper-29-shared">Services</div>
                             </Link>
-                            <div className="text-wrapper-53-shared">Platforms</div>
+                            <button className="text-wrapper-53-shared" style={{ background: "transparent", border: 'none', outline: 'none' }} onClick={() => setPlatformSolutions(!platformSolutions)}>Platforms</button>
+                            {platformSolutions &&
+                                <PlatformDropdown OpenSolutions={platformSolutions} setOpenSolutions={setPlatformSolutions} />
+                            }
                             <Link to="/about-us">
                                 <div className="text-wrapper-53-shared">About</div>
                             </Link>

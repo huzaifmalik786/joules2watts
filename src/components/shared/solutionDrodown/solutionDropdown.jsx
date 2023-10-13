@@ -35,19 +35,19 @@ const items = [
 
 export const SolutionDropdown = (props) => {
     const ref = useRef();
-    useEffect(() => {
-        const handleClickOutside = (event) => {
-            if (!ref?.current?.contains(event.target)) {
-                props.setOpenSolutions(false)
-            }
-        };
-        document.addEventListener("mousedown", handleClickOutside);
-    }, [ref]);
+    // useEffect(() => {
+    //     const handleClickOutside = (event) => {
+    //         if (!ref?.current?.contains(event.target)) {
+    //             props.setOpenSolutions(false)
+    //         }
+    //     };
+    //     document.addEventListener("mousedown", handleClickOutside);
+    // }, [ref]);
     return (
-        <div className='solutiondropdown' ref={ref}>
+        <div className='solutiondropdown' id="dropdown1" ref={ref}>
             {items.map((item, index) => {
                 return (
-                    <Link to={item.link}>
+                    <Link to={item.link} key={index}>
                         <div className='nav-item'>
                             <p>{item.name}</p>
                         </div>

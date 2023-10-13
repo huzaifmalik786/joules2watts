@@ -535,18 +535,32 @@
 
 .rpo .frame-15 {
   height: 550px;
+  width: 100%;
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 24px;
+  overflow: hidden;
+  flex: none;
+}
+
+.frame-15-scroller {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+}
+
+.frame-15-position {
   left: 18px;
   position: absolute;
+  width: 390px;
+  overflow: scroll;
   top: 1298px;
-  width: 935px;
 }
 
 .rpo .group-wrapper {
   box-shadow: 0px 4px 15px #0000001c;
   height: 550px;
-  left: 0;
-  position: absolute;
-  top: 0;
   width: 300px;
 }
 
@@ -651,18 +665,17 @@
 .rpo .group-3 {
   box-shadow: 0px 4px 15px #0000001c;
   height: 550px;
-  left: 318px;
-  position: absolute;
-  top: 0;
   width: 300px;
 }
 
 .rpo .rectangle-6 {
+  background: #297C75;
+  border-radius: 8px;
   height: 196px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 54px;
+  width: 100%;
 }
 
 .rpo .frame-19 {
@@ -743,9 +756,6 @@
 .rpo .group-4 {
   box-shadow: 0px 4px 15px #0000001c;
   height: 550px;
-  left: 636px;
-  position: absolute;
-  top: 0;
   width: 300px;
 }
 
@@ -1067,6 +1077,7 @@
   align-items: center;
   display: inline-flex;
   flex: 0 0 auto;
+  margin-left: 58px;
   flex-direction: column;
   gap: 51px;
   position: relative;
@@ -1360,12 +1371,7 @@
 }
 
 .rpo .rectangle-9 {
-  background: linear-gradient(180deg,
-      rgb(88, 153.05, 147.5) 0%,
-      rgb(77, 159, 152) 22.4%,
-      rgb(77, 159, 152) 64.73%,
-      rgba(251.81, 251.81, 251.81, 0) 100%);
-  filter: blur(80px);
+  background: linear-gradient(90deg, #589993 5.95%, #4D9F98 20.62%, #4D9F98 48.33%, rgba(252, 252, 252, 0.00) 71.42%);
   height: 687px;
   left: -118px;
   position: absolute;

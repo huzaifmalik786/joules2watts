@@ -60,7 +60,7 @@ export const Administrative = () => {
             width: screenWidth < 450 ? "390px" : screenWidth >= 450 ? "1440px" : undefined,
           }}
         >
-           {openModal && (
+          {openModal && (
             <LeadForm
               openModal={openModal}
               setOpenModal={setOpenModal}
@@ -221,65 +221,67 @@ export const Administrative = () => {
                   link="/contact-us"
                 />
               </div>
-
               <div className="mobile-only">
-                <div className="frame-22">
-                  <div className="frame-23">
-                    <div className="img-wrapper">
-                      <img className="payroll" alt="Payroll" src="/administrative/payroll.png" />
+                <div style={{display:"flex", flexDirection:"column", gap: 30}}>
+                  <div className="frame-22">
+                    <div className="frame-23">
+                      <div className="img-wrapper">
+                        <img className="payroll" alt="Payroll" src="/administrative/payroll.png" />
+                      </div>
+                      <div className="text-wrapper-26">Payroll processing</div>
                     </div>
-                    <div className="text-wrapper-26">Payroll processing</div>
+                    <div className="frame-24">
+                      <div className="img-wrapper">
+                        <img className="accounting" alt="Accounting" src="/administrative/accounting.png" />
+                      </div>
+                      <div className="text-wrapper-27">TDS Processing</div>
+                    </div>
                   </div>
-                  <div className="frame-24">
-                    <div className="img-wrapper">
-                      <img className="accounting" alt="Accounting" src="/administrative/accounting.png" />
+                  <div className="frame-22">
+                    <div className="frame-24">
+                      <div className="img-wrapper">
+                        <img className="name-tag" alt="Name tag" src="/administrative/name-tag.png" />
+                      </div>
+                      <div className="text-wrapper-28">Employee self services</div>
                     </div>
-                    <div className="text-wrapper-27">TDS Processing</div>
+                    <div className="frame-24">
+                      <div className="img-wrapper">
+                        <img className="money-yours" alt="Money yours" src="/administrative/money-yours.png" />
+                      </div>
+                      <div className="text-wrapper-29">Professional tax</div>
+                    </div>
                   </div>
-                </div>
-                <div className="frame-22">
-                  <div className="frame-24">
-                    <div className="img-wrapper">
-                      <img className="name-tag" alt="Name tag" src="/administrative/name-tag.png" />
+                  <div className="frame-22">
+                    <div className="frame-24">
+                      <div className="img-wrapper">
+                        <img className="file" alt="File" src="/administrative/file.png" />
+                      </div>
+                      <div className="text-wrapper-27">EPF &amp; MP Act</div>
                     </div>
-                    <div className="text-wrapper-28">Employee self services</div>
+                    <div className="frame-24">
+                      <div className="img-wrapper">
+                        <img className="insurance-agent" alt="Insurance agent" src="/administrative/insurance-agent.png" />
+                      </div>
+                      <div className="text-wrapper-30">Employee State Insurance Act</div>
+                    </div>
                   </div>
-                  <div className="frame-24">
-                    <div className="img-wrapper">
-                      <img className="money-yours" alt="Money yours" src="/administrative/money-yours.png" />
+                  <div className="frame-22">
+                    <div className="frame-24">
+                      <div className="img-wrapper">
+                        <img className="worker" alt="Worker" src="/administrative/worker.png" />
+                      </div>
+                      <div className="text-wrapper-31">Labour welfare fund</div>
                     </div>
-                    <div className="text-wrapper-29">Professional tax</div>
-                  </div>
-                </div>
-                <div className="frame-22">
-                  <div className="frame-24">
-                    <div className="img-wrapper">
-                      <img className="file" alt="File" src="/administrative/file.png" />
+                    <div className="frame-24">
+                      <div className="img-wrapper">
+                        <img className="shop" alt="Shop" src="/administrative/shop.png" />
+                      </div>
+                      <div className="text-wrapper-27">Shop establishment</div>
                     </div>
-                    <div className="text-wrapper-27">EPF &amp; MP Act</div>
-                  </div>
-                  <div className="frame-24">
-                    <div className="img-wrapper">
-                      <img className="insurance-agent" alt="Insurance agent" src="/administrative/insurance-agent.png" />
-                    </div>
-                    <div className="text-wrapper-30">Employee State Insurance Act</div>
-                  </div>
-                </div>
-                <div className="frame-22">
-                  <div className="frame-24">
-                    <div className="img-wrapper">
-                      <img className="worker" alt="Worker" />
-                    </div>
-                    <div className="text-wrapper-31">Labour welfare fund</div>
-                  </div>
-                  <div className="frame-24">
-                    <div className="img-wrapper">
-                      <img className="shop" alt="Shop" src="/administrative/shop.png" />
-                    </div>
-                    <div className="text-wrapper-27">Shop establishment</div>
                   </div>
                 </div>
               </div>
+
             </div>
             <div className="frame-25 mobile-only">
               <div className="text-wrapper-32">Three pronged approach</div>
@@ -349,7 +351,6 @@ export const Administrative = () => {
           <div className="carousel-2 mobile-only">
             <div className="frame-32">
               <div className="overlap-group-5">
-                <img className="rectangle-8" alt="Rectangle" />
                 <div className="frame-33">
                   <div className="linkedin" />
                 </div>
@@ -467,8 +468,8 @@ export const Administrative = () => {
                 top: screenWidth < 450 ? "366px" : screenWidth >= 450 ? "94px" : undefined,
               }}
             >
-              <div className="mobile-only">
-                <div className="frame-46">
+              <>
+                <div className="frame-46 mobile-only">
                   <div className="frame-47">
                     <div className="text-wrapper-43">Ready to get started?</div>
                     <p className="text-wrapper-44">
@@ -477,7 +478,7 @@ export const Administrative = () => {
                     </p>
                   </div>
                 </div>
-                <div className="group-5">
+                <div className="group-5 mobile-only">
                   <div className="frame-48">
                     <div className="overlap-group-7">
                       <div className="frame-49">
@@ -493,7 +494,7 @@ export const Administrative = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </>
 
               <div className="frame-50 desktop-only" />
             </div>

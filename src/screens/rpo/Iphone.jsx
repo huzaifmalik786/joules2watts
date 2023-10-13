@@ -45,7 +45,7 @@ export const RPO = () => {
             width: screenWidth < 450 ? "390px" : screenWidth >= 450 ? "1440px" : undefined,
           }}
         >
-           {openModal && (
+          {openModal && (
             <LeadForm
               openModal={openModal}
               setOpenModal={setOpenModal}
@@ -133,120 +133,110 @@ export const RPO = () => {
                     process
                   </p>
                 </div>
-                <div className="frame-15">
-                  <div className="group-wrapper">
-                    <div className="group-2">
-                      <div className="overlap-group-4">
-                        <img className="rectangle-5" alt="Rectangle" src="/rpo/rectangle-125-6.svg" />
-                        <div className="frame-16">
-                          <div className="frame-17">
-                            <img className="vector" alt="Vector" src="/rpo/vector-9.svg" />
-                            <div className="text-wrapper-17">Demand Management</div>
-                          </div>
-                          <div className="frame-17">
-                            <img className="vector" alt="Vector" src="/rpo/vector-9.svg" />
-                            <div className="text-wrapper-17">Sourcing</div>
-                          </div>
-                          <div className="frame-17">
-                            <img className="vector" alt="Vector" src="/rpo/vector-9.svg" />
-                            <div className="text-wrapper-17">Validation</div>
-                          </div>
-                          <div className="frame-17">
-                            <img className="vector" alt="Vector" src="/rpo/vector-9.svg" />
-                            <div className="text-wrapper-17">Interview management</div>
-                          </div>
-                          <div className="frame-17">
-                            <img className="vector" alt="Vector" src="/rpo/vector-9.svg" />
-                            <div className="text-wrapper-17">Onboarding support</div>
-                          </div>
-                          <div className="frame-17">
-                            <img className="vector" alt="Vector" src="/rpo/vector-9.svg" />
-                            <div className="frame-18">
-                              <div className="systems-process">Systems &amp; Process Implementation</div>
+                <div className="frame-15-position">
+                  <div className="frame-15-scroller">
+                    <div className="frame-15">
+                      <div className="group-wrapper">
+                        <div className="group-2">
+                          <div className="overlap-group-4">
+                            <img className="rectangle-5" alt="Rectangle" src="/rpo/rectangle-125-6.svg" />
+                            <div className="frame-16">
+                              <div className="frame-17">
+                                <img className="vector" alt="Vector" src="/rpo/vector-9.svg" />
+                                <div className="text-wrapper-17">Demand Management</div>
+                              </div>
+                              <div className="frame-17">
+                                <img className="vector" alt="Vector" src="/rpo/vector-9.svg" />
+                                <div className="text-wrapper-17">Sourcing</div>
+                              </div>
+                              <div className="frame-17">
+                                <img className="vector" alt="Vector" src="/rpo/vector-9.svg" />
+                                <div className="text-wrapper-17">Validation</div>
+                              </div>
+                              <div className="frame-17">
+                                <img className="vector" alt="Vector" src="/rpo/vector-9.svg" />
+                                <div className="text-wrapper-17">Interview management</div>
+                              </div>
+                              <div className="frame-17">
+                                <img className="vector" alt="Vector" src="/rpo/vector-9.svg" />
+                                <div className="text-wrapper-17">Onboarding support</div>
+                              </div>
+                              <div className="frame-17">
+                                <img className="vector" alt="Vector" src="/rpo/vector-9.svg" />
+                                <div className="frame-18">
+                                  <div className="systems-process">Systems &amp; Process Implementation</div>
+                                </div>
+                              </div>
+                              <div className="frame-17">
+                                <img className="vector" alt="Vector" src="/rpo/vector-9.svg" />
+                                <div className="text-wrapper-17">SLA management</div>
+                              </div>
                             </div>
+                            <div className="text-wrapper-18">Recruiting Resource Outsourcing</div>
                           </div>
-                          <div className="frame-17">
-                            <img className="vector" alt="Vector" src="/rpo/vector-9.svg" />
-                            <div className="text-wrapper-17">SLA management</div>
-                          </div>
-                        </div>
-                        <div className="text-wrapper-18">Recruiting Resource Outsourcing</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="group-3">
-                    <div className="group-2">
-                      <div className="overlap-group-4">
-                        <img className="rectangle-6" alt="Rectangle" src="/rpo/rectangle-125-7.svg" />
-                        <div className="frame-19">
-                          <div className="frame-20">
-                            <img className="vector" alt="Vector" src="/rpo/vector-9.svg" />
-                            <div className="partner-s-submission">Partner&#39;s submission management</div>
-                          </div>
-                          <div className="frame-20">
-                            <img className="vector" alt="Vector" src="/rpo/vector-9.svg" />
-                            <div className="text-wrapper-17">Validation</div>
-                          </div>
-                          <div className="frame-20">
-                            <img className="vector" alt="Vector" src="/rpo/vector-9.svg" />
-                            <div className="text-wrapper-17">Interview scheduling</div>
-                          </div>
-                          <div className="frame-20">
-                            <img className="vector" alt="Vector" src="/rpo/vector-9.svg" />
-                            <div className="text-wrapper-17">Interview coordination</div>
-                          </div>
-                          <div className="frame-20">
-                            <img className="vector" alt="Vector" src="/rpo/vector-9.svg" />
-                            <div className="text-wrapper-17">Feedback coordination</div>
-                          </div>
-                          <div className="frame-21">
-                            <img className="vector" alt="Vector" src="/rpo/vector-9.svg" />
-                            <div className="selection-onboarding">Selection &amp; Onboarding support</div>
-                          </div>
-                        </div>
-                        <p className="contractor">Contractor Submission &amp; Interview Management</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="group-4">
-                    <div className="group-5">
-                      <img className="rectangle-7" alt="Rectangle" src="/rpo/rectangle-125-8.png" />
-                      <div className="frame-16">
-                        <div className="frame-17">
-                          <img className="vector-2" alt="Vector" src="/rpo/rectangle-125-8.png" />
-                          <div className="text-wrapper-17">Demand Management</div>
-                        </div>
-                        <div className="frame-17">
-                          <img className="vector-3" alt="Vector" src="/rpo/rectangle-125-8.png" />
-                          <div className="text-wrapper-17">Sourcing</div>
-                        </div>
-                        <div className="frame-17">
-                          <img className="vector-4" alt="Vector" src="/rpo/rectangle-125-8.png" />
-                          <div className="text-wrapper-17">Validation</div>
-                        </div>
-                        <div className="frame-17">
-                          <img className="vector-5" alt="Vector" src="/rpo/rectangle-125-8.png" />
-                          <div className="text-wrapper-17">Interview management</div>
-                        </div>
-                        <div className="frame-17">
-                          <img className="vector-6" alt="Vector" src="/rpo/rectangle-125-8.png" />
-                          <div className="text-wrapper-17">Onboarding support</div>
-                        </div>
-                        <div className="frame-17">
-                          <img className="vector-7" alt="Vector" src="/rpo/rectangle-125-8.png" />
-                          <div className="frame-18">
-                            <div className="systems-process">Systems &amp; Process Implementation</div>
-                          </div>
-                        </div>
-                        <div className="frame-17">
-                          <img className="vector-8" alt="Vector" src="/rpo/rectangle-125-8.png" />
-                          <div className="text-wrapper-17">SLA management</div>
                         </div>
                       </div>
-                      <div className="text-wrapper-18">Internal Job Posting Coordination</div>
+                      <div className="group-3">
+                        <div className="group-2">
+                          <div className="overlap-group-4">
+                            <div className="rectangle-6" />
+                            <div className="frame-19">
+                              <div className="frame-20">
+                                <img className="vector" alt="Vector" src="/rpo/vector-9.svg" />
+                                <div className="partner-s-submission">Partner&#39;s submission management</div>
+                              </div>
+                              <div className="frame-20">
+                                <img className="vector" alt="Vector" src="/rpo/vector-9.svg" />
+                                <div className="text-wrapper-17">Validation</div>
+                              </div>
+                              <div className="frame-20">
+                                <img className="vector" alt="Vector" src="/rpo/vector-9.svg" />
+                                <div className="text-wrapper-17">Interview scheduling</div>
+                              </div>
+                              <div className="frame-20">
+                                <img className="vector" alt="Vector" src="/rpo/vector-9.svg" />
+                                <div className="text-wrapper-17">Interview coordination</div>
+                              </div>
+                              <div className="frame-20">
+                                <img className="vector" alt="Vector" src="/rpo/vector-9.svg" />
+                                <div className="text-wrapper-17">Feedback coordination</div>
+                              </div>
+                              <div className="frame-21">
+                                <img className="vector" alt="Vector" src="/rpo/vector-9.svg" />
+                                <div className="selection-onboarding">Selection &amp; Onboarding support</div>
+                              </div>
+                            </div>
+                            <p className="contractor">Contractor Submission &amp; Interview Management</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="group-3">
+                        <div className="group-2">
+                          <div className="overlap-group-4">
+                            <div className="rectangle-6" style={{ background: "#2E5053" }} />
+                            <div className="frame-19">
+                              <div className="frame-20">
+                                <img className="vector" alt="Vector" src="/rpo/vector-9.svg" />
+                                <div className="partner-s-submission">Tracking  applicant</div>
+                              </div>
+                              <div className="frame-20">
+                                <img className="vector" alt="Vector" src="/rpo/vector-9.svg" />
+                                <div className="text-wrapper-17">Transfer coordination</div>
+                              </div>
+                              <div className="frame-20">
+                                <img className="vector" alt="Vector" src="/rpo/vector-9.svg" />
+                                <div className="text-wrapper-17">Internal interview <br /> coordination</div>
+                              </div>
+                            </div>
+                            <p className="contractor">Internal Job Posting Coordination</p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
+
+
               </div>
             </div>
             <div className="desktop-only">
@@ -365,7 +355,6 @@ export const RPO = () => {
           <div className="carousel-2 mobile-only">
             <div className="frame-39">
               <div className="overlap-group-6">
-                <img className="rectangle-8" alt="Rectangle" />
                 <div className="frame-40">
                   <div className="linkedin" />
                 </div>
@@ -550,43 +539,45 @@ export const RPO = () => {
                 </div>
               </div>
             </div>
-
-            <div className="frame-63 mobile-only">
-              <div className="overlap-group-9">
-                <div className="rectangle-15" />
-                <div className="frame-64">
-                  <div className="frame-30">
-                    <div className="frame-31">
-                      <div className="frame-32">
-                        <div className="frame-18">
-                          <p className="text-wrapper-26">Trusted by Fortune 500 Clients</p>
+            <div className="mobile-only">
+              <div className="frame-63">
+                <div className="overlap-group-9">
+                  <div className="rectangle-15" />
+                  <div className="frame-64">
+                    <div className="frame-30">
+                      <div className="frame-31">
+                        <div className="frame-32">
+                          <div className="frame-18">
+                            <p className="text-wrapper-26">Trusted by Fortune 500 Clients</p>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="frame-33">
-                    <img
-                      className="mercedes-benz-logo-2"
-                      alt="Mercedes benz logo"
-                      src="/logos/mercedes-benz-logo-2010-1.png"
-                    />
-                    <img
-                      className="GE-healthcare-logo-2"
-                      alt="Ge healthcare logo"
-                      src="/logos/ge-healthcare-logo-1.png"
-                    />
-                    <img className="sony-logo-2" alt="Sony logo" src="/logos/sony-logo-1.png" />
-                    <img className="shell-logo-2" alt="Shell logo" src="/logos/shell-logo-1971-1995-1.png" />
-                    <img className="amazon-2" alt="Amazon" src="/logos/amazon-1-1.png" />
-                    <img
-                      className="wipro-logo-new-og-2"
-                      alt="Wipro logo new og"
-                      src="/logos/wipro-logo-new-og-502x263-1.png"
-                    />
+                    <div className="frame-33">
+                      <img
+                        className="mercedes-benz-logo-2"
+                        alt="Mercedes benz logo"
+                        src="/logos/mercedes-benz-logo-2010-1.png"
+                      />
+                      <img
+                        className="GE-healthcare-logo-2"
+                        alt="Ge healthcare logo"
+                        src="/logos/ge-healthcare-logo-1.png"
+                      />
+                      <img className="sony-logo-2" alt="Sony logo" src="/logos/sony-logo-1.png" />
+                      <img className="shell-logo-2" alt="Shell logo" src="/logos/shell-logo-1971-1995-1.png" />
+                      <img className="amazon-2" alt="Amazon" src="/logos/amazon-1-1.png" />
+                      <img
+                        className="wipro-logo-new-og-2"
+                        alt="Wipro logo new og"
+                        src="/logos/wipro-logo-new-og-502x263-1.png"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
+
 
             <div
               className="frame-65"
@@ -596,8 +587,8 @@ export const RPO = () => {
                 top: screenWidth < 450 ? "366px" : screenWidth >= 450 ? "1364px" : undefined,
               }}
             >
-              <div className="mobile-only">
-                <div className="frame-66">
+              <>
+                <div className="frame-66 mobile-only">
                   <div className="frame-67">
                     <div className="text-wrapper-44">Ready to get started?</div>
                     <p className="text-wrapper-45">
@@ -606,7 +597,7 @@ export const RPO = () => {
                     </p>
                   </div>
                 </div>
-                <div className="group-18">
+                <div className="group-18 mobile-only">
                   <div className="frame-68">
                     <div className="overlap-group-10">
                       <div className="frame-69">
@@ -622,7 +613,7 @@ export const RPO = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </>
 
               <div className="desktop-only">
                 <img className="group-19" alt="Group" src="/rpo/group-8800-1.png" />

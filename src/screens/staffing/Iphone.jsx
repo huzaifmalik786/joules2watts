@@ -957,7 +957,7 @@ export const Staffing = () => {
             <div className="overlap-21">
               <div className="frame-76">
                 <div className="row-4">
-                  <div className="box">
+                  <div className="box-2">
                     <img className="opened-folder" alt="Opened folder" src="/staffing/opened-folder.png" />
                     <div className="header-3">
                       <div className="text-wrapper-61">Employee Experience Zone:</div>
