@@ -750,7 +750,7 @@ export const Services = () => {
             <div className="rectangle-8" />
           </div>
 
-          {/* <div
+          <div
             className="frame-60"
             style={{
               height: screenWidth >= 450 ? "356px" : screenWidth < 450 ? "385px" : undefined,
@@ -863,37 +863,8 @@ export const Services = () => {
 
                 </div>
               </div>
-
-              <img className="BG-image mobile-only" alt="Bg image" src="/services/bg-image.webp" />
-
-              <div
-                className="UI-element mobile-only"
-                style={{
-                  borderRadius: screenWidth < 450 ? "8.2px" : screenWidth >= 450 ? "30px" : undefined,
-                  boxShadow:
-                    screenWidth < 450
-                      ? "0px 2.73px 27.32px #8a8a8a0a"
-                      : screenWidth >= 450
-                        ? "-3px 1px 16px #00000040"
-                        : undefined,
-                  height: screenWidth < 450 ? "132px" : screenWidth >= 450 ? "60px" : undefined,
-                  left: screenWidth < 450 ? "50px" : screenWidth >= 450 ? "1365px" : undefined,
-                  top: screenWidth < 450 ? "253px" : screenWidth >= 450 ? "151px" : undefined,
-                  width: screenWidth < 450 ? "295px" : screenWidth >= 450 ? "60px" : undefined,
-                }}
-              >
-                <div>
-                  <div className="checkmark">
-                    <img className="icon" alt="Icon" src="/services/icon.svg" />
-                  </div>
-                  <div className="headline">Cyber Protected</div>
-                  <div className="mockup-text" />
-                  <div className="mockup-text-2" />
-                  <div className="fake-button" />
-                </div>
-              </div>
             </div>
-          </div> */}
+          </div>
           {/* <div className="hero-sections desktop-only">
             <div className="overlap-13">
               <div className="headline-2">Diguro Cyber Security</div>

@@ -249,7 +249,7 @@ export const Contact = () => {
                   </p>
                 </div>
               </div>
-              <div className="frame-22">
+              {/* <div className="frame-22">
                 <div className="frame-21">
                   <div className="text-wrapper-16">BRANCH OFFICE</div>
                   <p className="text-wrapper-17">
@@ -257,12 +257,12 @@ export const Contact = () => {
                     behind MGA Hospital, Subbaiah Reddy Colony, Marathahalli, Bengaluru, Karnataka 560037
                   </p>
                 </div>
-              </div>
-              <img
+              </div> */}
+              {/* <img
                 className="minimal-podium"
                 alt="Minimal podium"
                 src="/contact/minimal-podium-product-display-stand-pedestal-studio-gray-color.webp"
-              />
+              /> */}
               <img className="rectangle" alt="Rectangle" src="/contact/rectangle-118-15.svg" />
             </div>
           </div>
@@ -271,11 +271,11 @@ export const Contact = () => {
             <div className="overlap-wrapper">
               <div className="overlap-3">
                 <img className="pyramids-2" alt="Pyramids" src="/contact/pyramids-1.webp" />
-                <img className="minimal-podium-2" alt="Minimal podium"
+                {/* <img className="minimal-podium-2" alt="Minimal podium"
                   src="/contact/minimal-podium-product-display-stand-pedestal-studio-gray-color.webp"
-                />
+                /> */}
                 <img className="rectangle-2" alt="Rectangle" src="/contact/rectangle-118-15.svg" />
-                <div className="frame-23">
+                {/* <div className="frame-23">
                   <div className="frame-24">
                     <div className="text-wrapper-18">BRANCH OFFICE</div>
                     <p className="text-wrapper-19">
@@ -283,7 +283,7 @@ export const Contact = () => {
                       behind MGA Hospital, Subbaiah Reddy Colony, Marathahalli, Bengaluru, Karnataka 560037
                     </p>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="frame-25">

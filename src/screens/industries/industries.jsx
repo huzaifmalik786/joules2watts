@@ -142,12 +142,12 @@ export const Industries = () => {
                 <img className="OLX-logo" alt="Olx logo" src="/industries/olx-logo-1.png" />
                 <img className="element-lam" alt="Element lam" src="/industries/14-lam-1.webp" />
                 <div className="text-wrapper-20">OSBI</div>
-                <div className="group-3">
+                {/* <div className="group-3">
                   <div className="overlap-group-2">
                     <div className="text-wrapper-21">OSBI</div>
                     <div className="text-wrapper-22">Payroll</div>
                   </div>
-                </div>
+                </div> */}
               </div>
               <div className="text-wrapper-23">SME</div>
             </div>
@@ -269,12 +269,12 @@ export const Industries = () => {
               </div>
               <div className="group-8">
                 <div className="text-wrapper-32">OSBI</div>
-                <div className="group-9">
+                {/* <div className="group-9">
                   <div className="overlap-group-5">
                     <div className="text-wrapper-33">OSBI</div>
                     <div className="text-wrapper-34">Payroll</div>
                   </div>
-                </div>
+                </div> */}
               </div>
               <img className="OLX-logo-2" alt="Olx logo" src="/industries/olx-logo-1.png" />
               <img className="element-lam-2" alt="Element lam" src="/industries/14-lam-1.webp" />

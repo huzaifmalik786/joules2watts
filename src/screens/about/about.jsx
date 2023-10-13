@@ -195,12 +195,12 @@ export const About = () => {
                               </div>
                               <img className="frame-4" alt="Frame" src="/about/frame-1.svg" />
                             </div>
-                            <div className="telecom-2">
+                            {/* <div className="telecom-2">
                               <div className="text-wrapper-6">Products</div>
                             </div>
                             <div className="telecom">
                               <div className="text-wrapper-6">E-Commerce</div>
-                            </div>
+                            </div> */}
                           </Carousel>
 
                         </div>
@@ -714,12 +714,12 @@ export const About = () => {
                       </div>
                       <img className="frame-4" alt="Frame" src="/about/frame-1.svg" />
                     </div>
-                    <div className="telecom">
+                    {/* <div className="telecom">
                       <div className="text-wrapper-6">Products</div>
                     </div>
                     <div className="telecom-3">
                       <div className="text-wrapper-6">E-Commerce</div>
-                    </div>
+                    </div> */}
                   </Carousel>
 
                 </div>
