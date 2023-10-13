@@ -34,8 +34,8 @@
 }
 
 .state-default-wrapper-shared:hover {
-  background: var(--primary-02);
-  border-radius: 45px;
+  background: var(--primary-02) !important;
+  border-radius: 45px !important;
 }
 
 .state-default-wrapper-shared:hover .text-wrapper-4-shared {

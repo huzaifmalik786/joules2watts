@@ -12,7 +12,7 @@ const items = [
         link: "/hire-train-deploy"
     },
     {
-        name: "Contact & Flexible Staffing",
+        name: "Contract & Flexible Staffing",
         link: "/staffing-solution"
     },
     {
@@ -34,15 +34,15 @@ const items = [
 ]
 
 export const SolutionDropdown = (props) => {
-    const ref = useRef();
-    // useEffect(() => {
-    //     const handleClickOutside = (event) => {
-    //         if (!ref?.current?.contains(event.target)) {
-    //             props.setOpenSolutions(false)
-    //         }
-    //     };
-    //     document.addEventListener("mousedown", handleClickOutside);
-    // }, [ref]);
+    const ref = useRef(null);
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (!ref?.current?.contains(event.target)) {
+                props.setOpenSolutions(false)
+            }
+        };
+        document.addEventListener("mousedown", handleClickOutside);
+    }, [ref]);
     return (
         <div className='solutiondropdown' id="dropdown1" ref={ref}>
             {items.map((item, index) => {

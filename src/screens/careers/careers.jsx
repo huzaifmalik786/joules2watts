@@ -159,14 +159,17 @@ export const Careers = () => {
                   {/* <div className="frame-7 mobile-only">
                     <input type="file" className="frame-21 message" placeholder="Drop you CVs here(pdf,docs,docx)" accept=".pdf , .doc , .docx" />
                   </div> */}
+                  <div className="mobile-only">
                   <Cta
                     arrowForward="/careers/arrow-forward-157.svg"
-                    className="CTA-instance mobile-only"
+                    className="CTA-instance"
                     divClassName="instance-node"
                     property1="default"
                     text="Submit"
                     onClick={handleSubmit}
                   />
+                  </div>
+                  
                 </Form>
               )}
             </Formik>

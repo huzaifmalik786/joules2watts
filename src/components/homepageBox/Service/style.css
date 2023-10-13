@@ -454,7 +454,7 @@
 }
 
 .service-homepage.state-hover.two .overlap-group-3 {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #939393 100%);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%);
   background-blend-mode: multiply;
 }
 
@@ -742,7 +742,7 @@
 .service-homepage.six .overlap-group-3 {
   height: 320px;
   position: relative;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 41.15%, rgba(0, 0, 0, 0.56) 90.06%, rgba(0, 0, 0, 0.88) 149.06%), url(../../../../static/homepage/shutterstock-1485872414-1-14.webp), lightgray 50% / cover no-repeat;
+  background: linear-gradient(#0000 , #000 90.06%, #000 149.06%), url(../../../../static/homepage//shutterstock-1485872414-1-14.webp), #000 50% / cover no-repeat;
   top: 2px;
   width: 720px;
 }

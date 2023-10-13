@@ -1767,7 +1767,7 @@
   font-style: var(--h6-REG-font-style);
   font-weight: var(--h6-REG-font-weight);
   height: 56px;
-  left: 70px;
+  left: 95px;
   letter-spacing: var(--h6-REG-letter-spacing);
   line-height: var(--h6-REG-line-height);
   position: absolute;
@@ -2176,11 +2176,13 @@
 }
 
 .hire .frame-63 {
-  background-image: url(../../../static/hire/rectangle-110-4.svg);
-  background-size: 100% 100%;
+  border-radius: 8px;
+  margin-left: -0.8px;
   height: 133px;
+  background: rgb(246, 247, 248);
+  width: 365px;
   position: relative;
-  top: 63px;
+  top: 64px;
 }
 
 .hire .frame-64 {
@@ -2500,11 +2502,12 @@
 }
 
 .hire .overlap-group-8 {
-  background-image: url(../../../static/hire/rectangle-110-4.svg);
-  background-size: 100% 100%;
+  border-radius: 8px;
+  margin-left: -0.8px;
   height: 133px;
+  background: rgb(246, 247, 248);
+  width: 365px;
   position: relative;
-  width: 363px;
 }
 
 .hire .text-wrapper-49 {

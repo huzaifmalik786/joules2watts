@@ -53,7 +53,7 @@ export const Iphone = () => {
               factor={factor}
             />
           )}
-          <Header />
+          <Header nobg msp/>
           <Header1 className="header mobile-only" />
 
           <div

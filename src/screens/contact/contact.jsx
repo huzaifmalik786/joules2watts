@@ -111,7 +111,7 @@ export const Contact = () => {
           <div className="frame-11">
             <div className="text-wrapper-12">Contact Information</div>
             <div className="frame-12">
-              <div className="div-wrapper">
+              {/* <div className="div-wrapper">
                 <div className="div-2">
                   <img className="img" alt="Phone call" src="/contact/phone-call-1-2.svg" />
                   <div className="frame-4">
@@ -119,13 +119,13 @@ export const Contact = () => {
                     <div className="text-wrapper-14">+(91) 9867567898</div>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="div-wrapper">
                 <div className="div-2">
                   <img className="img" alt="Mail" src="/contact/mail-1.svg" />
                   <div className="frame-4">
                     <div className="text-wrapper-13">Email Address</div>
-                    <div className="text-wrapper-14">Support@joulestowatts.com</div>
+                    <div className="text-wrapper-14">contactus@joulestowatts.com</div>
                   </div>
                 </div>
               </div>
@@ -140,7 +140,7 @@ export const Contact = () => {
           <div className="frame-13">
             <div className="text-wrapper-12">Contact Information</div>
             <div className="frame-14">
-              <div className="frame-15">
+              {/* <div className="frame-15">
                 <div className="div-2">
                   <img className="img" alt="Phone call" src="/contact/phone-call-1-1.svg" />
                   <div className="frame-4">
@@ -148,13 +148,13 @@ export const Contact = () => {
                     <div className="text-wrapper-14">+(91) 9867567898</div>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="frame-15">
                 <div className="div-2">
                   <img className="img" alt="Mail" src="/contact/mail-1.svg" />
                   <div className="frame-4">
                     <div className="text-wrapper-13">Email Address</div>
-                    <div className="text-wrapper-14">Support@joulestowatts.com</div>
+                    <div className="text-wrapper-14">contactus@joulestowatts.com</div>
                   </div>
                 </div>
               </div>

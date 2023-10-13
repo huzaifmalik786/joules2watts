@@ -25,10 +25,13 @@ export const Footer = () => {
                             <Link to="/services-overview">
                                 <div className="text-wrapper-29-shared">Services</div>
                             </Link>
-                            <button className="text-wrapper-29-shared" style={{ background: "transparent", border: 'none', outline: 'none' }} onClick={() => setPlatformSolutions(!platformSolutions)}>Platforms</button>
-                            {platformSolutions &&
-                                <PlatformDropdown OpenSolutions={platformSolutions} setOpenSolutions={setPlatformSolutions} />
-                            }
+                            <div style={{position:"relative"}}>
+                                <button className="text-wrapper-29-shared" style={{ background: "transparent", border: 'none', outline: 'none' }} onClick={() => setPlatformSolutions(!platformSolutions)}>Platforms</button>
+                                {platformSolutions && screenWidth > 450 &&
+                                    <PlatformDropdown OpenSolutions={platformSolutions} setOpenSolutions={setPlatformSolutions} />
+                                }
+                            </div>
+
                             <Link to="/about-us">
                                 <div className="text-wrapper-29-shared">About</div>
                             </Link>
@@ -147,7 +150,7 @@ export const Footer = () => {
                                 <div className="text-wrapper-29-shared">Services</div>
                             </Link>
                             <button className="text-wrapper-53-shared" style={{ background: "transparent", border: 'none', outline: 'none' }} onClick={() => setPlatformSolutions(!platformSolutions)}>Platforms</button>
-                            {platformSolutions &&
+                            {platformSolutions && screenWidth < 450 &&
                                 <PlatformDropdown OpenSolutions={platformSolutions} setOpenSolutions={setPlatformSolutions} />
                             }
                             <Link to="/about-us">

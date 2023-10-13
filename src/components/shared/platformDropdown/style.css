@@ -7,7 +7,6 @@
     background: var(--neutral-10, #F6F7F8);
     box-shadow: 4px 9px 32px 0px rgba(174, 174, 174, 0.12);
     display: flex;
-    overflow: hidden;
     width: 224px;
     padding: 4px 0px;
     flex-direction: column;
