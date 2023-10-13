@@ -67,7 +67,7 @@ export const Services = () => {
         <div
           className="div-2"
           style={{
-            height: screenWidth < 450 ? "6907px" : screenWidth >= 450 ? "5593px" : undefined,
+            height: screenWidth < 450 ? "5906px" : screenWidth >= 450 ? "4993px" : undefined,
             width: screenWidth < 450 ? "390px" : screenWidth >= 450 ? "1440px" : undefined,
           }}
         >
@@ -555,7 +555,7 @@ export const Services = () => {
             style={{
               height: screenWidth < 450 ? "696px" : screenWidth >= 450 ? "644px" : undefined,
               left: screenWidth < 450 ? "-201px" : screenWidth >= 450 ? "-4px" : undefined,
-              top: screenWidth < 450 ? "3691px" : screenWidth >= 450 ? "4945px" : undefined,
+              top: screenWidth < 450 ? "3691px" : screenWidth >= 450 ? "4345px" : undefined,
               width: screenWidth < 450 ? "843px" : screenWidth >= 450 ? "1444px" : undefined,
             }}
           >
@@ -750,7 +750,7 @@ export const Services = () => {
             <div className="rectangle-8" />
           </div>
 
-          <div
+          {/* <div
             className="frame-60"
             style={{
               height: screenWidth >= 450 ? "356px" : screenWidth < 450 ? "385px" : undefined,
@@ -893,8 +893,8 @@ export const Services = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="hero-sections desktop-only">
+          </div> */}
+          {/* <div className="hero-sections desktop-only">
             <div className="overlap-13">
               <div className="headline-2">Diguro Cyber Security</div>
               <img
@@ -931,18 +931,11 @@ export const Services = () => {
                 </span>
               </p>
             </div>
-          </div>
+          </div> */}
 
           <div className="mobile-only">
-            <div className="group-18">
+            {/* <div className="group-18">
               <div className="headline-4">Diguro Cyber Security</div>
-              {/* <Cta
-                arrowForward="/services/arrow-forward-12.svg"
-                className="CTA-17"
-                divClassName="CTA-12"
-                property1="default"
-                text="Learn more"
-              /> */}
               <img
                 className="copy-of-CYBER-SEC-2"
                 alt="Copy of CYBER SEC"
@@ -968,7 +961,7 @@ export const Services = () => {
                   </span>
                 </p>
               </div>
-            </div>
+            </div> */}
             <div className="overlap-15">
               <div className="rectangle-9" />
               <div className="frame-70">
