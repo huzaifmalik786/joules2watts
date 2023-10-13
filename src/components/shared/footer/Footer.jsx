@@ -74,7 +74,7 @@ export const Footer = () => {
                         </a>
                         <a
                             className="text-wrapper-33-shared"
-                            href="https://www.linkedin.com/in/joules-to-watts-612591236/"
+                            href="https://in.linkedin.com/company/joulestowatts"
                             rel="noopener noreferrer"
                             target="_blank"
                         >
@@ -179,7 +179,7 @@ export const Footer = () => {
                                 <img className="linkedin-2-shared" alt="Linkedin" src="/services/linkedin.svg" />
                                 <a
                                     className="text-wrapper-54-shared"
-                                    href="https://www.linkedin.com/in/joules-to-watts-612591236/"
+                                    href="https://in.linkedin.com/company/joulestowatts"
                                     rel="noopener noreferrer"
                                     target="_blank"
                                 >

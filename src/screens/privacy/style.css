@@ -304,14 +304,14 @@
 
 .privacy .text-wrapper-8 {
   color: #2e5053;
-  font-family: var(--title-mega-font-family);
-  font-size: var(--title-mega-font-size);
-  font-style: var(--title-mega-font-style);
-  font-weight: var(--title-mega-font-weight);
+  font-family: Source Sans Pro;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 101.5%; /* 60.9px */
+  letter-spacing: -1.8px;
   height: 80px;
   left: 80px;
-  letter-spacing: var(--title-mega-letter-spacing);
-  line-height: var(--title-mega-line-height);
   position: absolute;
   top: 96px;
   width: 434px;

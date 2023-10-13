@@ -361,7 +361,7 @@ export const Contact = () => {
                 <div className="text-wrapper-23">Education Partners</div>
               </div>
               <div className="frame-28">
-                <div className="text-wrapper-22">05</div>
+                <div className="text-wrapper-22">5</div>
                 <div className="text-wrapper-23">Offices</div>
               </div>
             </div>
@@ -553,7 +553,7 @@ export const Contact = () => {
                   <div className="text-wrapper-38">Education Partners</div>
                 </div>
                 <div className="frame-48">
-                  <div className="text-wrapper-22">05</div>
+                  <div className="text-wrapper-22">5</div>
                   <div className="text-wrapper-23">Offices</div>
                 </div>
               </div>
