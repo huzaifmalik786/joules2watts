@@ -21,10 +21,10 @@ export const Header = ({nobg}) => {
                     {OpenSolutions && screenWidth > 1440 &&
                         <SolutionDropdown OpenSolutions={OpenSolutions} setOpenSolutions={setOpenSolutions} />
                     }
-                    <div className="text-wrapper-16-shared" style={{color: nobg?"#fff":"#000"}} onClick={() => setOpenSolutions(!OpenSolutions)}>Solutions</div>
+                    <button className="text-wrapper-16-shared" style={{color: nobg?"#fff":"#000", outline:"none", border:"none", background:"transparent"}} onClick={() => setOpenSolutions(!OpenSolutions)}>Solutions</button>
                 </div>
                 <div className="frame-33-shared">
-                    <div className="text-wrapper-16-shared" style={{color: nobg?"#fff":"#000"}} onClick={() => setPlatformSolutions(!platformSolutions)}>Platforms</div>
+                    <button className="text-wrapper-16-shared" style={{color: nobg?"#fff":"#000", outline:"none", border:"none", background:"transparent"}} onClick={() => setPlatformSolutions(!platformSolutions)}>Platforms</button>
                     {platformSolutions && screenWidth > 1440 &&
                         <PlatformDropdown OpenSolutions={platformSolutions} setOpenSolutions={setPlatformSolutions} />
                     }
