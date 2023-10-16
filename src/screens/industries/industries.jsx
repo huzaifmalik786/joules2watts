@@ -333,28 +333,28 @@ export const Industries = () => {
               </div>
               <div className="rectangle-8" />
               <div className="frame-24">
-                <div className="logo-mobile">
+                <div className="logos-mobile">
                   <img src="/industries/image9.webp" />
                 </div>
-                <div className="logo-mobile">
+                <div className="logos-mobile">
                   <img src="/industries/image10.webp" />
                 </div>
-                <div className="logo-mobile">
+                <div className="logos-mobile">
                   <img src="/industries/image11.webp" />
                 </div>
-                <div className="logo-mobile">
+                <div className="logos-mobile">
                   <img src="/industries/image12.webp" />
                 </div>
-                <div className="logo-mobile">
+                <div className="logos-mobile">
                   <img src="/industries/image13.webp" />
                 </div>
-                <div className="logo-mobile">
+                <div className="logos-mobile">
                   <img src="/industries/image14.webp" />
                 </div>
-                <div className="logo-mobile">
+                <div className="logos-mobile">
                   <img src="/industries/image9.webp" />
                 </div>
-                <div className="logo-mobile">
+                <div className="logos-mobile">
                   <img src="/industries/image16.webp" />
                 </div>
               </div>
@@ -477,7 +477,7 @@ export const Industries = () => {
                     />
                   </div>
                 </div>
-                <img className="ae-dbe-f-2" alt="Ae dbe f" />
+                <img className="ae-dbe-f-2" alt="Ae dbe f" src="/industries/a1488e15-5dbe-47f7-b28d-0a991d7a8a0a-1.png"/>
                 <img className="capgemini-x-logo" alt="Capgemini logo" />
                 <img className="element-accenture-2" alt="Element accenture" src="/industries/arrow-forward-ios-1.png" />
               </div>

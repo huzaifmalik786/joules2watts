@@ -1759,12 +1759,12 @@
   width: 363px;
 }
 
-.industries .logo-mobile {
+.industries .logos-mobile {
   width: 150px;
   height: 68px;
 }
 
-.industries .logo-mobile img{
+.industries .logos-mobile img{
   width: 100%;
   height: 100%;
   object-fit: contain;
