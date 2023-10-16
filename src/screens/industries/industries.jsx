@@ -291,43 +291,29 @@ export const Industries = () => {
               </div>
             </div>
             <div className="group-10">
-              <div className="overlap-group-6">
-                <div className="text-wrapper-37">Accenture BPO</div>
+              <div className="logo-desktop">
+                <img src="/industries/image9.webp" />
               </div>
-            </div>
-            <div className="group-11">
-              <div className="real-page-wrapper">
-                <div className="real-page">Real Page</div>
+              <div className="logo-desktop">
+                <img src="/industries/image10.webp" />
               </div>
-            </div>
-            <div className="group-12">
-              <div className="overlap-9">
-                <div className="text-wrapper-38">United Health Group</div>
+              <div className="logo-desktop">
+                <img src="/industries/image11.webp" />
               </div>
-            </div>
-            <div className="group-13">
-              <div className="overlap-10">
-                <div className="text-wrapper-39">Accenture-voice</div>
+              <div className="logo-desktop">
+                <img src="/industries/image12.webp" />
               </div>
-            </div>
-            <div className="group-14">
-              <div className="overlap-11">
-                <div className="text-wrapper-40">HP</div>
+              <div className="logo-desktop">
+                <img src="/industries/image13.webp" />
               </div>
-            </div>
-            <div className="group-15">
-              <div className="overlap-12">
-                <div className="text-wrapper-41">DXC</div>
+              <div className="logo-desktop">
+                <img src="/industries/image14.webp" />
               </div>
-            </div>
-            <div className="group-16">
-              <div className="overlap-13">
-                <div className="text-wrapper-42">Soc gen Ops</div>
+              <div className="logo-desktop">
+                <img src="/industries/image9.webp" />
               </div>
-            </div>
-            <div className="group-17">
-              <div className="overlap-14">
-                <div className="text-wrapper-43">Kennametal services</div>
+              <div className="logo-desktop">
+                <img src="/industries/image16.webp" />
               </div>
             </div>
           </div>
@@ -347,45 +333,29 @@ export const Industries = () => {
               </div>
               <div className="rectangle-8" />
               <div className="frame-24">
-                <div className="group-18">
-                  <div className="overlap-group-7">
-                    <div className="text-wrapper-44">Accenture BPO</div>
-                  </div>
+                <div className="logo-mobile">
+                  <img src="/industries/image9.webp" />
                 </div>
-                <div className="group-19">
-                  <div className="overlap-16">
-                    <div className="text-wrapper-45">HP</div>
-                  </div>
+                <div className="logo-mobile">
+                  <img src="/industries/image10.webp" />
                 </div>
-                <div className="group-18">
-                  <div className="overlap-17">
-                    <div className="text-wrapper-46">United Health Group</div>
-                  </div>
+                <div className="logo-mobile">
+                  <img src="/industries/image11.webp" />
                 </div>
-                <div className="group-19">
-                  <div className="overlap-18">
-                    <div className="text-wrapper-47">Soc gen Ops</div>
-                  </div>
+                <div className="logo-mobile">
+                  <img src="/industries/image12.webp" />
                 </div>
-                <div className="group-18">
-                  <div className="overlap-19">
-                    <div className="real-page-2">Real Page</div>
-                  </div>
+                <div className="logo-mobile">
+                  <img src="/industries/image13.webp" />
                 </div>
-                <div className="group-19">
-                  <div className="overlap-20">
-                    <div className="text-wrapper-48">DXC</div>
-                  </div>
+                <div className="logo-mobile">
+                  <img src="/industries/image14.webp" />
                 </div>
-                <div className="group-18">
-                  <div className="overlap-21">
-                    <div className="text-wrapper-49">Accenture-voice</div>
-                  </div>
+                <div className="logo-mobile">
+                  <img src="/industries/image9.webp" />
                 </div>
-                <div className="group-19">
-                  <div className="overlap-22">
-                    <div className="text-wrapper-50">Kennametal services</div>
-                  </div>
+                <div className="logo-mobile">
+                  <img src="/industries/image16.webp" />
                 </div>
               </div>
               <div className="text-wrapper-51">ITES</div>
@@ -515,7 +485,7 @@ export const Industries = () => {
           </div>
           <Footer />
         </div>
-      </div>
+      </div >
     </>
 
   );

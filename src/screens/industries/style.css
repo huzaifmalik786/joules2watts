@@ -1468,11 +1468,15 @@
 }
 
 .industries .group-10 {
-  height: 218px;
-  left: 197px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  left: 84px;
   position: absolute;
-  top: 85px;
-  width: 274px;
+  top: 170px;
+  width: 1240px;
 }
 
 .industries .overlap-group-6 {
@@ -1746,12 +1750,25 @@
 .industries .frame-24 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: flex-start;
-  gap: 16.5px;
-  left: 13px;
+  align-items: center;
+  justify-content: center;
+  row-gap: 100px;
+  left: 28px;
   position: absolute;
   top: 115px;
   width: 363px;
+}
+
+.industries .logo-mobile {
+  width: 150px;
+  height: 68px;
+}
+
+.industries .logo-mobile img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+
 }
 
 .industries .group-18 {
