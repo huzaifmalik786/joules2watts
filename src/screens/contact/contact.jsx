@@ -5,7 +5,7 @@ import "./style.css";
 import { Header } from "../../components/shared/header";
 import { Footer } from "../../components/shared/footer";
 import { Formik, Field, Form } from "formik";
-import * as Yup from 'yup';
+import * as Yup from "yup";
 import axios from "axios";
 
 export const Contact = () => {
@@ -13,10 +13,12 @@ export const Contact = () => {
 
   const validationSchema = Yup.object().shape({
     name: Yup.string().required("Name is Required."),
-    email: Yup.string().email("Enter a valid email").required("Email is Required."),
+    email: Yup.string()
+      .email("Enter a valid email")
+      .required("Email is Required."),
     subject: Yup.string().required("Subject is Required."),
     requirement: Yup.string().required("This field is Required."),
-  })
+  });
 
   const [factor, setFactor] = useState();
 
@@ -33,12 +35,22 @@ export const Contact = () => {
   });
 
   return (
-    <div className="contact" >
+    <div className="contact">
       <div
         className="iphone"
         style={{
-          height: screenWidth < 450 ? "4446px" : screenWidth >= 450 ? "3783px" : undefined,
-          width: screenWidth < 450 ? "390px" : screenWidth >= 450 ? "1440px" : undefined,
+          height:
+            screenWidth < 450
+              ? "4446px"
+              : screenWidth >= 450
+              ? "3783px"
+              : undefined,
+          width:
+            screenWidth < 450
+              ? "390px"
+              : screenWidth >= 450
+              ? "1440px"
+              : undefined,
         }}
       >
         <Header />
@@ -56,12 +68,19 @@ export const Contact = () => {
                   <br />
                   <br />
                 </span>
-                <span className="text-wrapper-10">Drop us your details, we&#39;ll get in touch with you soon </span>
+                <span className="text-wrapper-10">
+                  Drop us your details, we&#39;ll get in touch with you soon{" "}
+                </span>
               </p>
             </div>
             <Formik
               validationSchema={validationSchema}
-              initialValues={{ name: "", email: "", subject: "", requirement: "" }}
+              initialValues={{
+                name: "",
+                email: "",
+                subject: "",
+                requirement: "",
+              }}
               onSubmit={async (values) => {
                 await axios.post("https://sheetdb.io/api/v1/j26dctl2r0gsg", {
                   // headers: { 'Authorization': 'Bearer m3xzr16pka0v7fbaj92bmdyo2sowgsrlitar7tdu' },
@@ -70,43 +89,74 @@ export const Contact = () => {
                     Name: values.name,
                     Email: values.email,
                     Subject: values.subject,
-                    Requirement: values.requirement
-                  }
-                }
-                )
-                alert("Response send Successfully")
-
+                    Requirement: values.requirement,
+                  },
+                });
+                alert("Response send Successfully");
               }}
             >
               {({ handleSubmit, handleChange, values, errors, touched }) => (
                 <Form className="frame-9">
                   <div className="frame-10">
-                    <input className="input" type="text" name="name" onChange={handleChange} value={values.name} placeholder="Name" required />
-                    {errors.name && touched.name &&
+                    <input
+                      className="input"
+                      type="text"
+                      name="name"
+                      onChange={handleChange}
+                      value={values.name}
+                      placeholder="Name"
+                      required
+                    />
+                    {errors.name && touched.name && (
                       <div className="error">{errors.name}</div>
-                    }
-                    <input type="email" className="input" name="email" onChange={handleChange} value={values.email} placeholder="Email" required />
-                    {errors.email && touched.email &&
+                    )}
+                    <input
+                      type="email"
+                      className="input"
+                      name="email"
+                      onChange={handleChange}
+                      value={values.email}
+                      placeholder="Email"
+                      required
+                    />
+                    {errors.email && touched.email && (
                       <div className="error">{errors.email}</div>
-                    }
+                    )}
                   </div>
-                  <input type="text" className="input" name="subject" onChange={handleChange} value={values.subject} placeholder="Subject" required />
-                  {errors.subject && touched.subject &&
+                  <input
+                    type="text"
+                    className="input"
+                    name="subject"
+                    onChange={handleChange}
+                    value={values.subject}
+                    placeholder="Subject"
+                    required
+                  />
+                  {errors.subject && touched.subject && (
                     <div className="error">{errors.subject}</div>
-                  }
-                  <textarea className="please-describe-your-wrapper" name="requirement" value={values.requirement} placeholder="Requirement" required onChange={handleChange} />
-                  {errors.requirement && touched.requirement &&
+                  )}
+                  <textarea
+                    className="please-describe-your-wrapper"
+                    name="requirement"
+                    value={values.requirement}
+                    placeholder="Requirement"
+                    required
+                    onChange={handleChange}
+                  />
+                  {errors.requirement && touched.requirement && (
                     <div className="error">{errors.requirement}</div>
-                  }
+                  )}
                   <button className="button" onClick={handleSubmit}>
                     <div className="text-wrapper-11">Submit</div>
-                    <img className="arrow-circle-right" alt="Arrow circle right" src="/contact/arrow-circle-right.png" />
+                    <img
+                      className="arrow-circle-right"
+                      alt="Arrow circle right"
+                      src="/contact/arrow-circle-right.png"
+                    />
                   </button>
                 </Form>
               )}
             </Formik>
-
-
           </div>
           <div className="frame-11">
             <div className="text-wrapper-12">Contact Information</div>
@@ -125,7 +175,9 @@ export const Contact = () => {
                   <img className="img" alt="Mail" src="/contact/mail-1.svg" />
                   <div className="frame-4">
                     <div className="text-wrapper-13">Email Address</div>
-                    <div className="text-wrapper-14">contactus@joulestowatts.com</div>
+                    <div className="text-wrapper-14">
+                      contactus@joulestowatts.com
+                    </div>
                   </div>
                 </div>
               </div>
@@ -154,7 +206,9 @@ export const Contact = () => {
                   <img className="img" alt="Mail" src="/contact/mail-1.svg" />
                   <div className="frame-4">
                     <div className="text-wrapper-13">Email Address</div>
-                    <div className="text-wrapper-14">contactus@joulestowatts.com</div>
+                    <div className="text-wrapper-14">
+                      contactus@joulestowatts.com
+                    </div>
                   </div>
                 </div>
               </div>
@@ -171,12 +225,19 @@ export const Contact = () => {
                 <span className="span">
                   <br />
                 </span>
-                <span className="text-wrapper-10">Drop us your details, we&#39;ll get in touch with you soon </span>
+                <span className="text-wrapper-10">
+                  Drop us your details, we&#39;ll get in touch with you soon{" "}
+                </span>
               </p>
             </div>
             <Formik
               validationSchema={validationSchema}
-              initialValues={{ name: "", email: "", subject: "", requirement: "" }}
+              initialValues={{
+                name: "",
+                email: "",
+                subject: "",
+                requirement: "",
+              }}
               onSubmit={async (values) => {
                 await axios.post("https://sheetdb.io/api/v1/j26dctl2r0gsg", {
                   // headers: { 'Authorization': 'Bearer m3xzr16pka0v7fbaj92bmdyo2sowgsrlitar7tdu' },
@@ -185,42 +246,70 @@ export const Contact = () => {
                     Name: values.name,
                     Email: values.email,
                     Subject: values.subject,
-                    Requirement: values.requirement
-                  }
-                }
-                )
-                alert("Response send Successfully")
-
+                    Requirement: values.requirement,
+                  },
+                });
+                alert("Response send Successfully");
               }}
             >
               {({ handleSubmit, handleChange, values, errors, touched }) => (
                 <Form className="frame-17">
                   <div className="frame-18">
                     <div>
-                      <input type="text" name="name" onChange={handleChange} value={values.name} className="frame-19" placeholder="Name" />
-                      {errors.name && touched.name &&
+                      <input
+                        type="text"
+                        name="name"
+                        onChange={handleChange}
+                        value={values.name}
+                        className="frame-19"
+                        placeholder="Name"
+                      />
+                      {errors.name && touched.name && (
                         <div className="error-2">{errors.name}</div>
-                      }
+                      )}
                     </div>
                     <div>
-                      <input type="email" name="email" onChange={handleChange} value={values.email} className="frame-19" placeholder="Email" />
-                      {errors.email && touched.email &&
+                      <input
+                        type="email"
+                        name="email"
+                        onChange={handleChange}
+                        value={values.email}
+                        className="frame-19"
+                        placeholder="Email"
+                      />
+                      {errors.email && touched.email && (
                         <div className="error-2">{errors.email}</div>
-                      }
+                      )}
                     </div>
-
                   </div>
-                  <input type="text" name="subject" onChange={handleChange} value={values.subject} className="subject" placeholder="Subject" />
-                  {errors.subject && touched.subject &&
+                  <input
+                    type="text"
+                    name="subject"
+                    onChange={handleChange}
+                    value={values.subject}
+                    className="subject"
+                    placeholder="Subject"
+                  />
+                  {errors.subject && touched.subject && (
                     <div className="error">{errors.subject}</div>
-                  }
-                  <textarea name="requirement" onChange={handleChange} value={values.requirement} className="input-wrapper" placeholder="Please Describe your requirement" />
-                  {errors.requirement && touched.requirement &&
+                  )}
+                  <textarea
+                    name="requirement"
+                    onChange={handleChange}
+                    value={values.requirement}
+                    className="input-wrapper"
+                    placeholder="Please Describe your requirement"
+                  />
+                  {errors.requirement && touched.requirement && (
                     <div className="error">{errors.requirement}</div>
-                  }
+                  )}
                   <button className="button" onClick={handleSubmit}>
                     <div className="text-wrapper-11">Submit</div>
-                    <img className="arrow-circle-right" alt="Arrow circle right" src="/contact/arrow-circle-right.png" />
+                    <img
+                      className="arrow-circle-right"
+                      alt="Arrow circle right"
+                      src="/contact/arrow-circle-right.png"
+                    />
                   </button>
                 </Form>
               )}
@@ -231,21 +320,47 @@ export const Contact = () => {
         <div
           className="section-growth"
           style={{
-            height: screenWidth >= 450 ? "540px" : screenWidth < 450 ? "627px" : undefined,
-            left: screenWidth >= 450 ? "-15px" : screenWidth < 450 ? "-1px" : undefined,
-            top: screenWidth >= 450 ? "1244px" : screenWidth < 450 ? "1445px" : undefined,
-            width: screenWidth >= 450 ? "1440px" : screenWidth < 450 ? "391px" : undefined,
+            height:
+              screenWidth >= 450
+                ? "540px"
+                : screenWidth < 450
+                ? "627px"
+                : undefined,
+            left:
+              screenWidth >= 450
+                ? "-15px"
+                : screenWidth < 450
+                ? "-1px"
+                : undefined,
+            top:
+              screenWidth >= 450
+                ? "1244px"
+                : screenWidth < 450
+                ? "1445px"
+                : undefined,
+            width:
+              screenWidth >= 450
+                ? "1440px"
+                : screenWidth < 450
+                ? "391px"
+                : undefined,
           }}
         >
           <div className="background-image desktop-only">
             <div className="overlap-group-2">
-              <img className="pyramids" alt="Pyramids" src="/contact/pyramids-1.webp" />
+              <img
+                className="pyramids"
+                alt="Pyramids"
+                src="/contact/pyramids-1.webp"
+              />
               <div className="frame-20">
                 <div className="frame-21">
                   <div className="text-wrapper-16">HEAD OFFICE</div>
                   <p className="text-wrapper-17">
-                    JoulestoWatts Business Solutions, Plot No. 356, Novel MSR, Marathahalli Bridge, Varthur Road,
-                    behind MGA Hospital, Subbaiah Reddy Colony, Marathahalli, Bengaluru, Karnataka 560037
+                    JoulestoWatts Business Solutions, Plot No. 356, Novel MSR,
+                    Marathahalli Bridge, Varthur Road, behind MGA Hospital,
+                    Subbaiah Reddy Colony, Marathahalli, Bengaluru, Karnataka
+                    560037
                   </p>
                 </div>
               </div>
@@ -263,18 +378,30 @@ export const Contact = () => {
                 alt="Minimal podium"
                 src="/contact/minimal-podium-product-display-stand-pedestal-studio-gray-color.webp"
               /> */}
-              <img className="rectangle" alt="Rectangle" src="/contact/rectangle-118-15.svg" />
+              <img
+                className="rectangle"
+                alt="Rectangle"
+                src="/contact/rectangle-118-15.svg"
+              />
             </div>
           </div>
 
           <div className="mobile-only">
             <div className="overlap-wrapper">
               <div className="overlap-3">
-                <img className="pyramids-2" alt="Pyramids" src="/contact/pyramids-1.webp" />
+                <img
+                  className="pyramids-2"
+                  alt="Pyramids"
+                  src="/contact/pyramids-1.webp"
+                />
                 {/* <img className="minimal-podium-2" alt="Minimal podium"
                   src="/contact/minimal-podium-product-display-stand-pedestal-studio-gray-color.webp"
                 /> */}
-                <img className="rectangle-2" alt="Rectangle" src="/contact/rectangle-118-15.svg" />
+                <img
+                  className="rectangle-2"
+                  alt="Rectangle"
+                  src="/contact/rectangle-118-15.svg"
+                />
                 {/* <div className="frame-23">
                   <div className="frame-24">
                     <div className="text-wrapper-18">BRANCH OFFICE</div>
@@ -290,8 +417,10 @@ export const Contact = () => {
               <div className="frame-24">
                 <div className="text-wrapper-18">HEAD OFFICE</div>
                 <p className="text-wrapper-19">
-                  JoulestoWatts Business Solutions, Plot No. 356, Novel MSR, Marathahalli Bridge, Varthur Road, behind
-                  MGA Hospital, Subbaiah Reddy Colony, Marathahalli, Bengaluru, Karnataka 560037
+                  JoulestoWatts Business Solutions, Plot No. 356, Novel MSR,
+                  Marathahalli Bridge, Varthur Road, behind MGA Hospital,
+                  Subbaiah Reddy Colony, Marathahalli, Bengaluru, Karnataka
+                  560037
                 </p>
               </div>
             </div>
@@ -330,7 +459,8 @@ export const Contact = () => {
               <p className="text-wrapper-21">
                 Accesswork Business Centre,
                 <br />
-                Level 9, Wing A Eureka Towers, Mindspace IT Park Off. New Link Road, Malad(West), Mumbai - 400064
+                Level 9, Wing A Eureka Towers, Mindspace IT Park Off. New Link
+                Road, Malad(West), Mumbai - 400064
               </p>
             </div>
           </div>
@@ -369,7 +499,10 @@ export const Contact = () => {
           <div className="group-wrapper">
             <div className="group-2">
               <div className="frame-34">
-                <p className="text-wrapper-24">© Copyright © 2018-19 Joulestowatts Business Solutions Pvt. Ltd.</p>
+                <p className="text-wrapper-24">
+                  © Copyright © 2018-19 Joulestowatts Business Solutions Pvt.
+                  Ltd.
+                </p>
                 <div className="ellipse-2" />
                 <div className="text-wrapper-24">Privacy Policy</div>
               </div>
@@ -386,13 +519,42 @@ export const Contact = () => {
             //     : screenWidth < 450
             //       ? "url(/contact/arrow-forward-ios-1.png)"
             //       : undefined,
-            height: screenWidth >= 450 ? "644px" : screenWidth < 450 ? "173px" : undefined,
-            left: screenWidth >= 450 ? "82px" : screenWidth < 450 ? "-3123px" : undefined,
-            top: screenWidth >= 450 ? "2552px" : screenWidth < 450 ? "-8388px" : undefined,
-            width: screenWidth >= 450 ? "1280px" : screenWidth < 450 ? "344px" : undefined,
+            height:
+              screenWidth >= 450
+                ? "644px"
+                : screenWidth < 450
+                ? "173px"
+                : undefined,
+            left:
+              screenWidth >= 450
+                ? "82px"
+                : screenWidth < 450
+                ? "-3123px"
+                : undefined,
+            top:
+              screenWidth >= 450
+                ? "2552px"
+                : screenWidth < 450
+                ? "-8388px"
+                : undefined,
+            width:
+              screenWidth >= 450
+                ? "1280px"
+                : screenWidth < 450
+                ? "344px"
+                : undefined,
           }}
         >
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6581.918308586339!2d77.69241932941405!3d12.937127372998212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13ce1fb5f32b%3A0x84829378a982e603!2sJoulestoWatts%20Business%20Solutions%20Pvt%20Ltd%20-%20Belandur%20Branch!5e0!3m2!1sen!2sin!4v1696963074714!5m2!1sen!2sin" width="1280" height="644" style={{ border: 0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+          {/* <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15552.955241451637!2d77.6998666!3d12.9565649!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae11f3b008f4f5%3A0x258c950cde1451a1!2sJoulestoWatts%20Business%20Solutions%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1697547193492!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15552.955241451637!2d77.6998666!3d12.9565649!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae11f3b008f4f5%3A0x258c950cde1451a1!2sJoulestoWatts%20Business%20Solutions%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1697547193492!5m2!1sen!2sin"
+            width="1280"
+            height="644"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
           {/* <div
             className="frame-35"
             style={{
@@ -486,8 +648,9 @@ export const Contact = () => {
                 <div className="frame-41">
                   <div className="text-wrapper-2">HEAD OFFICE</div>
                   <p className="p">
-                    Plot No. 356, Novel MSR, Marathahalli Bridge, Varthur Road, behind MGA Hospital, Subbaiah Reddy
-                    Colony, Marathahalli, Bengaluru, Karnataka 560037
+                    Plot No. 356, Novel MSR, Marathahalli Bridge, Varthur Road,
+                    behind MGA Hospital, Subbaiah Reddy Colony, Marathahalli,
+                    Bengaluru, Karnataka 560037
                   </p>
                 </div>
                 <div className="group-4">
@@ -499,16 +662,39 @@ export const Contact = () => {
                   >
                     Youtube
                   </a>
-                  <img className="face-book" alt="Face book" src="/contact/facebook-55.svg" />
+                  <img
+                    className="face-book"
+                    alt="Face book"
+                    src="/contact/facebook-55.svg"
+                  />
                 </div>
-                <img className="linkedin-2" alt="Linkedin" src="/contact/linkedin-13.svg" />
-                <img className="facebook-2" alt="Facebook" src="/contact/facebook-72.svg" />
-                <img className="facebook-3" alt="Facebook" src="/contact/facebook-52.svg" />
-                <img className="facebook-4" alt="Facebook" src="/contact/facebook-74.svg" />
+                <img
+                  className="linkedin-2"
+                  alt="Linkedin"
+                  src="/contact/linkedin-13.svg"
+                />
+                <img
+                  className="facebook-2"
+                  alt="Facebook"
+                  src="/contact/facebook-72.svg"
+                />
+                <img
+                  className="facebook-3"
+                  alt="Facebook"
+                  src="/contact/facebook-52.svg"
+                />
+                <img
+                  className="facebook-4"
+                  alt="Facebook"
+                  src="/contact/facebook-74.svg"
+                />
               </div>
               <div className="group-5">
                 <div className="frame-34">
-                  <p className="text-wrapper-24">© Copyright © 2018-19 Joulestowatts Business Solutions Pvt. Ltd.</p>
+                  <p className="text-wrapper-24">
+                    © Copyright © 2018-19 Joulestowatts Business Solutions Pvt.
+                    Ltd.
+                  </p>
                   <div className="ellipse-2" />
                   <div className="text-wrapper-24">Privacy Policy</div>
                 </div>
@@ -520,7 +706,15 @@ export const Contact = () => {
 
         <div className="mobile-only">
           <div className="overlap-5">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6581.918308586339!2d77.69241932941405!3d12.937127372998212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13ce1fb5f32b%3A0x84829378a982e603!2sJoulestoWatts%20Business%20Solutions%20Pvt%20Ltd%20-%20Belandur%20Branch!5e0!3m2!1sen!2sin!4v1696963074714!5m2!1sen!2sin" width="372" height="187" style={{ border: 0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6581.918308586339!2d77.69241932941405!3d12.937127372998212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13ce1fb5f32b%3A0x84829378a982e603!2sJoulestoWatts%20Business%20Solutions%20Pvt%20Ltd%20-%20Belandur%20Branch!5e0!3m2!1sen!2sin!4v1696963074714!5m2!1sen!2sin"
+              width="372"
+              height="187"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
             {/* <div className="frame-42">
               <div className="frame-43">
                 <img className="direction-2" alt="Direction" src="/contact/direction-1-3.svg" />
@@ -581,7 +775,8 @@ export const Contact = () => {
                   <p className="text-wrapper-40">
                     Accesswork Business Centre,
                     <br />
-                    Level 9, Wing A Eureka Towers, Mindspace IT Park Off. New Link Road, Malad(West), Mumbai - 400064
+                    Level 9, Wing A Eureka Towers, Mindspace IT Park Off. New
+                    Link Road, Malad(West), Mumbai - 400064
                   </p>
                 </div>
               </div>
@@ -614,6 +809,6 @@ export const Contact = () => {
         </div>
         <Footer />
       </div>
-    </div >
+    </div>
   );
 };
