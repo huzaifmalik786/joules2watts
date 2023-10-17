@@ -16,8 +16,8 @@ import { Contact } from "./screens/contact";
 import { Industries } from "./screens/industries";
 import { Leadership } from "./screens/leadership";
 import { Careers } from "./screens/careers";
-import { Privacy } from "./screens/privacy";
 import { CSR } from "./screens/csr";
+import { Iphone } from "./screens/privacyMobile/Iphone";
 import { Homepage } from "./screens/homepage";
 
 const router = [
@@ -87,7 +87,7 @@ const router = [
   },
   {
     path: "/privacy-policy",
-    element: <Privacy />
+    element: <Iphone />
   },
   {
     path: "/csr-policy",
@@ -103,11 +103,11 @@ export const App = () => {
   window.onbeforeunload = function () {
     window.scrollTo(0, 0);
   }
-  
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
- 
+
   return (
     <Routes>
       {router.map((route) => {

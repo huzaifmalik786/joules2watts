@@ -1,0 +1,39 @@
+.CTA {
+  all: unset;
+  align-items: center;
+  border: 1px solid;
+  border-color: var(--secondary-03);
+  box-sizing: border-box;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 12px 24px;
+  position: relative;
+}
+
+.CTA .text-wrapper {
+  color: var(--secondary-03);
+  font-family: var(--subtitle-MED-font-family);
+  font-size: var(--subtitle-MED-font-size);
+  font-style: var(--subtitle-MED-font-style);
+  font-weight: var(--subtitle-MED-font-weight);
+  letter-spacing: var(--subtitle-MED-letter-spacing);
+  line-height: var(--subtitle-MED-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.CTA.default-true {
+  border-radius: 40px;
+}
+
+.CTA:hover {
+  background-color: var(--primary-02);
+  border-radius: 45px;
+}
+
+.CTA:hover .text-wrapper {
+  color: var(--neutral-0);
+}

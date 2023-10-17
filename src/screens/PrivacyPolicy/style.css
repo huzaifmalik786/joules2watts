@@ -1,0 +1,884 @@
+.privacy-policy {
+  background-color: #f6f7f8;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  width: 100%;
+}
+
+.privacy-policy .div {
+  background-color: var(--neutral-10);
+  height: 6522px;
+  position: relative;
+  width: 1440px;
+}
+
+.privacy-policy .overlap {
+  height: 476px;
+  left: 0;
+  position: absolute;
+  top: 89px;
+  width: 1440px;
+}
+
+.privacy-policy .rectangle {
+  background-color: #cecfd1;
+  height: 475px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 1440px;
+}
+
+.privacy-policy .businessman-logging {
+  height: 473px;
+  left: 729px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 711px;
+}
+
+.privacy-policy .img {
+  height: 472px;
+  left: 9px;
+  position: absolute;
+  top: 1px;
+  width: 1431px;
+}
+
+.privacy-policy .p {
+  color: var(--secondary-04);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 84px;
+  left: 80px;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+  position: absolute;
+  top: 217px;
+  width: 670px;
+}
+
+.privacy-policy .text-wrapper-2 {
+  color: #2e5053;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 48px;
+  font-weight: 700;
+  height: 144px;
+  left: 80px;
+  letter-spacing: -1.44px;
+  line-height: 62.4px;
+  position: absolute;
+  top: 59px;
+  width: 643px;
+}
+
+.privacy-policy .text-wrapper-3 {
+  color: #2e5053;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+  height: 135px;
+  left: 85px;
+  letter-spacing: -0.32px;
+  line-height: 44.8px;
+  position: absolute;
+  top: 649px;
+  width: 1125px;
+}
+
+.privacy-policy .frame {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 41px;
+  left: 85px;
+  position: absolute;
+  top: 1343px;
+}
+
+.privacy-policy .text-wrapper-4 {
+  color: #2e5053;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  height: 118px;
+  letter-spacing: -0.24px;
+  line-height: 33.6px;
+  margin-top: -1px;
+  position: relative;
+  width: 1125px;
+}
+
+.privacy-policy .text-wrapper-5 {
+  color: #2e5053;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: -0.24px;
+  line-height: 33.6px;
+  position: relative;
+  width: 1125px;
+}
+
+.privacy-policy .text-wrapper-6 {
+  color: var(--secondary-04);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 84px;
+  left: 123px;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+  position: absolute;
+  top: 854px;
+  width: 1153px;
+}
+
+.privacy-policy .text-wrapper-7 {
+  color: var(--secondary-04);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 28px;
+  left: 123px;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+  position: absolute;
+  top: 973px;
+  width: 1153px;
+}
+
+.privacy-policy .text-wrapper-8 {
+  color: var(--secondary-04);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 56px;
+  left: 123px;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+  position: absolute;
+  top: 1036px;
+  width: 1153px;
+}
+
+.privacy-policy .text-wrapper-9 {
+  color: var(--secondary-04);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 56px;
+  left: 123px;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+  position: absolute;
+  top: 1127px;
+  width: 1153px;
+}
+
+.privacy-policy .header {
+  align-items: center;
+  background-color: var(--neutral-10);
+  display: flex;
+  justify-content: space-between;
+  left: 9px;
+  padding: 16px 80px;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.privacy-policy .logo {
+  height: 56.67px;
+  position: relative;
+  width: 116px;
+}
+
+.privacy-policy .holder {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  position: relative;
+}
+
+.privacy-policy .div-wrapper {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px 8px;
+  position: relative;
+  width: 90.33px;
+}
+
+.privacy-policy .text-wrapper-10 {
+  color: #1f1f1f;
+  font-family: var(--subtitle-MED-font-family);
+  font-size: var(--subtitle-MED-font-size);
+  font-style: var(--subtitle-MED-font-style);
+  font-weight: var(--subtitle-MED-font-weight);
+  letter-spacing: var(--subtitle-MED-letter-spacing);
+  line-height: var(--subtitle-MED-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.privacy-policy .text-wrapper-11 {
+  color: #1f1f1f;
+  font-family: var(--subtitle-MED-font-family);
+  font-size: var(--subtitle-MED-font-size);
+  font-style: var(--subtitle-MED-font-style);
+  font-weight: var(--subtitle-MED-font-weight);
+  letter-spacing: var(--subtitle-MED-letter-spacing);
+  line-height: var(--subtitle-MED-line-height);
+  margin-left: -2.83px;
+  margin-right: -2.83px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.privacy-policy .frame-2 {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px 8px;
+  position: relative;
+  width: 80px;
+}
+
+.privacy-policy .CTA-instance {
+  border-color: var(--primary-02) !important;
+  flex: 0 0 auto !important;
+}
+
+.privacy-policy .design-component-instance-node {
+  color: var(--primary-02) !important;
+}
+
+.privacy-policy .footer {
+  background-color: var(--white);
+  height: 292px;
+  left: 0;
+  position: absolute;
+  top: 5730px;
+  width: 1441px;
+}
+
+.privacy-policy .overlap-group {
+  height: 292px;
+  position: relative;
+  width: 1441px;
+}
+
+.privacy-policy .frame-3 {
+  background-color: #1f1f1f;
+  height: 292px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1441px;
+}
+
+.privacy-policy .DIV {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 32px;
+  justify-content: center;
+  left: 738px;
+  position: absolute;
+  top: 53px;
+}
+
+.privacy-policy .text-wrapper-12 {
+  color: var(--white);
+  font-family: var(--h6-REG-font-family);
+  font-size: var(--h6-REG-font-size);
+  font-style: var(--h6-REG-font-style);
+  font-weight: var(--h6-REG-font-weight);
+  letter-spacing: var(--h6-REG-letter-spacing);
+  line-height: var(--h6-REG-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.privacy-policy .text-wrapper-13 {
+  color: var(--white);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 14px;
+  left: 1233px;
+  letter-spacing: -0.1px;
+  line-height: 14px;
+  position: absolute;
+  text-decoration: underline;
+  top: 190px;
+  white-space: nowrap;
+}
+
+.privacy-policy .text-wrapper-14 {
+  color: var(--white);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 14px;
+  left: 1282px;
+  letter-spacing: -0.1px;
+  line-height: 14px;
+  position: absolute;
+  text-decoration: underline;
+  top: 190px;
+  white-space: nowrap;
+}
+
+.privacy-policy .text-wrapper-15 {
+  color: var(--white);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 14px;
+  left: 1331px;
+  letter-spacing: -0.1px;
+  line-height: 14px;
+  position: absolute;
+  text-decoration: underline;
+  top: 190px;
+  white-space: nowrap;
+}
+
+.privacy-policy .text-wrapper-16 {
+  color: var(--white);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 14px;
+  left: 1187px;
+  letter-spacing: -0.1px;
+  line-height: 14px;
+  position: absolute;
+  text-decoration: underline;
+  top: 190px;
+  white-space: nowrap;
+}
+
+.privacy-policy .text-wrapper-17 {
+  color: var(--white);
+  font-family: var(--h6-REG-font-family);
+  font-size: var(--h6-REG-font-size);
+  font-style: var(--h6-REG-font-style);
+  font-weight: var(--h6-REG-font-weight);
+  height: 28px;
+  left: 738px;
+  letter-spacing: var(--h6-REG-letter-spacing);
+  line-height: var(--h6-REG-line-height);
+  position: absolute;
+  top: 100px;
+  white-space: nowrap;
+}
+
+.privacy-policy .text-wrapper-18 {
+  color: var(--white);
+  font-family: var(--h6-REG-font-family);
+  font-size: var(--h6-REG-font-size);
+  font-style: var(--h6-REG-font-style);
+  font-weight: var(--h6-REG-font-weight);
+  height: 28px;
+  left: 869px;
+  letter-spacing: var(--h6-REG-letter-spacing);
+  line-height: var(--h6-REG-line-height);
+  position: absolute;
+  top: 100px;
+  white-space: nowrap;
+}
+
+.privacy-policy .frame-4 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 12px;
+  left: 81px;
+  position: absolute;
+  top: 115px;
+}
+
+.privacy-policy .text-wrapper-19 {
+  color: var(--neutral-0);
+  font-family: var(--paragraph-ALCPS-font-family);
+  font-size: var(--paragraph-ALCPS-font-size);
+  font-style: var(--paragraph-ALCPS-font-style);
+  font-weight: var(--paragraph-ALCPS-font-weight);
+  letter-spacing: var(--paragraph-ALCPS-letter-spacing);
+  line-height: var(--paragraph-ALCPS-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.privacy-policy .text-wrapper-20 {
+  color: var(--neutral-10);
+  font-family: var(--paragraph-REG-font-family);
+  font-size: var(--paragraph-REG-font-size);
+  font-style: var(--paragraph-REG-font-style);
+  font-weight: var(--paragraph-REG-font-weight);
+  letter-spacing: var(--paragraph-REG-letter-spacing);
+  line-height: var(--paragraph-REG-line-height);
+  position: relative;
+  width: 324px;
+}
+
+.privacy-policy .group {
+  height: 52px;
+  left: 1140px;
+  position: absolute;
+  top: 152px;
+  width: 37px;
+}
+
+.privacy-policy .text-wrapper-21 {
+  color: var(--white);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  height: 14px;
+  left: 1px;
+  letter-spacing: -0.1px;
+  line-height: 14px;
+  position: absolute;
+  text-decoration: underline;
+  top: 38px;
+  white-space: nowrap;
+}
+
+.privacy-policy .face-book {
+  height: 35px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 35px;
+}
+
+.privacy-policy .linkedin {
+  height: 35px;
+  left: 1187px;
+  position: absolute;
+  top: 152px;
+  width: 35px;
+}
+
+.privacy-policy .facebook {
+  height: 35px;
+  left: 1234px;
+  position: absolute;
+  top: 152px;
+  width: 35px;
+}
+
+.privacy-policy .facebook-2 {
+  height: 35px;
+  left: 1281px;
+  position: absolute;
+  top: 152px;
+  width: 35px;
+}
+
+.privacy-policy .facebook-3 {
+  height: 35px;
+  left: 1328px;
+  position: absolute;
+  top: 152px;
+  width: 35px;
+}
+
+.privacy-policy .frame-wrapper {
+  height: 17px;
+  left: 501px;
+  position: absolute;
+  top: 242px;
+  width: 400px;
+}
+
+.privacy-policy .frame-5 {
+  align-items: center;
+  display: inline-flex;
+  gap: 5px;
+  justify-content: center;
+  position: relative;
+}
+
+.privacy-policy .text-wrapper-22 {
+  color: var(--grey-01);
+  font-family: var(--labels-captions-REG-font-family);
+  font-size: var(--labels-captions-REG-font-size);
+  font-style: var(--labels-captions-REG-font-style);
+  font-weight: var(--labels-captions-REG-font-weight);
+  letter-spacing: var(--labels-captions-REG-letter-spacing);
+  line-height: var(--labels-captions-REG-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.privacy-policy .ellipse {
+  background-color: var(--grey-01);
+  border-radius: 1.5px;
+  height: 3px;
+  position: relative;
+  width: 3px;
+}
+
+.privacy-policy .logo-2 {
+  height: 56px;
+  left: 76px;
+  position: absolute;
+  top: 39px;
+  width: 116px;
+}
+
+.privacy-policy .rectangle-2 {
+  background-color: #2e5053;
+  border-radius: 15px;
+  height: 14px;
+  left: 85px;
+  position: absolute;
+  top: 862px;
+  width: 15px;
+}
+
+.privacy-policy .rectangle-3 {
+  background-color: #2e5053;
+  border-radius: 15px;
+  height: 14px;
+  left: 85px;
+  position: absolute;
+  top: 981px;
+  width: 15px;
+}
+
+.privacy-policy .rectangle-4 {
+  background-color: #2e5053;
+  border-radius: 15px;
+  height: 14px;
+  left: 85px;
+  position: absolute;
+  top: 1044px;
+  width: 15px;
+}
+
+.privacy-policy .rectangle-5 {
+  background-color: #2e5053;
+  border-radius: 15px;
+  height: 14px;
+  left: 85px;
+  position: absolute;
+  top: 1135px;
+  width: 15px;
+}
+
+.privacy-policy .frame-6 {
+  align-items: center;
+  border-radius: 15px;
+  display: inline-flex;
+  gap: 23px;
+  left: 85px;
+  position: absolute;
+  top: 1219px;
+}
+
+.privacy-policy .rectangle-6 {
+  background-color: #2e5053;
+  border-radius: 18px;
+  height: 14px;
+  position: relative;
+  width: 15px;
+}
+
+.privacy-policy .text-wrapper-23 {
+  color: var(--secondary-04);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+  margin-top: -1px;
+  position: relative;
+  width: 1153px;
+}
+
+.privacy-policy .COOKIES-AND-OTHER {
+  color: var(--neutral-90);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 35px;
+  font-weight: 400;
+  height: 427px;
+  left: 85px;
+  letter-spacing: -0.35px;
+  line-height: 49px;
+  position: absolute;
+  top: 1925px;
+  width: 1115px;
+}
+
+.privacy-policy .span {
+  font-weight: 600;
+}
+
+.privacy-policy .text-wrapper-24 {
+  font-family: var(--h4-REG-font-family);
+  font-size: var(--h4-REG-font-size);
+  font-style: var(--h4-REG-font-style);
+  font-weight: var(--h4-REG-font-weight);
+  letter-spacing: var(--h4-REG-letter-spacing);
+  line-height: var(--h4-REG-line-height);
+}
+
+.privacy-policy .text-wrapper-25 {
+  font-size: 24px;
+  letter-spacing: -0.24px;
+  line-height: 33.6px;
+}
+
+.privacy-policy .MAILERS {
+  color: var(--neutral-90);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 35px;
+  font-weight: 400;
+  height: 121px;
+  left: 85px;
+  letter-spacing: -0.35px;
+  line-height: 49px;
+  position: absolute;
+  top: 2589px;
+  width: 1086px;
+}
+
+.privacy-policy .ANTI-SPAM-POLICY {
+  color: var(--neutral-90);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 35px;
+  font-weight: 400;
+  height: 325px;
+  left: 85px;
+  letter-spacing: -0.35px;
+  line-height: 49px;
+  position: absolute;
+  top: 2807px;
+  width: 1086px;
+}
+
+.privacy-policy .ANTI-SPAM-POLICY-2 {
+  color: var(--neutral-90);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 35px;
+  font-weight: 400;
+  height: 325px;
+  left: 85px;
+  letter-spacing: -0.35px;
+  line-height: 49px;
+  position: absolute;
+  top: 3351px;
+  width: 1086px;
+}
+
+.privacy-policy .LINKS-TO-NON {
+  color: var(--neutral-90);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 35px;
+  font-weight: 400;
+  height: 461px;
+  left: 85px;
+  letter-spacing: -0.35px;
+  line-height: 49px;
+  position: absolute;
+  top: 3851px;
+  width: 1266px;
+}
+
+.privacy-policy .element-EFFECTIVE-DATE {
+  color: var(--neutral-90);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  height: 102px;
+  left: 85px;
+  letter-spacing: -0.24px;
+  line-height: 33.6px;
+  position: absolute;
+  top: 4643px;
+  width: 1184px;
+}
+
+.privacy-policy .text-wrapper-26 {
+  color: #1f1f1f;
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: -0.24px;
+  line-height: 33.6px;
+}
+
+.privacy-policy .element-APPLICABILITY-this {
+  color: var(--neutral-90);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  height: 102px;
+  left: 85px;
+  letter-spacing: -0.24px;
+  line-height: 33.6px;
+  position: absolute;
+  top: 4772px;
+  width: 1184px;
+}
+
+.privacy-policy .element-DEFINITIONS {
+  color: var(--neutral-90);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  height: 102px;
+  left: 85px;
+  letter-spacing: -0.24px;
+  line-height: 33.6px;
+  position: absolute;
+  top: 4889px;
+  width: 1184px;
+}
+
+.privacy-policy .element-OBJECTIVE-OF {
+  color: var(--neutral-90);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  height: 136px;
+  left: 85px;
+  letter-spacing: -0.24px;
+  line-height: 33.6px;
+  position: absolute;
+  top: 5000px;
+  width: 1184px;
+}
+
+.privacy-policy .element-REASONABLE {
+  color: var(--neutral-90);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  height: 340px;
+  left: 85px;
+  letter-spacing: -0.24px;
+  line-height: 33.6px;
+  position: absolute;
+  top: 5186px;
+  width: 1184px;
+}
+
+.privacy-policy .disclosure-of {
+  color: var(--neutral-90);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  height: 102px;
+  left: 85px;
+  letter-spacing: -0.24px;
+  line-height: 33.6px;
+  position: absolute;
+  top: 5563px;
+  width: 1184px;
+}
+
+.privacy-policy .transfer-of {
+  color: var(--neutral-90);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  height: 68px;
+  left: 85px;
+  letter-spacing: -0.24px;
+  line-height: 33.6px;
+  position: absolute;
+  top: 5660px;
+  width: 1184px;
+}
+
+.privacy-policy .publication {
+  color: var(--neutral-90);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  height: 68px;
+  left: 85px;
+  letter-spacing: -0.24px;
+  line-height: 33.6px;
+  position: absolute;
+  top: 5746px;
+  width: 1184px;
+}
+
+.privacy-policy .right-to-opt-out {
+  color: var(--neutral-90);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  height: 136px;
+  left: 85px;
+  letter-spacing: -0.24px;
+  line-height: 33.6px;
+  position: absolute;
+  top: 5843px;
+  width: 1184px;
+}
+
+.privacy-policy .authenticity {
+  color: var(--neutral-90);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  height: 68px;
+  left: 85px;
+  letter-spacing: -0.24px;
+  line-height: 33.6px;
+  position: absolute;
+  top: 5998px;
+  width: 1184px;
+}
+
+.privacy-policy .grievance-redressal {
+  color: var(--neutral-90);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  height: 68px;
+  left: 85px;
+  letter-spacing: -0.24px;
+  line-height: 33.6px;
+  position: absolute;
+  top: 6094px;
+  width: 1184px;
+}
+
+.privacy-policy .text-wrapper-27 {
+  color: var(--neutral-90);
+  font-family: "Source Sans Pro", Helvetica;
+  font-size: 35px;
+  font-weight: 600;
+  height: 49px;
+  left: 85px;
+  letter-spacing: -0.35px;
+  line-height: 49px;
+  position: absolute;
+  top: 4550px;
+  width: 1086px;
+}
