@@ -27,7 +27,7 @@ export const Leadership = () => {
       <div
         className="iphone"
         style={{
-          height: screenWidth < 450 ? "4162px" : screenWidth >= 450 ? "3023px" : undefined,
+          height: screenWidth < 450 ? "3462px" : screenWidth >= 450 ? "2523px" : undefined,
           width: screenWidth < 450 ? "390px" : screenWidth >= 450 ? "1440px" : undefined,
         }}
       >
@@ -155,7 +155,7 @@ export const Leadership = () => {
           </div>
         </div>
         <div className="mobile-only">
-          <div className="frame-16">
+          {/* <div className="frame-16">
             <div className="frame-13">
               <img className="element-2" alt="Element" src="/about/man.webp" />
               <div className="frame-14">
@@ -178,7 +178,7 @@ export const Leadership = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="frame-17">
             <img className="group-2" alt="Group" src="/leadership/group-8851.webp" />
             <img className="group-3" alt="Group" src="/leadership/group-8850.webp" />
@@ -207,7 +207,7 @@ export const Leadership = () => {
         </div>
 
         <div className="desktop-only">
-          <div className="frame-22">
+          {/* <div className="frame-22">
             <div className="frame-10">
               <img className="element" alt="Element" src="/about/man.webp" />
               <div className="frame-11">
@@ -230,7 +230,7 @@ export const Leadership = () => {
               </div>
             </div>
             <img className="linkedin-circled-4" alt="Linkedin circled" src="/about/linkedin-circled-1.png" />
-          </div>
+          </div> */}
           <div className="overlap-2">
             <div className="frame-23">
               <div className="frame-24">
