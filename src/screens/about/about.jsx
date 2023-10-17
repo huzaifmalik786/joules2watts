@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import { useWindowWidth } from "../../breakpoints";
 import { Component } from "../../components/about/Component";
 import { Cta } from "../../components/about/Cta";
@@ -38,6 +38,35 @@ export const About = () => {
 
   const [factor, setFactor] = useState();
 
+  var name = 0;
+
+  function shuffle() {
+    if (name == 0) {
+      document.querySelector(`.text-2`).style.opacity = 0;
+      const ele = document.querySelector(`.text-${name}`);
+      if (ele) {
+        ele.style.opacity = 1;
+      }
+      name++;
+    }
+    else {
+      document.querySelector(`.text-${name - 1}`).style.opacity = 0;
+      const ele = document.querySelector(`.text-${name}`);
+      if (ele) {
+        ele.style.opacity = 1;
+      }
+      name++;
+    }
+    if (name == 3) {
+      name = 0;
+    }
+  }
+
+  useEffect(() => {
+    const intervalID = setInterval(shuffle, 2000);
+    return () => clearInterval(intervalID);
+  }, [shuffle])
+
   useEffect(() => {
     if (window.innerWidth > 450) {
       setFactor(window.innerWidth / 1440);
@@ -65,11 +94,11 @@ export const About = () => {
         <div
           className="iphone"
           style={{
-            height: screenWidth < 450 ? "7582px" : screenWidth >= 450 ? "4905px" : undefined,
+            height: screenWidth < 450 ? "6782px" : screenWidth >= 450 ? "4505px" : undefined,
             width: screenWidth < 450 ? "390px" : screenWidth >= 450 ? "1440px" : undefined,
           }}
         >
-           {openModal && (
+          {openModal && (
             <LeadForm
               openModal={openModal}
               setOpenModal={setOpenModal}
@@ -314,7 +343,7 @@ export const About = () => {
             </div>
             <div className="overlap-5">
               <img className="rectangle-4" alt="Rectangle" src="/about/rectangle-118.svg" />
-              <div className="frame-18">
+              {/* <div className="frame-18">
                 <div className="frame-19">
                   <img className="element" alt="Element" src="/about/man.webp" />
                   <div className="frame-20">
@@ -337,7 +366,7 @@ export const About = () => {
                   </div>
                 </div>
                 <img className="linkedin-circled" alt="Linkedin circled" src="/about/linkedin-circled-1.png" />
-              </div>
+              </div> */}
               <div className="frame-22">
                 <div className="frame-19">
                   <img className="element" alt="Element" src="/about/lady.webp" />
@@ -421,7 +450,7 @@ export const About = () => {
             style={{
               height: screenWidth < 450 ? "746px" : screenWidth >= 450 ? "334px" : undefined,
               left: screenWidth < 450 ? "0" : screenWidth >= 450 ? "-8px" : undefined,
-              top: screenWidth < 450 ? "60px" : screenWidth >= 450 ? "3919px" : undefined,
+              top: screenWidth < 450 ? "60px" : screenWidth >= 450 ? "3519px" : undefined,
               width: screenWidth < 450 ? "390px" : screenWidth >= 450 ? "1446px" : undefined,
             }}
           >
@@ -442,8 +471,12 @@ export const About = () => {
                 <div className="frame-29">
                   <p className="bring-the-best-out-2">
                     <span className="text-wrapper-20">Bring&nbsp;&nbsp;the best out of your </span>
-                    <span className="text-wrapper-21">business</span>
-                    <span className="text-wrapper-20"> for your ambitious goals.</span>
+                    <span className="text-wrapper-21">
+                      <span className="highlighted-text text-0" style={name == 0 ? { opacity: 1 } : {}}>business</span>
+                      <span className="highlighted-text text-1">people</span>
+                      <span className="highlighted-text text-2">industry</span>
+                    </span>
+                    <span className="text-wrapper-20">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for your ambitious goals.</span>
                   </p>
                   <p className="text-wrapper-22">
                     We are the pioneers in technology-based recruiting solutions with a wide array of holistic services.
@@ -505,7 +538,7 @@ export const About = () => {
             style={{
               height: screenWidth < 450 ? "1910px" : screenWidth >= 450 ? "360px" : undefined,
               left: screenWidth < 450 ? "0" : screenWidth >= 450 ? "-2px" : undefined,
-              top: screenWidth < 450 ? "5644px" : screenWidth >= 450 ? "4253px" : undefined,
+              top: screenWidth < 450 ? "4844px" : screenWidth >= 450 ? "3853px" : undefined,
               width: screenWidth < 450 ? "390px" : screenWidth >= 450 ? "1440px" : undefined,
             }}
           >
@@ -851,7 +884,7 @@ export const About = () => {
                 </div>
               </div>
             </div>
-            <div className="frame-70">
+            {/* <div className="frame-70">
               <div className="frame-67">
                 <img className="element-3" alt="Element" src="/about/man.webp" />
                 <div className="frame-68">
@@ -874,7 +907,7 @@ export const About = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="overlap-11">
               <div className="frame-71">
                 <div className="frame-72">

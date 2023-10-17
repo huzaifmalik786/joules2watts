@@ -13,9 +13,18 @@
   position: relative;
 }
 
-.carousel {
+.about .carousel {
   width: 100%;
   height: auto;
+}
+
+.about .highlighted-text{
+  text-decoration: underline;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity ease-in-out 0.3s;
 }
 
 .about .header-instance {
@@ -735,7 +744,7 @@
   height: 801px;
   left: 925px;
   position: absolute;
-  top: 70px;
+  top: -230px;
   width: 381px;
 }
 
@@ -869,7 +878,7 @@
   height: 842px;
   left: -28px;
   position: absolute;
-  top: 3077px;
+  top: 2677px;
   width: 1511px;
 }
 
@@ -1020,6 +1029,7 @@
 .about .text-wrapper-21 {
   color: #4d9f98;
   font-weight: 700;
+  position: relative;
   text-decoration: underline;
 }
 
@@ -1070,11 +1080,11 @@
 }
 
 .about .christina-2 {
-  height: 356px;
-  left: 23px;
-  position: absolute;
-  top: 32px;
   width: 331px;
+  height: 342px;
+  position: absolute;
+  top: 52px;
+  left: 23px;
 }
 
 .about .CTA-4 {
@@ -1768,7 +1778,7 @@
   display: inline-flex;
   flex-direction: column;
   gap: 16px;
-  left: 50px;
+  left: 104px;
   position: absolute;
   top: 3014px;
 }
@@ -2101,7 +2111,7 @@
   height: 954px;
   left: 0;
   position: absolute;
-  top: 4690px;
+  top: 3890px;
   width: 390px;
 }
 
