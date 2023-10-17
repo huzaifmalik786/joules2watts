@@ -1472,6 +1472,7 @@
   grid-template-columns: repeat(4, 1fr);
   align-items: center;
   justify-content: center;
+  gap: 60px;
   height: 300px;
   left: 84px;
   position: absolute;
@@ -1762,6 +1763,12 @@
 .industries .logos-mobile {
   width: 150px;
   height: 68px;
+}
+
+.industries .logo-desktop{
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .industries .logos-mobile img{
