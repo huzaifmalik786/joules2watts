@@ -13,9 +13,9 @@ export const Iphone = () => {
     } else {
       setFactor(window.innerWidth / 390);
     }
-    document.querySelector(".div").style.transform = `scaleX(${factor})`;
+    document.querySelector(".div-mobile").style.transform = `scaleX(${factor})`;
     document.querySelector("#app").style.transform = `scaleY(${factor})`;
-    document.querySelector(".div").style.transformOrigin = `top left`;
+    document.querySelector(".div-mobile").style.transformOrigin = `top left`;
     document.querySelector("#app").style.transformOrigin = `top left`;
   });
 
@@ -26,7 +26,7 @@ export const Iphone = () => {
       </div>
       <div className="mobile-only">
         <div className="privacy-mobile">
-          <div className="div">
+          <div className="div-mobile">
             <Header1 className="header-instance" />
             <div className="overlap">
               <div className="frame">
@@ -474,5 +474,5 @@ export const Iphone = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
