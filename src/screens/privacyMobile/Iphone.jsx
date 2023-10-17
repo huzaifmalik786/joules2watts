@@ -1,10 +1,24 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import { Header1 } from "../../icons/Header1";
 import "./style.css";
 import { PrivacyPolicy } from "../PrivacyPolicy/PrivacyPolicy";
 import { Footer } from "../../components/shared/footer";
 
 export const Iphone = () => {
+  const [factor, setFactor] = useState();
+
+  useEffect(() => {
+    if (window.innerWidth > 450) {
+      setFactor(window.innerWidth / 1440);
+    } else {
+      setFactor(window.innerWidth / 390);
+    }
+    document.querySelector(".div").style.transform = `scaleX(${factor})`;
+    document.querySelector("#app").style.transform = `scaleY(${factor})`;
+    document.querySelector(".div").style.transformOrigin = `top left`;
+    document.querySelector("#app").style.transformOrigin = `top left`;
+  });
+  
   return (
     <>
       <div className="desktop-only">
