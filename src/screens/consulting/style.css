@@ -1499,10 +1499,10 @@
 
 .consulting .text-wrapper-29 {
   color: #2e5053;
-  font-family: var(--subtitle-MED-font-family);
-  font-size: var(--subtitle-MED-font-size);
-  font-style: var(--subtitle-MED-font-style);
-  font-weight: var(--subtitle-MED-font-weight);
+  font-family: Source Sans Pro, Helvetica;
+  font-size: 17px;
+  font-weight: 600;
+  font-style: normal;
   height: 70px;
   left: 742px;
   letter-spacing: var(--subtitle-MED-letter-spacing);
@@ -1515,10 +1515,10 @@
 
 .consulting .candidate-selection {
   color: #2e5053;
-  font-family: var(--subtitle-MED-font-family);
-  font-size: var(--subtitle-MED-font-size);
-  font-style: var(--subtitle-MED-font-style);
-  font-weight: var(--subtitle-MED-font-weight);
+  font-family: Source Sans Pro, Helvetica;
+  font-size: 17px;
+  font-weight: 600;
+  font-style: normal;
   height: 70px;
   left: 511px;
   letter-spacing: var(--subtitle-MED-letter-spacing);
@@ -1641,7 +1641,7 @@
   letter-spacing: -0.17px;
   line-height: 23.8px;
   position: absolute;
-  top: 0;
+  top: 21px;
   width: 91px;
 }
 

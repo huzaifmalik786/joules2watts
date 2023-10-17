@@ -107,7 +107,7 @@ export const Lounge = () => {
                   With a dedicated team specializing in extensive volume hiring and evaluation process, the candidate
                   selection process is completed with ease. <br />
                   <br />
-                  JoulestoWatt&#39;s AI and predictive analytics tool automatically grades and predicts how well
+                  JoulestoWatts AI and predictive analytics tool automatically grades and predicts how well
                   candidates will perform their job, eliminating the need for elaborate interventions during the hiring
                   process.
                 </p>
@@ -211,7 +211,7 @@ export const Lounge = () => {
                     <img className="pexels-pavel" alt="Pexels pavel" src="/lounge/pexels-pavel-danilyuk-5520297-1.webp" />
                     <div className="rectangle-6" />
                     <p className="joulestowatt-s">
-                      JoulestoWatt&#39;s premiere lounge is the next step to assessing and shortlisting accurate profiles
+                      JoulestoWatts premiere lounge is the next step to assessing and shortlisting accurate profiles
                       using a systematic strategy to find the best match.
                     </p>
                   </div>

@@ -45,7 +45,7 @@ export const Consulting = () => {
             width: screenWidth < 450 ? "390px" : screenWidth >= 450 ? "1440px" : undefined,
           }}
         >
-           {openModal && (
+          {openModal && (
             <LeadForm
               openModal={openModal}
               setOpenModal={setOpenModal}
@@ -390,11 +390,11 @@ export const Consulting = () => {
                       <div className="overlap-8">
                         <div className="text-wrapper-30">KPI Review</div>
                         <p className="turn-around-time-hit">
-                          Turn around time
+                          • &nbsp; Turn around time
                           <br />
-                          Hit ratio
+                          • &nbsp; Hit ratio
                           <br />
-                          Client specific
+                          • &nbsp;Client specific
                         </p>
                       </div>
                       <div className="text-wrapper-31">CSAT : Feedback</div>
@@ -812,11 +812,11 @@ export const Consulting = () => {
               <div className="overlap-19">
                 <div className="text-wrapper-30">KPI Review</div>
                 <p className="turn-around-time-hit">
-                  Turn around time
+                  • &nbsp;Turn around time
                   <br />
-                  Hit ratio
+                  • &nbsp;Hit ratio
                   <br />
-                  Client specific
+                  • &nbsp;Client specific
                 </p>
               </div>
               <div className="text-wrapper-70">CSAT : Feedback</div>

@@ -231,22 +231,22 @@ export const PrivacyPolicy = () => {
             <br />
           </span>
           <span className="text-wrapper-26">
-            Joulestowatts will take reasonable steps to ensure that all dealings in Personal Data, shall:be processed
-            fairly &amp; lawfully;
+            • &nbsp; Joulestowatts will take reasonable steps to ensure that all dealings in Personal Data, shall:be processed
+            fairly &amp; lawfully; 
             <br />
-            be obtained only with the consent of the information provider;
+            • &nbsp; be obtained only with the consent of the information provider;
             <br />
-            be collected, only when:
+            • &nbsp; be collected, only when:
             <br />
-            the information is collected for a lawful purpose connected with a function or activity of Joulestowatts;
+            • &nbsp; the information is collected for a lawful purpose connected with a function or activity of Joulestowatts;
             and
             <br />
-            the collection of the sensitive personal data or information is considered necessary for that purpose.
+            • &nbsp; the collection of the sensitive personal data or information is considered necessary for that purpose.
             <br />
-            be available for review by the information provider, as and when requested.
+            • &nbsp; be available for review by the information provider, as and when requested.
             <br />
-            be kept secure against unauthorized or unlawful processing and against accidental loss, destruction or
-            damage, as per the prescribed standards.
+            • &nbsp; be kept secure against unauthorized or unlawful processing and against accidental loss, destruction or
+            damage, as per &nbsp; &nbsp; &nbsp; the prescribed standards.
           </span>
         </p>
         <p className="disclosure-of">
@@ -296,8 +296,8 @@ export const PrivacyPolicy = () => {
           </span>
         </p>
         <p className="text-wrapper-27">PRIVACY POLICY ON PERSONAL INFORMATION</p>
-        <Footer />
-      </div>
-    </div>
+          <Footer />
+      </div >
+    </div >
   );
 };

@@ -98,7 +98,6 @@ export const Staffing = () => {
             </div>
 
             <div className="desktop-only">
-              <img className="rectangle-5" alt="Rectangle" src="/staffing/rectangle-77.svg" />
               <img
                 className="business-people-2"
                 alt="Business people"

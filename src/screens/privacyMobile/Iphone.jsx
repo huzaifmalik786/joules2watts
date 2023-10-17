@@ -238,22 +238,52 @@ export const Iphone = () => {
                 <br />
               </span>
               <span className="text-wrapper-12">
-                Joulestowatts will take reasonable steps to ensure that all dealings in Personal Data, shall:be processed
-                fairly &amp; lawfully;
-                <br />
-                be obtained only with the consent of the information provider;
-                <br />
-                be collected, only when:
-                <br />
-                the information is collected for a lawful purpose connected with a function or activity of Joulestowatts;
-                and
-                <br />
-                the collection of the sensitive personal data or information is considered necessary for that purpose.
-                <br />
-                be available for review by the information provider, as and when requested.
-                <br />
-                be kept secure against unauthorized or unlawful processing and against accidental loss, destruction or
-                damage, as per the prescribed standards.
+                <div style={{ display: "flex", alignItems: "flex-start", gap: 8 }}>
+                  <div>•</div>
+                  <div>
+                    Joulestowatts will take reasonable steps to ensure that all dealings in Personal Data, shall:be processed
+                    fairly &amp; lawfully;
+                  </div>
+                </div>
+                <div style={{ display: "flex", alignItems: "flex-start", gap: 8 }}>
+                  <div>•</div>
+                  <div>
+                    be obtained only with the consent of the information provider;
+                  </div>
+                </div>
+                <div style={{ display: "flex", alignItems: "flex-start", gap: 8 }}>
+                  <div>•</div>
+                  <div>
+                    be collected, only when:
+                  </div>
+                </div>
+                <div style={{ display: "flex", alignItems: "flex-start", gap: 8 }}>
+                  <div>•</div>
+                  <div>
+                    the information is collected for a lawful purpose connected with a function or activity of Joulestowatts;
+                    and
+                  </div>
+                </div>
+                <div style={{ display: "flex", alignItems: "flex-start", gap: 8 }}>
+                  <div>•</div>
+                  <div>
+                    the collection of the sensitive personal data or information is considered necessary for that purpose.
+                  </div>
+                </div>
+                <div style={{ display: "flex", alignItems: "flex-start", gap: 8 }}>
+                  <div>•</div>
+                  <div>
+                    be available for review by the information provider, as and when requested.
+                  </div>
+                </div>
+                <div style={{ display: "flex", alignItems: "flex-start", gap: 8 }}>
+                  <div>•</div>
+                  <div>
+                    be kept secure against unauthorized or unlawful processing and against accidental loss, destruction or
+                    damage, as per the prescribed standards.
+                  </div>
+                </div>
+
               </span>
             </p>
             <p className="disclosure-of">
@@ -302,7 +332,7 @@ export const Iphone = () => {
                 writing to following contact email ID. Grievance shall be redressed as expeditiously as possible.
               </span>
             </p>
-            <Footer/>
+            <Footer />
           </div>
         </div>
       </div>
