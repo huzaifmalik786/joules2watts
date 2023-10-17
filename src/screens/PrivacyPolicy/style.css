@@ -785,6 +785,10 @@
   width: 1184px;
 }
 
+.privacy-policy .element-REASONABLE .ul_pad_left {
+  padding-left: 10px;
+}
+
 .privacy-policy .disclosure-of {
   color: var(--neutral-90);
   font-family: "Source Sans Pro", Helvetica;
@@ -809,7 +813,7 @@
   letter-spacing: -0.24px;
   line-height: 33.6px;
   position: absolute;
-  top: 5660px;
+  top: 5677px;
   width: 1184px;
 }
 
@@ -823,7 +827,7 @@
   letter-spacing: -0.24px;
   line-height: 33.6px;
   position: absolute;
-  top: 5746px;
+  top: 5758px;
   width: 1184px;
 }
 
