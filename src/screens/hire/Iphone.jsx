@@ -959,12 +959,12 @@ export const Hire = () => {
                     </div>
                   </div>
                 </div>
-                <img className="group-34" alt="Group" src="/hire/group-63.png" />
-                <img className="group-35" alt="Group" src="/hire/group-64.png" />
-                <img className="group-36" alt="Group" src="/hire/group-65.png" />
-                <img className="group-37" alt="Group" src="/hire/group-66.png" />
-                <img className="group-38" alt="Group" src="/hire/group-67.png" />
-                <img className="group-39" alt="Group" src="/hire/group-68.png" />
+                <img className="group-34" alt="Group" src="/hire/group-63.svg" />
+                <img className="group-35" alt="Group" src="/hire/group-64.svg" />
+                <img className="group-36" alt="Group" src="/hire/group-65.svg" />
+                <img className="group-37" alt="Group" src="/hire/group-66.svg" />
+                <img className="group-38" alt="Group" src="/hire/group-67.svg" />
+                <img className="group-39" alt="Group" src="/hire/group-68.svg" />
                 <img className="rectangle-16" alt="Rectangle" src="/hire/rectangle-76-4.svg" />
                 <img className="rectangle-17" alt="Rectangle" src="/hire/rectangle-77-1.svg" />
               </div>

@@ -169,7 +169,7 @@ export const Consulting = () => {
                 </div>
 
                 <div className="desktop-only">
-                  <img className="group-2" alt="Group" src="/consulting/group-24.webp" />
+                  <img className="group-2" alt="Group" src="/consulting/group-24.svg" />
                   <div className="text-wrapper-10">GIC</div>
                   <div className="text-wrapper-11">Capital Markets</div>
                   <div className="text-wrapper-12">Banking</div>
