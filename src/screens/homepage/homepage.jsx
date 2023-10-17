@@ -53,19 +53,30 @@ const ButtonGroup2 = ({ next, previous, ...rest }) => {
 
 const CustomDot = ({ onClick, ...rest }) => {
   const {
-    onMove,
-    index,
     active,
     carouselState: { currentSlide, deviceType },
   } = rest;
-  const carouselItems = [1, 2, 3, 4, 5];
+
+  return (
+    <button
+      className={active ? "dot-active-green" : "dot-inactive-green"}
+      onClick={() => onClick()}
+    >
+    </button>
+  );
+};
+
+const CustomDot2 = ({ onClick, ...rest }) => {
+  const {
+    active,
+    carouselState: { currentSlide, deviceType },
+  } = rest;
 
   return (
     <button
       className={active ? "dot-active" : "dot-inactive"}
       onClick={() => onClick()}
     >
-      <p />
     </button>
   );
 };
@@ -116,7 +127,7 @@ export const Homepage = () => {
           )}
           <Box />
           <Header nobg />
-          <div className="mobile-carousel-1 mobile-only">
+          <div className="mobile-carousel-1 mobile-only carousel-12">
             <Carousel
               arrows={false}
               swipeable={false}
@@ -137,7 +148,7 @@ export const Homepage = () => {
               pauseOnHover={false}
               customTransition="all ease-in .8"
               transitionDuration={500}
-            // customDot={<CustomDot/>}
+            customDot={<CustomDot/>}
             >
               <Frame
                 property1="default"
@@ -192,7 +203,7 @@ export const Homepage = () => {
             </div>
 
             <div className="desktop-only">
-              <div className="carousel-1">
+              <div className="carousel-1 carousel-11">
                 <Carousel
                   arrows={false}
                   swipeable={false}
@@ -213,7 +224,7 @@ export const Homepage = () => {
                   pauseOnHover={false}
                   customTransition="all ease-in .8"
                   transitionDuration={500}
-                // customDot={<CustomDot/>}
+                  customDot={<CustomDot />}
                 >
                   <Component
                     // className="component-2"
@@ -631,7 +642,7 @@ export const Homepage = () => {
                 </button>
               </div>
             </div>
-            <div className="carousel-11">
+            <div className="carousel-111">
               <Carousel
                 arrows={false}
                 swipeable={false}
@@ -652,7 +663,7 @@ export const Homepage = () => {
                 pauseOnHover={false}
                 customTransition="all ease-in .8"
                 transitionDuration={500}
-                customDot={<CustomDot />}
+                customDot={<CustomDot2 />}
               >
                 <PropertyDefault
                   arrowForward="/homepage/arrow-forward.png"
@@ -799,7 +810,7 @@ export const Homepage = () => {
                 pauseOnHover={false}
                 customTransition="all ease-in .8"
                 transitionDuration={500}
-                customDot={<CustomDot />}
+                customDot={<CustomDot2 />}
               >
                 <PropertyDefaultWrapper
                   arrowForward="/homepage/arrow-forward-20.png"

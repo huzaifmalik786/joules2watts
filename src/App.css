@@ -10,7 +10,7 @@ body {
     overflow-x: hidden;
 }
 
-button{
+button {
     cursor: pointer !important;
 }
 
@@ -47,6 +47,46 @@ button{
     width: 60px;
     height: 60px;
 }
+
+.dot-active-green {
+    border-radius: 50%;
+    width: 8.95px;
+    height: 10.95px;
+    background: #4D9F98;
+    border: none;
+    margin-left: 4px;
+    outline: none;
+}
+
+.dot-inactive-green {
+    border-radius: 50%;
+    width: 8.95px;
+    margin-left: 4px;
+    height: 10.95px;
+    background: #C2C2C2;
+    border: none;
+    outline: none;
+} 
+
+.dot-active {
+    border-radius: 50%;
+    width: 8.95px;
+    height: 10.95px;
+    background: #E9E9E9;
+    border: none;
+    margin-left: 4px;
+    outline: none;
+}
+
+.dot-inactive {
+    border-radius: 50%;
+    width: 8.95px;
+    margin-left: 4px;
+    height: 10.95px;
+    background: rgba(255, 255, 255, 0.32);
+    border: none;
+    outline: none;
+} 
 
 @media (max-width: 450px) {
     .mobile-only {
