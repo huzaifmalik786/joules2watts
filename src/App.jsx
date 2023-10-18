@@ -17,7 +17,7 @@ import { Industries } from "./screens/industries";
 import { Leadership } from "./screens/leadership";
 import { Careers } from "./screens/careers";
 import { CSR } from "./screens/csr";
-import { Iphone } from "./screens/privacyMobile/Iphone";
+import { Privacy } from "./screens/privacyMobile/Iphone";
 import { Homepage } from "./screens/homepage";
 
 const router = [
@@ -87,7 +87,7 @@ const router = [
   },
   {
     path: "/privacy-policy",
-    element: <Iphone />
+    element: <Privacy />
   },
   {
     path: "/csr-policy",

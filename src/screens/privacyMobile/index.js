@@ -1,1 +1,1 @@
-export { Iphone } from "./Iphone";
+export { Privacy } from "./Iphone";

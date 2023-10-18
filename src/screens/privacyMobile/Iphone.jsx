@@ -4,7 +4,7 @@ import "./style.css";
 import { PrivacyPolicy } from "../PrivacyPolicy/PrivacyPolicy";
 import { Footer } from "../../components/shared/footer";
 
-export const Iphone = () => {
+export const Privacy = () => {
   const [factor, setFactor] = useState();
 
   useEffect(() => {
