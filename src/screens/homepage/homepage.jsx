@@ -291,17 +291,17 @@ export const Homepage = () => {
               <div className="rectangle-10" />
               <div className="rectangle-11" />
               <div className="frame-25">
-                <div className="text-wrapper-17">7800+</div>
-                <div className="text-wrapper-18">Trusted Consultants</div>
+                <div className="text-wrapper-17">4500+</div>
+                <div className="text-wrapper-18">Consultants</div>
               </div>
               <div className="frame-26">
                 <div className="text-wrapper-17">200+</div>
-                <div className="text-wrapper-19">Skill Sets</div>
+                <div className="text-wrapper-19">Clients Fortune</div>
               </div>
               <div className="frame-27">
                 <div className="frame-28">
-                  <div className="text-wrapper-20">200+</div>
-                  <div className="text-wrapper-21">Affiliation Boutique Firms</div>
+                  <div className="text-wrapper-20">500</div>
+                  <div className="text-wrapper-21">Companies Trusted Partner</div>
                 </div>
               </div>
             </div>
@@ -320,15 +320,15 @@ export const Homepage = () => {
                 <div className="rectangle-12" />
               </div>
               <div className="frame-31">
-                <div className="text-wrapper-17">7800+</div>
-                <div className="text-wrapper-23">Trusted Consultants</div>
+                <div className="text-wrapper-17">4500+</div>
+                <div className="text-wrapper-23">Consultants</div>
               </div>
             </div>
             <div className="frame-32">
               <div className="rectangle-13" />
               <div className="frame-33">
                 <div className="text-wrapper-17">200+</div>
-                <div className="text-wrapper-19">Skill Sets</div>
+                <div className="text-wrapper-19">Clients Fortune</div>
               </div>
             </div>
             <div className="frame-34">
@@ -339,8 +339,8 @@ export const Homepage = () => {
               />
               <div className="frame-35">
                 <div className="frame-28">
-                  <div className="text-wrapper-20">200+</div>
-                  <div className="text-wrapper-21">Affiliation Boutique Firms</div>
+                  <div className="text-wrapper-20">500</div>
+                  <div className="text-wrapper-21">Companies Trusted Partner</div>
                 </div>
               </div>
             </div>
