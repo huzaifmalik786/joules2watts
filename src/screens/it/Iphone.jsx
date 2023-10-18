@@ -314,7 +314,6 @@ export const ItServices = () => {
                   />
                 </div>
               </div>
-              <img className="image-2" alt="Image" src="/it/image-6.webp" />
               <img className="hero-2" alt="Hero" src="/it/hero-1.png" />
               <div className="group-5">
                 <Cta
