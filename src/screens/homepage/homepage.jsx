@@ -296,12 +296,12 @@ export const Homepage = () => {
               </div>
               <div className="frame-26">
                 <div className="text-wrapper-17">200+</div>
-                <div className="text-wrapper-19">Clients Fortune</div>
+                <div className="text-wrapper-19">Clients</div>
               </div>
               <div className="frame-27">
                 <div className="frame-28">
-                  <div className="text-wrapper-20">500</div>
-                  <div className="text-wrapper-21">Companies Trusted Partner</div>
+                  <div className="text-wrapper-20">Fortune 500</div>
+                  <div className="text-wrapper-21">Companies Trusted Partners</div>
                 </div>
               </div>
             </div>
@@ -328,7 +328,7 @@ export const Homepage = () => {
               <div className="rectangle-13" />
               <div className="frame-33">
                 <div className="text-wrapper-17">200+</div>
-                <div className="text-wrapper-19">Clients Fortune</div>
+                <div className="text-wrapper-19">Clients</div>
               </div>
             </div>
             <div className="frame-34">
@@ -339,8 +339,8 @@ export const Homepage = () => {
               />
               <div className="frame-35">
                 <div className="frame-28">
-                  <div className="text-wrapper-20">500</div>
-                  <div className="text-wrapper-21">Companies Trusted Partner</div>
+                  <div className="text-wrapper-20">Fortune 500</div>
+                  <div className="text-wrapper-21">Companies Trusted Partners</div>
                 </div>
               </div>
             </div>
