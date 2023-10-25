@@ -234,7 +234,7 @@ export const Service = ({
                     strategies to recruit, retain, and manage talent.
                   </p>
                 </div>
-                <Cta arrowForward="/homepage/arrow-forward-10.svg" className="CTA-2" property1="default" text="Learn More" link="/hire-train-deploy" />
+                <Cta arrowForward="/homepage/arrow-forward-10.svg" className="CTA-2" property1="default" text="Learn More" link="/workforce-solutions" />
               </>
             )}
           </div>

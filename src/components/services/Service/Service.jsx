@@ -130,7 +130,7 @@ export const Service = ({ stateProp, card, className, CTAArrowForward = "/servic
                           : state.card === "RPO"
                             ? "/consulting"
                             : state.card =="GIC"
-                            ? "/hire-train-deploy"
+                            ? "/workforce-solutions"
                             : "/msp"
                   }
                 />

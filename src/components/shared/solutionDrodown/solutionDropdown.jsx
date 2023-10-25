@@ -9,7 +9,7 @@ const items = [
     },
     {
         name: "Workforce Solutions",
-        link: "/hire-train-deploy"
+        link: "/workforce-solutions"
     },
     {
         name: "Contract & Flexible Staffing",

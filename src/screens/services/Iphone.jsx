@@ -114,7 +114,7 @@ export const Services = () => {
                       className="instance-node"
                       property1="default"
                       text="Learn More"
-                      link="/hire-train-deploy"
+                      link="/workforce-solutions"
                     />
                   </div>
                 </div>

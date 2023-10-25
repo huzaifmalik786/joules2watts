@@ -34,7 +34,7 @@ const router = [
     element: <Services />
   },
   {
-    path: "/hire-train-deploy",
+    path: "/workforce-solutions",
     element: <Hire />
   },
   {

@@ -69,7 +69,7 @@ export const Frame = () => {
               divClassName="CTA-3"
               property1="default"
               text="Learn More"
-              link="hire-train-deploy"
+              link="/workforce-solutions"
             />
           </div>
         </div>
