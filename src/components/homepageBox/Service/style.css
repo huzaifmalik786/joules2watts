@@ -159,7 +159,7 @@
   line-height: 28px;
   position: relative;
   transform: rotate(180deg);
-  width: 420px;
+  width: 450px;
 }
 
 .service-homepage .CTA-wrapper {
@@ -413,7 +413,7 @@
 }
 
 .service-homepage.state-hover.two .frame {
-  background-image: url(../../../../static/homepage/shutterstock-1485872414-1-13.webp);
+  background-image: url(../../../../static/homepage/shutterstock-1485872414-1-14.webp);
 }
 
 .service-homepage.five .overlap-group-3 {
@@ -545,7 +545,7 @@
 .service-homepage.two .frame-2 {
   display: flex;
   justify-content: center;
-  width: 397px;
+  width: 407px;
 }
 
 .service-homepage.six .frame-2 {
@@ -742,7 +742,7 @@
 .service-homepage.six .overlap-group-3 {
   height: 320px;
   position: relative;
-  background: linear-gradient(#0000 , #000 90.06%, #000 149.06%), url(../../../../static/homepage//shutterstock-1485872414-1-14.webp), #000 50% / cover no-repeat;
+  background: linear-gradient(#0000 , #000 90.06%, #000 149.06%), url(../../../../static/homepage//shutterstock-1485872414-1-13.webp), #000 50% / cover no-repeat;
   top: 2px;
   width: 720px;
 }

@@ -7,14 +7,14 @@ import { PlatformDropdown } from '../platformDropdown'
 import { Link } from 'react-router-dom'
 
 
-export const Header = ({ nobg, msp }) => {
+export const Header = ({ nobg, msp, blacklogo }) => {
     const screenWidth = useWindowWidth();
     const [OpenSolutions, setOpenSolutions] = useState(false);
     const [platformSolutions, setPlatformSolutions] = useState(false);
     return (
         <header className="header-2-shared desktop-only">
             <Link to="/">
-                <img className="logo-shared" alt="Logo" src="/services/logo-1.png" />
+                <img className="logo-shared" alt="Logo" src={blacklogo?"/logos/logo-black.webp":"/services/logo-1.png"} />
             </Link>
             <div className="holder-shared">
                 <div className="frame-33-shared">

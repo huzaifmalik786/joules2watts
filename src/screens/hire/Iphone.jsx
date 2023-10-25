@@ -59,8 +59,8 @@ export const Hire = () => {
               factor={factor}
             />
           )}
-          <Header />
-          <Header1 className="header mobile-only" />
+          <Header blacklogo/>
+          <Header1 className="header mobile-only" blacklogo/>
           <div className="mobile-only">
             <div className="overlap-group-wrapper">
               <div className="overlap-group-2">

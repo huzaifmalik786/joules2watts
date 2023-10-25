@@ -53,8 +53,8 @@ export const Staffing = () => {
               factor={factor}
             />
           )}
-          <Header />
-          <Header1 className="header mobile-only" />
+          <Header blacklogo/>
+          <Header1 className="header mobile-only" blacklogo/>
 
           <div
             className="frame-4"

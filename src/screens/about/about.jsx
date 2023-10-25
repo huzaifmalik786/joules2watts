@@ -105,8 +105,8 @@ export const About = () => {
               factor={factor}
             />
           )}
-          <Header />
-          <Header1 className="header-instance mobile-only" />
+          <Header blacklogo/>
+          <Header1 className="header-instance mobile-only" blacklogo/>
 
           <div className="desktop-only">
             <div className="overlap">

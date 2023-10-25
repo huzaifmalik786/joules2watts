@@ -20,7 +20,7 @@ export const PrivacyPolicy = () => {
   return (
     <div className="privacy-policy">
       <div className="div">
-        <Header />
+        <Header blacklogo/>
         <div className="overlap">
           <div className="rectangle" />
           <img

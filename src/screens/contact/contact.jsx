@@ -53,8 +53,8 @@ export const Contact = () => {
               : undefined,
         }}
       >
-        <Header />
-        <Header1 className="header mobile-only" />
+        <Header blacklogo/>
+        <Header1 className="header mobile-only" blacklogo/>
         <div className="mobile-only">
           <div className="overlap">
             <div className="div">Contact Us</div>

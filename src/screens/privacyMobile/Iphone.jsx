@@ -27,7 +27,7 @@ export const Privacy = () => {
       <div className="mobile-only">
         <div className="privacy-mobile">
           <div className="div-mobile">
-            <Header1 className="header-instance" />
+            <Header1 className="header-instance" blacklogo/>
             <div className="overlap">
               <div className="frame">
                 <div className="frame-2">

@@ -31,7 +31,7 @@ export const Leadership = () => {
           width: screenWidth < 450 ? "390px" : screenWidth >= 450 ? "1440px" : undefined,
         }}
       >
-        <Header />
+        <Header blacklogo/>
         <div className="mobile-only">
           <div className="div-wrapper">
             <div className="frame-6">
@@ -48,7 +48,7 @@ export const Leadership = () => {
               </div>
             </div>
           </div>
-          <Header1 className="header" />
+          <Header1 className="header" blacklogo/>
         </div>
 
         <div

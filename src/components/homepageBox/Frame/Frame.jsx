@@ -61,7 +61,7 @@ export const Frame = () => {
             </div>
           </div>
           <div className="div-3">
-            <div className="hire-train-deploy">Hire, Train &amp; Deploy</div>
+            <div className="hire-train-deploy">Workforce Solutions</div>
             <Cta
               arrowForward="/homepage/arrow-forward-2.svg"
               arrowForwardClassName="CTA-2"

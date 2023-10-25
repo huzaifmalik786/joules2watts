@@ -49,7 +49,7 @@ export const Industries = () => {
               factor={factor}
             />
           )}
-          <Header />
+          <Header blacklogo/>
           <div
             className="overlap"
             style={{
@@ -400,7 +400,7 @@ export const Industries = () => {
                 </div>
               </div>
             </div>
-            <Header1 className="header-7" />
+            <Header1 className="header-7" blacklogo/>
             <div className="frame-31">
               <div className="frame-32">
                 <img className="unknown-4" alt="Unknown" src="/industries/unknown-1.png" />

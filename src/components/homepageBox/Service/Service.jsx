@@ -88,8 +88,8 @@ export const Service = ({
 
                       {state.card === "two" && (
                         <>
-                          Administrative and <br />
-                          Payroll Management
+                          Consulting for Global <br />
+                          In-house Centers (GICs)
                         </>
                       )}
 
@@ -104,8 +104,8 @@ export const Service = ({
 
                       {state.card === "two" && (
                         <>
-                          Administrative and <br />
-                          Payroll Management
+                          Consulting for Global <br />
+                          In-house Centers (GICs)
                         </>
                       )}
 
@@ -121,8 +121,9 @@ export const Service = ({
 
                       {state.card === "two" && (
                         <p className="text-wrapper-6">
-                          We are committed to delivering world-class payroll management and the most dependable HR
-                          solutions.
+                          We at Joulestowatts have tailored our services&nbsp;&nbsp;to address the critical challenges that
+                          GICs face in India.
+
                         </p>
                       )}
 
@@ -155,11 +156,11 @@ export const Service = ({
                     state.card === "five"
                       ? "/staffing-solution"
                       : state.card === "two"
-                        ? "/administrative-and-payroll-management"
-                        :  state.card === "three"
+                        ? "/consulting"
+                        : state.card === "three"
                           ? "/rpo"
                           : state.card === "six"
-                            ? "/consulting"
+                            ? "/administrative-and-payroll-management"
                             : "/hire-train-deplo"
                   }
                 />
@@ -180,12 +181,12 @@ export const Service = ({
                 {state.card === "six" && (
                   <>
                     <p className="text-wrapper">
-                      Consulting for Global <br />
-                      In-house Centers (GICs)
+                      Administrative and <br />
+                      Payroll Management
                     </p>
                     <p className="we-at-joulestowatts">
-                      We at Joulestowatts have tailored our services&nbsp;&nbsp;to address the critical challenges that
-                      GICs face in India.
+                      We are committed to delivering world-class payroll management and the most dependable HR
+                      solutions.
                     </p>
                     <div className="CTA-wrapper">
                       <Cta
@@ -194,7 +195,7 @@ export const Service = ({
                         className="CTA-instance"
                         property1="default"
                         text="Learn More"
-                        link="/consulting"
+                        link="/administrative-and-payroll-management"
                       />
                     </div>
                   </>
@@ -233,7 +234,7 @@ export const Service = ({
                     strategies to recruit, retain, and manage talent.
                   </p>
                 </div>
-                <Cta arrowForward="/homepage/arrow-forward-10.svg" className="CTA-2" property1="default" text="Learn More" link="/hire-train-deploy"/>
+                <Cta arrowForward="/homepage/arrow-forward-10.svg" className="CTA-2" property1="default" text="Learn More" link="/hire-train-deploy" />
               </>
             )}
           </div>
@@ -245,7 +246,7 @@ export const Service = ({
             <div className="rectangle-4" />
             <div className="frame-8">
               <div className="text-wrapper-2">Flexible Staffing</div>
-              <Cta arrowForward={CTAImg} className="CTA-instance" property1="default" text="Learn More" link="/staffing-solution"/>
+              <Cta arrowForward={CTAImg} className="CTA-instance" property1="default" text="Learn More" link="/staffing-solution" />
             </div>
           </>
         )}

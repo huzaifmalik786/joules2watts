@@ -51,9 +51,9 @@ export const Lounge = () => {
               factor={factor}
             />
           )}
-          <Header />
+          <Header blacklogo/>
           <div className="mobile-only">
-            <Header1 className="header" />
+            <Header1 className="header" blacklogo/>
             <div className="overlap-wrapper">
               <div className="overlap">
                 <div className="frame-4">

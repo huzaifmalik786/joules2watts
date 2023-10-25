@@ -53,8 +53,8 @@ export const Iphone = () => {
               factor={factor}
             />
           )}
-          <Header nobg msp/>
-          <Header1 className="header mobile-only" />
+          <Header nobg msp blacklogo/>
+          <Header1 className="header mobile-only" blacklogo/>
 
           <div
             className="overlap"

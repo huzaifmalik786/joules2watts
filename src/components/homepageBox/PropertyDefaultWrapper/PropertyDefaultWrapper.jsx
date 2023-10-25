@@ -20,7 +20,7 @@ export const PropertyDefaultWrapper = ({ className, CTAArrowForward = "/homepage
         </div>
         <div className="frame-11">
           <div className="hire-train-deploy-wrapper">
-            <div className="hire-train-deploy-3">Hire, Train &amp; Deploy</div>
+            <div className="hire-train-deploy-3">Workforce Solutions</div>
             <div className="hire-train-deploy-text">
               With over 85+ global education partners, Joulestowatts offers the best trainers in the industry. An execution-driven methodology from hiring to deployment with complete assistance & tested strategies to recruit, retain, and manage talent.
             </div>

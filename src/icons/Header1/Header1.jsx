@@ -8,16 +8,16 @@ import { Link } from "react-router-dom";
 import { MobileNav } from "../../components/shared/MobileNav/MobileNav";
 import "./style.css"
 
-export const Header1 = ({ className, white }) => {
+export const Header1 = ({ className, white, blacklogo }) => {
   const [showNav, setShowNav] = useState(false);
   useEffect(() => {
     if (showNav) {
       document.querySelector("body").style.overflow = "hidden";
     }
-    else{
+    else {
       document.querySelector("body").style.overflow = "auto";
     }
-  },[showNav])
+  }, [showNav])
   return (
     <>
       {showNav &&
@@ -26,7 +26,7 @@ export const Header1 = ({ className, white }) => {
       <div className="mobile-only">
         <div className="mobile-na">
           <Link to="/">
-            <img className="logo-mobile" alt="Logo" src="/services/logo-1.png" />
+            <img className="logo-mobile" alt="Logo" src={blacklogo ? "/logos/logo-black.webp" : "/services/logo-1.png"} />
           </Link>
           <button onClick={() => setShowNav(true)}>
             <img className="menu-mobile" alt="menu" src={white ? "/menuwhite.svg" : "/menu.png"} />

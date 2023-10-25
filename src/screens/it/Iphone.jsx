@@ -53,8 +53,8 @@ export const ItServices = () => {
               factor={factor}
             />
           )}
-          <Header />
-          <Header1 className="header mobile" />
+          <Header blacklogo/>
+          <Header1 className="header mobile" blacklogo/>
           <div className="mobile-only">
             <div className="div-wrapper">
               <div className="video-mobile">
