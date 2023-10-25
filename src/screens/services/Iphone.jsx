@@ -107,7 +107,7 @@ export const Services = () => {
                   <div className="rectangle-6" />
                   <div className="frame-8">
                     <div className="frame-9">
-                      <div className="text-wrapper-5">Hire, Train &amp; Deploy</div>
+                      <div className="text-wrapper-5">Workforce Solutions</div>
                     </div>
                     <Cta
                       arrowForward="/services/arrow-forward.svg"

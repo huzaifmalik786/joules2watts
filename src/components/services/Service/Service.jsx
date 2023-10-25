@@ -75,7 +75,7 @@ export const Service = ({ stateProp, card, className, CTAArrowForward = "/servic
 
                         {state.card === "ITS" && <>Master Service Provider</>}
 
-                        {state.card === "GIC" && <>Hire, Train &amp; Deploy</>}
+                        {state.card === "GIC" && <>Workforce Solutions</>}
 
                         {state.card === "FLX" && <>Recruitment Process Outsourcing</>}
                       </div>

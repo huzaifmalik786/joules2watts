@@ -61,6 +61,7 @@
 
 .hire .text-wrapper-5 {
   color: var(--secondary-02);
+  white-space: nowrap;
   font-family: "Source Sans Pro", Helvetica;
   font-size: 32px;
   font-weight: 600;
@@ -1083,6 +1084,7 @@
 
 .hire .text-wrapper-25 {
   color: var(--secondary-02);
+  white-space: nowrap;
   font-family: var(--title-mega-font-family);
   font-size: var(--title-mega-font-size);
   font-style: var(--title-mega-font-style);

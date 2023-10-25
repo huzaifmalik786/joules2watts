@@ -8,7 +8,7 @@ const items = [
         link: "/it-services"
     },
     {
-        name: "Hire Train Deploy",
+        name: "Workforce Solutions",
         link: "/hire-train-deploy"
     },
     {

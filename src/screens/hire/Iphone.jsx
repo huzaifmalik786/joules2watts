@@ -67,7 +67,7 @@ export const Hire = () => {
                 <img className="rectangle-2" alt="Rectangle" src="/hire/rectangle-137.svg" />
                 <img className="rectangle-3" alt="Rectangle" src="/hire/rectangle-76-1.svg" />
                 <div className="frame-4">
-                  <div className="text-wrapper-5">Hire-Train-Deploy</div>
+                  <div className="text-wrapper-5">Workforce Solutions</div>
                   <p className="with-over-global">
                     <span className="span">
                       With over 85+ global education partners, JoulestoWatts offers the best trainers in the industry.
@@ -281,7 +281,7 @@ export const Hire = () => {
                 <div className="overlap-group-5">
                   <div className="frame-36">
                     <div className="frame-37">
-                      <div className="text-wrapper-25">Hire-Train-Deploy</div>
+                      <div className="text-wrapper-25">Workforce Solutions</div>
                       <p className="with-over-global-2">
                         <span className="text-wrapper-26">
                           With over 85+ global education partners, JoulestoWatts offers the best trainers in the

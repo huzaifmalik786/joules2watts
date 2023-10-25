@@ -80,7 +80,7 @@ export const Service = ({
                     <div className="frame-3">
                       {["four", "one"].includes(state.card) && (
                         <div className="hire-train-deploy">
-                          {state.card === "one" && <>Hire, Train &amp; Deploy</>}
+                          {state.card === "one" && <>Workforce Solutions</>}
 
                           {state.card === "four" && <div className="master-service-homepage">Master Service Provider</div>}
                         </div>
@@ -227,7 +227,7 @@ export const Service = ({
             {state.card === "one" && (
               <>
                 <div className="frame-6">
-                  <div className="hire-train-deploy-2">Hire, Train &amp; Deploy</div>
+                  <div className="hire-train-deploy-2">Workforce Solutions</div>
                   <p className="with-over-global">
                     With over 85+ global education partners, Joulestowatts offers the best trainers in the industry. An
                     execution-driven methodology from hiring to deployment with complete assistance &amp; tested
